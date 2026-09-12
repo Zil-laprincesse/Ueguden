@@ -9,7 +9,7 @@
 | [`ueguden_dict.md`](ueguden_dict.md) | Markdown 表 | 人读版，GitHub 上可直接浏览与检索 |
 | [`ueguden_dict.csv`](ueguden_dict.csv) | CSV（UTF-8 BOM） | 表格版，Excel / Numbers 双击即开 |
 | [`ueguden_dict.json`](ueguden_dict.json) | JSON | 机器版，工具链与在线词典的数据源 |
-| `archive/` | 同上（Markdown） | 历代词典存档，用于比对与回溯 |
+| `dictionary-archive/` | 同上（Markdown） | 历代词典存档，用于比对与回溯 |
 
 三种格式全部由脚本自同一份源文档生成，内容一致：
 
@@ -58,12 +58,12 @@ python tools/build_dict.py "archive/docx/词典第六版.docx" dictionary
 
 | 版本 | 文件 | 说明 |
 | --- | --- | --- |
-| 第六版 | `ueguden_dict.*` | **当前标准**，4347 条，全表化结构 |
-| 第五版（修订） | [`archive/dict-v5-revised.md`](archive/dict-v5-revised.md) | 段落式词表，含字母分节 |
-| 第四版（修订） | [`archive/dict-v4-revised.md`](archive/dict-v4-revised.md) | 第二版拼写 + 音标系统，补词源 |
-| 第三版 | [`archive/dict-v3.md`](archive/dict-v3.md) | — |
-| 第二版 | [`archive/dict-v2.md`](archive/dict-v2.md) | 确立第二代拼写与音标 |
-| 初版 | [`archive/dict-v1.md`](archive/dict-v1.md) | 最早词表 |
+| 第六版 | `ueguden_dict.` | **当前标准**，4347 条，全表化结构 |
+| 第五版（修订） | [`dictionary-archive/dict-v5-revised.md`](archive/dict-v5-revised.md) | 段落式词表，含字母分节 |
+| 第四版（修订） | [`dictionary-archive/dict-v4-revised.md`](archive/dict-v4-revised.md) | 第二版拼写 + 音标系统，补词源 |
+| 第三版 | [`dictionary-archive/dict-v3.md`](archive/dict-v3.md) | — |
+| 第二版 | [`dictionary-archive/dict-v2.md`](archive/dict-v2.md) | 确立第二代拼写与音标 |
+| 初版 | [`dictionary-archive/dict-v1.md`](archive/dict-v1.md) | 最早词表 |
 
 旧版中的拼写（如 `khav`、`skribar`、`stranga`、`fenestr`、`ŝuo`、`aço`）属于**已废弃形式**，
 第五轮勘误（见 [`docs/14-errata.md`](../docs/14-errata.md)）已给出对应关系。**请勿用于新文本。**
