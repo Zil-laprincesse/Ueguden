@@ -58,7 +58,7 @@ python tools/build_dict.py "archive/docx/词典第六版.docx" dictionary
 
 | 版本 | 文件 | 说明 |
 | --- | --- | --- |
-| 第六版 | `ueguden_dict.` | **当前标准**，4347 条，全表化结构 |
+| 第六版 | `ueguden_dict.*` | **当前标准**，4347 条，全表化结构 |
 | 第五版（修订） | [`dictionary-archive/dict-v5-revised.md`](archive/dict-v5-revised.md) | 段落式词表，含字母分节 |
 | 第四版（修订） | [`dictionary-archive/dict-v4-revised.md`](archive/dict-v4-revised.md) | 第二版拼写 + 音标系统，补词源 |
 | 第三版 | [`dictionary-archive/dict-v3.md`](archive/dict-v3.md) | — |
