@@ -17,6 +17,7 @@
 ## [仓库整理] 2026-09-12
 
 把散落在 Word 文档中的语言材料整理为可协作、可版本化的仓库。
+同日稍后完成首次上线与结构修复，见下一节。
 
 **新增**
 
@@ -47,6 +48,35 @@
 
 - `勘误记录 20260905.md` 第十二节表格中的裸 `|` 已转义（修复 Markdown 表格错行）
 - `12-tutorial.md` 数词表表头补齐至 17 列（修复转换期列数跳变）
+
+---
+
+## [首次上线与结构修复] 2026-09-12
+
+仓库 `Zil-laprincesse/Ueguden` 建立。首次上传时各子目录被**逐个压平上传**，
+并各自生成同名分支（`archive`、`corpus`、`dictionary`、`docs`、`docx`、`github`、
+`letters`、`notes`、`novel`、`poems`、`tools`、`workflows` 等 13 条），
+`main` 只剩一堆散文件，所有嵌套路径（如 `docs/12-tutorial.md`）返回 404。
+
+**修复**
+
+- 完整目录树一次性推送到 `main`：85 个文件，`docs/` `dictionary/` `corpus/` `tools/` `archive/` `.github/` 各归其位
+- 删除 13 条临时分支。删除前逐条比对 blob 哈希，确认内容均已含于 `main`；
+  仅两份**只存在于分支**的文件抽出保留至 `archive/github-init/`，无内容丢失
+- 许可证关系留痕：建仓时选择的 CC0 1.0 原件存入 `archive/github-init/LICENSE-CC0-1.0.txt`；
+  仓库维持双许可（文档/词典/语料 CC BY-SA 4.0，代码 MIT），CC0 不再作为仓库许可证生效
+- `fix(ci)`：`tools/validate.py` 原先在「仅有提示」时返回退出码 `2`，
+  被 GitHub Actions 判为失败（工作流 `validate` 显示 failing）。
+  现改为只有**错误**才返回非零，严格模式改用 `--strict`
+- 修复后：`validate` 工作流 passing；`docs/12-tutorial.md`、`dictionary/archive/dict-v4-revised.md`
+  等此前 404 的链接全部 200
+
+**教训（写进 CONTRIBUTING 之外的备忘）**
+
+用 GitHub 网页端上传**整个仓库**时，不要一个文件夹一个文件夹地拖——
+浏览器上传会拍平目录，并且默认往新分支提交。
+正确做法是本地 `git clone` → 放入目录 → `git add/commit/push`，
+或者把文件夹**自身**（而不是它的内容）拖进去并确认提交到 `main`。
 
 ---
 
