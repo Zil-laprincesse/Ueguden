@@ -14,8 +14,9 @@
 可选：
 
   --corpus   额外扫描 corpus/ 中的词形，列出未被词典收录的词（提示级）
+  --strict   把提示也当作失败（本地严格自检用；CI 默认不加）
 
-退出码：0 = 无错误；1 = 有错误；2 = 只有提示。
+退出码：0 = 无错误（含仅有提示）；1 = 有错误；加 --strict 时，只有提示也返回 1。
 """
 from __future__ import annotations
 
@@ -233,7 +234,9 @@ def main(argv: list[str]) -> int:
     print(f"错误 {len(errors)} ｜ 提示 {len(warns)}")
     if errors:
         return 1
-    return 2 if warns else 0
+    if warns and "--strict" in argv:
+        return 1
+    return 0
 
 
 if __name__ == "__main__":
