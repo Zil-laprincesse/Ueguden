@@ -2,6 +2,7 @@
 title: 《致爱的信》— 维古登语（常规体）应用实例
 source: 《致爱的信》- 维古登语（常规体）应用实例.docx
 converted: 2026-09-12
+author: Zil_laprincesse
 ---
 
 # 《致爱的信》— 维古登语（常规体）应用实例
