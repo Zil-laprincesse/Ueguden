@@ -1,65 +1,75 @@
-# Ueguden / 维古登语
+# 词典 · dictionary/
 
-> 维古登语（Ueguden）是一门为文学创作设计的黏着语人造语。  
-> 本仓库包含语法规范、词典、语料库与配套工具。
+维古登语主词库。**当前词汇标准是第六版**，共 **4347** 条词目（`DICT_REV = 6`）。
 
-[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](...)
-[![Dictionary](https://img.shields.io/badge/dictionary-3963%20entries-blue.svg)](...)
+## 文件
 
-## 这是什么
+| 文件 | 格式 | 用途 |
+| --- | --- | --- |
+| [`ueguden_dict.md`](ueguden_dict.md) | Markdown 表 | 人读版，GitHub 上可直接浏览与检索 |
+| [`ueguden_dict.csv`](ueguden_dict.csv) | CSV（UTF-8 BOM） | 表格版，Excel / Numbers 双击即开 |
+| [`ueguden_dict.json`](ueguden_dict.json) | JSON | 机器版，工具链与在线词典的数据源 |
+| `archive/` | 同上（Markdown） | 历代词典存档，用于比对与回溯 |
 
-维古登语是一门 **artlang**（艺术语），核心语序为 **SOV**，语法意义通过后缀层层叠加表达。  
-它被用于诗歌、小说、书信等文学创作，拥有独立的诗歌体（古 Ueguden）变体。
+三种格式全部由脚本自同一份源文档生成，内容一致：
 
-## 快速开始
+```bash
+python tools/build_dict.py "archive/docx/词典第六版.docx" dictionary
+```
 
-- 查词典：[在线词典](https://yourname.github.io/ueguden/tools/dictionary.html)
-- 学语法：[语法规范](docs/00-overview.md)
-- 看语料：[语料库](corpus/)
+> ⚠️ **不要手工编辑 `ueguden_dict.*`**：它是一次性生成的产物。
+> 改词请提 Issue 或改源文档后重新生成，否则下一次生成会覆盖你的改动。
 
-## 仓库结构
+## 词条格式
 
-| 目录 | 内容 |
-|---|---|
-| `docs/` | 语法规范、教程、高级语法 |
-| `dictionary/` | 主词库 JSON/CSV/Markdown |
-| `tools/` | HTML 词典、校验脚本 |
-| `corpus/` | 诗歌、小说、书信、歌词 |
-| `archive/` | 旧版词典与历史快照 |
+源文档中每个词条为一行：
 
-## 语言概览
+```
+词形 /音标/ 词类　释义。　词源。
+```
 
-- 类型：黏着语
-- 语序：SOV
-- 名词：6 格（主、宾、与、工具、方位、属）
-- 动词：体态 + 时态 + 语态 + 极性 + 人称 + 语气 + 情态
-- 诗歌体：古 Ueguden 42 位变格 + 21 位变位
+拆分后映射到三个格式的六个字段：
 
-## 当前标准
+| 字段 | 含义 | 示例 |
+| --- | --- | --- |
+| `n` | 序号（1 – 4347） | `2002` |
+| `word` | 词形（按《正字法规范》） | `loĝejo` |
+| `ipa` | 音标（IPA，含重音符 `ˈ`） | `/loˈd͡ʒe.jo/` |
+| `pos` | 词类 | `名` |
+| `gloss` | 中文释义 | `住处，住所。` |
+| `etym` | 词源 | `loĝi（居住）+ -ejo（场所）。` |
 
-- 词汇标准：`dict_ueguden`（3963 条）
-- 语法标准：《正字法规范》《词法规范》《句法规范》
-- 诗歌体标准：《古 Ueguden 诗歌体规范》
+## 词类分布
 
-## 贡献
+| 词类 | 数量 | 词类 | 数量 |
+| --- | ---: | --- | ---: |
+| 名 / 名词 | 2407 + 300 | 动 / 动词 | 559 + 206 |
+| 形 / 形容词 | 414 + 101 | 副 / 副词 | 201 + 25 |
+| 连词 | 20 | 代词 | 17 |
+| 数词 | 14 | 后缀 | 10 |
+| 介词 / 介 | 9 + 7 | 助词 | 8 |
+| 前缀 | 7 | 叹词 | 5 |
+| 分词 | 5 | 名/形 | 3 |
 
-欢迎提交新词、语料、勘误。请先读 [CONTRIBUTING.md](CONTRIBUTING.md)。
+> 词类缩写有两套写法（`名` 与 `名词`、`动` 与 `动词`），属历史遗留。
+> `tools/validate.py` 会把它报为 `POS_MIXED` 提示，与拼写/音标错误分开统计。
 
-## 许可证
+## 版本沿革
 
-- 代码：MIT
-- 文档、词典、语料：CC BY-SA 4.0
+| 版本 | 文件 | 说明 |
+| --- | --- | --- |
+| 第六版 | `ueguden_dict.*` | **当前标准**，4347 条，全表化结构 |
+| 第五版（修订） | [`archive/dict-v5-revised.md`](archive/dict-v5-revised.md) | 段落式词表，含字母分节 |
+| 第四版（修订） | [`archive/dict-v4-revised.md`](archive/dict-v4-revised.md) | 第二版拼写 + 音标系统，补词源 |
+| 第三版 | [`archive/dict-v3.md`](archive/dict-v3.md) | — |
+| 第二版 | [`archive/dict-v2.md`](archive/dict-v2.md) | 确立第二代拼写与音标 |
+| 初版 | [`archive/dict-v1.md`](archive/dict-v1.md) | 最早词表 |
 
----
+旧版中的拼写（如 `khav`、`skribar`、`stranga`、`fenestr`、`ŝuo`、`aço`）属于**已废弃形式**，
+第五轮勘误（见 [`docs/14-errata.md`](../docs/14-errata.md)）已给出对应关系。**请勿用于新文本。**
 
-## English
+## 统计口径说明
 
-**Ueguden** is an artlang designed for literary creation.  
-This repository contains its grammar, dictionary, corpus, and tooling.
-
-- Agglutinative, SOV
-- 6 noun cases
-- Verb chain: aspect + tense + voice + polarity + person + mood + modal
-- Poetic register: Old Ueguden (42 declensions, 21 conjugations)
-
-See [docs/](docs/) for the full specification.
+历代文档头部写有「共 3963 词目」，那是第五版时期的统计。
+第六版实际为 **4347** 条，且经校验无重复词条、无缺音标、无缺释义、无缺词源。
+本仓库一律采用 **4347**。
