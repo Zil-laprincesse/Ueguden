@@ -1,0 +1,47 @@
+name: validate
+
+on:
+  push:
+    branches: ["main", "master"]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  validate:
+    name: 仓库自检
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 安装依赖
+        run: pip install -r tools/requirements.txt
+
+      - name: 词典与文档自检
+        run: python tools/validate.py
+
+      - name: 语料扫描（世界语残留 / 未收录词形）
+        run: python tools/validate.py --corpus
+        continue-on-error: true
+
+      - name: 一致性校验（docx 与 md 是否同源）
+        run: |
+          python tools/build_dict.py "archive/docx/词典第六版.docx" /tmp/dict-out
+          python - <<'PY'
+          import json, sys
+          a = json.load(open("dictionary/ueguden_dict.json", encoding="utf-8"))
+          b = json.load(open("/tmp/dict-out/ueguden_dict.json", encoding="utf-8"))
+          if a["count"] != b["count"]:
+              print(f"词典条目数不一致：提交的 {a['count']} vs 重新生成 {b['count']}")
+              sys.exit(1)
+          aw = [e["word"] for e in a["entries"]]
+          bw = [e["word"] for e in b["entries"]]
+          if aw != bw:
+              diff = [(i, x, y) for i, (x, y) in enumerate(zip(aw, bw)) if x != y][:10]
+              print("词形序列不一致（前 10 处）：", diff)
+              sys.exit(1)
+          print(f"一致：{a['count']} 条词目，DICT_REV = {a['dict_rev']}")
+          PY
