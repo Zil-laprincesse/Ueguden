@@ -1,0 +1,75 @@
+# 许可证 · License
+
+本仓库采用**双许可证**：代码与内容分开授权。
+
+---
+
+## 一、文档、词典与语料 —— CC BY-SA 4.0
+
+适用于：
+
+- `docs/` —— 语法规范、教程、勘误、重写规范
+- `dictionary/` —— 词典数据（`.md` / `.csv` / `.json`）与历代词典存档
+- `corpus/` —— 诗歌、书信、小说及其译文
+- `archive/` —— 上述内容的原始 `.docx`
+- 各目录的 `README.md`
+
+> **Creative Commons Attribution-ShareAlike 4.0 International**
+> 完整法律文本：https://creativecommons.org/licenses/by-sa/4.0/legalcode.zh-hans
+> 人类可读摘要：https://creativecommons.org/licenses/by-sa/4.0/deed.zh
+
+你可以自由地：**共享**（以任何媒介或格式复制、发行本作品）、
+**演绎**（修改、转换或以本作品为基础进行创作），
+甚至用于商业目的。条件是：
+
+- **署名** —— 标注来源（本仓库）与是否作了修改，不得暗示作者为你背书；
+- **相同方式共享** —— 若你修改、转换或基于本作品创作，你的贡献必须使用**同一许可证**发布；
+- **无附加限制** —— 不得使用法律条款或技术措施限制他人做许可证允许的事。
+
+## 二、语言规范本身
+
+**维古登语的语言规范（音系、正字法、词法、句法、诗歌体）按 CC BY-SA 4.0 授权。**
+
+这意味着：**你可以自由地用维古登语写诗、写小说、写歌，甚至商业发表**——
+只要你在作品中注明语言来源（例如「维古登语，Ueguden，规范见 <本仓库地址>」），
+并让你自己的语言层面衍生作品同样以 CC BY-SA 4.0 共享。
+
+这与世界语、道本语等社区人造语的惯例一致：语言的**规范公开、衍生自由**，
+而**不**主张对语言本身的所有权。
+
+若你希望采用别的授权方式（例如仅在非商业作品中引用、或保留全部权利），
+请在 Issue 中说明，特殊授权可以单独协商。
+
+## 三、代码 —— MIT
+
+适用于 `tools/` 下的全部源代码：
+
+`build_dict.py`、`docx2md.py`、`validate.py`、`assemble.py`、`manifest.json`、
+`gen_ipa.js`、`build_novel_docx.js`、`fix_novel_r3.js`、`novel_ueguden_data.js`、
+`dictionary.html`（含其内嵌的 CSS 与 JavaScript）。
+
+完整文本见 [LICENSE-MIT](LICENSE-MIT)。
+
+---
+
+## 四、第三方内容说明
+
+- `corpus/poems/the-internationale.md` 是《国际歌》歌词的维古登语译文。
+  《国际歌》（1888 年，Eugène Pottier 词）已进入公有领域；
+  **译文部分**按本仓库 CC BY-SA 4.0 授权。
+- `corpus/novel/`、`corpus/letters/` 中的中文原文为作者原创，同按 CC BY-SA 4.0 授权。
+
+---
+
+## 五、引用
+
+学术或创作中引用本项目时，请使用 [CITATION.cff](CITATION.cff) 给出的格式，
+并在正文中注明所依据的**词典版次**与**规范轮次**（见 [CHANGELOG.md](CHANGELOG.md)）——
+因为这两者会随版本变化，只写「维古登语」不足以定位版本。
+
+---
+
+## 六、无担保
+
+本项目按「现状」提供，不附带任何明示或默示的担保，
+包括但不限于对适销性、特定用途适用性与不侵权的担保。

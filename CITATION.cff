@@ -1,0 +1,48 @@
+cff-version: 1.2.0
+message: "引用维古登语项目时，请同时注明所依据的词典版次与规范轮次。"
+title: "Ueguden / 维古登语 — 语言规范、词典与语料库"
+abstract: >-
+  维古登语（Ueguden）是一门为文学创作设计的黏着语人造语（artlang）。
+  核心语序为 SOV，名词有六格，动词以「体态+时态+语态+极性+人称+语气+情态」的词缀链变化，
+  并拥有一套独立的诗歌体（古 Ueguden）变体（42 位变格、21 位变位）。
+  本仓库收录其全部语法规范、4347 条词目的词典、诗歌/书信/小说语料与配套工具链。
+type: dataset
+version: "dict6-2026.09"
+date-released: "2026-09-12"
+license-url: "https://creativecommons.org/licenses/by-sa/4.0/"
+keywords:
+  - conlang
+  - constructed-language
+  - artlang
+  - ueguden
+  - agglutinative
+  - SOV
+  - dictionary
+  - grammar
+  - language-specification
+  - lexicography
+authors:
+  - name: "Ueguden / 维古登语 project"
+    website: "https://github.com/ueguden/ueguden"
+    contact: "via repository Issues"
+references:
+  - type: generic
+    title: "维古登语语言规范总纲"
+    notes: "docs/13-full-spec.md"
+    repository-artifact: "docs/13-full-spec.md"
+  - type: generic
+    title: "维古登语正字法规范"
+    notes: "docs/02-orthography.md"
+    repository-artifact: "docs/02-orthography.md"
+  - type: generic
+    title: "维古登语词法规范"
+    notes: "docs/04-morphology.md"
+    repository-artifact: "docs/04-morphology.md"
+  - type: generic
+    title: "维古登语诗歌体规范"
+    notes: "docs/09-poetic-register.md"
+    repository-artifact: "docs/09-poetic-register.md"
+  - type: dataset
+    title: "维古登语词典（第六版）"
+    notes: "4347 条，DICT_REV = 6；machine-readable: dictionary/ueguden_dict.json"
+    repository-artifact: "dictionary/ueguden_dict.json"

@@ -1,0 +1,41 @@
+# ---- 系统与编辑器 ----
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+
+# ---- Office / 临时锁文件 ----
+~$*.docx
+~$*.xlsx
+~$*.pptx
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# ---- Node ----
+node_modules/
+npm-debug.log*
+
+# ---- 构建产物 ----
+# 词典三格式是生成物，但在本项目中**需要提交**（工具链依赖 JSON/CSV），
+# 因此不忽略 dictionary/ueguden_dict.{md,csv,json}。
+
+# ---- 工作区（不属于仓库） ----
+_docs_tmp/
+_backup_*/
+_backup_audit/
+_letter/
+*.zip
+
+# ---- 转换中间产物 ----
+_docs_tmp/cur/
+_docs_tmp/_fresh/
+
+# ---- 但归档目录必须保留 ----
+!archive/docx/
+!archive/notes/
