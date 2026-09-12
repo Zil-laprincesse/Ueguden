@@ -2,6 +2,7 @@
 title: 《阈界·永夜之狂澜》第二卷 — 维古登语双语对照
 source: 《阈界·永夜之狂澜》第二卷 - 维古登语双语对照（文章式）.docx
 converted: 2026-09-12
+author: Zil_laprincesse
 ---
 
 # Limenmondo · Tærnokt-Furiozo
