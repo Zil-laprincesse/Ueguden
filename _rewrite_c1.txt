@@ -1,0 +1,648 @@
+# 《阈界·永夜之狂澜》第二卷·第一章 维古登语重写稿
+# 依据《重写规范 v2.0》：SOV 语序、无冠词、格后缀、形容词变格、动词词缀链、情态/否定/疑问词缀化
+# 中文原文保持原样，仅重写译文（每条目第二个字符串）。行号对应 novel_ueguden_data.js。
+
+=== 217 ===
+["第一章  责任的延长线上", "Ĉapitro Unua · Respondeko-ló Etendlinio-æt"],
+=== 218 ===
+["窗外只有雪。还有夜。", "Çando-ló ekstere nur neĝa estge. Æ nokt."],
+=== 220 ===
+["一眼望不到头——也可能那头就在十步之外，只是被雪和夜色藏起来了。", "Unu rigardo-øt fino-gàlo vid-nai-lai-ge — eble fino dek paŝo-ló ekstere estge, sed neĝa æ nokt-øt kaŝ-rw-çe."],
+=== 222 ===
+["—25.12.12于雪夜", "—25.12.12, neĝas nokt-æt"],
+=== 224 ===
+["抛去一切不谈，人和动物没有区别。羊群只是盲目地跟着头羊，盲目地相信头羊，而不管头羊领的路是否正确，它们只是闭上眼跟着.", "Ĉio-gàlo forĵet-se, tokin æ besto inter diferenco est-nai-ge. Ŝafaro nur blindli gvidŝaf-gàlo sekv-pha-çe, blindli fid-pha-çe — gvidŝaf-ló vojo korekt est-kŭ, monph zorg-nai-çe. Monph nur okul-gòle ferm-tut, gvidŝaf-gàlo sekv-pha-çe."],
+=== 226 ===
+["从这一点来看，人也一样。", "Toki punkto-øt, tokin æ samat estge."],
+=== 228 ===
+["人们的心被烈日烤得焦躁，而这些急躁的心全都汇聚在了这栋大楼前。他们其中有的是记者，是媒体，也有政客，和一些无所事事的居民。", "Brulat sun tokinténó kordi-mé agitli rost-çe. Æ toki agitat kordi-mé toki grandsov-ló antaŭ-æt ĉiu kunflu-çe. Monph inter — iu journalisto estge, iu amaskomunikilo estge, æ politikisto æ kelk senokupat loĝant estge."],
+=== 230 ===
+["这栋大楼中，原本人们熟悉的、危悬于一面将倾之墙上，那个从北极俯视的地球平面图徽标，早已被拆除，取而代之的是一个人们不认识的徽标。而如今人们聚集于此，也多半是与这个地方有关。在骄阳的助长下，每个人的脸上似乎都带有几分怒意。他们其中的一个代表，穿着打扮像一个记者，他不高，黑色束脚裤，把两腿修得活像两根筷子，叉开支着身体。上身一件深蓝色短袖，浑身上下没有多少肉。这个代表神气十足，仿佛肩负着整个人类的使命，前来“兴师问罪”，他胸前挂着的名牌随着他的东奔西走晃动着。", "Toki grandsov-æt, origine tokinténó konat emblemo — nordpoluso-øt vid-rw-ge mond-map, fal-mis-ge mur-æt danĝerli pend-pha-çe — dæs forpren-rw-tut-çe. Vay-ló anstataŭ, ke tokinmé kon-nai-ge emblemo ven-çe. Æ nun tokinmé toki-æt kunven-pha-çe — monph plejparte toki lok-øt rilat-pha-çe. Sun-ló help-øt, ĉiu-ló vizaĝo-æt kelk agit est-pha-çe. Monph inter unu reprezentant journalisto kiel vest-çe. Mon altat est-nai-çe; nigrat mallarĝat pantalon monló du kruk-gòle du manĝbastonet kiel form-çe; mon kruk dismet-se star-çe. Supra korpo-æt malhelbluat mallong-manik estçe; monló tuta korpo-æt mult karno est-nai-çe. Toki reprezentant tre memfidat estçe — kvazaŭ tuta homaro-ló kátji-gàlo port-pha-çe, mon kulpo-gàlo demand-enta ven-çe. Monló brusto-æt pendit nomplato, mon tien-æ-reen rapid-se, sving-pha-çe."],
+=== 232 ===
+["过了几个时辰，会场内逐渐喧闹了起来，几个与会的成员走了出来，人们知道，会议结束了。那代表的目光始终盯着一个人，所有人的目光也跟随着这位代表搜寻。", "Kelk horo pas-tut-çe, mitinko-halo-æt iompostiom bruat est-mis-çe. Kelk mitinko-membro elven-çe. Tokinmé kon-çe ke mitinko fin-tut-çe. Toki reprezentant-ló rigardo unu tokin-gàlo ĉiam cel-pha-çe. Ĉiu-ló rigardo æ toki reprezentant-gàlo sekv-pha-çe, serĉ-pha-çe."],
+=== 234 ===
+["与会成员一个一个出来，人们的目光始终没有放弃搜索。“代表”的目光始终盯着大门的人群，就像给一篇文章校错字一样，每个人都要怀疑一下，但随着从会场内出来的人越来越少，人们焦急的心也被牵了出来。", "Mitinko-membro unu post unu elven-çe. Tokinténó rigardo-mé serĉ-gàlo ĉiam fordon-nai-çe. «Reprezentant»-ló rigardo pordo-æt homamaso-gàlo ĉiam cel-pha-çe — kiel artikolo-ló erar-gòle korekt-se, ĉiu-gàlo suspekt-vai-çe. Sed mitinko-halo-æt elvenit tokin iompostiom malmultat en-çe, æ tokinténó agitat kordi-mé eltir-rw-çe."],
+=== 236 ===
+["人群开始躁动，在此之中，一个政客的脸上写满了不屑，回看空荡荡的门，说：“不会是因为害怕受到指控，不愿面对自己的错误吧，切！就知道他们不是什么好东西。”一旁，有一个和他一样西装革履的政客朝他点点头，回应道：“我想这个首席行政官也只是徒有虚名罢了，实际上他早就该被弹劾了！”焦躁的人群中，不知是谁——或许是每一个游行示威的市民——喊了一句：“反对回避！作出解释！”，这句话极具煽动性地回荡在人群中。人们都不约而同地看向他，而那个喊这句话的人早已不知为何而不知去向。", "Homamaso agit-mis-çe. Toki inter, unu politikisto-ló vizaĝo-æt malestim-øt plenat estçe. Malplenat pordo-gàlo return-vid-se, mon tŭ-çe: «Kár akuz-rw-gàlo tim-se, monló erar-gòle front-nai-sai — toki est-kŭ? Pŝ! Monph bonat afer est-nai-çe — dæs kon-tut-çe.» Flanko-æt, mon kiel kostumit unu politikisto mon-on kap-nod-çe, respond-çe: «Yaló pens-ge ke toki ĉef-administrant nur vanat nom estge. Fakte mon jam forig-rw-tut-vai-çe!» Agitas homamaso-æt, kon-nai-ge kiu — eble ĉiu protestant civitano — unu frazo-gàlo kri-çe: «Evit-gàlo kontraŭ! Klarig-gàlo far-ta!» Toki frazo tre provokli homamaso-æt eĥ-çe. Tokinmé ĉiu samtempli mongàlo vid-çe. Sed toki frazo-gàlo kriit tokin kon-nai-ge kial dæs perd-tut-çe."],
+=== 238 ===
+["在片刻的寂静后，又有一个声音出现在了人群中。是先前那个声音的追随者：“反对回避！作出解释！”可以说，这一声呼喊彻底打消了人们心底的顾虑与不安，让他们彻底变成一个彻头彻尾的小孩子，让他们终于放心地跟随这一个“潮流”，一个刚出生的、不知方向的、没站稳的，稚嫩的“潮流”。于是便在人群中出现了第三声，和之前的声音一样。第四声第五声。人声鼎沸。他们很有默契地在同一时刻一起喊这几个字，没有领导者，在这一点他们倒称得上团结。", "Kelk shilénto-ló poste, denove unu gala homamaso-æt aper-çe. Antaŭa gala-ló sekvant estçe: «Evit-gàlo kontraŭ! Klarig-gàlo far-ta!» Zai-lai-ge — toki krio tokinténó kordi-fundo-æt zorg æ agit-gòle tute forpeli-çe; monph-gòle tute infan-en-ize-çe; æ finli monph-gòle trankvill kordi-øt toki «fluo»-gàlo sekv-ize-çe — unu junat «fluo», ĵus nask-rw-çe, monló direkto kon-nai-ge, firme star-nai-lai-ge. Æ tiam homamaso-æt triat gala aper-çe, antaŭa gala kiel same. Kvarat gala. Kvinat gala. Gala-mé bol-pha-çe. Monph grandli interkonsent-øt unu tempus-æt kune toki kelk parol-gòle kri-çe. Gvidant est-nai-çe. Toki punkto-æt monph unuecat nom-lai-ge."],
+=== 240 ===
+["人们在外面制造的动静很成功地传到关沨的耳朵里。会后，他有一大堆事务要去处理，正忙得分身乏术时，耳边突然传来了一声声此起彼伏的抗议声，那些声音像一阵阵刺耳的警笛声，一下子把他从工作中拖了出来。“外面是什么声音？”关沨警惕地问助手。他的助手站在一旁，有些许忐忑地说：“呃……先生，外面……有人在抗议。”说完后助手瞟了一眼关沨，试图从他的表情中判断他的言行是否正确。", "Tokinmé ekster-æt farit bruo tre sukcesli Guanfeng-ló orel-gòle ating-çe. Mitinko-ló poste, mon grandam afer-stako-gàlo trakt-vai-çe. Kiam mon tre okupat est-çe, monló orel-æt subite protest-krio unu post unu ven-çe. Toki gala-mé akrat alarm kiel est-çe, mon-gàlo laboro-æt subite eltir-çe. «Ekster kio gala estge?» Guanfeng singardli helpant-gàlo demand-çe. Monló helpant flanko-æt star-se, iom trepidli tŭ-çe: «Er… sinjoro… ekster… tokinmé protest-pha-ge.» Zai-tut, helpant Guanfeng-gàlo flanken vid-çe, monló vizaĝo-æt monló parol æ far korekt est-kŭ juĝ-sai-çe."],
+=== 242 ===
+["关沨听了解释，眼神中闪过了一丝不解。他站了起来，双手撑着办公桌，又问道：“他们，在抗议？抗议什么？”“抗议您，先生。”助手回答道。", "Guanfeng klarig-gàlo aŭd-çe. Monló okul-æt kelk nekompren ekbril-çe. Mon star-mis-çe; du man-øt labor-tablo-gàlo apog-se, æ demand-çe: «Monph — protest-pha-ge-kŭ? Kion monph protest-pha-ge?» «Lot-gàlo protest-pha-ge, sinjoro.» Helpant respond-çe."],
+=== 244 ===
+["片刻的沉默后，关沨的眼中好像有什么东西暗了下去。他轻叹一声，双手从桌面收回背后，轻轻地踱了几步。在助手看来，这有点像在作“七步诗”。办公室里，关沨的踱步声愈加沉重；窗外，抗议声仍此起彼伏。", "Kelk shilénto-ló poste, Guanfeng-ló okul-æt io malhel-en-pha-çe. Mon mallaŭt suspir-çe. Mon du man-gòle tablo-ló eltir-çe, dorso-ló posten met-çe. Mon mallaŭtli kelk paŝo-gàlo paŝet-çe. Helpant-ló vid-æt, toki iom «sep-paŝo poem» far kiel estçe. Oficejo-æt, Guanfeng-ló paŝet-gala iompostiom pez-en-çe. Çando-ló ekstere, protest-krio ankoraŭ unu post unu ven-pha-çe."],
+=== 246 ===
+["“他们想要什么？来这儿的目的是什么？”关沨停下脚步，问助手。", "«Kion monph vol-sai-ge? Kio toki-æt ven-ló celo estge?» Guanfeng halt-çe, helpant-gàlo demand-çe."],
+=== 248 ===
+["“听他们的口号和外界消息，他们对SPIC有关‘审判者’事件的行动持有怀疑态度，并在您上任主席团首席行政官后发表出‘审判者’事件是SPIC为提升政治地位而自导自演的这样类似的言论。现在他们正要求您对外界做出一个合理的解释。”敬业的助手这样说。", "Monph-ló slogan æ ekster-ló novaĵ-gòle aŭd-se — monph SPIC-ló «Juĝanto»-okazio-øt rilatit shchŭ-gàlo dubam sinten-gàlo port-pha-çe. Æ lot prezidantaro-ló ĉef-administrant en-çe poste, monph «Juĝanto»-okazio-gàlo SPIC-ló politik pozicio-gàlo lev-enta, SPIC monló mem far-çe, kiel parol-gòle publiki-çe. Nun monph demand-pha-ge ke lot raciam klarig-gàlo ekster-on far-vai-ge. Diligentat helpant tiel tŭ-çe."],
+=== 250 ===
+["又是一阵沉默。关沤这样总是让我们敬业的助手难堪。", "Æ unu shilénto ven-çe. Guanfeng tiel ĉiam yaph-ló diligentat helpant-gàlo embaras-ize-çe."],
+=== 252 ===
+["“我……我知道了，谢谢你的回复。”不知过了多久，关沨终于回了他一句话。他无可奈何地摇了摇头，像是在对一个时代结束而感到惋惜，又像是对这个仍在襁褓中的婴儿似的学会的未来感到些许担忧，亦或，是对SPIC命运的叹惜与无奈。但更多的是无可奈何，束手无策，他把手中的钢笔盖上，又整了整桌子上大大小小的文件。", "«Ya… ya kon-çe. Lotló respond-on dank-ge.» Kon-nai-ge kiel long tempus pas-çe, Guanfeng finli mon-on unu frazo-øt respond-çe. Mon senpovli kapo-gàlo sku-çe — kvazaŭ unu epoko-ló fino-æt bedaŭr-pha-çe, æ kvazaŭ toki konsosiatio-ló futuro-gàlo, vindit infan kiel, kelk zorg-pha-çe — abo, SPIC-ló sorto-æt bedaŭr æ senpov estçe. Sed plejmulto senpov æ senrimed estçe. Mon man-æt ix-gàlo kovr-çe, æ tablo-æt grandam æ malgrandam dokument-gòle ordig-çe."],
+=== 254 ===
+["“怎么办，会长？需要出去辩解吗？”助手满怀期待地说，他的声音比以往高昂了些，仿佛随时准备与敌拼杀的士兵，“我可以为您提供资料。”他的脸上写满了兴奋。", "«Kion far-ge? Prezidant? Ekster ir-se defend-vai-kŭ?» Helpant tre atendli tŭ-çe — monló gala antaŭ kiel iom alt-en-çe, kvazaŭ ĉiam malamik-øt batal-se pretat soldato: «Ya lot-on material-gòle don-lai-ge.» Monló vizaĝo-æt ekscit-øt plenat estçe."],
+=== 256 ===
+["关沨的手上仍然攥着那沓文件，而钢笔已经别到胸口上了。“谢谢你。我需要一辆车，我们从人少的一个门离开。”说话时，助手能感受到他异于常人的沉着。助手很佩服他——尽管结果不是他想要的。", "Guanfeng-ló man-æt toki stako dokument-gàlo ankoraŭ forte prem-pha-çe, æ ix jam brusto-æt alpingl-rw-çe. «Dank-ge. Ya unu aŭto-gàlo bezon-ge. Yaph tokin-malmulta pordo-øt elir-te.» Tŭ-pha-se, helpant monló trankvil-gàlo sent-lai-çe, ordinara tokin-ló malsamat. Helpant mongàlo tre admiri-çe — kvankam rezulto monló volit est-nai-çe."],
+=== 258 ===
+["“为什么？我们现在出去辩论，说不定误会就能消解，外界的舆论风向就会转好，我们就能……”助手的话被关沨的眼神打断，他意识到他说得太多了。", "«Kial? Nun yaph ekster elir-se, disput-se, eble miskompreno solv-rw-te; ekster-ló publika vent bon-en-te; æ yaph … far-lai-te…» Helpant-ló parol-gòle Guanfeng-ló rigardo-øt interromp-rw-çe. Mon kon-çe ke mon tro mult zai-çe."],
+=== 260 ===
+["“孩子，如果一切只按照直觉与激情行事，得到的往往是失败。”他把头往外面一偏，这是在指那些抗议者，“就像他们，与他们讲道理是行不通的。”他的口吻既沉稳又亲切，像是一位与孩子讲道理的老父亲。", "«Infan, se ĉio nur intuicio æ pasio-øt far-rw-ge, rezulto oftli malsukces estge.» Mon kapo-gàlo eksteren klin-çe — toki toka protestant-gòle cel-çe: «Monph kiel — monph kun racio parlar efik-nai-ge.» Monló tono trankvil æ afablat estçe — infan kun racio parlar-se maljunat patro kiel."],
+=== 262 ===
+["“人们的关系是以信任为前提的，我无法与他们建立关系，但我相信我们之间有足够的关系。”关沨直视着助手的眼睛，助手知道这是在给他下最后通牒。如果再不采取一些行动的话，他和这位首席行政官之间就会产生一些不可调和的隔膜了。", "«Tokinténó rilato fid-æt bazi-rw-ge. Ya monph kun rilato-gàlo star-ize-nai-lai-ge. Sed ya kred-ge ke yaph inter sufiĉat rilato estge.» Guanfeng helpant-ló okul-gòle rekte vid-pha-çe. Helpant kon-çe — toki mon-on lastam ultimatum-gàlo don-pha-ge. Se mon kelk shchŭ far-nai-te, mon æ toki ĉef-administrant inter kelk neakordigeblat rift aper-te."],
+=== 264 ===
+["没有再坚持想法，助手联系了司机：“请将车开到B2门等待，我们马上出来。”以为万事大吉后，关沨与助手开始向B2门赶去。", "Monló ideo-gàlo plu insist-nai-se, helpant ŝofor-gàlo kontakt-çe: «Bonvolu — aŭto-gàlo B2-pordo-on vetur-ize-ta, atend-ta. Yaph tuj elir-te.» Ĉio bonat estge pens-tut, Guanfeng æ helpant B2-pordo-on rapid-mis-çe."],
+=== 266 ===
+["但片刻后，司机那边传来了一个坏到不行的消息：“我在原计划地点被人群堵住了，现在无法移动，四面八方都是人，嘿！从引擎盖上下来！……我很抱歉不能……别碰车玻璃！”", "Kelk moment-ló poste, ŝofor-ló flanko-æt tre malbonat novaĵ ven-çe: «Ya planit lok-æt homamaso-øt blok-rw-çe. Nun ya mov-lai-nai-ge. Ĉiu direkto-æt tokin estge. Hej! De kapoto-ló supra malsupren ven-ta!… Ya tre bedaŭr-ge — ya …-nai-lai-ge… Ne aŭto-vitro-gàlo tuŝ-ta!»"],
+=== 268 ===
+["通讯中断。", "Komunikado interromp-rw-çe."],
+=== 270 ===
+["二人四目相对，有点不敢相信通讯那头发生了什么。“我们怎么办？”助手似乎没办法了。他焦急地握着手机，那上面还在显示着司机的通讯记录。", "Du tokin kvar okul-øt inter vid-çe — komunikado-ló alia fino-æt kio en-çe, monph iom kred-nai-çe. «Kion yaph far?» Helpant rimed-nai est-pha-çe. Mon agitli mobil-gàlo prem-pha-çe. Toki supra-æt ŝofor-ló komunikado-registro ankoraŭ montr-rw-pha-çe."],
+=== 272 ===
+["“我们坐出租车。”关沨说。", "«Yaph taksi-gàlo pren-te.» Guanfeng tŭ-çe."],
+=== 274 ===
+["“那您的身份与行动不就暴露了吗？”助手有点诧异，不过在两三秒后，他认同了这个眼下不是办法的办法。“对，坐出租车，我去叫一辆”。", "«Tiam lotló identeco æ shchŭ ekspon-rw-te-kŭ?» Helpant iom surpriz-çe. Sed du-tri sekundo-ló poste, mon toki nun rimed-nai rimed-gàlo agnosk-çe. «Jes — taksi-gàlo pren. Ya unu-gàlo vok-enta ir-te.»"],
+=== 276 ===
+["不久后，两人被捂得严严实实的，上了一辆出租车。刚上车，司机便用一种奇怪的眼神打量着二人，似乎是已经认出来了什么。“你好，请问你们……呃……没有别的意思，只是好奇您二位为什么这个打扮？”司机问关沨。", "Nelonga poste, du tokin tute envolvit, unu taksi-gàlo en-çe. Ĵus en-çe, ŝofor strangli monph-gòle ekzamen-çe — kvazaŭ io-gàlo dæs rekon-tut-çe. «Saluton… demand-ge — loph… er… alia intenco est-nai-ge. Nur scivol-ge — kial loph tiel vestit estge?» Ŝofor Guanfeng-gàlo demand-çe."],
+=== 278 ===
+["关沨与助手又对视了一眼，片刻后，他做出了回答：“我们有皮肤病，不能见太阳光的。”这是个折中的回答。但这又是一个不是办法的办法。说完，关沨和助手又会心一笑。", "Guanfeng æ helpant denove inter vid-çe. Kelk moment-ló poste, mon respond-çe: «Yaph haŭt-malsan havi-ge. Çola-lumo-gàlo vid-nai-lai-ge.» Toki kompromisat respondo estçe. Sed toki æ unu rimed-nai rimed estçe. Zai-tut, Guanfeng æ helpant denove komprenli ridet-çe."],
+=== 280 ===
+["“哦，那祝您健康。”说着，司机调整了一下后视镜，“去哪儿？”他问。", "«O — tiam lot-on sanon dezir-ge.» Tŭ-se, ŝofor retrospegul-gàlo ordig-çe: «Kien?» Mon demand-çe."],
+=== 282 ===
+["“SPIC总部大楼。”关沨说。", "«SPIC-ló ĉefsov.» Guanfeng tŭ-çe."],
+=== 284 ===
+["正准备启动汽车的司机听到这个奇怪的目的地，下意识地往后看了一眼，“你们？去哪儿干什么？”他正准备踩油门的脚也瞬间松下来了。", "Ĵus dæs aŭto-gàlo start-ize-mis-ge ŝofor toki strangam cel-gàlo aŭd-çe, senkonscli posten vid-çe: «Loph? Kien — kion far?» Monló piedo — ĵus dæs akcelil-gàlo prem-mis-ge — tuj malstreĉ-çe."],
+=== 286 ===
+["“哦，我们去……抗议！对，我们去抗议。”助手急中生智地说。司机又将信将疑地看了他们一眼，不知何时，助手从他的挎包里掏出一块破旧的白布，展示给司机看，司机看了一眼，那块破布上歪歪扭扭地写着一个词：“OBJECTION!”", "«O… yaph ir-ge… protest! Jes — yaph protest-enta ir-ge.» Helpant subitli ideo-øt tŭ-çe. Ŝofor denove duonkredli monph-gòle vid-çe. Kon-nai-ge kiam, helpant monló sako-æt unu malnovam blankam tuko-gàlo elpren-çe, ŝofor-on montr-çe. Ŝofor unu vid-gàlo don-çe — toka malnovas tuko-æt oblikvli unu parol-gàlo skrib-rw-çe: «OBJECTION!»"],
+=== 288 ===
+["司机笑了笑，引擎声随之轰鸣起来，窗外的街道开始向后移动。", "Ŝofor ridet-çe. Motoro-gala kun muĝ-mis-çe. Çando-ló ekstere via posten mov-mis-çe."],
+=== 290 ===
+["经过一个路口时，关沨透过车窗，看到前面的一堆人，以及人群中的一辆黑色轿车，仔细看时，他才发现那辆车的挡风玻璃彻底碎掉了，司机在和“肇事者”争吵，而车就像一个破罐头一样扔在了路边，那是他们原来要乘的车。", "Unu vojkruciĝo-æt pas-se, Guanfeng aŭto-vitro tra unu homamaso-gàlo æ homamaso-æt unu nigram aŭto-gàlo vid-çe. Zorge vid-se, mon malkovr-çe ke toki aŭto-ló fronta-vitro tute romp-rw-çe. Ŝofor «kulpulo» kun disput-pha-çe. Æ aŭto — rompit ladskatolo kiel — via-ló flanko-æt ĵet-rw-çe. Toka monph origine pren-vai-ge aŭto estçe."],
+=== 292 ===
+["“天啊，看看他们都干了什么！……”关沨愤愤地小声喊道。助手这时轻轻碰了他一下，瞟了一眼司机，示意他注意言行。", "«Dio! Vid-ta — monph kion far-çe!…» Guanfeng agitli mallaŭt kri-çe. Helpant tiam mallaŭt mongàlo tuŝ-çe, ŝofor-gàlo flanken vid-çe, mon-gàlo parol æ far-gòle atent-ize-çe."],
+=== 294 ===
+["可算，终于到了总部大楼下。关沨付钱，下了车，助手随后，二人一前一后地快步走进大楼。在等电梯的过程中，关沨一边扯下把他捂得严严实实的围巾，一边对助手说：“我们亟需召开一场记者招待会，这种情况如果不做行动，对我们的一切都将是不利的。”他那敬业的助手在一旁详尽地记录着，“好的，我会去准备的。”他说，说罢便朝其他方向匆匆离去。", "Finli, ĉefsov-ló sub-æt alven-çe. Guanfeng pag-çe, aŭto-æt elven-çe; helpant sekv-çe. Du tokin unu antaŭe unu poste rapidli ĉefsov-gàlo en-paŝ-çe. Lifto-gàlo atend-pha-se, Guanfeng mongàlo tute envolvit esharp-gàlo eltir-se, helpant-on tŭ-çe: «Yaph urĝli jurnalista akcepto-gàlo okaz-ize-vai-ge. Toki situacio-æt, se shchŭ far-nai-ge, ĉio yaph-on malfavorat en-te.» Monló diligentat helpant flanko-æt detallli registr-pha-çe: «Bone — ya prepar-enta ir-te.» Mon tŭ-çe. Zai-tut, mon alia direkto-on hastli for-ir-çe."],
+=== 296 ===
+["电梯门开了，透出轿厢里LED灯发出的冷光。关沨走进那四面八方都由冰冷的铁皮制成的电梯，按了楼层之后，手不自觉地撑在了背后的无障碍扶手上，感到了一阵金属的寒意。他连忙把手撤了下来，插回了外衣的口袋里。", "Lifto-pordo malferm-rw-çe, kajuto-æt LED-lampo-ló malvarmam lumo-gàlo ellasi-çe. Guanfeng ĉiuflank-æt malvarmac fer-plato-øt farit lifto-gàlo en-paŝ-çe. Etaĝo-gàlo prem-tut, monló man senkonscli monló dorso-æt handikap-apogil-gàlo apog-çe — kelk metalam malvarm-gàlo sent-çe. Mon hastli man-gàlo return-tir-çe, manteau-ló poŝo-æt en-met-çe."],
+=== 298 ===
+["门开了，转过了几个走廊，在一个拐角处推开了另一扇门，看到了几个熟悉的面孔。", "Pordo malferm-rw-çe. Kelk koridor-gàlo pas-çe. Unu angulo-æt alia pordo-gàlo puŝ-çe, kelk konam vizaĝo-gòle vid-çe."],
+=== 300 ===
+["一切都已如初，SPIC活动室里，章绪明正在与成员们研讨项目，天花板上的投影仪投射出的光映在幕布上，桌子上零散而又不紊乱地摆着几沓文件，周逸灵正在整理它们。窗帘被拉上了，整个活动室内部有些幽暗。关沨的到来并没有打断成员们的研讨会，他们对此已经习以为常了。", "Ĉio antaŭ kiel est-çe. SPIC-ĉambro-æt, Zhangxuming membro-mé kun projekt-gòle diskut-pha-çe. Plafono-æt projekciilo-ló lumo vela-æt reflekt-pha-çe. Tablo-æt dise sed ne senordit kelk stako dokument kuŝ-pha-çe. Zhouyiling monph-gòle ordig-pha-çe. Kurteno tir-rw-çe. Tuta ĉambro-ló interno iom malhelat estçe. Guanfeng-ló alven membro-mé-ló seminario-gàlo interromp-nai-çe. Monph toki-on dæs kutim-tut-çe."],
+=== 302 ===
+["他小心地走到后面，轻轻拉来一个板凳，缓缓地坐下。刚才的那场“逃亡”他还没有完全反应过来，前额挂着几滴细密的汗珠。他倚着凳子，向后一靠，顺势瘫软了下去。连续几天的会议本已让他身心俱疲，会后还要匆匆忙忙地“逃”出去，内部的事务能不能接住不说，光是外界的压力就已经够他受的了。学会的成立，“审判者”事件，外界的舆论……这一切都是他需要去面对的。关沨瘫倒在椅子上，此刻的他只想拿一个暂停键，让一切都先停一停，让自己缓一缓。", "Mon singardli dorso-on paŝ-çe. Mallaŭt unu benket-gàlo tir-çe, malrapidli sid-çe. Ĵus toki «fuĝ»-gàlo mon ankoraŭ tute reagi-nai-çe. Monló frunto-æt kelk fajnat ŝvit-guto pend-pha-çe. Mon benket-æt apog-se, dorso-on klin-se, malfort-en-çe. Kelk dien daŭrat mitinko monló korpo æ animo-gòle dæs lacig-tut-çe. Mitinko-ló poste, mon ankoraŭ hastli «fuĝ»-enta ekster ir-vai-çe. Interna afer elten-lai-kŭ, zai-nai-se — nur ekster-ló premo jam sufiĉe mon-gàlo turment-çe. Konsosiatio-ló fondo, «Juĝanto»-okazio, ekster-ló publika opinio… — ĉio toki mon front-vai-çe. Guanfeng seĝo-æt malfort fal-çe. Toki moment-æt, mon nur unu paŭz-buton-gàlo pren-sai-çe — ĉio-gàlo unue halt-ize, monló korpo-gàlo ripoz-ize."],
+=== 304 ===
+["可他是学会主席团的首席行政官啊！", "Sed mon konsosiatio-ló prezidantaro-ló ĉef-administrant estge!"],
+=== 306 ===
+["他不能停下，不远的将来还有一场记者招待会等着他这个首席行政官呢。", "Mon halt-nai-lai-ge. Nelonga futuro-æt unu jurnalista akcepto mongàlo — toki ĉef-administrant-gàlo — atend-pha-ge."],
+=== 308 ===
+["——不过至少现在可以。", "— Sed almenaŭ nun mon halt-lai-ge."],
+=== 310 ===
+["关沨静静地听着SPIC成员们做的研讨会，章绪明在银幕前旁征博引着，他脚步不停地挪动着，双手在银幕上激烈地挥舞着，他充满激情的讲解让每个人无不投入于他构建的“理性世界”中，从听众们放光的眼中不难看出，章绪明的讲解是成功的。", "Guanfeng mallaŭt SPIC-membro-mé-ló seminario-gàlo aŭskult-pha-çe. Zhangxuming vela-ló antaŭ-æt mult cit-pha-çe. Monló paŝo-mé halt-nai-se mov-pha-çe. Du man-mé vela-æt forte sving-pha-çe. Monló pasiat klarig ĉiu-gàlo monló konstruit «lóga mond»-æt en-ize-çe. Aŭskultant-mé-ló lumant okul-øt, Zhangxuming-ló klarig sukcesat estçe-gàlo vid-ge malfacil-nai-ge."],
+=== 312 ===
+["可有一个人不一样。她既没有进入这理性世界，也没有看见章绪明激情洋溢的神态，周逸灵刚刚把桌上的文件整理完，正漫无目的地翻动着她的小说本。见到关沨像一滩泥一样在椅子上不动弹，她靠了过去，在众人喧闹的争辩声中，她小心翼翼地问关沨：“会长？您还好吧？”关沨对她的到来并不感到惊讶。他摆了摆手，努力让自己精神了些后，他说：“害，不打紧不打紧，你去忙吧。”周逸灵也知道了他的用意，像一阵风一样悄然离去。", "Sed unu tokin malsamat estçe. El toki «lóga mond»-æt en-nai-çe, æ Zhangxuming-ló pasiat mieno-gàlo vid-nai-çe. Zhouyiling ĵus tablo-æt dokument-gòle ordig-tut-çe, æ sencelli el-ló novel-kajero-gàlo folium-pha-çe. Guanfeng-gàlo — ŝlimo kiel — seĝo-æt mov-nai-ge vid-se, el monló flanko-æt ven-çe. Tokinténó disput bruo-æt, el singardli Guanfeng-gàlo demand-çe: «Prezidant? Lot bonat est-kŭ?» Guanfeng el-ló alven-on surpriz-nai-çe. Mon man-gàlo sving-çe, pen-se vigl-en-çe, tŭ-çe: «Hai — grava-nai, grava-nai. Lot okup-enta ir.» Zhouyiling æ monló intenco-gàlo kon-çe, unu vent kiel mallaŭt for-ir-çe."],
+=== 314 ===
+["她留下了她的小说本。", "El el-ló novel-kajero-gàlo las-çe."],
+=== 316 ===
+["这是她新完成的一部长篇小说，关沨知道这个。翻开第一页，一张空白的扉页——只在右下角用清秀的字迹写着“灵岚”。这是她的笔名。", "Toki el ĵus fin-ize-çe longat novelo estge. Guanfeng toki-gàlo kon-ge. Unuat paĝo-gàlo malferm-se — blankat fronto-paĝo — nur malsupra-dekstra angulo-æt, klarli, «Linglan» skrib-rw-çe. Toki el-ló pseŭdonimo estge."],
+=== 318 ===
+["翻开扉页，就是正文内容了。关沨看了看，不由得身陷其中了。她的文风很清爽，没有一般科幻小说文风的沉重，这一点和她清秀的字很像。", "Fronto-paĝo-gàlo malferm-se, ĉefa enhavo estge. Guanfeng vid-çe, senkonscli toki-æt en-fal-çe. El-ló skrib-stilo tre freŝat estçe. Ordinara sciencfikcia novelo-ló pezec-gàlo havi-nai-çe. Toki punkto-æt, toki el-ló klarat skrib kiel tre same estçe."],
+=== 320 ===
+["一页接着一页，关沨觉得这部小说简直像一次精神上的大餐，让他疲惫不已的心缓下来。“你打算什么时候出版这本书？”关沨看了两三页后，转头问周逸灵，他已经迫不及待地想要这种精神大餐了。", "Paĝo post paĝo, Guanfeng sent-çe ke toki novelo vere anima festen kiel estge — monló tre lacam kordi-gàlo trankvil-ize-çe. «Kiam lot toki mlnk-gàlo publiki-sai-ge?» Du-tri paĝo-gàlo vid-tut, Guanfeng turn-çe, Zhouyiling-gàlo demand-çe. Mon toki anima festen-gàlo jam atend-nai-lai-se pren-sai-çe."],
+=== 322 ===
+["“找个机会就出版，我想整一个封面，可惜一直没有人画得出来，依我的感觉。”周逸灵说到这，推了一下眼镜，嘴角露出了一个若有若无的笑容，“等我找到那个画家，我一定要让他画这部小说的封面，我要让他担任我的美术顾问！”", "«Okazo-gàlo trov-se, publiki-te. Ya unu kovril-gàlo far-sai-ge. Sed bedaŭrli — neniu mon-gàlo pentr-lai-tut-nai-çe, yaló sent-øt.» Zhouyiling toki-æt zai-tut, el-ló brilo-gàlo puŝ-çe. El-ló buŝo-ló angulo-æt preskaŭ-nevideblat rideto aper-çe. «Toki peintoro-gàlo trov-se, ya mon-on toki novelo-ló kovril-gàlo pentr-ize-te. Ya mon-on yaló arta konsilanto-gàlo en-ize-te!»"],
+=== 324 ===
+["“你认识的一个画家？”关沨起了兴趣，“你们在哪儿相见的啊？兴许我认识他。”", "«Lot kon-ge peintoro?» Guanfeng interes-mis-çe: «Kie loph inter vid-çe? Eble ya mongàlo kon-ge.»"],
+=== 326 ===
+["周逸灵拿过小说本，眼神小心地向下瞟去，摆弄起鬓角的那根小辫，关沨透过她的眼睛，似乎看到了一丝她先前从未有过的情感。“他……”她顿了一下，两只手捧着她的小说本，似乎在努力从这里面找到些什么去回复他，“……我们俩只是碰巧见了一面，能不能再见还不一定呢。”", "Zhouyiling novel-kajero-gàlo pren-çe. El-ló rigardo singardli malsupren vid-çe, el-ló tempio-æt toki malgrandam plekt-gòle mov-çe. Guanfeng el-ló okul tra, kvazaŭ el-ló antaŭe havi-nai-çe emoci-gàlo vid-çe. «Mon…» El halt-çe, du man-øt el-ló novel-kajero-gàlo ten-pha-se, kvazaŭ pen-se toki-æt io-gàlo trov-sai-çe, mon-on respond-enta: «…Yaph du nur hazard unu fojon inter vid-çe. Denove inter vid-lai-te-kŭ — ankoraŭ kon-nai-ge.»"],
+=== 328 ===
+["“喔，这样啊。”关沨故作沉思地点了点头，“那他应该比较有名吧？”", "«O — tiel.» Guanfeng ŝajnli pens-se kap-nod-çe: «Tiam mon iom famat est-vai-ge-kŭ?»"],
+=== 330 ===
+["周逸灵怔住了，她不知道关沨这句话具体的意思。半晌，她看着昔日一起并肩作战的“战友”，眼中满是疑惑。终于，她才从嘴中生硬地蹦出来几个字：“他叫……林傃”。", "Zhouyiling konstern-çe — el Guanfeng-ló toki parolo-ló precizam signifo-gàlo kon-nai-çe. Kelk moment-ló poste, el antaŭe kune flank-æ-flank batal-çe «batal-kamarad»-gàlo vid-çe — el-ló okul-æt konfuz-øt plenat estçe. Finli, el buŝo-æt malmolti kelk parol-gàlo el-ŝov-çe: «Monló nomo… Linsu.»"],
+=== 332 ===
+["“是他啊！”关沨笑了一下，“大画家林傃！”", "«Mon estge!» Guanfeng ridet-çe: «Grandat peintoro Linsu!»"],
+=== 334 ===
+["“你认识他？”周逸灵眼神中充满着好奇，直直地看着关沨。", "«Lot mongàlo kon-ge-kŭ?» Zhouyiling — okul-æt scivol-øt plenat — rekte Guanfeng-gàlo vid-pha-çe."],
+=== 336 ===
+["“有很多人都认识，他在艺术创作这一块也算是小有名气，一个人没有老婆孩子，靠画画赚了不少钱，就像你一样。”他看了一眼周逸灵，她摆弄辫子的力道，比以往更深了一些，眼睛慌乱地瞟向一边，在宽大的镜片下被无限地放大，关沨当然也注意到了这一点。", "«Mult tokin mongàlo kon-ge. Artkreado-ló kampo-æt, mon iom famat estge. Mon sola estge — edzino æ infan havi-nai-ge. Pentri-øt mult mon-gàlo gajn-çe — lot kiel same.» Mon Zhouyiling-gàlo vid-çe. El-ló plekt mov-øt forto, antaŭ kiel iom profund-en-çe. El-ló okul-mé panikli flanken vid-çe. Largas lenso-æt el-ló okul-gòle senfine grand-ize-rw-çe. Guanfeng, kompreneble, æ toki-gàlo rimark-çe."],
+=== 338 ===
+["“不！……呃唔……”她努力想把脑子里杂乱的思绪用文字拼凑出来，可她经常引以为豪的语言组织力在此刻却抛弃了她，只能发出些无意义的支吾声。“……我……和他，没什么交集的！他只是！……只是送了我几幅画……仅此而已！”说罢，她自信地点了点头，认为这条证据无懈可击。", "«Ne!… Er um…» El pen-çe — kapo-æt konfuzam penso-gòle parol-øt kunmet-sai-çe. Sed el-ló oftat fiertat parol-organiz-kapabl toki moment-æt el-gàlo fordon-çe. El nur kelk sen-signif balbut-gala-gòle el-don-lai-çe. «…Ya… mon kun — interrilat havi-nai-ge! Mon nur!… nur kelk pentraĵ-gòle ya-on don-çe… nur toki!» Zai-tut, el memfidli kap-nod-çe — toki pruvo-gàlo senfendat estge pens-çe."],
+=== 340 ===
+["“是这样啊！那，”关沨见到这么慌乱的副会长，他认为没有必要把她——SPIC可敬的副会长，学会主席团首席行政官第一助理——逼得那么紧，以至于毫无退路——毕竟他们之间又不是什么深仇大恨，这只是关沨单纯地想要试探一下她，而现在，结果也很明显了。“那就不多扰了，祝你幸运！”留下这句简单的祝福，关沨站起身来，此刻，章绪明主持的研讨会刚刚结束，人们还在兴致勃勃地讨论着，就像从电影院走出来的人们兴奋地谈论着电影情节一样。", "«Tiel! Tiam—» Guanfeng tiel panikam vic-prezidant-gàlo vid-se, mon pens-çe ke el-gàlo — SPIC-ló respekteblat vic-prezidant, konsosiatio-ló prezidantaro-ló ĉef-administrant-ló unua helpant — gis retiriĝ-vojo tute perdi-çe, prem-ize neces-nai-ge. Monph inter profundat malam est-nai-çe — finfine. Toki nur Guanfeng simplli el-gàlo test-sai-çe. Æ nun rezulto æ evidentat estçe. «Tiam plu ĝen-nai-te. Lot-on bonŝanc dezir-ge!» Toki simplam bondezir-gàlo las-tut, Guanfeng star-mis-çe. Toki moment-æt, Zhangxuming-ló gvidit seminario ĵus fin-rw-çe. Tokinmé ankoraŭ viglly diskut-pha-çe — kiel kinejo-æt elvenit tokin ekscitli filmo-ló intrigo-gàlo zai-pha-çe."],
+=== 342 ===
+["投影仪被关上了，窗帘拉开，使阳光尽兴地闯进来。头顶的灯点亮了，活动室又充满了光明。", "Projekciilo ferm-rw-çe. Kurteno malferm-rw-çe — çola-lumo-gàlo plene en-rush-ize-çe. Kapo-æt lampo-mé ŝalt-rw-çe. Ĉambro æ lumo-øt plenat est-çe."],
+=== 344 ===
+["关沨走上前去，站在先前章绪明站的地方。他一扫先前的疲态，又恢复到先前的那个沉着稳重、雷厉风行的状态了。", "Guanfeng antaŭen paŝ-çe, antaŭe Zhangxuming-ló starit lok-æt star-çe. Mon antaŭa lac-gàlo forviŝ-çe, æ antaŭa stato-gàlo return-çe — trankvilat, stabilat, rapidat, decidat."],
+=== 346 ===
+["“各位，我有一件事给大家。”关沨习惯性地将手压在桌子上，那上面还有章绪明没来得及收下去的演说稿。“我们需要开一场记者招待会，需要一个解释这一切的机会。”", "«Ĉiuj — ya unu afer-gàlo loph-on havi-ge.» Guanfeng kutimli man-gàlo tablo-æt prem-çe — toki supra-æt Zhangxuming-ló parolad-skizo ankoraŭ kuŝ-pha-çe, mon forpren tempus havi-nai-çe. «Yaph jurnalista akcepto-gàlo okaz-ize-vai-ge. Yaph ĉio-gàlo klarig-enta okazo-gàlo bezon-vai-ge.»"],
+=== 348 ===
+["没有人应答，但关沨知道，这并不代表反对。成员们在经过‘审判者’事件之后，已经培养出了超过同事关系的默契，上下级也自然没有必要去刻意区分了。", "Neniu respond-çe. Sed Guanfeng kon-çe — toki kontraŭ signif-nai-çe. «Juĝanto»-okazio-ló poste, membro-mé kolego-rilato-gàlo super-çe interkompren-gàlo dæs kultiv-tut-çe. Superul æ subul inter disting-ize neces-nai-çe — nature."],
+=== 350 ===
+["“会上，每一个组得派一个代表去出席，副会长和我的那两个小组需再出一个代表。”", "«Akcepto-æt, ĉiu grupo unu reprezentant-gàlo ir-enta send-vai-ge. Vic-prezidant-ló æ yaló du grupo-mé æ unu reprezentant-gàlo send-vai-ge.»"],
+=== 352 ===
+["他微微沉静了一下后，继续说：“周逸灵？麻烦您整理一下会上要用的资料，越详尽越好；王百钧？你和你弟对外做一个公告，邀请媒体来……开会的时间，就定在……”他翻弄着日程表，纸张的哗哗声不绝于耳，最终，他找到了一个空位，用手指像小鸡啄米一般在上面敲了两下，“定在下周三。”他语气坚定地说。", "Mon iom trankvil-en-çe, daŭr-çe: «Zhouyiling? Bonvolu — akcepto-æt uz-ge material-gòle ordig-ta. Pli detall, pli bonat. Wangbaijun? Lot æ lotló frato ekster-on anonco-gàlo far-ta, amaskomunikilo-gòle inviti-ta… Mitinko-ló tempus — fiks…» Mon horaro-gàlo folium-çe. Lonk-ló bruo orel-æt fin-nai-çe. Finli, mon unu malplenam lok-gàlo trov-çe, fingro-øt — kokido rizo-gàlo bek-se kiel — toki-æt du fojon frap-çe: «Venonta merkredo-æt fiks-ge.» Mon decidli tŭ-çe."],
+=== 354 ===
+["傍晚，夕阳刚刚沉入地平线下，在它原本的位置，那天际，仍然发着太阳留下的橙黄色的光，像一团在寒冷中燃烧的火。人们喜欢把这团火叫作“余晖”，后面的天是深蓝的，远处的云像是块燃着的棉花，上头被那余晖浸染成黄色，下头的颜色是由那深蓝的天空掌控——亦为深蓝。于是漫天的云也都如这样的颜色拼凑起来了。站在桥头远眺，桥对面的高楼大厦，在深蓝的剪影中零零星星地亮了几盏灯，世界正在这深蓝中走向宁静。", "Vespero-æt, çola ĵus horizonto-ló sub-æt en-çe. Vay-ló originala lok-æt, toki çéla-ló rando ankoraŭ çola-ló lasit oranĝ-flavam lumo-gàlo el-don-pha-çe — malvarmo-æt brulat flama kiel. Tokinmé toki flama-gàlo «krepusk-lumo» nom-ize-sai-çe. Posta çéla malhelbluat estçe. Malproksima nubo-mé brulat koton kiel estçe. Supra parto toki «krepusk-lumo»-øt flavat tinktur-rw-çe. Suba parto-ló kolor-gàlo toki malhelbluat çéla kontrol-çe — æ malhelbluat. Æ tiel tuta çéla-æt nubo-mé ĉiu toki kolor-øt kunmet-rw-çe. Pontkapo-æt star-se, malproksimen vid-çe — tóra-ló alia flanko-æt altsov-mé, malhelbluas silueto-æt, dise kelk lampo-gàlo lumi-çe. Mond toki malhelblu-æt shilénto-on ir-pha-çe."],
+=== 356 ===
+["这是一座跨江大桥，但桥上的车不多。处理完所有必要的事务之后，关沨受到周逸灵的邀请，二人来到了这座桥上。桥上的风很轻和，似是要把夏天的炎热拂平，又像是要聆听一个青年女孩提出的问题。", "Toki rivero-ló supra-æt grandat tóra estge. Sed tóra-æt mult aŭto est-nai-çe. Ĉiu necesam afer-gòle trakt-tut, poste Guanfeng Zhouyiling-ló invito-øt, du tokin toki tóra-æt ven-çe. Tóra-æt vent tre mildat estçe — kvazaŭ somer-ló varmo-gàlo glat-ize-sai-çe, æ kvazaŭ junaf knabino-ló farit demand-gàlo aŭskult-sai-çe."],
+=== 358 ===
+["“会长？”周逸灵捋了捋长发，让它们披在肩上。她抬起头，问关沨：", "«Prezidant?» Zhouyiling longam haro-gòle ordig-çe, monph-gòle ŝultro-æt fal-ize-çe. El kapo-gàlo lev-çe, Guanfeng-gàlo demand-çe:"],
+=== 360 ===
+["“为什么外界对我们的敌意这么大，我们还要坚持下去呢？”", "«Kial ekster-ló malamikec yaph-on tiel grandat estge, æ yaph ankoraŭ persist-vai-ge?»"],
+=== 362 ===
+["是一个简单的问题。", "Simplat demand estçe."],
+=== 364 ===
+["“因为这是我们的责任。”", "«Kár toki yaph-ló respondeko estge.»"],
+=== 366 ===
+["是一个万能的答案。", "Universalat respondo estçe."],
+=== 368 ===
+["“那责任之外呢？没了责任，我们就可以不坚持了吗？”周逸灵问，她那双眼睛正看着他，充满着好奇。", "«Tiam respondeko-ló ekstere — kio? Respondeko est-nai-se, yaph persist-nai-lai-ge-kŭ?» Zhouyiling demand-çe — el-ló du okul-mé mongàlo vid-pha-çe, scivol-øt plenat."],
+=== 370 ===
+["关沨当然知道“责任之外”是什么，他也清楚周逸灵问这句话的原因。他本想一笑置之，正巧，一阵微风吹过，飘进肺叶中，钻进脑子里，清凉的风让他回想起了什么。", "Guanfeng, kompreneble, «respondeko-ló ekstere» kio estge-gàlo kon-çe. Mon æ klarat kon-çe — Zhouyiling kial toki demand-gàlo far-çe. Mon origine ridet-se preterlas-sai-çe. Ĝuste tiam, unu mildat vent pas-çe — monló pulmo-æt en-flos-çe, monló kapo-æt en-çe. Freŝat vent mon-gàlo io-gàlo rememor-ize-çe."],
+=== 372 ===
+["他愣了一下，又笑了笑，回应道：“我们虽然对那个人没有责任，但是如果你想去找的话，我可以在记者招待会后给你一个月的时间，怎么样？”", "Mon halt-çe, ridet-çe, respond-çe: «Kvankam yaph toki tokin-on respondeko havi-nai-ge — sed lot mongàlo serĉ-enta ir-sai-se, ya jurnalista akcepto-ló poste lot-on unu monato-ló tempus-gàlo don-lai-ge. Kiel?»"],
+=== 374 ===
+["周逸灵沉默了下去，关沨知道，这个东西叫“默许”。他停住了脚步，望着独自一人渐行渐远的身影。天渐渐黑了，远处的，那个被叫做“余晖”的东西，正被夜的黑暗渐渐驱逐，剩下的只是漫漫的长夜，混乱而癫狂。周逸灵的背影与那黑融在一起，她的身形被远处高楼的剪影映得比以往更弱小，也更迷茫了。", "Zhouyiling shiléntiĝ-çe. Guanfeng kon-çe — toki «silenta konsent» nom-ize-ge. Mon halt-çe, solat tokin-ló iompostiom malproksimen ir-pha-ge figuro-gàlo vid-pha-çe. Çéla iompostiom malhel-en-çe. Malproksime, toki «krepusk-lumo» nom-ize-ge afer, nokt-ló malhel-øt iompostiom forpeli-rw-pha-çe. Restit nur tre longat nokt estçe — konfuzat æ frenezat. Zhouyiling-ló dorso toki malhel-øt kunfand-rw-çe. El-ló figuro, malproksima altsov-mé-ló silueto-øt, antaŭ kiel pli malfortat æ pli konfuzat en-çe."],
+=== 376 ===
+["他摇了摇头——或许在28岁这个年龄下，她永远只是个孩子。", "Mon kapo-gàlo sku-çe — eble dudek-ok jaro-ló aĝo-æt, el ĉiam nur infan estge."],
+=== 377 ===
+["第一章 完", "Ĉapitro Unua — Fino"],
+=== 378 ===
+["—2026.1.25", "—2026.1.25"],
+
+### 新造词
+（词|IPA|词性|释义。IPA 为按正字法拟定的近似音标。规格词表与本书既有私有词——shchŭ 行动 / kátji 使命 / konsosiatio 学会 / lóga 理性 —不重复收录。）
+
+【名词】
+etendlinio | /e.tend.ˈli.ni.o/ | 名 | 延长线
+ŝafaro | /ʃa.ˈfa.ro/ | 名 | 羊群
+gvidŝaf | /ɡvid.ˈʃaf/ | 名 | 头羊
+agit | /ˈa.ɡit/ | 名 | 焦躁、不安
+kunflu | /kun.ˈflu/ | 名/动 | 汇聚
+amaskomunikilo | /a.mas.ko.mu.ni.ˈki.lo/ | 名 | 媒体
+loĝant | /lo.ˈdʒant/ | 名 | 居民
+homamaso | /ho.ma.ˈma.so/ | 名 | 人群
+mitinko-membro | /mi.ˈtin.ko ˈmem.bro/ | 名 | 与会成员
+sekvant | /ˈsek.vant/ | 名 | 追随者
+interkonsent | /in.ter.kon.ˈsent/ | 名 | 默契、共识
+gvidant | /ɡvi.ˈdant/ | 名 | 领导者
+unuec | /u.nu.ˈet͡s/ | 名 | 团结
+direkto | /di.ˈrek.to/ | 名 | 方向
+krio | /ˈkri.o/ | 名 | 呼喊、喊声
+fluo | /ˈflu.o/ | 名 | 潮流
+helpant | /ˈhel.pant/ | 名 | 助手
+alarm | /a.ˈlarm/ | 名 | 警笛
+slogan | /ˈslo.ɡan/ | 名 | 口号
+novaĵ | /ˈno.vaʒ/ | 名 | 消息
+sinten | /ˈsin.ten/ | 名 | 态度
+pozicio | /po.zi.ˈt͡si.o/ | 名 | 地位
+senpov | /ˈsen.pov/ | 名 | 无能为力
+bedaŭr | /be.ˈdawr/ | 名 | 惋惜、遗憾
+epoko | /e.ˈpo.ko/ | 名 | 时代
+futuro | /fu.ˈtu.ro/ | 名 | 未来
+sorto | /ˈsor.to/ | 名 | 命运
+rimed | /ˈri.med/ | 名 | 办法、手段
+senrimed | /sen.ˈri.med/ | 名 | 束手无策
+dokument | /do.ku.ˈment/ | 名 | 文件
+trankvil | /ˈtrank.vil/ | 名 | 沉着
+rezulto | /re.ˈzul.to/ | 名 | 结果
+miskompreno | /mis.kom.ˈpre.no/ | 名 | 误会
+intuicio | /in.tu.i.ˈt͡si.o/ | 名 | 直觉
+pasio | /pa.ˈsi.o/ | 名 | 激情
+malsukces | /mal.suk.ˈt͡ses/ | 名 | 失败
+tono | /ˈto.no/ | 名 | 口吻
+rilato | /ri.ˈla.to/ | 名 | 关系
+ultimatum | /ul.ti.ˈma.tum/ | 名 | 最后通牒
+rift | /rift/ | 名 | 隔膜
+ideo | /i.ˈde.o/ | 名 | 想法
+ŝofor | /ˈʃo.for/ | 名 | 司机
+kapoto | /ka.ˈpo.to/ | 名 | 引擎盖
+aŭto-vitro | /ˈaw.to ˈvi.tro/ | 名 | 车玻璃
+komunikado | /ko.mu.ni.ˈka.do/ | 名 | 通讯
+registro | /re.ˈɡis.tro/ | 名 | 记录
+identeco | /i.den.ˈte.t͡so/ | 名 | 身份
+intenco | /in.ˈten.t͡so/ | 名 | 意图、意思
+haŭt-malsan | /ˈhawt mal.ˈsan/ | 名 | 皮肤病
+çola-lumo | /ˈt͡ʃo.la ˈlu.mo/ | 名 | 太阳光
+retrospegul | /re.tros.ˈpe.ɡul/ | 名 | 后视镜
+akcelil | /ak.t͡se.ˈlil/ | 名 | 油门
+tuko | /ˈtu.ko/ | 名 | 布
+motoro | /mo.ˈto.ro/ | 名 | 引擎
+vojkruciĝo | /voj.kru.ˈt͡si.d͡ʒo/ | 名 | 路口
+fronta-vitro | /ˈfron.ta ˈvi.tro/ | 名 | 挡风玻璃
+kulpulo | /kul.ˈpu.lo/ | 名 | 肇事者
+ladskatolo | /lad.ska.ˈto.lo/ | 名 | 罐头
+flanko | /ˈflan.ko/ | 名 | 旁边、一侧
+lifto | /ˈlif.to/ | 名 | 电梯
+lifto-pordo | /ˈlif.to ˈpor.do/ | 名 | 电梯门
+kajuto | /ka.ˈju.to/ | 名 | 轿厢
+fer-plato | /ˈfer ˈpla.to/ | 名 | 铁皮
+etaĝo | /e.ˈta.d͡ʒo/ | 名 | 楼层
+handikap-apogil | /han.di.ˈkap a.po.ˈɡil/ | 名 | 无障碍扶手
+poŝo | /ˈpo.ʃo/ | 名 | 口袋
+koridor | /ko.ri.ˈdor/ | 名 | 走廊
+angulo | /an.ˈɡu.lo/ | 名 | 拐角
+vizaĝo | /vi.ˈza.d͡ʒo/ | 名 | 面孔
+projekciilo | /pro.jek.t͡si.ˈi.lo/ | 名 | 投影仪
+plafono | /pla.ˈfo.no/ | 名 | 天花板
+vela | /ˈve.la/ | 名 | 幕布
+kurteno | /kur.ˈte.no/ | 名 | 窗帘
+seminario | /se.mi.ˈna.ri.o/ | 名 | 研讨会
+benket | /ˈben.ket/ | 名 | 板凳
+frunto | /ˈfrun.to/ | 名 | 前额
+ŝvit-guto | /ʃvit ˈɡu.to/ | 名 | 汗珠
+fondo | /ˈfon.do/ | 名 | 成立
+opinio | /o.ˈpi.ni.o/ | 名 | 舆论
+paŭz-buton | /ˈpawz bu.ˈton/ | 名 | 暂停键
+aŭskultant | /aw.skul.ˈtant/ | 名 | 听众
+mieno | /mi.ˈe.no/ | 名 | 神态
+novel-kajero | /no.ˈvel ka.ˈje.ro/ | 名 | 小说本
+ŝlimo | /ˈʃli.mo/ | 名 | 泥
+novelo | /no.ˈve.lo/ | 名 | 长篇小说
+paĝo | /ˈpa.d͡ʒo/ | 名 | 页
+fronto-paĝo | /ˈfron.to ˈpa.d͡ʒo/ | 名 | 扉页
+pseŭdonimo | /psew.do.ˈni.mo/ | 名 | 笔名
+skrib-stilo | /skrib ˈsti.lo/ | 名 | 文风
+pezec | /ˈpe.zet͡s/ | 名 | 沉重
+festen | /ˈfes.ten/ | 名 | 大餐
+okazo | /o.ˈka.zo/ | 名 | 机会
+kovril | /ko.ˈvril/ | 名 | 封面
+tempio | /tem.ˈpi.o/ | 名 | 鬓角
+plekt | /plekt/ | 名 | 辫子
+emoci | /e.ˈmo.t͡si/ | 名 | 情感
+signifo | /siɡ.ˈni.fo/ | 名 | 意思
+batal-kamarad | /ba.ˈtal ka.ma.ˈrad/ | 名 | 战友
+konfuz | /kon.ˈfuz/ | 名 | 疑惑
+kreado | /kre.ˈa.do/ | 名 | 创作
+kampo | /ˈkam.po/ | 名 | 领域
+edzino | /ed.ˈzi.no/ | 名 | 老婆
+forto | /ˈfor.to/ | 名 | 力道
+lenso | /ˈlen.so/ | 名 | 镜片
+penso | /ˈpen.so/ | 名 | 思绪
+kapabl | /ka.ˈpabl/ | 名 | 能力
+interrilat | /in.ter.ri.ˈlat/ | 名 | 交集
+pentraĵ | /pen.ˈtraʒ/ | 名 | 画作
+pruvo | /ˈpru.vo/ | 名 | 证据
+vic-prezidant | /vit͡s pre.zi.ˈdant/ | 名 | 副会长
+retiriĝ-vojo | /re.ti.ˈrid͡ʒ ˈvo.jo/ | 名 | 退路
+malam | /ma.ˈlam/ | 名 | 仇恨
+bonŝanc | /bon.ˈʃant͡s/ | 名 | 幸运
+bondezir | /bon.de.ˈzir/ | 名 | 祝福
+kinejo | /ki.ˈne.jo/ | 名 | 电影院
+intrigo | /in.ˈtri.ɡo/ | 名 | 情节
+stato | /ˈsta.to/ | 名 | 状态
+parolad-skizo | /pa.ro.ˈlad ˈski.zo/ | 名 | 演说稿
+superul | /su.ˈpe.rul/ | 名 | 上级
+subul | /ˈsu.bul/ | 名 | 下级
+kolego | /ko.ˈle.ɡo/ | 名 | 同事
+grupo | /ˈɡru.po/ | 名 | 小组
+reprezentant | /re.pre.zen.ˈtant/ | 名 | 代表
+anonco | /a.ˈnon.t͡so/ | 名 | 公告
+horaro | /ho.ˈra.ro/ | 名 | 日程表
+fingro | /ˈfin.ɡro/ | 名 | 手指
+kokido | /ko.ˈki.do/ | 名 | 小鸡
+merkredo | /mer.ˈkre.do/ | 名 | 周三
+vespero | /ves.ˈpe.ro/ | 名 | 傍晚
+horizonto | /ho.ri.ˈzon.to/ | 名 | 地平线
+krepusk-lumo | /kre.ˈpusk ˈlu.mo/ | 名 | 余晖
+malhelblu | /mal.ˈhel.blu/ | 名 | 深蓝
+koton | /ko.ˈton/ | 名 | 棉花
+silueto | /si.lu.ˈe.to/ | 名 | 剪影
+lampo | /ˈlam.po/ | 名 | 灯
+rando | /ˈran.do/ | 名 | 边缘
+knabino | /kna.ˈbi.no/ | 名 | 女孩
+invito | /in.ˈvi.to/ | 名 | 邀请
+ŝultro | /ˈʃul.tro/ | 名 | 肩
+malamikec | /ma.la.mi.ˈket͡s/ | 名 | 敌意
+pulmo | /ˈpul.mo/ | 名 | 肺
+monato | /mo.ˈna.to/ | 名 | 月
+konsent | /kon.ˈsent/ | 名 | 默许
+figuro | /fi.ˈɡu.ro/ | 名 | 身形
+aĝo | /ˈa.d͡ʒo/ | 名 | 年龄
+ĉef-administrant | /t͡ʃef ad.mi.nis.ˈtrant/ | 名 | 首席行政官
+ĉefsov | /ˈt͡ʃef.sov/ | 名 | 总部大楼
+grandsov | /ˈɡrand.sov/ | 名 | 大楼
+altsov | /ˈalt.sov/ | 名 | 高楼
+nordpoluso | /nord.po.ˈlu.so/ | 名 | 北极
+artkreado | /art.kre.ˈa.do/ | 名 | 艺术创作
+prezidant | /pre.zi.ˈdant/ | 名 | 会长
+prezidantaro | /pre.zi.dan.ˈta.ro/ | 名 | 主席团
+nomplato | /nom.ˈpla.to/ | 名 | 名牌
+kruk | /kruk/ | 名 | 腿
+pantalon | /pan.ta.ˈlon/ | 名 | 裤子
+manĝbastonet | /mand͡ʒ.bas.to.ˈnet/ | 名 | 筷子
+karno | /ˈkar.no/ | 名 | 肉
+stako | /ˈsta.ko/ | 名 | 沓、堆
+labor-tablo | /la.ˈbor ˈta.blo/ | 名 | 办公桌
+artikolo | /ar.ti.ˈko.lo/ | 名 | 文章
+erar | /e.ˈrar/ | 名 | 错误
+rigardo | /ri.ˈɡar.do/ | 名 | 目光
+nekompren | /ne.kom.ˈpren/ | 名 | 不解
+oficejo | /o.fi.ˈt͡se.jo/ | 名 | 办公室
+civitano | /t͡si.vi.ˈta.no/ | 名 | 市民
+protest-krio | /pro.ˈtest ˈkri.o/ | 名 | 抗议声
+horo | /ˈho.ro/ | 名 | 小时、时辰
+sekundo | /se.ˈkun.do/ | 名 | 秒
+mond-map | /mond map/ | 名 | 地球平面图
+
+【动词】
+fordon | /ˈfor.don/ | 动 | 放弃
+elven | /el.ˈven/ | 动 | 出来、下车
+eltir | /el.ˈtir/ | 动 | 拖出、牵出
+forpeli | /for.ˈpe.li/ | 动 | 驱散、打消
+bol | /bol/ | 动 | 沸腾
+nask | /nask/ | 动 | 出生
+publiki | /pub.ˈli.ki/ | 动 | 发表
+rilat | /ˈri.lat/ | 动 | 有关
+lev | /lev/ | 动 | 提升
+bedaŭr | /be.ˈdawr/ | 动 | 惋惜
+ordig | /ˈor.diɡ/ | 动 | 整理
+kovr | /kovr/ | 动 | 盖
+prem | /prem/ | 动 | 攥、握、按
+alpingl | /al.ˈpiŋɡl/ | 动 | 别上
+bezon | /be.ˈzon/ | 动 | 需要
+admiri | /ad.ˈmi.ri/ | 动 | 佩服
+solv | /solv/ | 动 | 消解
+interromp | /in.ter.ˈromp/ | 动 | 打断
+efik | /e.ˈfik/ | 动 | 行得通
+bazi | /ˈba.zi/ | 动 | 基于
+kred | /kred/ | 动 | 相信
+insist | /in.ˈsist/ | 动 | 坚持
+kontakt | /kon.ˈtakt/ | 动 | 联系
+vetur | /ˈve.tur/ | 动 | 行驶
+rapid | /ˈra.pid/ | 动 | 赶、快走
+blok | /blok/ | 动 | 堵住
+mov | /mov/ | 动 | 移动
+montr | /montr/ | 动 | 显示、展示
+ekspon | /eks.ˈpon/ | 动 | 暴露
+surpriz | /sur.ˈpriz/ | 动 | 诧异
+agnosk | /aɡ.ˈnosk/ | 动 | 认同
+vok | /vok/ | 动 | 叫、喊
+ekzamen | /ek.za.ˈmen/ | 动 | 打量
+rekon | /ˈre.kon/ | 动 | 认出
+scivol | /ˈst͡si.vol/ | 动 | 好奇
+dezir | /de.ˈzir/ | 动 | 祝愿
+start | /start/ | 动 | 启动
+cel | /t͡sel/ | 动 | 盯、瞄准、指
+malstreĉ | /mal.ˈstret͡ʃ/ | 动 | 放松
+elpren | /el.ˈpren/ | 动 | 掏出
+muĝ | /mudʒ/ | 动 | 轰鸣
+malkovr | /mal.ˈkovr/ | 动 | 发现
+ĵet | /ʒet/ | 动 | 扔
+atent | /a.ˈtent/ | 动 | 注意
+tuŝ | /tuʃ/ | 动 | 碰
+alven | /al.ˈven/ | 动 | 到达
+pag | /paɡ/ | 动 | 付钱
+prepar | /pre.ˈpar/ | 动 | 准备
+for-ir | /for.ˈir/ | 动 | 离去
+return-tir | /re.ˈturn tir/ | 动 | 撤回
+en-met | /en.ˈmet/ | 动 | 插入
+puŝ | /puʃ/ | 动 | 推
+reflekt | /re.ˈflekt/ | 动 | 映
+kutim | /ˈku.tim/ | 动 | 习惯
+reagi | /re.ˈa.ɡi/ | 动 | 反应
+lacig | /ˈla.t͡siɡ/ | 动 | 使疲惫
+elten | /el.ˈten/ | 动 | 接住、承受
+turment | /tur.ˈment/ | 动 | 折磨
+ripoz | /ri.ˈpoz/ | 动 | 休息
+aŭskult | /aw.ˈskult/ | 动 | 听、聆听
+cit | /t͡sit/ | 动 | 引用
+sving | /sviŋɡ/ | 动 | 挥舞
+folium | /fo.ˈli.um/ | 动 | 翻阅
+vigl | /viɡl/ | 动 | 打起精神
+okup | /o.ˈkup/ | 动 | 忙
+interes | /in.te.ˈres/ | 动 | 起兴趣
+konstern | /kon.ˈstern/ | 动 | 怔住
+gajn | /ɡajn/ | 动 | 赚
+kunmet | /kun.ˈmet/ | 动 | 拼凑
+fiert | /fi.ˈert/ | 动 | 自豪
+balbut | /bal.ˈbut/ | 动 | 支吾
+test | /test/ | 动 | 试探
+ĝen | /d͡ʒen/ | 动 | 打扰
+return | /re.ˈturn/ | 动 | 恢复
+signif | /siɡ.ˈnif/ | 动 | 代表、意味
+super | /ˈsu.per/ | 动 | 超过
+kultiv | /kul.ˈtiv/ | 动 | 培养
+send | /send/ | 动 | 派
+daŭr | /dawr/ | 动 | 继续
+inviti | /in.ˈvi.ti/ | 动 | 邀请
+kriŝ | /kriʃ/ | 动 | 哗哗响
+bek | /bek/ | 动 | 啄
+frap | /frap/ | 动 | 敲
+tinktur | /tink.ˈtur/ | 动 | 浸染
+kontrol | /kon.ˈtrol/ | 动 | 掌控
+lumi | /ˈlu.mi/ | 动 | 亮
+glat-ize | /ˈɡlat i.ze/ | 动 | 拂平
+preterlas | /pre.ter.ˈlas/ | 动 | 置之
+en-flos | /en.ˈflos/ | 动 | 飘进
+rememor | /re.me.ˈmor/ | 动 | 回想
+kunfand | /kun.ˈfand/ | 动 | 融和
+shiléntiĝ | /ʃi.ˈlen.tid͡ʒ/ | 动 | 沉默
+embaras | /em.ba.ˈras/ | 动 | 使难堪
+brul | /brul/ | 动 | 燃烧
+serĉ | /sert͡ʃ/ | 动 | 搜索
+suspekt | /sus.ˈpekt/ | 动 | 怀疑
+korekt | /ko.ˈrekt/ | 动 | 校对、纠正
+apog | /a.ˈpoɡ/ | 动 | 撑、倚
+star | /star/ | 动 | 站
+halt | /halt/ | 动 | 停
+kon | /kon/ | 动 | 知道
+pens | /pens/ | 动 | 想、认为
+sent | /sent/ | 动 | 感觉
+vid | /vid/ | 动 | 看
+aŭd | /awd/ | 动 | 听见
+don | /don/ | 动 | 给
+pren | /pren/ | 动 | 拿、取
+far | /far/ | 动 | 做
+persist | /per.ˈsist/ | 动 | 坚持
+vest | /vest/ | 动 | 穿
+form | /form/ | 动 | 塑造、使成
+dismet | /dis.ˈmet/ | 动 | 叉开
+kap-nod | /kap nod/ | 动 | 点头
+ekbril | /ek.ˈbril/ | 动 | 闪过
+el-don | /el.ˈdon/ | 动 | 发出
+nom-ize | /nom i.ze/ | 动 | 叫作
+en-rush | /en.ˈruʃ/ | 动 | 闯进
+ŝalt | /ʃalt/ | 动 | 点亮
+forviŝ | /for.ˈviʃ/ | 动 | 扫去
+fal | /fal/ | 动 | 倒下
+fal-ize | /fal i.ze/ | 动 | 使落下
+levi | /ˈle.vi/ | 动 | 抬起
+grand-ize | /ˈɡrand i.ze/ | 动 | 放大
+disting-ize | /dis.ˈtiŋɡ i.ze/ | 动 | 区分
+trankvil-ize | /ˈtrank.vil i.ze/ | 动 | 使平静
+prem-ize | /prem i.ze/ | 动 | 逼迫
+infan-en | /in.ˈfan.en/ | 动 | 变成小孩
+malhel-en | /ˈmal.hel.en/ | 动 | 变暗
+malfort-en | /mal.ˈfor.ten/ | 动 | 瘫软
+bon-en | /ˈbo.nen/ | 动 | 变好
+pez-en | /ˈpe.zen/ | 动 | 变重
+alt-en | /ˈal.ten/ | 动 | 变高
+profund-en | /pro.ˈfun.den/ | 动 | 变深
+vigl-en | /ˈviɡl.en/ | 动 | 打起精神
+trankvil-en | /ˈtrank.vil.en/ | 动 | 沉静下来
+
+【形容词】
+agitat | /ˈa.ɡi.tat/ | 形 | 急躁的
+senokupat | /se.no.ˈku.pat/ | 形 | 无所事事的
+akrat | /ˈa.krat/ | 形 | 刺耳的
+dubat | /ˈdu.bat/ | 形 | 怀疑的
+raciat | /ra.ˈt͡si.at/ | 形 | 合理的
+diligentat | /di.li.ˈɡen.tat/ | 形 | 敬业的
+vindit | /ˈvin.dit/ | 形 | 襁褓中的
+malsamat | /mal.ˈsa.mat/ | 形 | 不同的
+sufiĉat | /su.fi.ˈt͡ʃat/ | 形 | 足够的
+neakordigeblat | /ne.a.kor.di.ˈɡe.blat/ | 形 | 不可调和的
+afablat | /a.ˈfa.blat/ | 形 | 亲切的
+maljunat | /mal.ˈju.nat/ | 形 | 年老的
+kompromisat | /kom.pro.ˈmi.sat/ | 形 | 折中的
+preskaŭ-nevideblat | /ˈpres.kaw ne.vi.ˈde.blat/ | 形 | 若有若无的
+famat | /ˈfa.mat/ | 形 | 有名的
+precizat | /pre.ˈt͡si.zat/ | 形 | 具体的
+konfuzat | /kon.ˈfu.zat/ | 形 | 杂乱的
+panikat | /pa.ni.ˈkat/ | 形 | 慌乱的
+respekteblat | /res.pek.ˈte.blat/ | 形 | 可敬的
+profundat | /pro.ˈfun.dat/ | 形 | 深的
+evidentat | /e.vi.ˈden.tat/ | 形 | 明显的
+decidat | /de.ˈt͡si.dat/ | 形 | 果断的
+malfavorat | /mal.fa.ˈvo.rat/ | 形 | 不利的
+metalat | /me.ˈta.lat/ | 形 | 金属的
+malhelat | /mal.ˈhe.lat/ | 形 | 幽暗的
+fajnat | /ˈfaj.nat/ | 形 | 细密的
+pasiat | /pa.ˈsi.at/ | 形 | 充满激情的
+konstruit | /kon.ˈstru.it/ | 形 | 构建的
+sukcesat | /suk.t͡se.ˈsat/ | 形 | 成功的
+lumant | /ˈlu.mant/ | 形 | 发光的
+freŝat | /ˈfre.ʃat/ | 形 | 清爽的
+anima | /a.ˈni.ma/ | 形 | 精神的
+arta | /ˈar.ta/ | 形 | 美术的
+mildat | /ˈmil.dat/ | 形 | 轻和的
+universalat | /u.ni.ver.ˈsa.lat/ | 形 | 万能的
+klarat | /ˈkla.rat/ | 形 | 清楚的、清秀的
+frenezat | /fre.ˈne.zat/ | 形 | 癫狂的
+malfortat | /mal.ˈfor.tat/ | 形 | 弱小的
+memfidat | /mem.ˈfi.dat/ | 形 | 神气十足、自信的
+senfendat | /sen.ˈfen.dat/ | 形 | 无懈可击的
+senordit | /se.ˈnor.dit/ | 形 | 紊乱的
+envolvit | /en.vol.ˈvit/ | 形 | 包裹的、捂严实的
+vestit | /ˈves.tit/ | 形 | 打扮的
+gvidit | /ɡvi.ˈdit/ | 形 | 主持的
+lasit | /ˈla.sit/ | 形 | 留下的
+planit | /ˈpla.nit/ | 形 | 计划的
+pendit | /ˈpen.dit/ | 形 | 挂着的
+starit | /ˈsta.rit/ | 形 | 站过的
+farit | /ˈfa.rit/ | 形 | 制造的
+kriit | /ˈkri.it/ | 形 | 喊过的
+volit | /ˈvo.lit/ | 形 | 想要的
+restit | /ˈres.tit/ | 形 | 剩下的
+konat | /ˈko.nat/ | 形 | 熟悉的
+kostumit | /kos.ˈtu.mit/ | 形 | 西装革履的
+pretat | /ˈpre.tat/ | 形 | 准备好的
+okupat | /o.ˈku.pat/ | 形 | 忙碌的
+malplenat | /mal.ˈple.nat/ | 形 | 空的
+memfidli | /mem.ˈfid.li/ | 副 | 自信地
+
+【副词】
+agitli | /ˈa.ɡit.li/ | 副 | 焦躁地
+blindli | /ˈblind.li/ | 副 | 盲目地
+trepidli | /tre.ˈpid.li/ | 副 | 忐忑地
+singardli | /sin.ˈɡard.li/ | 副 | 警惕地、小心地
+sukcesli | /suk.ˈt͡ses.li/ | 副 | 成功地
+iompostiom | /i.om.pos.ˈti.om/ | 副 | 逐渐
+samtempli | /sam.ˈtem.pli/ | 副 | 不约而同地
+provokli | /pro.ˈvok.li/ | 副 | 煽动性地
+senpovli | /sen.ˈpov.li/ | 副 | 无可奈何地
+mallaŭtli | /mal.ˈlawt.li/ | 副 | 轻轻地
+malrapidli | /mal.ra.ˈpid.li/ | 副 | 缓缓地
+urĝli | /ˈurd͡ʒ.li/ | 副 | 亟需地
+detallli | /de.ˈtal.li/ | 副 | 详尽地
+hastli | /ˈhast.li/ | 副 | 匆匆地
+sencelli | /sen.ˈt͡sel.li/ | 副 | 漫无目的地
+ŝajnli | /ˈʃajn.li/ | 副 | 故作地
+malmolti | /mal.ˈmol.ti/ | 副 | 生硬地
+panikli | /pa.ˈnik.li/ | 副 | 慌乱地
+simplli | /ˈsimp.li/ | 副 | 单纯地
+komprenli | /kom.ˈpren.li/ | 副 | 会心地
+subitli | /su.ˈbit.li/ | 副 | 急中生智地
+duonkredli | /du.on.ˈkred.li/ | 副 | 将信将疑地
+oblikvli | /o.ˈblikv.li/ | 副 | 歪歪扭扭地
+senkonscli | /sen.ˈkons.li/ | 副 | 下意识地
+strangli | /ˈstranɡ.li/ | 副 | 奇怪地
+danĝerli | /dan.ˈd͡ʒer.li/ | 副 | 危险地
+decidli | /de.ˈt͡sid.li/ | 副 | 坚定地
+viglly | /ˈviɡl.li/ | 副 | 兴致勃勃地
+ekscitli | /eks.ˈt͡sit.li/ | 副 | 兴奋地
+oftli | /ˈoft.li/ | 副 | 往往
+klarli | /ˈklar.li/ | 副 | 清秀地
+grandli | /ˈɡrand.li/ | 副 | 大大地
+kutimli | /ku.ˈtim.li/ | 副 | 习惯性地
+atendli | /a.ˈtend.li/ | 副 | 期待地
+kompreneble | /kom.pre.ˈne.ble/ | 副 | 当然
+finfine | /fin.ˈfi.ne/ | 副 | 毕竟
+ĝuste | /ˈd͡ʒus.te/ | 副 | 正巧
+ekstere | /ek.ˈste.re/ | 副 | 在外面
+poste | /ˈpos.te/ | 副 | 之后
+antaŭe | /an.ˈtaw.e/ | 副 | 之前
+antaŭen | /an.ˈtaw.en/ | 副 | 向前
+posten | /ˈpos.ten/ | 副 | 向后
+malproksimen | /mal.prok.ˈsi.men/ | 副 | 向远处
+malsupren | /mal.su.ˈpren/ | 副 | 向下
+tien-æ-reen | /ti.en ɛ re.en/ | 副 | 东奔西走
+flanken | /ˈflan.ken/ | 副 | 向一边
+eksteren | /ek.ˈste.ren/ | 副 | 向外
+sufiĉe | /su.ˈfi.t͡ʃe/ | 副 | 足够地
+firme | /ˈfir.me/ | 副 | 稳稳地
+senfine | /sen.ˈfi.ne/ | 副 | 无限地
+plene | /ˈple.ne/ | 副 | 尽情地
+dise | /ˈdi.se/ | 副 | 零散地、零零星星
+zorge | /ˈzor.ɡe/ | 副 | 仔细地
+rekte | /ˈrek.te/ | 副 | 直直地
+mallaŭt | /mal.ˈlawt/ | 副 | 轻轻地
+subite | /su.ˈbi.te/ | 副 | 突然
+origine | /o.ri.ˈɡi.ne/ | 副 | 原本
+finli | /ˈfin.li/ | 副 | 终于
+kune | /ˈku.ne/ | 副 | 一起
+tute | /ˈtu.te/ | 副 | 彻底
+ĉiam | /ˈt͡ʃi.am/ | 副 | 始终
+denove | /de.ˈno.ve/ | 副 | 又、再次
+plu | /plu/ | 副 | 继续、再
+almenaŭ | /al.me.ˈnaw/ | 副 | 至少
+kvazaŭ | /ˈkva.zaw/ | 副 | 仿佛
+ankoraŭ | /an.ko.ˈraw/ | 副 | 还、仍然
+eble | /ˈe.ble/ | 副 | 也许
+ĵus | /ʒus/ | 副 | 刚刚
+tuj | /tuj/ | 副 | 立刻
+jam | /jam/ | 副 | 已经
+nun | /nun/ | 副 | 现在
+tiam | /ˈti.am/ | 副 | 那时
+tiel | /ˈti.el/ | 副 | 这样
+tre | /tre/ | 副 | 很
+forte | /ˈfor.te/ | 副 | 用力地
+
+【功能词 / 限定词】
+ĉiu | /ˈt͡ʃi.u/ | 限定 | 每个
+ĉiuj | /ˈt͡ʃi.uj/ | 限定 | 各位
+kelk | /kelk/ | 限定 | 一些
+mult | /mult/ | 限定 | 许多
+iu | /i.u/ | 限定 | 某个
+neniu | /ne.ˈni.u/ | 代 | 没有人
+tuta | /ˈtu.ta/ | 限定 | 整个
+sola | /ˈso.la/ | 形 | 独自的
+alia | /a.ˈli.a/ | 限定 | 别的
+antaŭa | /an.ˈtaw.a/ | 限定 | 先前的
+posta | /ˈpos.ta/ | 限定 | 后面的
+supra | /ˈsu.pra/ | 限定 | 上头的
+suba | /ˈsu.ba/ | 限定 | 下头的
+venonta | /ve.ˈnon.ta/ | 限定 | 下（周）
+originala | /o.ri.ɡi.ˈna.la/ | 限定 | 原本的
+malproksima | /mal.prok.ˈsi.ma/ | 限定 | 远处的
+nelonga | /ne.ˈlon.ɡa/ | 限定 | 不久的
+ordinara | /or.di.ˈna.ra/ | 限定 | 普通的
+sciencfikcia | /st͡si.ent͡s.ˈfik.t͡si.a/ | 限定 | 科幻的
+tokin-malmulta | /ˈto.kin mal.ˈmul.ta/ | 限定 | 人少的
+sen-signif | /sen siɡ.ˈnif/ | 限定 | 无意义的
+mallong-manik | /mal.ˈloŋɡ ˈma.nik/ | 限定 | 短袖的
+oranĝ-flavat | /o.ˈrand͡ʒ ˈfla.vat/ | 限定 | 橙黄色的
+malsupra-dekstra | /mal.su.pra ˈdek.stra/ | 限定 | 右下的
+preskaŭ | /ˈpres.kaw/ | 副 | 几乎
+mem | /mem/ | 代 | 自己
+unu fojon | /ˈu.nu ˈfo.jon/ | 短语 | 一次
