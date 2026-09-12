@@ -59,11 +59,11 @@ python tools/build_dict.py "archive/docx/词典第六版.docx" dictionary
 | 版本 | 文件 | 说明 |
 | --- | --- | --- |
 | 第六版 | `ueguden_dict.*` | **当前标准**，4347 条，全表化结构 |
-| 第五版（修订） | [`dictionary-archive/dict-v5-revised.md`](archive/dict-v5-revised.md) | 段落式词表，含字母分节 |
-| 第四版（修订） | [`dictionary-archive/dict-v4-revised.md`](archive/dict-v4-revised.md) | 第二版拼写 + 音标系统，补词源 |
-| 第三版 | [`dictionary-archive/dict-v3.md`](archive/dict-v3.md) | — |
-| 第二版 | [`dictionary-archive/dict-v2.md`](archive/dict-v2.md) | 确立第二代拼写与音标 |
-| 初版 | [`dictionary-archive/dict-v1.md`](archive/dict-v1.md) | 最早词表 |
+| 第五版（修订） | [`dictionary-archive/dict-v5-revised.md`](dictionary-archive/dict-v5-revised.md) | 段落式词表，含字母分节 |
+| 第四版（修订） | [`dictionary-archive/dict-v4-revised.md`](dictionary-archive/dict-v4-revised.md) | 第二版拼写 + 音标系统，补词源 |
+| 第三版 | [`dictionary-archive/dict-v3.md`](dictionary-archive/dict-v3.md) | — |
+| 第二版 | [`dictionary-archive/dict-v2.md`](dictionary-archive/dict-v2.md) | 确立第二代拼写与音标 |
+| 初版 | [`dictionary-archive/dict-v1.md`](dictionary-archive/dict-v1.md) | 最早词表 |
 
 旧版中的拼写（如 `khav`、`skribar`、`stranga`、`fenestr`、`ŝuo`、`aço`）属于**已废弃形式**，
 第五轮勘误（见 [`docs/14-errata.md`](../docs/14-errata.md)）已给出对应关系。**请勿用于新文本。**
