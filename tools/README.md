@@ -60,5 +60,15 @@ python tools/validate.py --corpus   # 额外扫描语料：世界语残留 + 未
 内嵌词库以 `const RAW = \`…\`` 内联，`DICT_REV` 常量用于触发浏览器端缓存重建——
 **改动词库后必须递增 `DICT_REV`**，否则使用者看到的是旧缓存。
 
-部署到 GitHub Pages：把 `tools/dictionary.html` 复制为仓库根目录的 `index.html`，
-或在 Pages 设置里把 `docs/` 与 `tools/` 一并发布。
+### 已发布的站点
+
+仓库已开启 GitHub Pages，源为 `main` 分支根目录，并放置了 `.nojekyll`
+（关闭 Jekyll，避免带 front matter 的 `.md` 被改写成 `.html` 而使站内链接失效）。
+
+| 地址 | 内容 |
+| --- | --- |
+| <https://zil-laprincesse.github.io/Ueguden/> | 入口页 `index.html`（仓库根目录） |
+| <https://zil-laprincesse.github.io/Ueguden/tools/dictionary.html> | **在线词典** |
+
+> ⚠️ GitHub 网页端**不会渲染**仓库里的 `.html`——点 `tools/dictionary.html` 只会看到源代码。
+> 要"点开就能用"，必须走上面的 Pages 地址。

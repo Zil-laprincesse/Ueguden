@@ -27,7 +27,7 @@ title: 维古登语（Ueguden）
 
 | 我想…… | 去这里 |
 | --- | --- |
-| 查一个词 | [`dictionary/ueguden_dict.md`](dictionary/ueguden_dict.md) ｜ 在线词典 [`tools/dictionary.html`](tools/dictionary.html) |
+| 查一个词 | **在线词典** <https://zil-laprincesse.github.io/Ueguden/tools/dictionary.html> ｜ 离线版 [`tools/dictionary.html`](tools/dictionary.html) |
 | 从零学这门语言 | [`docs/12-tutorial.md`](docs/12-tutorial.md)（自学教程，含练习与答案） |
 | 读完整规范 | [`docs/13-full-spec.md`](docs/13-full-spec.md)（规范总纲，109 张表） |
 | 看怎么发音 | [`docs/01-phonology.md`](docs/01-phonology.md) · [`docs/02-orthography.md`](docs/02-orthography.md) |

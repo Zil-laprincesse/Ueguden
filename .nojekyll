@@ -1,0 +1,4 @@
+# 关闭 Jekyll 处理：GitHub Pages 原样发布本仓库的文件。
+# 理由：仓库里大量 .md 带 YAML front matter，交给 Jekyll 会被改写成 .html，
+# 导致 markdown 内部的相对 .md 链接在站点上全部失效。
+# 本站点只服务一个静态页面 tools/dictionary.html 与这枚入口 index.html。
