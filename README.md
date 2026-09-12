@@ -1,65 +1,63 @@
-# Ueguden / 维古登语
+# 工具链 · tools/
 
-> 维古登语（Ueguden）是一门为文学创作设计的黏着语人造语。  
-> 本仓库包含语法规范、词典、语料库与配套工具。
+| 文件 | 语言 | 作用 |
+| --- | --- | --- |
+| [`dictionary.html`](dictionary.html) | HTML/JS | **在线词典**：单文件离线可用，直接双击打开，也可部署到 GitHub Pages |
+| [`build_dict.py`](build_dict.py) | Python | 由 `词典第六版.docx` 生成 `dictionary/` 的 MD / CSV / JSON |
+| [`docx2md.py`](docx2md.py) | Python | 通用 docx → Markdown 转换器（标题层级、表格、加粗、合并单元格） |
+| [`manifest.json`](manifest.json) | JSON | `docx2md.py` 的转换清单：哪份 docx 转成哪个 md |
+| [`assemble.py`](assemble.py) | Python | 归置既有 Markdown、源 docx 与笔记到仓库目录 |
+| [`validate.py`](validate.py) | Python | **仓库自检**：词典字段、重复词、音标与词形合法性、表格列数、README 声明一致性 |
+| [`gen_ipa.js`](gen_ipa.js) | Node | 由词形批量生成音标（`x→ks`、重音落在音节起音前） |
+| [`build_novel_docx.js`](build_novel_docx.js) | Node | 由 `novel_ueguden_data.js` 生成小说双语对照 docx |
+| [`novel_ueguden_data.js`](novel_ueguden_data.js) | JS | 《阈界·永夜之狂澜》第二卷的逐段双语数据源 |
+| [`fix_novel_r3.js`](fix_novel_r3.js) | Node | 小说译文的第三轮批量订正脚本 |
 
-[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](...)
-[![Dictionary](https://img.shields.io/badge/dictionary-3963%20entries-blue.svg)](...)
+## 环境
 
-## 这是什么
+```bash
+pip install -r requirements.txt     # Python 依赖（python-docx）
+node --version                      # Node 仅用于 .js 工具，可选
+```
 
-维古登语是一门 **artlang**（艺术语），核心语序为 **SOV**，语法意义通过后缀层层叠加表达。  
-它被用于诗歌、小说、书信等文学创作，拥有独立的诗歌体（古 Ueguden）变体。
+## 常用命令
 
-## 快速开始
+```bash
+# 1. 重新生成全部规范文档（改 docx 后）
+python tools/docx2md.py tools/manifest.json --base .
 
-- 查词典：[在线词典](https://yourname.github.io/ueguden/tools/dictionary.html)
-- 学语法：[语法规范](docs/00-overview.md)
-- 看语料：[语料库](corpus/)
+# 2. 重新生成词典三格式（改词典 docx 后）
+python tools/build_dict.py "archive/docx/词典第六版.docx" dictionary
 
-## 仓库结构
+# 3. 归档既有 md / 源 docx / 笔记
+python tools/assemble.py
 
-| 目录 | 内容 |
-|---|---|
-| `docs/` | 语法规范、教程、高级语法 |
-| `dictionary/` | 主词库 JSON/CSV/Markdown |
-| `tools/` | HTML 词典、校验脚本 |
-| `corpus/` | 诗歌、小说、书信、歌词 |
-| `archive/` | 旧版词典与历史快照 |
+# 4. 提交前自检
+python tools/validate.py            # 结构性检查（默认）
+python tools/validate.py --corpus   # 额外扫描语料：世界语残留 + 未收录词形
+```
 
-## 语言概览
+## validate.py 检查项
 
-- 类型：黏着语
-- 语序：SOV
-- 名词：6 格（主、宾、与、工具、方位、属）
-- 动词：体态 + 时态 + 语态 + 极性 + 人称 + 语气 + 情态
-- 诗歌体：古 Ueguden 42 位变格 + 21 位变位
+| 代号 | 检查 | 级别 |
+| --- | --- | :---: |
+| 结构 | JSON 字段完整、序号从 1 连续 | 错误 |
+| 重复词 | 同一词形出现多次 | 错误 |
+| IPA | 音标含字母表外字符／钝音符 `à ò`（音标里应写 `ˈ`） | 错误 |
+| 词形 | 词形含《正字法规范》字母表外的字符 | 错误 |
+| 表格 | Markdown 表格列数跳变（转换事故的信号） | 错误 |
+| README | 声明词条数 / `DICT_REV` 与词典实际不一致 | 错误 |
+| 词类 | `名` 与 `名词` 两套写法并存 | 提示 |
+| 语料 | 世界语残留（`la`/`kaj`/`ne`…） | 提示 |
+| 语料 | 剥离常见词缀后仍未收录的词形（新词候选） | 提示 |
 
-## 当前标准
+退出码：`0` 干净 ｜ `2` 只有提示 ｜ `1` 有错误（CI 会失败）。
 
-- 词汇标准：`dict_ueguden`（3963 条）
-- 语法标准：《正字法规范》《词法规范》《句法规范》
-- 诗歌体标准：《古 Ueguden 诗歌体规范》
+## 关于 `dictionary.html`
 
-## 贡献
+单文件设计：CSS、JS、词库全部内嵌，无外部依赖，无网络请求。
+内嵌词库以 `const RAW = \`…\`` 内联，`DICT_REV` 常量用于触发浏览器端缓存重建——
+**改动词库后必须递增 `DICT_REV`**，否则使用者看到的是旧缓存。
 
-欢迎提交新词、语料、勘误。请先读 [CONTRIBUTING.md](CONTRIBUTING.md)。
-
-## 许可证
-
-- 代码：MIT
-- 文档、词典、语料：CC BY-SA 4.0
-
----
-
-## English
-
-**Ueguden** is an artlang designed for literary creation.  
-This repository contains its grammar, dictionary, corpus, and tooling.
-
-- Agglutinative, SOV
-- 6 noun cases
-- Verb chain: aspect + tense + voice + polarity + person + mood + modal
-- Poetic register: Old Ueguden (42 declensions, 21 conjugations)
-
-See [docs/](docs/) for the full specification.
+部署到 GitHub Pages：把 `tools/dictionary.html` 复制为仓库根目录的 `index.html`，
+或在 Pages 设置里把 `docs/` 与 `tools/` 一并发布。
