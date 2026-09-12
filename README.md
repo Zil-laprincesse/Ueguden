@@ -1,65 +1,45 @@
-# Ueguden / 维古登语
+# 语料库 · corpus/
 
-> 维古登语（Ueguden）是一门为文学创作设计的黏着语人造语。  
-> 本仓库包含语法规范、词典、语料库与配套工具。
+维古登语的**应用实例**：用这门语言实际写出来的作品。
+规范说明「应该怎么写」，语料说明「实际怎么写」——两者互为校验。
 
-[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](...)
-[![Dictionary](https://img.shields.io/badge/dictionary-3963%20entries-blue.svg)](...)
+## 目录
 
-## 这是什么
+| 体裁 | 文件 | 说明 |
+| --- | --- | --- |
+| 诗歌 `poems/` | [`the-internationale.md`](poems/the-internationale.md) | 《国际歌》维古登语译文（**诗歌体**） |
+| 诗歌 `poems/` | [`dithyramb.md`](poems/dithyramb.md) | 酒神颂（**诗歌体**创作） |
+| 书信 `letters/` | [`letter-to-the-beloved.md`](letters/letter-to-the-beloved.md) | 《致爱的信》（**常规体**） |
+| 书信 `letters/` | [`written-in-a-letter.md`](letters/written-in-a-letter.md) | 《在信里写给你》（**常规体**） |
+| 小说 `novel/` | [`threshold-endless-night-vol2.md`](novel/threshold-endless-night-vol2.md) | 《阈界·永夜之狂澜》第二卷（**双语对照**） |
 
-维古登语是一门 **artlang**（艺术语），核心语序为 **SOV**，语法意义通过后缀层层叠加表达。  
-它被用于诗歌、小说、书信等文学创作，拥有独立的诗歌体（古 Ueguden）变体。
+## 体裁与规范
 
-## 快速开始
+| 体裁 | 适用的规范 | 注意 |
+| --- | --- | --- |
+| 常规体（默认） | `docs/04-morphology.md`、`docs/06-syntax.md` | 6 格 × 单复数；标准音系 |
+| 诗歌体 | `docs/09-poetic-register.md`、`docs/10-poetic-tables.md` | 42 位变格 + 21 位变位；取消送气；节律重音 |
+| 小说译文 | 另见 [`docs/15-rewrite-spec-v2.md`](../docs/15-rewrite-spec-v2.md) | 必须严格 SOV，**清除世界语残留**（`la`、`de`、`kaj`、`ĉu`、独立助动词） |
 
-- 查词典：[在线词典](https://yourname.github.io/ueguden/tools/dictionary.html)
-- 学语法：[语法规范](docs/00-overview.md)
-- 看语料：[语料库](corpus/)
+**诗歌体与常规体禁止混用**。混用时以常规体为准。
 
-## 仓库结构
+## 与原始文档的关系
 
-| 目录 | 内容 |
-|---|---|
-| `docs/` | 语法规范、教程、高级语法 |
-| `dictionary/` | 主词库 JSON/CSV/Markdown |
-| `tools/` | HTML 词典、校验脚本 |
-| `corpus/` | 诗歌、小说、书信、歌词 |
-| `archive/` | 旧版词典与历史快照 |
+本目录的文件由 `archive/docx/` 中对应的 `.docx` 转换而来，仅做结构化（标题、表格），
+不改动任何原文。双语对照的排版、字体等视觉信息请查原始文档。
 
-## 语言概览
+## 添加新语料
 
-- 类型：黏着语
-- 语序：SOV
-- 名词：6 格（主、宾、与、工具、方位、属）
-- 动词：体态 + 时态 + 语态 + 极性 + 人称 + 语气 + 情态
-- 诗歌体：古 Ueguden 42 位变格 + 21 位变位
+1. 放入对应体裁子目录，文件名用小写连字符（如 `elegy-for-autumn.md`）。
+2. 文件头加 YAML front matter：`title` / `author` / `register`（`standard` 或 `poetic`）/ `source`。
+3. 若为译文，正文按「原文行 → 维古登语行」交替排列，方便逐句对照。
+4. 提交前跑 `python tools/validate.py --corpus`：它会报告两件事——
+   **世界语残留**（`la` / `kaj` / `ne` / 独立助动词，按重写规范必须清零）
+   与**剥离常见词缀后仍未收录的词形**（新词候选）。
 
-## 当前标准
+## 已知问题
 
-- 词汇标准：`dict_ueguden`（3963 条）
-- 语法标准：《正字法规范》《词法规范》《句法规范》
-- 诗歌体标准：《古 Ueguden 诗歌体规范》
-
-## 贡献
-
-欢迎提交新词、语料、勘误。请先读 [CONTRIBUTING.md](CONTRIBUTING.md)。
-
-## 许可证
-
-- 代码：MIT
-- 文档、词典、语料：CC BY-SA 4.0
-
----
-
-## English
-
-**Ueguden** is an artlang designed for literary creation.  
-This repository contains its grammar, dictionary, corpus, and tooling.
-
-- Agglutinative, SOV
-- 6 noun cases
-- Verb chain: aspect + tense + voice + polarity + person + mood + modal
-- Poetic register: Old Ueguden (42 declensions, 21 conjugations)
-
-See [docs/](docs/) for the full specification.
+`tools/validate.py --corpus` 当前在语料中检出 **73 处世界语残留**（集中在小说篇）。
+这不是提取错误，而是语料本身的历史状态：小说译文写于严格 SOV 规范确立之前。
+修正方法见 [`docs/15-rewrite-spec-v2.md`](../docs/15-rewrite-spec-v2.md)，
+重写稿见 `archive/notes/_rewrite_c1.txt`、`_rewrite_c2.txt`。
