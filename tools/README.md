@@ -3,6 +3,8 @@
 | 文件 | 语言 | 作用 |
 | --- | --- | --- |
 | [`dictionary.html`](dictionary.html) | HTML/JS | **在线词典**：单文件离线可用，直接双击打开，也可部署到 GitHub Pages |
+| [`dictation.html`](dictation.html) | HTML/JS | **默写器**：看汉语默写词形，随机抽题 / 即时判分 / 错词本（同为单文件离线） |
+| [`build_dictation.py`](build_dictation.py) | Python | 生成默写材料：`--html` 出默写器，`--docx` 出可打印默写卷（卷面 + 答案册） |
 | [`build_dict.py`](build_dict.py) | Python | 由 `词典第七版.docx` 生成 `dictionary/` 的 MD / CSV / JSON |
 | [`docx2md.py`](docx2md.py) | Python | 通用 docx → Markdown 转换器（标题层级、表格、加粗、合并单元格） |
 | [`manifest.json`](manifest.json) | JSON | `docx2md.py` 的转换清单：哪份 docx 转成哪个 md |
@@ -35,6 +37,10 @@ python tools/assemble.py
 # 4. 提交前自检
 python tools/validate.py            # 结构性检查（默认）
 python tools/validate.py --corpus   # 额外扫描语料：世界语残留 + 未收录词形
+
+# 5. 生成默写材料（网页默写器 + 可打印默写卷）
+python tools/build_dictation.py --all
+python tools/build_dictation.py --docx --limit 200 --seed 7 --hint ipa --no-answers
 ```
 
 ## validate.py 检查项

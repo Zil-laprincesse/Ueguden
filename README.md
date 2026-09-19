@@ -28,6 +28,7 @@ title: 维古登语（Ueguden）
 | 我想…… | 去这里 |
 | --- | --- |
 | 查一个词 | **在线词典** <https://zil-laprincesse.github.io/Ueguden/tools/dictionary.html> ｜ 离线版 [`tools/dictionary.html`](tools/dictionary.html) |
+| 默写单词 | **默写器** <https://zil-laprincesse.github.io/Ueguden/tools/dictation.html> ｜ 打印版 [`study/`](study/)（卷面 + 答案册） |
 | 从零学这门语言 | [`docs/12-tutorial.md`](docs/12-tutorial.md)（自学教程，含练习与答案） |
 | 读完整规范 | [`docs/13-full-spec.md`](docs/13-full-spec.md)（规范总纲，109 张表） |
 | 看怎么发音 | [`docs/01-phonology.md`](docs/01-phonology.md) · [`docs/02-orthography.md`](docs/02-orthography.md) |
@@ -42,7 +43,8 @@ title: 维古登语（Ueguden）
 | `docs/` | 语法规范、教程、勘误、重写规范（16 份 Markdown） |
 | `dictionary/` | 主词库：Markdown / CSV / JSON 三种格式；`archive/` 存历代版本 |
 | `corpus/` | 语料库：诗歌 `poems/`、书信 `letters/`、小说 `novel/` |
-| `tools/` | 在线词典、构词与音标脚本、校验器、转换器 |
+| `study/` | 学习材料：可打印默写卷（配 [`tools/build_dictation.py`](tools/build_dictation.py) 生成） |
+| `tools/` | 在线词典、默写器、构词与音标脚本、校验器、转换器 |
 | `archive/` | 原始 `.docx` 与历史笔记（供 Release 附件与比对） |
 
 ## 语言概览
@@ -100,7 +102,8 @@ This repository is the canonical collection of its grammar, dictionary, corpus a
 - **Lexicon:** 4350 entries (`DICT_REV = 7`)
 
 **Layout:** `docs/` specifications and tutorial · `dictionary/` lexicon (MD/CSV/JSON) ·
-`corpus/` poems, letters, novel · `tools/` web dictionary, scripts, validator · `archive/` original `.docx`.
+`corpus/` poems, letters, novel · `study/` printable dictation workbook ·
+`tools/` web dictionary, dictation trainer, scripts, validator · `archive/` original `.docx`.
 
 Start with [`docs/12-tutorial.md`](docs/12-tutorial.md) to learn the language, or
 [`docs/13-full-spec.md`](docs/13-full-spec.md) for the complete specification.
