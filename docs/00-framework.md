@@ -1,7 +1,7 @@
 ---
 title: 维古登语语言框架
 source: 框架.docx
-converted: 2026-09-12
+converted: 2026-09-19
 note: 总论文档：语言定位、整体架构、各部分索引
 ---
 
@@ -11,7 +11,7 @@ note: 总论文档：语言定位、整体架构、各部分索引
 
 字母表：
 
-A a /a/ B b /b/ C c /k/（非音节首） D d /d/ E e /ə/ F f /f/ G g /d͡ʒ/ /g/ H h /h/ I i /i/
+A a /a/ B b /b/ C c /k/ D d /d/ E e /ə/ F f /f/ G g /d͡ʒ/ /g/ H h /h/ I i /i/
 
 J j /d͡ʒ/ K k /kʰ/ L l /l/ /i/ M m /m/ N n /n/ O o /o/ P p /p/ Q q /ku/ R r /ʁ/ /ɹ/ /r/
 

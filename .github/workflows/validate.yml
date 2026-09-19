@@ -29,7 +29,7 @@ jobs:
 
       - name: 一致性校验（docx 与 md 是否同源）
         run: |
-          python tools/build_dict.py "archive/docx/词典第六版.docx" /tmp/dict-out
+          python tools/build_dict.py "archive/docx/词典第七版.docx" /tmp/dict-out
           python - <<'PY'
           import json, sys
           a = json.load(open("dictionary/ueguden_dict.json", encoding="utf-8"))

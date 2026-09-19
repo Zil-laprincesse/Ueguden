@@ -3,7 +3,7 @@
 | 文件 | 语言 | 作用 |
 | --- | --- | --- |
 | [`dictionary.html`](dictionary.html) | HTML/JS | **在线词典**：单文件离线可用，直接双击打开，也可部署到 GitHub Pages |
-| [`build_dict.py`](build_dict.py) | Python | 由 `词典第六版.docx` 生成 `dictionary/` 的 MD / CSV / JSON |
+| [`build_dict.py`](build_dict.py) | Python | 由 `词典第七版.docx` 生成 `dictionary/` 的 MD / CSV / JSON |
 | [`docx2md.py`](docx2md.py) | Python | 通用 docx → Markdown 转换器（标题层级、表格、加粗、合并单元格） |
 | [`manifest.json`](manifest.json) | JSON | `docx2md.py` 的转换清单：哪份 docx 转成哪个 md |
 | [`assemble.py`](assemble.py) | Python | 归置既有 Markdown、源 docx 与笔记到仓库目录 |
@@ -27,7 +27,7 @@ node --version                      # Node 仅用于 .js 工具，可选
 python tools/docx2md.py tools/manifest.json --base .
 
 # 2. 重新生成词典三格式（改词典 docx 后）
-python tools/build_dict.py "archive/docx/词典第六版.docx" dictionary
+python tools/build_dict.py "archive/docx/词典第七版.docx" dictionary
 
 # 3. 归档既有 md / 源 docx / 笔记
 python tools/assemble.py
@@ -47,7 +47,7 @@ python tools/validate.py --corpus   # 额外扫描语料：世界语残留 + 未
 | 词形 | 词形含《正字法规范》字母表外的字符 | 错误 |
 | 表格 | Markdown 表格列数跳变（转换事故的信号） | 错误 |
 | README | 声明词条数 / `DICT_REV` 与词典实际不一致 | 错误 |
-| 词类 | `名` 与 `名词` 两套写法并存 | 提示 |
+| 词类 | `名` 与 `名词` 两套写法并存（第六轮已统一为全称，保留作回归防线） | 提示 |
 | 语料 | 世界语残留（`la`/`kaj`/`ne`…） | 提示 |
 | 语料 | 剥离常见词缀后仍未收录的词形（新词候选） | 提示 |
 
@@ -59,6 +59,9 @@ python tools/validate.py --corpus   # 额外扫描语料：世界语残留 + 未
 单文件设计：CSS、JS、词库全部内嵌，无外部依赖，无网络请求。
 内嵌词库以 `const RAW = \`…\`` 内联，`DICT_REV` 常量用于触发浏览器端缓存重建——
 **改动词库后必须递增 `DICT_REV`**，否则使用者看到的是旧缓存。
+
+> 注意两个编号是两回事：`dictionary/ueguden_dict.json` 里的 `dict_rev` 是**词典版次**（第七版 = 7），
+> `dictionary.html` 里的 `DICT_REV` 是**缓存重建号**（只增不减，不要求与版次相等）。
 
 ### 已发布的站点
 

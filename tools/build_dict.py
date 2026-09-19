@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-"""build_dict.py — 由《词典第六版》生成词典的三种可协作格式
+"""build_dict.py — 由《词典第七版》生成词典的三种可协作格式
 
-输入：词典第六版.docx（表格式词表，每行「序号 | 词形 /音标/ 词类　释义。　词源。」）
+输入：词典第七版.docx（表格式词表，每行「序号 | 词形 /音标/ 词类　释义。　词源。」）
 输出：
     dictionary/ueguden_dict.md    人读版（Markdown 表）
     dictionary/ueguden_dict.csv   表格版（UTF-8 BOM，Excel 可直接打开）
@@ -22,7 +22,7 @@ from docx import Document
 
 ENTRY = re.compile(r"^(\S+)\s+(/[^/]+/)\s+(\S+)\s*(.*)$")
 FW = "\u3000"
-DICT_REV = 6
+DICT_REV = 7
 
 
 def parse(path: str) -> list[dict]:
@@ -54,7 +54,7 @@ def parse(path: str) -> list[dict]:
 def write_md(entries: list[dict], path: str, src: str) -> None:
     out = [
         "---",
-        "title: 维古登语词典（第六版）",
+        "title: 维古登语词典（第七版）",
         f"source: {os.path.basename(src)}",
         f"converted: {date.today().isoformat()}",
         f"dict_rev: {DICT_REV}",
@@ -62,12 +62,12 @@ def write_md(entries: list[dict], path: str, src: str) -> None:
         "note: 当前词汇标准",
         "---",
         "",
-        "# Ueguden 词典 · 第六版",
+        "# Ueguden 词典 · 第七版",
         "",
         f"> 当前词汇标准 ｜ 共 **{len(entries)}** 条词目 ｜ `DICT_REV = {DICT_REV}` ｜ "
         "词形按《正字法规范》，音标按 IPA，词条格式：`词形 /音标/ 词类 释义。词源`",
         "",
-        "> 本表由 `tools/build_dict.py` 自 `词典第六版.docx` 自动生成，请勿手工改动；"
+        "> 本表由 `tools/build_dict.py` 自 `词典第七版.docx` 自动生成，请勿手工改动；"
         "修订请改源文档后重新生成，或提交 Issue。",
         "",
         "| # | 词形 | 音标 | 词类 | 释义 | 词源 |",
@@ -107,7 +107,7 @@ def write_json(entries: list[dict], path: str, src: str) -> None:
 
 
 def main(argv: list[str]) -> int:
-    src = argv[0] if argv else "词典第六版.docx"
+    src = argv[0] if argv else "词典第七版.docx"
     out = argv[1] if len(argv) > 1 else "ueguden/dictionary"
     os.makedirs(out, exist_ok=True)
     entries = parse(src)

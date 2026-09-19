@@ -5,10 +5,10 @@ abstract: >-
   维古登语（Ueguden）是一门为文学创作设计的黏着语人造语（artlang）。
   核心语序为 SOV，名词有六格，动词以「体态+时态+语态+极性+人称+语气+情态」的词缀链变化，
   并拥有一套独立的诗歌体（古 Ueguden）变体（42 位变格、21 位变位）。
-  本仓库收录其全部语法规范、4347 条词目的词典、诗歌/书信/小说语料与配套工具链。
+  本仓库收录其全部语法规范、4350 条词目的词典、诗歌/书信/小说语料与配套工具链。
 type: dataset
-version: "dict6-2026.09"
-date-released: "2026-09-12"
+version: "dict7-2026.09"
+date-released: "2026-09-19"
 license-url: "https://creativecommons.org/licenses/by-sa/4.0/"
 keywords:
   - conlang
@@ -43,6 +43,6 @@ references:
     notes: "docs/09-poetic-register.md"
     repository-artifact: "docs/09-poetic-register.md"
   - type: dataset
-    title: "维古登语词典（第六版）"
-    notes: "4347 条，DICT_REV = 6；machine-readable: dictionary/ueguden_dict.json"
+    title: "维古登语词典（第七版）"
+    notes: "4350 条，DICT_REV = 7；machine-readable: dictionary/ueguden_dict.json"
     repository-artifact: "dictionary/ueguden_dict.json"

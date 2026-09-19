@@ -8,7 +8,7 @@ title: 维古登语（Ueguden）
 > 本仓库是它的**规范、词典、语料与工具**的唯一权威集合。
 
 ![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)
-![Dictionary](https://img.shields.io/badge/dictionary-4347%20entries-blue.svg)
+![Dictionary](https://img.shields.io/badge/dictionary-4350%20entries-blue.svg)
 ![Docs](https://img.shields.io/badge/specs-16%20documents-green.svg)
 
 ---
@@ -57,20 +57,20 @@ title: 维古登语（Ueguden）
 | 动词 | 词缀链叠加：**体态 + 时态 + 语态 + 极性 + 人称 + 语气 + 情态** |
 | 形容词 | 有格与数的变化，须与所修饰名词一致 |
 | 体裁变体 | 常规体 ｜ **诗歌体（古 Ueguden）**：42 位变格（6 人称 × 7 格）+ 21 位变位（3 人称 × 7 格），含夺格 |
-| 词汇量 | 4347 条（词典第六版） |
+| 词汇量 | 4350 条（词典第七版） |
 
 ## 当前标准
 
 学习和引用本项目时，请以以下版本为准：
 
-- **词汇标准**：`dictionary/ueguden_dict.json`（词典第六版，**4347 条**，`DICT_REV = 6`）
+- **词汇标准**：`dictionary/ueguden_dict.json`（词典第七版，**4350 条**，`DICT_REV = 7`）
 - **语法标准**：[`docs/00-framework.md`](docs/00-framework.md)、[`docs/02-orthography.md`](docs/02-orthography.md)、[`docs/04-morphology.md`](docs/04-morphology.md)、[`docs/06-syntax.md`](docs/06-syntax.md)、[`docs/08-advanced-grammar.md`](docs/08-advanced-grammar.md)
 - **诗歌体标准**：[`docs/09-poetic-register.md`](docs/09-poetic-register.md) + [`docs/10-poetic-tables.md`](docs/10-poetic-tables.md)
-- **勘误状态**：已应用 [`docs/14-errata.md`](docs/14-errata.md)（2026-09-05 第五轮）
-- **词典版本沿革**：初版 → 第二版 → 第三版 → 第四版（修订）→ 第五版（修订）→ **第六版**，旧版全部保留在 `dictionary/archive/`
+- **勘误状态**：已应用 [`docs/14-errata.md`](docs/14-errata.md)（2026-09-05 第五轮 · 2026-09-19 第六轮）
+- **词典版本沿革**：初版 → 第二版 → 第三版 → 第四版（修订）→ 第五版（修订）→ 第六版 → **第七版**，旧版全部保留在 `dictionary/archive/`
 
-> ⚠️ **已知不一致**：历代文档头部沿用的「3963 词目」为旧统计，词典第六版实际词条为 **4347** 条（无重复词条）。
-> 本仓库统一采用 4347。相关旧描述将在下一轮勘误中同步。
+> ✅ **统计口径已统一**：历代文档头部沿用的「3963 词目」是第五版时期的旧统计。
+> 第六轮起源文档头部与全仓库一致采用当前词条数（**4350**），`tools/validate.py` 会持续校验此项。
 
 ## 参与贡献
 
@@ -97,7 +97,7 @@ This repository is the canonical collection of its grammar, dictionary, corpus a
 - **Nouns:** 6 cases (nominative, accusative, dative, instrumental, locative, genitive) × singular/plural
 - **Verbs:** affix chain — aspect + tense + voice + polarity + person + mood + modal
 - **Registers:** standard, and a **poetic register (Old Ueguden)** with 42 declensions and 21 conjugations
-- **Lexicon:** 4347 entries (`DICT_REV = 6`)
+- **Lexicon:** 4350 entries (`DICT_REV = 7`)
 
 **Layout:** `docs/` specifications and tutorial · `dictionary/` lexicon (MD/CSV/JSON) ·
 `corpus/` poems, letters, novel · `tools/` web dictionary, scripts, validator · `archive/` original `.docx`.

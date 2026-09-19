@@ -21,7 +21,7 @@
 
 1. **不要直接改 `dictionary/ueguden_dict.*`**
    它是 `tools/build_dict.py` 的生成物。改这里 = 下次生成即被覆盖。
-   改词请改源文档 `archive/docx/词典第六版.docx`，或提 Issue 由维护者统一改。
+   改词请改源文档 `archive/docx/词典第七版.docx`，或提 Issue 由维护者统一改。
 
 2. **不要手改 `docs/*.md`、`corpus/*.md` 的正文**
    它们同样由 `tools/docx2md.py` 从 docx 生成。要改内容就改源 docx 后重新生成；
@@ -59,7 +59,7 @@ python tools/validate.py --corpus   # 提交语料时一并跑，看世界语残
 在 Issue 里按这个模板写，缺项会被要求补齐：
 
 ```yaml
-词形:      （按正字法，不得与现有 4347 条重复）
+词形:      （按正字法，不得与现有 4350 条重复）
 音标:      /…/（IPA，含重音符 ˈ）
 词类:      名 / 动 / 形 / 副 / 连词 / 介词 / 助词 / 叹词 / 前缀 / 后缀 / 分词
 释义:      （中文，简洁）
@@ -80,7 +80,7 @@ python tools/validate.py --corpus   # 提交语料时一并跑，看世界语残
 
 ```
 docs: 补充方位格与工具格的辨析示例
-dict: 新增 12 条天文学词汇（DICT_REV 6 → 7）
+dict: 新增 12 条天文学词汇（DICT_REV 7 → 8）
 corpus: 添加秋日挽歌（诗歌体）
 tools: validate.py 支持检测钝音符混入音标
 fix: 修正 12-tutorial.md 数词表的列数错位

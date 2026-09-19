@@ -13,6 +13,7 @@
   { "src": "中文转译方案.docx", "dst": "docs/11-translation-scheme.md", "title": "中文转译方案" },
   { "src": "维古登语自学教程.docx", "dst": "docs/12-tutorial.md", "title": "维古登语（Ueguden）自学教程" },
   { "src": "维古登语规范总纲.docx", "dst": "docs/13-full-spec.md", "title": "维古登语语言规范总纲" },
+  { "src": "词典第六版.docx", "dst": "dictionary/archive/dict-v6.md", "title": "维古登语词典（第六版）" },
   { "src": "词典第五版 - 修订版.docx", "dst": "dictionary/archive/dict-v5-revised.md", "title": "维古登语词典（第五版 · 修订版）" },
   { "src": "词典第四版 - 修订版.docx", "dst": "dictionary/archive/dict-v4-revised.md", "title": "维古登语词典（第四版 · 修订版）" },
   { "src": "词典第三版.docx", "dst": "dictionary/archive/dict-v3.md", "title": "维古登语词典（第三版）" },
