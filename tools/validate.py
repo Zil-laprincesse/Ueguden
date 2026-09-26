@@ -145,6 +145,11 @@ def check_readme_claims(data: dict) -> None:
         err(f"README 未声明当前词典版本 DICT_REV = {rev}")
 
 
+# 语料分词的字符集：与《正字法规范》字母表（WORD_CHARS）一致，另加音标重音符 ˈ。
+# 钝音符 à/ò 是第四轮勘误确立的重读标记（-gàlo / -gòle），必须计入词内字符，
+# 否则 lotgàlo 会被切碎成 lotg / lo，凭空造出一批假阳性「未收录词形」。
+CORPUS_TOKEN = "[" + re.escape("".join(sorted(WORD_CHARS))) + "ˈ]{2,}"
+
 # 语料扫描用的常见词缀（名词格、形容词格、体态、时态、语态、极性、人称、语气、情态、派生、数词）
 AFFIXES = sorted(
     """gàlo gòle ona anto bela itá ment ize mis tut pha shŭ nai dai lai vai sai
@@ -197,7 +202,7 @@ def check_corpus(data: dict) -> None:
             with open(os.path.join(dirpath, name), encoding="utf-8") as fh:
                 body = fh.read()
             body = re.sub(r"^---.*?^---", "", body, flags=re.S | re.M)   # front matter
-            for tok in re.findall(r"[a-zæøåãŭáéíóúǽçĉĝˈ]{2,}", body.lower()):
+            for tok in re.findall(CORPUS_TOKEN, body.lower()):
                 tok = tok.strip("ˈ")
                 if tok in known or strip_affixes(tok, known):
                     continue

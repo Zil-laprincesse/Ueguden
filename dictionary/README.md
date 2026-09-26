@@ -1,6 +1,6 @@
 # 词典 · dictionary/
 
-维古登语主词库。**当前词汇标准是第七版**，共 **4350** 条词目（`DICT_REV = 7`）。
+维古登语主词库。**当前词汇标准是第七版**，共 **4367** 条词目（`DICT_REV = 7`）。
 
 ## 文件
 
@@ -32,7 +32,7 @@ python tools/build_dict.py "archive/docx/词典第七版.docx" dictionary
 
 | 字段 | 含义 | 示例 |
 | --- | --- | --- |
-| `n` | 序号（1 – 4350） | `2002` |
+| `n` | 序号（1 – 4367） | `2002` |
 | `word` | 词形（按《正字法规范》） | `loĝlok` |
 | `ipa` | 音标（IPA，含重音符 `ˈ`） | `/loˈd͡ʒe.jo/` |
 | `pos` | 词类（一律全称） | `名词` |
@@ -43,8 +43,8 @@ python tools/build_dict.py "archive/docx/词典第七版.docx" dictionary
 
 | 词类 | 数量 | 词类 | 数量 |
 | --- | ---: | --- | ---: |
-| 名词 | 2709 | 动词 | 765 |
-| 形容词 | 516 | 副词 | 226 |
+| 名词 | 2723 | 动词 | 766 |
+| 形容词 | 517 | 副词 | 227 |
 | 连词 | 20 | 代词 | 17 |
 | 介词 | 16 | 数词 | 15 |
 | 后缀 | 10 | 助词 | 8 |
@@ -59,7 +59,7 @@ python tools/build_dict.py "archive/docx/词典第七版.docx" dictionary
 
 | 版本 | 文件 | 说明 |
 | --- | --- | --- |
-| 第七版 | `ueguden_dict.*` | **当前标准**，4350 条，全表化结构 |
+| 第七版 | `ueguden_dict.*` | **当前标准**，4367 条（2026-09-26 补录 17 条新造词，版次未变），全表化结构 |
 | 第六版 | [`archive/dict-v6.md`](archive/dict-v6.md) | 4347 条，第六轮前的快照 |
 | 第五版（修订） | [`archive/dict-v5-revised.md`](archive/dict-v5-revised.md) | 段落式词表，含字母分节 |
 | 第四版（修订） | [`archive/dict-v4-revised.md`](archive/dict-v4-revised.md) | 第二版拼写 + 音标系统，补词源 |
@@ -73,5 +73,6 @@ python tools/build_dict.py "archive/docx/词典第七版.docx" dictionary
 ## 统计口径说明
 
 历代文档头部曾写有「共 3963 词目」，那是第五版时期的统计。第六轮已把源文档头部改写为当前值。
-第七版实际为 **4350** 条，且经校验无重复词条、无缺音标、无缺释义、无缺词源。
-本仓库一律采用当前值 **4350**（`tools/validate.py` 会与 README 声明交叉校验）。
+第七版实际为 **4367** 条（2026-09-26 由《告别信》译文补录 17 条，**版次不变**），
+且经校验无重复词条、无缺音标、无缺释义、无缺词源。
+本仓库一律采用当前值 **4367**（`tools/validate.py` 会与 README 声明交叉校验）。

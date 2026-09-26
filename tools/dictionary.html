@@ -374,7 +374,7 @@ const STORE_KEY = 'ueguden_dict_v6';
 const DRAFT_KEY = 'ueguden_dict_v6_draft';
 // 词典内容修订号：内置词条（RAW）的实质内容变更（词源/音标/释义/新增/删除/重拼）时递增 +1，
 // 使 load() 检测到旧缓存修订号不匹配后用新种子重建，同时保留用户自加词条。
-const DICT_REV= 26;
+const DICT_REV= 27;
 const REV_KEY = STORE_KEY + '_rev';
 
 const RAW = `a|/a/|叹词|啊。|原生叹词。
@@ -834,6 +834,7 @@ busineso|/busiˈneso/|名词|商业。|源自英语「business」。
 buso|/ˈbu.so/|名词|巴士，公交。|借英语 bus。
 búpso|/ˈbuːpso/|名词|弓。|原生词根。
 bǽlge|/ˈbæːlɡə/|名词|水囊。|原生词根。
+demet|/dəˈmetʰ/|动词|摘下，取下。|源自拉丁语「demittere」。
 é|/ˈeː/|名词|船。|源自日耳曼语「ship」。
 éda|/ˈeː.da/|名词|食物（正式）。|拉丁语 "edere"（吃）。
 élfolvi|/eːˈlfolvi/|名词|遗孤。|原生词根。
@@ -1555,6 +1556,7 @@ golup|/ˈɡolup/|名词|鸽。|源自斯拉夫语「golub」。
 gonkar|/ˈɡoŋkʰaɹ/|名词|陶轮。|源自斯拉夫语「gonchar」。
 gonko|/ˈɡoŋkʰo/|名词|锣。|源自马来语「gong」。
 gonunså|/ɡoˈnunsɔː/|名词|轮子。|原生词根。
+gorgo|/ˈɡoɹ.ɡo/|名词|喉咙。|源自法语「gorge」。
 goskini|/ɡoˈskʰini/|形容词|好客的。|源自波兰语「goscinny」。
 gozi|/ˈɡozi/|名词|弩。|原生词根。
 gós|/ˈɡoːs/|名词|鹅。|源自日耳曼语「goose」。
@@ -1651,6 +1653,8 @@ harem|/ˈhaʁəm/|名词|后宫。|借词「harem」。
 haridra|/haˈʁidra/|名词|姜黄。|源自梵语「हरिद्रा」(haridra)。
 harmonia|/haɹmoˈnia/|名词|和谐。|源自拉丁语「harmonia」。
 harmoniki|/haɹmoˈnikʰi/|形容词|和谐的。|源自希腊语「ἁρμονικός」(harmonikos)。
+haro|/ˈha.ʁo/|名词|头发。|源自德语「Haar」。
+harofalo|/ha.ˈʁo.fa.lo/|名词|脱发。|「haro」+「falo」。
 hasienda|/hasiˈenda/|名词|庄园。|源自西班牙语「hacienda」。
 hasta|/ˈhas.tʰa/|形容词|匆忙的。|德语 "Hast"。
 hasta-avanc|/ˈhastʰ.a.vank/|动词短语|匆匆划过。|"hast" + "avanc"。
@@ -1791,6 +1795,7 @@ ilu|/ˈi.lu/|名词|工具。|世界语 "ilo" 变体。
 ima|/ˈima/|形容词|温顺的。|原生词根。
 imago|/iˈmaɡo/|名词|想象。|源自世界语「imago」。
 imanvã|/iˈmanvɐ̃/|名词|尘土。|原生词根。
+imbis|/imˈbis/|名词|零食，小吃。|源自德语「Imbiss」。
 imigranto|/imiˈɡrantʰo/|名词|移民。|源自法语「immigrant」。
 imperator|/impəˈʁatʰoɹ/|名词|皇帝。|源自拉丁语「imperator」。
 imperium|/impəˈʁium/|名词|帝国。|源自拉丁语「imperium」。
@@ -1904,6 +1909,7 @@ kajero|/kʰaˈd͡ʒe.ʁo/|名词|本子，笔记本。|借法语 cahier。
 kajo|/ˈkʰa.jo/|名词|站台。|借世界语 kajo。
 kakao|/kʰaˈkʰao/|名词|可可。|源自西班牙语「cacao」。
 kakul|/ˈkʰakʰul/|名词|豆蔻。|借词「kakule」。
+kalcio|/ˈkal.ki.o/|名词|钙。|源自拉丁语「calcium」。
 kalefaser|/kʰaləˈfasəɹ/|动词|加热。|源自拉丁语「calefacere」。
 kalendarium|/kʰaləndaˈʁium/|名词|日历。|源自拉丁语「calendarium」。
 kalidi|/kʰaˈlidi/|形容词|狡猾的。|源自拉丁语「callidus」。
@@ -2275,6 +2281,7 @@ kurva|/ˈkʰuɹva/|名词|曲线。|源自拉丁语「curva」。
 kusha|/ˈkʰu.ʃa/|动词|躺卧。|原生词根。
 kush|/kʰuʃ/|动词|躺。|借世界语 kuŝi。
 kutimo|/kʰuˈtʰimo/|名词|习惯。|源自世界语「kutimo」。
+kvalifiko|/kʰvaˈli.fi.kʰo/|名词|资格。|源自拉丁语「qualificatio」。
 kvalik|/ˈkʰvalikʰ/|动词|赞颂。|源自波兰语「chwalic」。
 kvankam|/ˈkʰvan.kʰam/|连词|尽管。|世界语 "kvankam"。
 kvas|/ˈkʰvas/|名词|格瓦斯。|源自俄语「квас」(kvas)。
@@ -2356,6 +2363,7 @@ lieutenanto|/liəutʰəˈnantʰo/|名词|中尉。|源自法语「lieutenant」�
 lifto|/ˈlif.tʰo/|名词|电梯。|源自英语「lift」。
 liga|/ˈli.ɡa/|动词|系，绑。|拉丁语 "ligare"。
 ligar|/ˈliɡaɹ/|动词|捆绑。|源自拉丁语「ligare」。
+ligno|/ˈliɡ.no/|名词|木头。|源自拉丁语「lignum」。
 ligo|/ˈliɡo/|名词|联系。|源自世界语「ligo」。
 likeion|/likʰəˈion/|名词|学园。|源自希腊语「λύκειον」(lykeion)。
 likri|/ˈlikʰri/|形容词|鲜嫩的。|原生词根。
@@ -2884,6 +2892,7 @@ olivetum|/oliˈvetʰum/|名词|橄榄园。|源自拉丁语「olivetum」。
 omber|/ˈom.bəɹ/|名词|影子。|法语 "ombre"。
 omnen|/ˈomnən/|动词|变成所有。|「omni」+ 后缀 -en（变成）。
 omni|/ˈom.ni/|形容词|所有的。|拉丁语 "omnis"。
+omnidien|/omˈni.di.ən/|副词|每天。|「omni」+「dien」。
 omnifer|/ˈom.ni.fəɹ/|代词/名词|一切事物。|"omni" + "fer"。
 omnimondoparto|/om.ni.mon.doˈpaɹ.tʰo/|名词|世界各地。|"omni" + "mondo" + "parto"。
 omnli|/ˈomnli/|副词|所有地。|「omni」+ 后缀 -li（副词化）。
@@ -2921,6 +2930,7 @@ osbe|/ˈosbə/|名词|雕像。|原生词根。
 osean|/oˈsean/|名词|海洋。|源自法语「océan」。
 osetro|/oˈsetʰro/|名词|鲟鱼。|源自斯拉夫语「osetr」。
 osha|/ˈoʃa/|副词|婉转地。|原生词根。
+osto|/ˈos.tʰo/|名词|骨头。|源自希腊语「ὀστέον」。
 oswubla|/oˈswu.bla/|名词|鳞片。|原生词根。
 otafuf|/oˈtʰafuf/|名词|邻人。|原生词根。
 otina|/oˈtʰina/|名词|隆起。|原生词根。
@@ -3220,6 +3230,7 @@ propaganda|/propaˈɡanda/|名词|宣传。|源自英语「propaganda」。
 propi|/ˈpropi/|形容词|自己的。|源自拉丁语「proprius」(proprius)。
 proportio|/propoˈɹtʰio/|名词|比例。|源自拉丁语「proportio」。
 propositio|/proposiˈtʰio/|名词|命题。|源自拉丁语「propositio」。
+proprat|/ˈprop.ratʰ/|形容词|自己的。|源自拉丁语「proprius」。
 prora|/ˈproʁa/|名词|船首。|源自希腊语「πρῷρα」(prora)。
 prore|/ˈproʁə/|名词|少女。|原生词根。
 prosa|/ˈprosa/|名词|散文。|源自拉丁语「prosa」。
@@ -3433,6 +3444,8 @@ rumoro|/ʁuˈmoʁo/|名词|谣言。|源自拉丁语「rumor」。
 runinko|/ʁuˈniŋkʰo/|名词|跑步。|源自英语「running」。
 rúklu|/ˈʁuːkʰlu/|名词|冰雹。|原生词根。
 rúna|/ˈʁuː.na/|名词|秘密，神秘。|原生词根。
+Rusia|/ˈʁu.si.a/|名词|俄罗斯。|源自拉丁语「Russia」。
+Rusialingovo|/ʁu.si.aˈliŋ.ɡo.vo/|名词|俄语。|「Rusia」+「lingovo」。
 sa|/ˈsa/|名词|柠檬草。|源自越南语「sa」。
 sabl|/sabl/|名词|沙。|拉丁语 "sabulum"。
 sadhu|/ˈsadhu/|名词|隐士。|源自梵语「साधु」(sadhu)。
@@ -3571,6 +3584,7 @@ sezonturne|/sə.zonˈtʰuɹ.nə/|名词|季节交替时那股说不清的微茫�
 sfæra|/ˈsfæʁa/|名词|球体。|源自拉丁语「sphaera」。
 shais|/ˈʃais/|名词|椅子。|源自法语「chaise」。
 shamboro|/ʃaˈmboʁo/|名词|卧室。|源自法语「chambre」。
+shampuo|/ˈʃam.pu.o/|名词|洗发水。|源自英语「shampoo」。
 shanta|/ˈʃantʰa/|形容词|安宁的。|源自梵语「शान्त」(shanta)。
 shanteur|/ʃaˈntʰeuɹ/|名词|歌手。|源自法语「chanteur」。
 shanti|/ˈʃantʰi/|名词|寂静。|源自梵语「शान्ति」(shanti)。
@@ -3637,6 +3651,7 @@ simíli|/siˈmiːli/|形容词|一样的。|拉丁语 "similis"。
 simpliçití|/sim.pliˈsi.tʰiː/|名词|简单性。|拉丁语 "simplicitās"。
 simul|/ˈsimul/|副词|一起。|源自拉丁语「simul」。
 sin|/sin/|代词|自己（宾格）。|第二版新增。
+Sinamorol|/siˈna.mo.ʁol/|名词|玉桂狗（三丽鸥角色）。|英语「Cinnamoroll」的拉丁化转写。
 sinçera|/siˈnseʁa/|形容词|真诚的。|「sinçeriti」词根。
 sinçeriti|/sinˈse.ʁi.tʰi/|名词|真诚，诚意。|英语 "sincerity"。
 sinema|/siˈnema/|名词|电影院。|源自法语「cinéma」。
@@ -3782,6 +3797,7 @@ storateĝi|/stʰoʁaˈtʰed͡ʒi/|名词|策略。|源自英语「strategy」。
 storuktura|/stʰoʁuˈkʰtʰuʁa/|名词|结构。|源自拉丁语「structura」。
 storumpofo|/stʰoʁuˈmpofo/|名词|袜子。|源自德语「Strumpf」。
 stól|/ˈstʰoːl/|名词|凳。|源自日耳曼语「stool」。
+suspenderil|/susˈpen.də.ʁil/|名词|挂件（悬挂之物）。|「suspender」+「-il」。
 tranga|/ˈtʰraŋ.ɡa/|形容词|奇怪的。|源自英语「strange」。
 treta|/ˈtʰre.tʰa/|形容词|狭窄的。|原生词根。
 stukat|/ˈstʰukʰatʰ/|动词|敲击。|源自俄语「стучать」(stukat)。
@@ -4314,6 +4330,7 @@ zeni|/ˈze.ni/|名词|枕头。|原生词根。
 zenu|/ˈzenu/|名词|护腕。|原生词根。
 zieĝel|/ziˈed͡ʒəl/|名词|砖。|源自德语「Ziegel」。
 zimer|/ˈziməɹ/|名词|房间。|源自德语「Zimmer」。
+zinko|/ˈziŋ.kʰo/|名词|锌。|源自德语「Zink」。
 zíre|/ˈziːʁə/|名词|倒影。|原生词根。
 zírelun|/ˈziː.ʁə.lun/|名词|月光落在水面上的倒影，随波而碎。|zíre（倒影）+ lun（月）。
 zíta|/ˈziːtʰa/|名词|午夜。|原生词根。

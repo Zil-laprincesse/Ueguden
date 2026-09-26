@@ -23,5 +23,6 @@
   { "src": "酒神颂 - 诗歌体应用实例.docx", "dst": "corpus/poems/dithyramb.md", "title": "酒神颂 — 诗歌体应用实例" },
   { "src": "《致爱的信》- 维古登语（常规体）应用实例.docx", "dst": "corpus/letters/letter-to-the-beloved.md", "title": "《致爱的信》— 维古登语（常规体）应用实例" },
   { "src": "《在信里写给你》- 维古登语（常规体）应用实例.docx", "dst": "corpus/letters/written-in-a-letter.md", "title": "《在信里写给你》— 维古登语（常规体）应用实例" },
-  { "src": "《阈界·永夜之狂澜》第二卷 - 维古登语双语对照（文章式）.docx", "dst": "corpus/novel/threshold-endless-night-vol2.md", "title": "《阈界·永夜之狂澜》第二卷 — 维古登语双语对照" }
+  { "src": "《阈界·永夜之狂澜》第二卷 - 维古登语双语对照（文章式）.docx", "dst": "corpus/novel/threshold-endless-night-vol2.md", "title": "《阈界·永夜之狂澜》第二卷 — 维古登语双语对照" },
+  { "src": "告别信.docx", "dst": "corpus/letters/farewell-letter.md", "title": "《告别信》— 维古登语（常规体）应用实例" }
 ]

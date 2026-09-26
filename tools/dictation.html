@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>维古登语 · 默写器</title>
-<meta name="description" content="维古登语默写器：看汉语释义，默写词形。4350 条词目，离线单文件。">
+<meta name="description" content="维古登语默写器：看汉语释义，默写词形。4367 条词目，离线单文件。">
 <style>
   :root{--paper:#F7F2EB;--ink:#081F5C;--mid:#334EAC;--soft:#7096D1;--line:#D0E3FF;--card:#FBFAF6;
         --ok:#1F7A4D;--no:#B03A2E}
@@ -69,7 +69,7 @@
   <header>
     <span class="badge">UEGUDEN · 默写器</span>
     <h1>默写</h1>
-    <p class="sub">看汉语释义，默写维古登语词形 · 共 4350 条 · 离线单文件</p>
+    <p class="sub">看汉语释义，默写维古登语词形 · 共 4367 条 · 离线单文件</p>
   </header>
 
   <section id="setup" class="card">
@@ -133,7 +133,7 @@
 
   <div id="printArea"></div>
   <footer>
-    数据源：dictionary/ueguden_dict.json（词典第七版 · 4350 条 · DICT_REV = 7）｜
+    数据源：dictionary/ueguden_dict.json（词典第七版 · 4367 条 · DICT_REV = 7）｜
     错词本存在本机浏览器里，不上传任何数据 ｜ 文档/词典/语料：CC BY-SA 4.0
   </footer>
 </div>
@@ -141,44 +141,53 @@
 <script>
 'use strict';
 const RAW = `a|/a/|叹词|啊。|原生叹词。
+æ|/æ/|连词|和。|原生功能词。
 aæku|/aˈækʰu/|动词|淹没。|原生词根。
 abi|/ˈabi/|名词|渡口。|原生词根。
 ablør|/ˈabløɹ/|名词|勇士。|原生词根。
 abo|/ˈa.bo/|连词|但是（口语）。|原生词根（口语连词，与书面语 sed 相对但词源独立）。
+abolar|/aˈbo.laɹ/|动词|消除，除掉。|源自拉丁语「abolere」
 abrikot|/aˈbrikʰotʰ/|名词|杏。|源自法语「abricot」。
 absorber|/aˈbsoɹbəɹ/|动词|吸收。|源自拉丁语「absorbere」。
 absorberabela|/absoɹbəʁaˈbela/|形容词|可吸收的。|「absorber」+ 后缀 -bela（可被……的）。
 absorberitá|/absoɹbəˈʁitʰaː/|形容词|被吸收的。|「absorber」+ 后缀 -itá（结果状态）。
 abundansi|/abuˈndansi/|形容词|丰富的。|源自拉丁语「abundans」。
 abzeiken|/abzəˈikʰən/|名词|徽章。|源自德语「Abzeichen」。
+aĉet|/a.ˈtʃetʰ/|动词|购买。|借世界语 aĉeti。
 aço|/ˈa.so/|名词|革命。|原生词根，模拟社会变革之音。
 açoen|/ˈa.so.ən/|动词|变成革命。|「açoi」+ 后缀 -en（变成）。
-açoi|/ˈa.so.i/|形容词|革命的。|"aço" + 形容词化后缀 "-i"。
-açoji|/aˈsod͡ʒi/|动词|使革命。|「açoi」+ 后缀 -ji（使动）。
-açoli|/aˈsoli/|副词|革命地。|「açoi」+ 后缀 -li（副词化）。
 açoën|/ˈa.so.ən/|动词|革命，反抗。|"aço" + 动词化后缀 "-en"。
 açoënabela|/asoənaˈbela/|形容词|可革命的。|「açoën」+ 后缀 -bela（可被……的）。
 açoënitá|/asoəˈnitʰaː/|形容词|被革命的。|「açoën」+ 后缀 -itá（结果状态）。
-aĉet|/a.ˈtʃetʰ/|动词|购买。|借世界语 aĉeti。
+açoi|/ˈa.so.i/|形容词|革命的。|"aço" + 形容词化后缀 "-i"。
+açoji|/aˈsod͡ʒi/|动词|使革命。|「açoi」+ 后缀 -ji（使动）。
+açoli|/aˈsoli/|副词|革命地。|「açoi」+ 后缀 -li（副词化）。
 adiauo|/adiaˈuo/|名词|告别。|源自世界语「adiaʌo」。
 administoratio|/administʰoʁaˈtʰio/|名词|管理。|源自拉丁语「administratio」。
+admirer|/ad.miˈʁəɹ/|动词|钦佩，赞叹。|源自拉丁语「admirari」
 adraka|/aˈdrakʰa/|名词|生姜。|源自梵语「आद्रक」(adraka)。
+adversa|/adˈveɹsa/|形容词|不利的，逆的。|源自拉丁语「adversus」
 adversair|/advəˈɹsaiɹ/|名词|对手。|源自法语「adversaire」。
 advertisemento|/advəɹtʰisəˈmentʰo/|名词|广告。|源自英语「advertisement」。
 advokatus|/advoˈkʰatʰus/|名词|律师。|源自拉丁语「advocatus」。
+aemula|/ˈae.mu.la/|形容词|竞争的，争先的。|源自拉丁语「aemulari」
+aero|/ˈa.e.ʁo/|名词|空气。|源自拉丁语「aer」
 afer|/ˈa.fəɹ/|名词|事情，事务。|源自拉丁语「res」(res)，词形维古登化。
 afiestai|/afiəˈstʰai/|动词|赦免。|源自希腊语「ἀφίεσθαι」(aphiesthai)。
 afkæ|/ˈafkʰæ/|名词|诅咒。|原生词根。
+æfo|/ˈæfo/|名词|祭坛。|原生词根。
+aĝer|/ˈad͡ʒəɹ/|名词|农田。|源自拉丁语「ager」。
 agĝer|/ˈaɡd͡ʒəɹ/|名词|堤坝。|源自拉丁语「agger」。
-agon|/ˈaɡon/|名词|竞技会。|源自希腊语「ἀγών」(agon)。
-agoni|/aˈɡoni/|形容词|贫瘠的。|源自希腊语「agonos」。
+agitar|/aˈɡi.taɹ/|动词|骚动，激动，鼓动。|源自拉丁语「agitare」
 agó|/aˈɡoː/|动词|聚集，集合。|原生词根。
 agóabela|/aɡoːaˈbela/|形容词|可聚集的。|「agó」+ 后缀 -bela（可被……的）。
 agóitá|/aɡoːˈitʰaː/|形容词|被聚集的。|「agó」+ 后缀 -itá（结果状态）。
+agon|/ˈaɡon/|名词|竞技会。|源自希腊语「ἀγών」(agon)。
+agoni|/aˈɡoni/|形容词|贫瘠的。|源自希腊语「agonos」。
 agresto|/aˈɡrestʰo/|名词|醋栗。|源自波兰语「agrest」。
 agrimento|/aɡriˈmentʰo/|名词|协议。|源自英语「agreement」。
+ágrún|/ˈaːɡruːn/|名词|林间。|原生词根。
 aguru|/aˈɡuʁu/|名词|沉香。|源自梵语「अगुरु」(aguru)。
-aĝer|/ˈad͡ʒəɹ/|名词|农田。|源自拉丁语「ager」。
 ah|/ah/|叹词|啊。|通用叹词。
 aie|/aˈiə/|名词|镣铐。|原生词根。
 ail|/ˈail/|名词|大蒜。|源自法语「ail」。
@@ -187,7 +196,10 @@ aistetik|/aiˈstʰetʰikʰ/|名词|美学。|源自希腊语「αἰσθητικ
 ait|/ˈaitʰ/|名词|烤肉。|原生词根。
 aiter|/aˈitʰəɹ/|名词|以太。|源自希腊语「αἰθήρ」(aither)。
 ajíwiquce|/a.d͡ʒiː.wi.ˈku.ke/|名词|相濡以沫的青梅竹马。|原生词根（新造）。
+æk|/ˈækʰ/|名词|腰带。|原生词根。
 akademia|/akʰadəˈmia/|名词|学院。|源自拉丁语「academia」。
+akcenta|/akˈkʰen.tʰa/|名词|口音，重音，腔调。|源自拉丁语「accentus」
+akceptar|/akˈkep.tʰaɹ/|动词|接受，接待。|源自拉丁语「acceptare」
 akon|/ˈakʰon/|名词|标枪。|源自希腊语「akon」。
 akord|/aˈkʰoɹd/|动词|同意。|拉丁语 "accordare"。
 akordabela|/akʰoɹdaˈbela/|形容词|可同意的。|「akord」+ 后缀 -bela（可被……的）。
@@ -197,11 +209,20 @@ akra|/ˈa.kʰra/|形容词|凛，尖利，刺骨。|拉丁语 "acer" + 形容词
 akraji|/aˈkʰrad͡ʒi/|动词|使凛。|「akra」+ 后缀 -ji（使动）。
 akrali|/aˈkʰrali/|副词|凛地。|「akra」+ 后缀 -li（副词化）。
 akren|/ˈakʰrən/|动词|变成凛。|「akra」+ 后缀 -en（变成）。
+akseler|/akˈse.ləɹ/|动词|加速，加快。|源自拉丁语「accelerare」
 aksidento|/akʰsiˈdentʰo/|名词|事故。|源自法语「accident」。
 akso|/ˈakʰso/|名词|战斧。|源自日耳曼语「axe」。
 aksup|/ˈakʰsup/|名词|部落。|原生词根。
+aktiva|/akˈtʰi.va/|形容词|积极的，活跃的。|源自拉丁语「activus」
+aktivali|/ak.tiˈva.li/|副词|主动地，积极地。|源自拉丁语「activus」+ -li（副词化）
+akto|/ˈak.tʰo/|名词|行动，活动。|源自拉丁语「actus」
 aktor|/ˈakʰtʰoɹ/|名词|演员。|源自拉丁语「actor」。
+aktus|/ˈakʰ.tʰus/|名词|行为，举动。|源自拉丁语「actus」
 akuæduktus|/akʰuæˈdukʰtʰus/|名词|水渠。|源自拉丁语「aquaeductus」。
+ækualitas|/ækʰuaˈlitʰas/|名词|平等。|源自拉丁语「aequalitas」。
+ækuilibrium|/ækʰuiliˈbrium/|名词|平衡。|源自拉丁语「aequilibrium」。
+ækuitas|/ækʰuˈitʰas/|名词|公正。|源自拉丁语「aequitas」。
+akuzatio|/a.kuˈza.ti.o/|名词|指控，控告。|源自拉丁语「accusatio」
 akvo|/ˈakʰ.vo/|名词|水。|源自拉丁语「aqua」。
 aler|/ˈaləɹ/|动词|饲养。|源自拉丁语「alere」。
 alerabela|/aləʁaˈbela/|形容词|可饲养的。|「aler」+ 后缀 -bela（可被……的）。
@@ -224,6 +245,8 @@ ambularabela|/ambulaʁaˈbela/|形容词|可行走的。|「ambular」+ 后缀 -
 ambularitá|/ambulaˈʁitʰaː/|形容词|被行走的。|「ambular」+ 后缀 -itá（结果状态）。
 amdi|/ˈamdi/|名词|播种季。|原生词根。
 amdisíng|/aˈmdisiːŋɡ/|名词|播种时节泥土与种子混合的气味。|amdi（播种季）+ síng（气味）。
+amerikano|/a.meˈʁi.ka.no/|名词|美国人。|源自「Amerika」（美洲/美国）+ 人称 -ano
+åmí|/ˈɔː.miː/|名词|爱。|原生情感词（长元音 /ɔː/）。
 amien|/aˈmi.ən/|动词|去爱，付出爱。|"åmí" + 动词化后缀 "-en"。
 amienabela|/amiənaˈbela/|形容词|可去爱的。|「amien」+ 后缀 -bela（可被……的）。
 amienitá|/amiəˈnitʰaː/|形容词|被去爱的。|「amien」+ 后缀 -itá（结果状态）。
@@ -236,9 +259,11 @@ ampoliaritá|/ampoliaˈʁitʰaː/|形容词|被扩大的。|「ampoliar」+ 后�
 amra|/ˈamra/|名词|芒果。|源自梵语「आम्र」(amra)。
 an|/an/|名词|年。|原生词根。
 ana|/ˈana/|名词|皮毛。|原生词根。
+analis|/aˈna.lis/|动词|分析。|源自拉丁语「analysis」（希腊语「ἀνάλυσις」）
 ananko|/aˈnaŋkʰo/|名词|必然。|源自希腊语「ἀνάγκη」(ananke)。
 anatman|/aˈnatʰman/|名词|无我。|源自梵语「अनात्मन्」(anatman)。
 anbak|/ˈanbakʰ/|名词|磨盘。|原生词根。
+ãnbí|/ˈɐ̃nbiː/|名词|誓约。|原生词根。
 anĉor|/ˈantʃoɹ/|名词|锚。|源自日耳曼语「anchor」。
 andar|/anˈdaɹ/|动词|去。|西班牙语 "andar"。
 andarabela|/andaʁaˈbela/|形容词|可去的。|「andar」+ 后缀 -bela（可被……的）。
@@ -248,16 +273,21 @@ anihilaçión|/ani.hi.laˈsi.oːn/|名词|消灭。|拉丁语 "annihilatio"。
 animal|/a.niˈmal/|名词|动物。|拉丁语 "animal"。
 animó|/ˈa.ni.moː/|名词|灵魂。|原生词根。
 anisi|/aˈnisi/|形容词|悬殊的。|源自希腊语「ἄνισος」(anisos)。
+ænisi|/æˈnisi/|动词|打嗝。|原生词根。
 anitia|/aniˈtʰia/|名词|无常。|源自梵语「अनित्य」(anitya)。
 ankau|/an.ˈkʰau/|副词|也。|源自世界语「ankaŭ」，音系调整（同 ankorau）。
 ankorau|/anˈkʰo.ʁau/|副词|仍然，还。|世界语 "ankoraʌ"。
 anstatu|/an.ˈstʰa.tʰu/|介词|代替。|造词。
+-ant-|/antʰ/|中缀|现在分词（正在……的）。|penter（画）→ pentanta。
 antagonisto|/antʰaɡoˈnistʰo/|名词|反派。|源自法语「antagoniste」。
+æntæot|/æˈntʰæotʰ/|名词|白桦。|原生词根。
 ante|/ˈantʰə/|副词|之前。|源自拉丁语「ante」。
+antepagina|/an.tʰeˈpa.ɡi.na/|名词|扉页，前页。|ante（前）+ pagina（页）
 antibiotik|/antʰibiˈotʰikʰ/|名词|抗生素。|源自英语「antibiotic」。
 anto|/ˈantʰo/|名词|蚁。|源自日耳曼语「ant」。
 antolia|/antʰoˈlia/|名词|船舱。|源自希腊语「ἀντλία」(antlia)。
 antra|/ˈan.tʰra/|名词|洞穴，深处。|拉丁语 "antrum"。
+anuntio|/aˈnun.tʰi.o/|名词|公告，通告。|源自拉丁语「annuntiatio」
 aotoi|/aoˈtʰoi/|名词|斗笠蓑衣。|源自越南语「ao toi」。
 apar|/ˈapaɹ/|名词|项链。|原生词根。
 ape|/ˈapə/|名词|锯子。|原生词根。
@@ -269,8 +299,14 @@ aperarabela|/apəʁaʁaˈbela/|形容词|可出现的。|「aperar」+ 后缀 -b
 aperaritá|/apəʁaˈʁitʰaː/|形容词|被出现的。|「aperar」+ 后缀 -itá（结果状态）。
 aperi|/a.ˈpe.ʁi/|动词|出现。|借世界语 aperi。
 aplaudo|/aˈplau.do/|名词|掌声。|源自拉丁语「plausus」。
+apogar|/ˈa.po.gaɹ/|动词|支撑，倚靠。|源自法语「appuyer」
 apotek|/aˈpotʰəkʰ/|名词|药房。|源自德语「Apotheke」。
+åpsi|/ˈɔːpsi/|名词|烽火。|原生词根。
 apud|/ˈa.pud/|介词|在...旁边。|第二版新增，源自拉丁语 "apud"。
+æra|/ˈæʁa/|名词|纪元。|源自拉丁语「aera」。
+ǽral|/ˈæːʁal/|动词|凝视。|原生词根。
+ǽralo|/ˈæː.ʁal.o/|名词|目光，注视。|原生词根「ǽral」（凝视）加名词化 -o
+aranjar|/aˈran.dʒaɹ/|动词|安排，料理。|源自法语「arranger」
 arat|/ˈaʁatʰ/|名词|罗汉。|源自梵语「अर्हत्」(arhat)。
 arbitrára|/aɹ.biˈtʰraː.ʁa/|形容词|任意的，专制的。|原生词根。
 arbitráren|/aɹbiˈtʰraːʁən/|动词|变成任意。|「arbitrára」+ 后缀 -en（变成）。
@@ -282,6 +318,8 @@ arena|/aˈʁena/|名词|竞技场。|源自拉丁语「arena」。
 areser|/aˈʁesəɹ/|动词|枯萎。|源自拉丁语「arescere」。
 areserabela|/aʁəsəʁaˈbela/|形容词|可枯萎的。|「areser」+ 后缀 -bela（可被……的）。
 areseritá|/aʁəsəˈʁitʰaː/|形容词|被枯萎的。|「areser」+ 后缀 -itá（结果状态）。
+arĝenta|/aɹˈd͡ʒen.tʰa/|形容词|银色的。|源自拉丁语「argentum」
+argumentar|/aɹ.guˈmen.tʰaɹ/|动词|论证，引证。|源自拉丁语「argumentari」
 argumentum|/aɹɡuˈmentʰum/|名词|证据。|源自拉丁语「argumentum」。
 arhu|/ˈaɹhu/|名词|松树。|原生词根。
 aria|/aˈʁia/|名词|咏叹调。|源自意大利语「aria」。
@@ -301,6 +339,7 @@ arnaji|/aˈɹnad͡ʒi/|动词|使坚固。|「arna」+ 后缀 -ji（使动）。
 arnali|/aˈɹnali/|副词|坚固地。|「arna」+ 后缀 -li（副词化）。
 arnen|/ˈaɹnən/|动词|变成坚固。|「arna」+ 后缀 -en（变成）。
 arø|/ˈaʁø/|名词|股份。|源自英语「share」。
+æroporto|/æʁoˈpoɹtʰo/|名词|机场。|源自法语「aéroport」。
 arpegĝio|/aɹpəˈɡd͡ʒio/|名词|琶音。|源自意大利语「arpeggio」。
 arso|/ˈaɹso/|名词|艺术。|源自拉丁语「ars」。
 arsohipielago|/aɹsohipiəˈlaɡo/|名词|群岛。|源自西班牙语「archipiélago」。
@@ -316,8 +355,11 @@ aseto|/aˈsetʰo/|名词|香醋。|源自意大利语「aceto」。
 asetum|/aˈsetʰum/|名词|醋。|源自拉丁语「acetum」。
 ashoram|/aˈʃoʁam/|名词|禅房。|源自梵语「आश्रम」(ashram)。
 asieto|/asiˈetʰo/|名词|盘子。|源自法语「assiette」。
+ásku|/ˈaːskʰu/|动词|绷紧。|原生词根。
 asma|/ˈasma/|名词|葡萄藤。|借词「asma」。
 asolo|/aˈsolo/|名词|独奏。|源自意大利语「assolo」。
+aspektus|/aˈspek.tʰus/|名词|目光，神情。|源自拉丁语「aspectus」
+æstas|/ˈæstʰas/|名词|夏日。|源自拉丁语「aestas」。
 asteni|/aˈstʰeni/|形容词|虚弱的。|源自希腊语「ἀσθενής」(asthenes)。
 astoronomia|/astʰoʁonoˈmia/|名词|天文。|源自拉丁语「astronomia」。
 astoronomos|/astʰoʁoˈnomos/|名词|天文学家。|源自希腊语「ἀστρονόμος」(astronomos)。
@@ -325,11 +367,14 @@ astra|/ˈastʰ.ra/|名词|星辰（诗歌用）。|拉丁语 "astrum"。
 asul|/ˈasul/|名词|凿子。|原生词根。
 asuranso|/asuˈʁanso/|名词|保险。|源自法语「assurance」。
 asva|/ˈasva/|名词|智者。|原生词根。
+áta|/ˈaː.tʰa/|数词|八。|日耳曼词源。
+ætas|/ˈætʰas/|名词|历史时期。|源自拉丁语「aetas」。
 atend|/a.ˈtʰend/|动词|等待。|源自拉丁语「attendere」。
 atendu|/aˈtʰen.du/|动词|等待。|世界语 "atendi"。
 atendubela|/atʰənduˈbela/|形容词|可等待的。|「atendu」+ 后缀 -bela（可被……的）。
 atenduitá|/atʰənduˈitʰaː/|形容词|被等待的。|「atendu」+ 后缀 -itá（结果状态）。
 atenta|/aˈtʰentʰa/|形容词|细心的。|源自拉丁语「attentus」。
+atentli|/aˈtʰentʰli/|副词|注意地，仔细地。|「atenta」（细心的，词典词）+ -li（副词化）
 atento|/aˈtʰentʰo/|名词|关注。|源自拉丁语「attentio」。
 atletes|/aˈtʰletʰəs/|名词|运动员。|源自希腊语「ἀθλητής」(athletes)。
 atlon|/ˈatʰlon/|名词|奖赏。|源自希腊语「ἆθλον」(athlon)。
@@ -337,18 +382,19 @@ atmosfera|/atʰmoˈsfeʁa/|名词|氛围，气氛。|源自希腊语「ἀτμό
 atomos|/aˈtʰomos/|名词|原子。|源自希腊语「ἄτομος」(atomos)。
 atrø|/ˈatʰrø/|动词|推脱。|原生词根。
 atse|/ˈatʰsə/|名词|皮靴。|原生词根。
+aud|/aud/|动词|听见。|借世界语 aŭdi。
 audit|/aˈuditʰ/|名词|审计。|源自英语「audit」。
 auĝer|/aˈud͡ʒəɹ/|动词|增加。|源自拉丁语「augere」。
 auĝerabela|/aud͡ʒəʁaˈbela/|形容词|可增加的。|「auĝer」+ 后缀 -bela（可被……的）。
 auĝeritá|/aud͡ʒəˈʁitʰaː/|形容词|被增加的。|「auĝer」+ 后缀 -itá（结果状态）。
 aulos|/aˈulos/|名词|双管笛。|源自希腊语「αὐλός」(aulos)。
 aureumsækulum|/auʁəumsæˈkʰulum/|名词|黄金时代。|源自拉丁语「aureum saeculum」。
+auris|/ˈau.ʁis/|名词|耳朵（诗体/古体用）。|源自拉丁语「auris」
 auróra|/auˈʁoː.ʁa/|名词|黎明。|拉丁语 "auróra"。
 ausiktosturmo|/ausikʰtʰoˈstʰuɹmo/|名词|瞭望台。|源自德语「Aussichtsturm」。
+auto|/ˈau.tʰo/|名词|汽车。|源自拉丁语「automobilis」。
 autumn|/ˈau.tʰum/|名词|秋季。|英语 "autumn"。
 autumnus|/auˈtʰumnus/|名词|秋日。|源自拉丁语「autumnus」。
-aud|/aud/|动词|听见。|借世界语 aŭdi。
-auto|/ˈau.tʰo/|名词|汽车。|源自拉丁语「automobilis」。
 avanc|/ˈa.vaŋk/|动词|前进，划过。|法语 "avancer"，词尾清化。
 avancabela|/avankaˈbela/|形容词|可前进的。|「avanc」+ 后缀 -bela（可被……的）。
 avancitá|/avaˈnkitʰaː/|形容词|被前进的。|「avanc」+ 后缀 -itá（结果状态）。
@@ -356,37 +402,23 @@ avantur|/a.vanˈtʰuɹ/|名词|冒险。|法语 "aventure"。
 avari|/aˈvaʁi/|形容词|吝啬的。|源自拉丁语「avarus」。
 avenu|/aˈvenu/|名词|林荫道。|源自法语「avenue」。
 aviz|/ˈaviz/|名词|吊灯。|借词「avize」。
-ágrún|/ˈaːɡruːn/|名词|林间。|原生词根。
-ásku|/ˈaːskʰu/|动词|绷紧。|原生词根。
-áta|/ˈaː.tʰa/|数词|八。|日耳曼词源。
-æ|/æ/|连词|和。|原生功能词。
-æfo|/ˈæfo/|名词|祭坛。|原生词根。
-æk|/ˈækʰ/|名词|腰带。|原生词根。
-ækualitas|/ækʰuaˈlitʰas/|名词|平等。|源自拉丁语「aequalitas」。
-ækuilibrium|/ækʰuiliˈbrium/|名词|平衡。|源自拉丁语「aequilibrium」。
-ækuitas|/ækʰuˈitʰas/|名词|公正。|源自拉丁语「aequitas」。
-ænisi|/æˈnisi/|动词|打嗝。|原生词根。
-æntæot|/æˈntʰæotʰ/|名词|白桦。|原生词根。
-æra|/ˈæʁa/|名词|纪元。|源自拉丁语「aera」。
-æroporto|/æʁoˈpoɹtʰo/|名词|机场。|源自法语「aéroport」。
-æstas|/ˈæstʰas/|名词|夏日。|源自拉丁语「aestas」。
-ætas|/ˈætʰas/|名词|历史时期。|源自拉丁语「aetas」。
-åmí|/ˈɔː.miː/|名词|爱。|原生情感词（长元音 /ɔː/）。
-åpsi|/ˈɔːpsi/|名词|烽火。|原生词根。
-ãnbí|/ˈɐ̃nbiː/|名词|誓约。|原生词根。
+bæ|/ˈbæ/|名词|绑腿。|原生词根。
+babilada|/ba.biˈla.da/|名词|闲聊，闲谈。|源自法语「babiller」
 badak|/ˈbadakʰ/|名词|犀牛。|源自马来语「badak」。
 badem|/ˈbadəm/|名词|杏仁。|借词「badem」。
 bakar|/ˈbakʰaɹ/|动词|烧烤。|源自马来语「bakar」。
 bakerei|/bakʰəˈʁei/|名词|面包房。|源自德语「Bäckerei」。
-bakirci|/baˈkʰiɹki/|名词|铜匠。|借词「bakirci」。
 bakí|/ˈbakʰiː/|名词|猫。|源自斯拉夫语「kot」。
+bakirci|/baˈkʰiɹki/|名词|铜匠。|借词「bakirci」。
 baklava|/baˈkʰlava/|名词|蜂蜜酥。|借词「baklava」。
 bakteria|/bakʰtʰəˈʁia/|名词|细菌。|源自英语「bacteria」。
+balbutar|/balˈbu.tʰaɹ/|动词|结巴，支吾。|源自拉丁语「balbutire」
 balda|/ˈbal.da/|形容词|勇敢的。|原生词根。
 balden|/ˈbaldən/|动词|变成勇敢。|「balda」+ 后缀 -en（变成）。
 baldji|/ˈbald͡ʒi/|动词|使勇敢。|「balda」+ 后缀 -ji（使动）。
 baldli|/ˈbaldli/|副词|勇敢地。|「balda」+ 后缀 -li（副词化）。
 baleto|/baˈletʰo/|名词|芭蕾。|源自意大利语「balletto」。
+bǽlge|/ˈbæːlɡə/|名词|水囊。|原生词根。
 balikci|/baˈlikʰi/|名词|渔民。|借词「balikci」。
 balkon|/ˈbalkʰon/|名词|阳台。|源自法语「balcon」。
 bambu|/ˈbam.bu/|名词|竹。|马来语 "bambu"。
@@ -407,6 +439,7 @@ basilika|/basiˈlikʰa/|名词|圣殿。|源自拉丁语「basilica」。
 basiliko|/basiˈlikʰo/|名词|罗勒。|源自意大利语「basilico」。
 basket|/ˈbaskʰətʰ/|名词|篮。|源自日耳曼语「basket」。
 baso|/ˈbaso/|名词|低音。|源自意大利语「basso」。
+baston|/ˈbas.tʰon/|名词|棍，棒。|源自法语「bâton」
 batafre|/baˈtʰafrə/|名词|鼠。|源自日耳曼语「mouse」。
 batal|/ˈba.tʰal/|动词|战斗。|与 batala 同根，动词词干。
 batala|/baˈtʰa.la/|动词|战斗。|拉丁语 "battuere"。
@@ -418,9 +451,6 @@ batik|/ˈbatʰikʰ/|名词|蜡染。|源自马来语「batik」。
 batistero|/batʰiˈstʰeʁo/|名词|洗礼堂。|源自意大利语「battistero」。
 baza|/ˈbaza/|形容词|基础的。|源自拉丁语「basis」。
 bazaskola|/bazaˈskʰola/|名词|初中。|「baza」+「skola」。
-bæ|/ˈbæ/|名词|绑腿。|原生词根。
-bét|/beːtʰ/|名词|热，热度。|原生词根（与 bétanke 温热 同根）。
-bétanka|/beːˈtʰaŋkʰa/|形容词|温热的。|原生词根。
 be|/ˈbe/|名词|蜂。|源自日耳曼语「bee」。
 beak|/ˈbeakʰ/|动词|浸泡。|原生词根。
 bear|/ˈbeaɹ/|名词|熊。|源自日耳曼语「bear」。
@@ -429,6 +459,10 @@ bedaur|/ˈbe.dauɹ/|名词/动词|遗憾，惋惜。|第二版新增，原创词
 bedaurabela|/bədauʁaˈbela/|形容词|可遗憾的。|「bedaur」+ 后缀 -bela（可被……的）。
 bedauritá|/bədauˈʁitʰaː/|形容词|被遗憾的。|「bedaur」+ 后缀 -itá（结果状态）。
 bei|/ˈbei/|名词|贝伊。|借词「bey」。
+beja|/ˈbe.d͡ʒa/|形容词|米色的。|源自法语「beige」
+bekøn|/ˈbekʰøn/|动词|打倒，击败。|原生词根，模拟打击声。
+bekønabela|/bekʰønaˈbela/|形容词|可打倒的。|「bekøn」+ 后缀 -bela（可被……的）。
+bekønitá|/bekʰøˈnitʰaː/|形容词|被打倒的。|「bekøn」+ 后缀 -itá（结果状态）。
 bekte|/ˈbekʰtʰə/|名词|钱币。|原生词根。
 bela|/ˈbela/|形容词|美丽的。|拉丁语 "bellus"。
 belakan|/bəˈlakʰan/|名词|虾酱。|源自马来语「belacan」。
@@ -447,6 +481,8 @@ bento|/ˈbentʰo/|名词|便当。|源自日语「弁当」(bento)。
 berga|/ˈbeɹ.ɡa/|名词|山崖，峭壁。|日耳曼语源。
 besoinom|/bəˈswa.nom/|名词|需要，索取。|法语 "besoin" + 名词后缀 "-om"。
 besto|/ˈbes.tʰo/|名词|野兽。|原生词根。
+bét|/beːtʰ/|名词|热，热度。|原生词根（与 bétanke 温热 同根）。
+bétanka|/beːˈtʰaŋkʰa/|形容词|温热的。|原生词根。
 betik|/ˈbetʰikʰ/|名词|木瓜。|源自马来语「betik」。
 betpéda|/bəˈtʰpeːda/|形容词|稳重的。|原生词根。
 bevar|/ˈbe.vaɹ/|动词|喝。|拉丁语 "bibere" 变体。
@@ -457,8 +493,11 @@ bhiksohu|/bʰiˈkʰsohu/|名词|僧。|源自梵语「भिक्षु」(bhik
 bhiksohuni|/bʰikʰsoˈhuni/|名词|尼。|源自梵语「भिक्षुणी」(bhikshuni)。
 biber|/ˈbibəɹ/|名词|青椒。|借词「biber」。
 biblioteka|/biblioˈtʰekʰa/|名词|图书馆。|源自拉丁语「bibliotheca」。
+bíi|/ˈbiːi/|名词|挂毯。|原生词根。
 bijou|/biˈd͡ʒou/|名词|珠宝。|源自法语「bijou」。
+bíka|/ˈbiːkʰa/|名词|岔路。|原生词根。
 bilo|/ˈbilo/|名词|法案。|源自英语「bill」。
+bín|/ˈbiːn/|名词|音符。|源自意大利语「nota」。
 biobu|/biˈobu/|名词|屏风。|源自日语「屏風」(byobu)。
 biografia|/bioɡraˈfia/|名词|传记。|源自拉丁语「biographia」。
 biologia|/bioloˈɡia/|名词|生物。|源自希腊语「βιολογία」(biologia)。
@@ -470,25 +509,22 @@ biskuit|/biˈskʰuitʰ/|名词|饼干。|源自法语「biscuit」。
 bisømú|/biˈsømuː/|名词|节日。|原生词根。
 bistoro|/biˈstʰoʁo/|副词|急速地。|源自俄语「быстро」(bystro)。
 bita|/ˈbitʰa/|形容词|愚钝的。|原生词根。
-bíi|/ˈbiːi/|名词|挂毯。|原生词根。
-bíka|/ˈbiːkʰa/|名词|岔路。|原生词根。
-bín|/ˈbiːn/|名词|音符。|源自意大利语「nota」。
-bekøn|/ˈbekʰøn/|动词|打倒，击败。|原生词根，模拟打击声。
-bekønabela|/bekʰønaˈbela/|形容词|可打倒的。|「bekøn」+ 后缀 -bela（可被……的）。
-bekønitá|/bekʰøˈnitʰaː/|形容词|被打倒的。|「bekøn」+ 后缀 -itá（结果状态）。
 blagak|/ˈblaɡakʰ/|动词|恳求。|源自波兰语「blagac」。
+blægek|/ˈblæɡəkʰ/|名词|积雪。|原生词根。
 blagriro|/blaˈɡriʁo/|动词|怒斥。|原生词根。
 blanka|/ˈblan.kʰa/|形容词|白色的。|借英语 blank。
 blanken|/ˈblaŋkʰən/|动词|变成白色。|「blanki」+ 后缀 -en（变成）。
 blanki|/ˈblaŋkʰi/|形容词|白色的。|德语 "blank"。
 blankji|/ˈblaŋkʰd͡ʒi/|动词|使白色。|「blanki」+ 后缀 -ji（使动）。
 blankli|/ˈblaŋkʰli/|副词|白色地。|「blanki」+ 后缀 -li（副词化）。
-blægek|/ˈblæɡəkʰ/|名词|积雪。|原生词根。
+blaua|/ˈblau.a/|形容词|蓝色的。|源自德语「blau」
+blava|/ˈbla.va/|形容词|蓝色的。|源自拉丁语「blavus」（蓝）／日耳曼语「blau」
 blelga|/ˈblelɡa/|形容词|腼腆的。|原生词根。
 bleró|/ˈbleʁoː/|名词|先知。|原生词根。
 blimum|/ˈblimum/|名词|薄雾。|原生词根。
 blimumdren|/bli.mumˈdren/|名词|薄雾散去的那个瞬间，天光乍亮。|blimum（薄雾）+ dren（褪去）。
 blin|/ˈblin/|名词|薄饼。|源自俄语「блин」(blin)。
+blín|/ˈbliːn/|名词|米酒。|源自日语「酒」(sake)。
 blinta|/ˈblintʰa/|名词|山顶。|原生词根。
 blir|/bliɹ/|动词|变成，成为。|受瑞典语 "bli" 影响。
 blirabela|/bliʁaˈbela/|形容词|可变成的。|「blir」+ 后缀 -bela（可被……的）。
@@ -496,11 +532,12 @@ bliritá|/bliˈʁitʰaː/|形容词|被变成的。|「blir」+ 后缀 -itá（�
 blisoe|/bliˈsoə/|名词|苔原。|原生词根。
 blitzo|/ˈblitʰzo/|名词|闪电。|源自德语「Blitz」。
 blizarto|/bliˈzaɹtʰo/|名词|暴风雪。|源自法语「blizzard」。
-blín|/ˈbliːn/|名词|米酒。|源自日语「酒」(sake)。
+bloko|/ˈblo.kʰo/|名词|块，区块。|源自法语「bloc」
 blom|/ˈblom/|名词|医者。|原生词根。
 blova|/ˈblo.va/|动词|吹。|原生词根（拟声）。
 blovabela|/blovaˈbela/|形容词|可吹的。|「blova」+ 后缀 -bela（可被……的）。
 blovaitá|/blovaˈitʰaː/|形容词|被吹的。|「blova」+ 后缀 -itá（结果状态）。
+blua|/ˈblu.a/|形容词|蓝色的。|源自法语「bleu」
 blutpá|/ˈblutʰpaː/|名词|分量。|原生词根。
 bo|/ˈbo/|名词|黄牛。|源自越南语「bo」。
 boar|/ˈboaɹ/|名词|野猪。|源自日耳曼语「boar」。
@@ -538,18 +575,19 @@ bousheri|/bouˈʃeʁi/|名词|肉店。|源自法语「boucherie」。
 bouteilo|/boutʰəˈilo/|名词|酒瓶。|源自法语「bouteille」。
 bozu|/ˈbozu/|名词|宾客。|原生词根。
 bradi|/ˈbradi/|形容词|缓慢的。|源自希腊语「βραδύς」(bradys)。
+bráglǽ|/ˈbraːɡlæː/|名词|刻痕。|原生词根。
 brahma|/ˈbrahma/|名词|梵天。|源自梵语「ब्रह्मा」(brahma)。
 brahman|/ˈbrahman/|名词|梵。|源自梵语「ब्रह्मन्」(brahman)。
 brahmana|/braˈhmana/|名词|婆罗门。|源自梵语「ब्राह्मण」(brahmana)。
 brako|/ˈbra.kʰo/|名词|手臂。|借世界语 brako。
 branĉa|/ˈbran.tʃa/|名词|树枝。|拉丁语 "branca"。
-bráglǽ|/ˈbraːɡlæː/|名词|刻痕。|原生词根。
 bre|/ˈbre/|名词|遗物。|原生词根。
 brera|/ˈbreʁa/|动词|吞咽。|原生词根。
 bresa|/ˈbre.sa/|动词|搅动，搅拌。|原生词根。
 bresabela|/brəsaˈbela/|形容词|可搅动的。|「bresa」+ 后缀 -bela（可被……的）。
 bresaitá|/brəsaˈitʰaː/|形容词|被搅动的。|「bresa」+ 后缀 -itá（结果状态）。
 breto|/ˈbretʰo/|名词|砧板。|源自德语「Brett」。
+bría|/ˈbriːa/|名词|家谱。|原生词根。
 brieftasho|/briəˈftʰaʃo/|名词|钱包。|源自德语「Brieftasche」。
 brifarbia|/brifaˈɹbia/|形容词|破旧的。|原生词根。
 bril|/bril/|名词|精彩，光辉。|可能源自意大利语 "brillare"。
@@ -560,18 +598,18 @@ brilítá|/briˈliːtʰaː/|形容词|被闪烁的。|「brili」+ 后缀 -itá�
 brilo|/ˈbrilo/|名词|眼镜。|源自德语「Brille」。
 brip|/ˈbrip/|名词|印章。|原生词根。
 brirve|/ˈbriɹvə/|名词|羊皮卷。|原生词根。
-bría|/ˈbriːa/|名词|家谱。|原生词根。
+bróder|/ˈbroː.dəɹ/|名词|兄弟（日常）。|日耳曼语源。
 bronzo|/ˈbronzo/|名词|青铜像。|源自意大利语「bronzo」。
 brosat|/ˈbrosatʰ/|动词|抛掷。|源自俄语「бросать」(brosat)。
 broski|/ˈbroskʰi/|名词|铃铛。|原生词根。
 broso|/ˈbroso/|名词|刷子。|源自法语「brosse」。
-bróder|/ˈbroː.dəɹ/|名词|兄弟（日常）。|日耳曼语源。
 bruhobá|/bruˈhobaː/|名词|壁炉。|原生词根。
 brula|/ˈbru.la/|动词|燃烧。|拉丁语 "brulare"。
 brulabela|/brulaˈbela/|形容词|可燃烧的。|「brula」+ 后缀 -bela（可被……的）。
 brulaitá|/brulaˈitʰaː/|形容词|被燃烧的。|「brula」+ 后缀 -itá（结果状态）。
 bruof|/ˈbruof/|名词|庙宇。|原生词根。
 brusnika|/bruˈsnikʰa/|名词|越橘。|源自俄语「брусника」(brusnika)。
+brusta|/ˈbrus.ta/|名词|胸膛，胸口。|源自德语「Brust」
 brútke|/ˈbruːtʰkʰə/|名词|手套。|原生词根。
 buaia|/buaˈia/|名词|鳄鱼。|源自马来语「buaya」。
 budoha|/buˈdoha/|名词|佛陀。|源自梵语「बुद्ध」(buddha)。
@@ -579,6 +617,7 @@ budohiat|/budoˈhiatʰ/|动词|开悟。|源自梵语「बुध्यते」
 budu|/ˈbudu/|名词|鱼露。|源自马来语「budu」。
 buĝet|/ˈbu.d͡ʒətʰ/|名词|预算。|源自英语「budget」。
 buket|/ˈbukʰətʰ/|名词|桶。|源自日耳曼语「bucket」。
+buko|/ˈbu.kʰo/|名词|嘴，口。|源自拉丁语「bucca」
 bulet|/ˈbulətʰ/|名词|子弹。|源自英语「bullet」。
 buli|/ˈbu.li/|动词|沸腾。|源自拉丁语「bullire」(bullire)。
 bulir|/ˈbuliɹ/|动词|煮沸。|源自拉丁语「bullire」。
@@ -591,82 +630,76 @@ bumta|/ˈbumtʰa/|名词|染料。|原生词根。
 bun|/ˈbun/|名词|米线。|源自越南语「bun」。
 buoi|/buˈoi/|名词|柚子。|源自越南语「buoi」。
 buom|/ˈbuom/|名词|蝴蝶。|源自越南语「buom」。
+búpso|/ˈbuːpso/|名词|弓。|原生词根。
 bureau|/buʁəˈau/|名词|书桌。|源自法语「bureau」。
 bus|/ˈbus/|名词|公共汽车。|源自英语「bus」。
 busineso|/busiˈneso/|名词|商业。|源自英语「business」。
 buso|/ˈbu.so/|名词|巴士，公交。|借英语 bus。
-búpso|/ˈbuːpso/|名词|弓。|原生词根。
-bǽlge|/ˈbæːlɡə/|名词|水囊。|原生词根。
-é|/ˈeː/|名词|船。|源自日耳曼语「ship」。
-éda|/ˈeː.da/|名词|食物（正式）。|拉丁语 "edere"（吃）。
-élfolvi|/eːˈlfolvi/|名词|遗孤。|原生词根。
-éna|/ˈeː.na/|形容词|空的，虚无的。|原生词根。
-énen|/ˈeːnən/|动词|变成空。|「éna」+ 后缀 -en（变成）。
-énis|/ˈeːnis/|名词|毛毡。|原生词根。
-énji|/ˈeːnd͡ʒi/|动词|使空。|「éna」+ 后缀 -ji（使动）。
-énli|/ˈeːnli/|副词|空地。|「éna」+ 后缀 -li（副词化）。
-éno|/ˈeː.no/|数词|一。|日耳曼词源。
-érla|/ˈɜː.la/|动词|期待。|原生词根。
-érlabela|/eːɹlaˈbela/|形容词|可期待的。|「érla」+ 后缀 -bela（可被……的）。
-ésdekton|/eːˈsdekʰtʰon/|名词|方案。|源自英语「plan」。
-ésti|/ˈeːstʰi/|名词|井。|原生词根。
-éva|/ˈeː.va/|名词|傍晚（与 vesper 同义）。|法语 "soir" 变体。
 cadir|/ˈkadiɹ/|名词|帐篷。|借词「cadir」。
-camfistigi|/kamfiˈstʰiɡi/|名词|松子。|借词「cam fistigi」。
-camí|/ˈkamiː/|名词|清真寺。|借词「camii」。
-carica|/kaˈʁika/|名词|皇后。|源自俄语「царица」(tsaritsa)。
-centro|/ˈken.tʰro/|名词|中心。|借拉丁 centrum。
-ceviz|/ˈkeviz/|名词|核桃。|借词「ceviz」。
-cinar|/ˈkinaɹ/|名词|梧桐。|借词「cinar」。
-cintaiati|/kintʰaiˈatʰi/|动词|沉思。|源自梵语「चिन्तयति」(cintayati)。
 çaira|/ˈsai.ʁa/|名词|知识，学问。|原生词根。
+ĉakra|/ˈtʃakʰra/|名词|轮。|源自梵语「चक्र」(chakra)。
 çalva|/ˈsal.va/|动词|拯救，挽救。|拉丁语 "salvare"。
 çalvabela|/salvaˈbela/|形容词|可拯救的。|「çalva」+ 后缀 -bela（可被……的）。
 çalvaitá|/salvaˈitʰaː/|形容词|被拯救的。|「çalva」+ 后缀 -itá（结果状态）。
 çalvanto|/salˈvan.tʰo/|名词|救世主。|çalva（救）+ -anto（施动者）。
+camfistigi|/kamfiˈstʰiɡi/|名词|松子。|借词「cam fistigi」。
+camí|/ˈkamiː/|名词|清真寺。|借词「camii」。
+ĉampionsohip|/tʃampioˈnsohip/|名词|锦标赛。|源自英语「championship」。
+ĉandana|/tʃaˈndana/|名词|檀香。|源自梵语「चन्दन」(chandana)。
 çando|/ˈsan.do/|名词|窗户。|拉丁语 "fenestra" 与德语 "Fenster" 混合。
+ĉanel|/ˈtʃanəl/|名词|频道。|源自英语「channel」。
 çanta|/ˈsan.tʰa/|形容词|神圣的。|拉丁语 "sanctus"。
 çanten|/ˈsantʰən/|动词|变成神圣。|「çanta」+ 后缀 -en（变成）。
 çantji|/ˈsantʰd͡ʒi/|动词|使神圣。|「çanta」+ 后缀 -ji（使动）。
 çantli|/ˈsantʰli/|副词|神圣地。|「çanta」+ 后缀 -li（副词化）。
-çéfa|/ˈseː.fa/|名词|钢笔。|拉丁语 "stylus" 变体。
-çéla|/ˈseː.la/|名词|天空，苍穹。|原生词根。
-çélaváyn|/ˈseː.la.vaːjn/|名词|天色将变未变的那一刻，天空的蓝浸透万物。|çéla（天空）+ váyn（染）。
-çerka|/ˈseɹ.kʰa/|动词|研究，探索。|原生词根。
-çerkabela|/səɹkʰaˈbela/|形容词|可研究的。|「çerka」+ 后缀 -bela（可被……的）。
-çerkaitá|/səɹkʰaˈitʰaː/|形容词|被研究的。|「çerka」+ 后缀 -itá（结果状态）。
-çeval|/ˈse.val/|名词|马。|第二版新增，源自拉丁语 "caballus"。
-çi|/si/|指示词|此（近指）。|世界语 "ĉi"。
-çikad|/siˈkʰad/|名词|蝉。|拉丁语 "cicada"。
-çikadkant|/si.ˈkʰad.kʰantʰ/|名词|蝉声。|"çikad" + "kant"。
-çindro|/ˈsin.dro/|名词|灰烬。|拉丁语 "cinis"。
-çinta|/ˈsin.tʰa/|形容词|洁净的，纯净的。|原生词根。
-çinten|/ˈsintʰən/|动词|变成洁净。|「çinta」+ 后缀 -en（变成）。
-çintji|/ˈsintʰd͡ʒi/|动词|使洁净。|「çinta」+ 后缀 -ji（使动）。
-çintli|/ˈsintʰli/|副词|洁净地。|「çinta」+ 后缀 -li（副词化）。
-çola|/ˈso.la/|名词|太阳。|拉丁语 "sol"。
-çora|/ˈso.ʁa/|名词|姐妹。|拉丁语 "soror"。
-çorton|/ˈsoɹ.tʰon/|动词|制作，制造。|拉丁语 "creare" 变体。
-çortonabela|/soɹtʰonaˈbela/|形容词|可制作的。|「çorton」+ 后缀 -bela（可被……的）。
-çortonitá|/soɹtʰoˈnitʰaː/|形容词|被制作的。|「çorton」+ 后缀 -itá（结果状态）。
-ĉakra|/ˈtʃakʰra/|名词|轮。|源自梵语「चक्र」(chakra)。
-ĉampionsohip|/tʃampioˈnsohip/|名词|锦标赛。|源自英语「championship」。
-ĉandana|/tʃaˈndana/|名词|檀香。|源自梵语「चन्दन」(chandana)。
-ĉanel|/ˈtʃanəl/|名词|频道。|源自英语「channel」。
 ĉapelo|/tʃaˈpe.lo/|名词|帽子。|借世界语 ĉapelo。
+capsa|/ˈkap.sa/|名词|轿厢，舱室。|源自拉丁语「capsa」
+carica|/kaˈʁika/|名词|皇后。|源自俄语「царица」(tsaritsa)。
 ĉarto|/ˈtʃaɹtʰo/|名词|图表。|源自英语「chart」。
 ĉasi|/ˈtʃa.si/|动词|狩猎。|拉丁语 "chassare"。
 ĉasibela|/tʃasiˈbela/|形容词|可狩猎的。|「ĉasi」+ 后缀 -bela（可被……的）。
 ĉasítá|/tʃaˈsiːtʰaː/|形容词|被狩猎的。|「ĉasi」+ 后缀 -itá（结果状态）。
+çéfa|/ˈseː.fa/|名词|钢笔。|拉丁语 "stylus" 变体。
 ĉefa|/ˈtʃe.fa/|形容词|主要的。|源自法语「chef」+ 形容词化。
 ĉefadministranto|/tʃef.ad.mi.nis.ˈtʰran.tʰo/|名词|首席行政官。|ĉefo（首领）+ administranto（管理者）。
 ĉefo|/ˈtʃe.fo/|名词|首领，头目。|源自法语「chef」。
 ĉek|/ˈtʃekʰ/|名词|支票。|源自英语「check」。
+çéla|/ˈseː.la/|名词|天空，苍穹。|原生词根。
+celar|/ˈke.laɹ/|动词|瞄准，指着。|源自法语「cibler」
+çélaváyn|/ˈseː.la.vaːjn/|名词|天色将变未变的那一刻，天空的蓝浸透万物。|çéla（天空）+ váyn（染）。
+centro|/ˈken.tʰro/|名词|中心。|借拉丁 centrum。
+çerka|/ˈseɹ.kʰa/|动词|研究，探索。|原生词根。
+çerkabela|/səɹkʰaˈbela/|形容词|可研究的。|「çerka」+ 后缀 -bela（可被……的）。
+çerkaitá|/səɹkʰaˈitʰaː/|形容词|被研究的。|「çerka」+ 后缀 -itá（结果状态）。
+certatim|/ˈkʰeɹ.tʰa.tʰim/|副词|争先地，竞争地。|源自拉丁语「certatim」
 ĉes|/tʃəs/|动词|停止。|借世界语 ĉesi。
 ĉesto|/ˈtʃestʰo/|名词|柜。|源自日耳曼语「chest」。
+çeval|/ˈse.val/|名词|马。|第二版新增，源自拉丁语 "caballus"。
+ceviz|/ˈkeviz/|名词|核桃。|借词「ceviz」。
+çi|/si/|指示词|此（近指）。|世界语 "ĉi"。
+çikad|/siˈkʰad/|名词|蝉。|拉丁语 "cicada"。
+çikadkant|/si.ˈkʰad.kʰantʰ/|名词|蝉声。|"çikad" + "kant"。
 ĉiken|/ˈtʃikʰən/|名词|鸡。|源自日耳曼语「chicken」。
+cinar|/ˈkinaɹ/|名词|梧桐。|借词「cinar」。
+çindro|/ˈsin.dro/|名词|灰烬。|拉丁语 "cinis"。
+ĉini|/ˈsi.ni/|形容词|中国的，中文的。|源自拉丁语「Sinae」（中国）
+çinta|/ˈsin.tʰa/|形容词|洁净的，纯净的。|原生词根。
+cintaiati|/kintʰaiˈatʰi/|动词|沉思。|源自梵语「चिन्तयति」(cintayati)。
+çinten|/ˈsintʰən/|动词|变成洁净。|「çinta」+ 后缀 -en（变成）。
+çintji|/ˈsintʰd͡ʒi/|动词|使洁净。|「çinta」+ 后缀 -ji（使动）。
+çintli|/ˈsintʰli/|副词|洁净地。|「çinta」+ 后缀 -li（副词化）。
 ĉirkau|/ˈtʃiɹkʰau/|副词|周围。|源自拉丁语「circa」。
+ĉirkaurvidante|/tʃir.kʰauʁ.viˈdan.tʰe/|分词|环顾着，四下张望。|「ĉirkau」(周围) + 「vid」(看) + 现在分词 -ante
+citar|/ˈki.taɹ/|动词|引用，征引。|源自拉丁语「citare」
+çola|/ˈso.la/|名词|太阳。|拉丁语 "sol"。
+çolaflóra|/so.laˈfloː.ʁa/|名词|向日葵。|「çola」（太阳）+「flóra」（花卉）
+çolagarda|/so.laˈgaɹ.da/|形容词|防晒的，遮阳的。|「çola」（太阳）+「garda」（守护，保卫）
+çora|/ˈso.ʁa/|名词|姐妹。|拉丁语 "soror"。
+çorton|/ˈsoɹ.tʰon/|动词|制作，制造。|拉丁语 "creare" 变体。
+çortonabela|/soɹtʰonaˈbela/|形容词|可制作的。|「çorton」+ 后缀 -bela（可被……的）。
+çortonitá|/soɹtʰoˈnitʰaː/|形容词|被制作的。|「çorton」+ 后缀 -itá（结果状态）。
 da|/da/|词根|久（时间词根，用于复合词，如 togioda）。|原生词根（旧稿误收世界语 da 作助词，已废）。
+dæ|/dæ/|助词|情感动作助词，组成复合体态。|原生功能词。
 dadaiati|/dadaiˈatʰi/|动词|奉献。|源自梵语「dadayati」。
 dadati|/daˈdatʰi/|动词|施舍。|源自梵语「ददाति」(dadati)。
 dafno|/ˈdafno/|名词|桂冠。|源自希腊语「δάφνη」(daphne)。
@@ -684,6 +717,7 @@ dank|/daŋkʰ/|动词|感谢。|源自德语「Dank」。
 danko|/ˈdaŋkʰo/|名词|感谢（与 græses 谢谢 同义）。|源自拉丁语「gratias」，与 græses 同源。
 danseur|/daˈnseuɹ/|名词|舞蹈家。|源自法语「danseur」。
 danza|/ˈdanza/|名词|舞蹈。|源自西班牙语「danza」。
+dæpan|/ˈdæpan/|名词|泉水。|原生词根。
 daph|/daf/|动词|阅读。|原创词。
 daphabela|/daphaˈbela/|形容词|可阅读的。|「daph」+ 后缀 -bela（可被……的）。
 daphitá|/daˈphitʰaː/|形容词|被阅读的。|「daph」+ 后缀 -itá（结果状态）。
@@ -691,16 +725,11 @@ dara|/ˈda.ʁa/|动词|放置，放下。|原生词根。
 darabela|/daʁaˈbela/|形容词|可放置的。|「dara」+ 后缀 -bela（可被……的）。
 daraitá|/daʁaˈitʰaː/|形容词|被放置的。|「dara」+ 后缀 -itá（结果状态）。
 darko|/ˈdaɹkʰo/|名词|矮人。|原生词根。
+dæs|/dæs/|助词|影响动作助词，组成复合体态。|原生功能词。
 dasafa|/daˈsafa/|形容词|勤快的。|原生词根。
+dásetu|/daːˈsetʰu/|名词|金币。|原生词根。
 data|/ˈdatʰa/|名词|数据。|源自拉丁语「data」。
 daur|/dauɹ/|动词|持续。|借世界语 daŭri。
-dásetu|/daːˈsetʰu/|名词|金币。|原生词根。
-dæ|/dæ/|助词|情感动作助词，组成复合体态。|原生功能词。
-dæpan|/ˈdæpan/|名词|泉水。|原生词根。
-dæs|/dæs/|助词|影响动作助词，组成复合体态。|原生功能词。
-déo|/ˈdeːo/|名词|树皮。|原生词根。
-dér|/ˈdeːɹ/|名词|鹿。|源自日耳曼语「deer」。
-déra|/ˈdeː.ʁa/|介词|关于，涉及。|拉丁语 "de" + 扩展。
 de|/də/|介词|从。|拉丁语 "de"。
 debilitar|/dəbiˈlitʰaɹ/|动词|削弱。|源自拉丁语「debilitare」。
 debilitarabela|/dəbilitʰaʁaˈbela/|形容词|可削弱的。|「debilitar」+ 后缀 -bela（可被……的）。
@@ -709,23 +738,29 @@ decid|/də.ˈkid/|动词|决定。|借世界语 decidi。
 deçidi|/dəˈsidi/|动词|决定。|源自世界语「decidi」。
 deduktio|/dəduˈkʰtʰio/|名词|演绎。|源自拉丁语「deductio」。
 defekto|/dəˈfekʰtʰo/|名词|缺陷。|源自拉丁语「defectus」。
+defendar|/deˈfen.daɹ/|动词|防御，防守。|源自拉丁语「defendere」
 defensio|/dəfəˈnsio/|名词|防守。|源自拉丁语「defensio」。
+defikar|/deˈfi.kaɹ/|动词|缺少，缺失。|源自拉丁语「deficere」
 definitio|/dəfiniˈtʰio/|名词|定义。|源自拉丁语「definitio」。
 defno|/ˈdefno/|名词|月桂。|借词「defne」。
+degustada|/de.ɡusˈta.da/|名词|品尝，品味。|源自拉丁语「degustare」
 deili|/dəˈili/|形容词|胆怯的。|源自希腊语「δειλός」(deilos)。
 dekel|/ˈdekʰəl/|名词|盖子。|源自德语「Deckel」。
 deklar|/dəˈkʰlaɹ/|动词|声明，说出。|拉丁语 "declarare"。
 deklarabela|/dəkʰlaʁaˈbela/|形容词|可声明的。|「deklar」+ 后缀 -bela（可被……的）。
 deklaritá|/dəkʰlaˈʁitʰaː/|形容词|被声明的。|「deklar」+ 后缀 -itá（结果状态）。
+deklina|/deˈkʰli.na/|动词|避开，避免。|源自拉丁语「declinare」
 dekmil|/ˈdekʰ.mil/|数词|万（十千）。|"dek"（十）+ "mil"（千）。
 dekor|/ˈdekʰoɹ/|名词|布景。|源自希腊语「dekor」。
 dekstra|/ˈdekʰ.stʰə.ra/|形容词|右边的。|拉丁语 "dexter"。
 dekstraji|/dəˈkʰstʰe.rad͡ʒi/|动词|使右边。|「dekstra」+ 后缀 -ji（使动）。
 dekstrali|/dəˈkʰstʰe.rali/|副词|右边地。|「dekstra」+ 后缀 -li（副词化）。
 dekstren|/ˈdekʰ.stʰə.rən/|动词|变成右边。|「dekstra」+ 后缀 -en（变成）。
+delikati|/deˈli.ka.tʰi/|形容词|精致的，清秀的。|源自拉丁语「delicatus」
 demand|/dəˈmand/|动词|问。|拉丁语 "demandare"。
 demandabela|/dəmandaˈbela/|形容词|可问的。|「demand」+ 后缀 -bela（可被……的）。
 demanditá|/dəmaˈnditʰaː/|形容词|被问的。|「demand」+ 后缀 -itá（结果状态）。
+demet|/dəˈmetʰ/|动词|摘下，取下。|源自拉丁语「demittere」。
 demokratia|/dəmokʰraˈtʰia/|名词|民主。|源自希腊语「δημοκρατία」(demokratia)。
 demoliri|/dəmoˈliʁi/|动词|拆除。|源自拉丁语「demoliri」。
 demoliribela|/dəmoliʁiˈbela/|形容词|可拆除的。|「demoliri」+ 后缀 -bela（可被……的）。
@@ -734,21 +769,28 @@ dengeta|/dəˈŋɡetʰa/|名词|坡度。|原生词根。
 deniku|/dəˈnikʰu/|副词|总之。|源自拉丁语「denique」。
 denkomal|/dəˈŋkʰomal/|名词|纪念碑。|源自德语「Denkmal」。
 densi|/ˈdensi/|形容词|稠密的。|源自拉丁语「densus」。
+déo|/ˈdeːo/|名词|树皮。|原生词根。
 departemento|/də.paɹ.tʰə.ˈmen.tʰo/|名词|部门。|借英语 department。
+dependar|/deˈpen.daɹ/|动词|依赖，取决于。|源自拉丁语「dependere」
 depresio|/dəprəˈsio/|名词|抑郁。|源自拉丁语「depressio」。
 deput|/ˈdeputʰ/|名词|议员。|源自法语「député」。
-desért|/dəˈseːtʰ/|名词|甜点。|法语 "dessert"。
+dér|/ˈdeːɹ/|名词|鹿。|源自日耳曼语「deer」。
+déra|/ˈdeː.ʁa/|介词|关于，涉及。|拉丁语 "de" + 扩展。
 desender|/dəˈsendəɹ/|动词|下降。|源自拉丁语「descendere」。
 desenderabela|/dəsəndəʁaˈbela/|形容词|可下降的。|「desender」+ 后缀 -bela（可被……的）。
 desenderitá|/dəsəndəˈʁitʰaː/|形容词|被下降的。|「desender」+ 后缀 -itá（结果状态）。
+desért|/dəˈseːtʰ/|名词|甜点。|法语 "dessert"。
 destoruktio|/dəstʰoʁuˈkʰtʰio/|名词|毁灭。|源自拉丁语「destructio」。
+detala|/ˈde.tʰa.la/|形容词|详细的，详尽的。|源自法语「détail」
 deva|/ˈdeva/|名词|神。|源自梵语「देव」(deva)。
+devai|/deˈvai/|助动|必须，应该。|源自拉丁语「debere」+ 情态后缀「-vai」（应该）
 develop|/də.vəˈlop/|动词|发展。|英语 "develop"。
 developabela|/dəvəlopaˈbela/|形容词|可发展的。|「develop」+ 后缀 -bela（可被……的）。
 developitá|/dəvəloˈpitʰaː/|形容词|被发展的。|「develop」+ 后缀 -itá（结果状态）。
 deveni|/dəˈve.ni/|动词|变成。|拉丁语 "devenire"。
 devi|/ˈdevi/|名词|女神。|源自梵语「देवी」(devi)。
 devotmene|/dəˈvotʰ.mə.nə/|副词|虔诚地。|"devot"（虔诚）+ "mene"（心态）。
+dezerti|/deˈzeɹ.tʰi/|形容词|荒凉的，荒芜的。|源自拉丁语「desertus」
 dezir|/də.ˈziɹ/|动词|渴望。|借世界语 deziri。
 deziro|/dəˈzi.ʁo/|名词|愿望。|拉丁语 "desiderium"。
 dharma|/ˈdʰaɹma/|名词|法。|源自梵语「धर्म」(dharma)。
@@ -764,8 +806,8 @@ diferentia|/difəʁəˈntʰia/|名词|差别。|源自拉丁语「differentia」
 difunder|/diˈfundəɹ/|动词|扩散。|源自拉丁语「diffundere」。
 difunderabela|/difundəʁaˈbela/|形容词|可扩散的。|「difunder」+ 后缀 -bela（可被……的）。
 difunderitá|/difundəˈʁitʰaː/|形容词|被扩散的。|「difunder」+ 后缀 -itá（结果状态）。
-digno|/ˈdiɡ.no/|名词|尊严。|借拉丁 dignitas。
 diĝité|/di.d͡ʒiˈtʰeː/|名词|手指。|拉丁语 "digitus"。
+digno|/ˈdiɡ.no/|名词|尊严。|借拉丁 dignitas。
 dika|/ˈdi.kʰa/|形容词|厚的。|原生词根。
 dikap|/ˈdikʰap/|动词|絮叨。|原生词根。
 diken|/ˈdikʰən/|动词|变成厚。|「dika」+ 后缀 -en（变成）。
@@ -776,13 +818,16 @@ diktionarium|/dikʰtʰionaˈʁium/|名词|词典。|源自拉丁语「dictionari
 diktum|/ˈdikʰtʰum/|名词|台词。|源自拉丁语「dictum」。
 dilatar|/diˈlatʰaɹ/|动词|膨胀。|源自拉丁语「dilatare」。
 dilatarabela|/dilatʰaʁaˈbela/|形容词|可膨胀的。|「dilatar」+ 后缀 -bela（可被……的）。
+dilatarion|/di.laˈtʰa.ri.on/|名词|扩张，膨胀。|「dilatar」（膨胀，拉丁语 dilatare）+ 名词化后缀 -ion
 dilataritá|/dilatʰaˈʁitʰaː/|形容词|被膨胀的。|「dilatar」+ 后缀 -itá（结果状态）。
 diliĝensi|/diliˈd͡ʒensi/|形容词|勤勉的。|源自拉丁语「diligens」。
 diliĝentia|/dilid͡ʒəˈntʰia/|名词|勤勉。|源自拉丁语「diligentia」。
+dimidio|/diˈmi.di.o/|名词|一半。|源自拉丁语「dimidium」
 dinamika|/dinaˈmikʰa/|名词|强弱。|源自意大利语「dinamica」。
 dinamis|/diˈnamis/|名词|动力。|源自希腊语「δύναμις」(dynamis)。
 dinamit|/diˈnamitʰ/|名词|炸药。|源自英语「dynamite」。
 dinho|/ˈdinho/|名词|祠堂。|源自越南语「dinh」。
+diplomatia|/diˈplo.ma.ti.a/|名词|外交。|源自拉丁语「diplomatia」
 dipót|/ˈdipoːtʰ/|副词|沉重地。|原生词根。
 diretor|/diˈʁetʰoɹ/|名词|指挥。|源自意大利语「direttore」。
 dis|/ˈdis/|形容词|迟钝的。|源自希腊语「δυσ-」(dys)。
@@ -790,9 +835,11 @@ disendo|/disˈsen.do/|名词|直播，广播。|dis-（散）+ sendi（送）。
 disigo|/diˈsiɡo/|名词|离别。|源自世界语「disiĝo」。
 diskos|/ˈdiskʰos/|名词|铁饼。|源自希腊语「δίσκος」(diskos)。
 diskut|/dis.ˈkʰutʰ/|动词|讨论。|借世界语 diskuti。
+disponar|/ˈdis.po.naɹ/|动词|整理，布置，归置。|源自拉丁语「disponere」
 disponer|/diˈsponəɹ/|动词|计划。|源自拉丁语「disponere」。
 disponerabela|/disponəʁaˈbela/|形容词|可计划的。|「disponer」+ 后缀 -bela（可被……的）。
 disponeritá|/disponəˈʁitʰaː/|形容词|被计划的。|「disponer」+ 后缀 -itá（结果状态）。
+dispositio|/dis.poˈsi.tʰio/|名词|安排，部署。|源自拉丁语「dispositio」
 disputo|/diˈsputʰo/|名词|争论。|源自拉丁语「disputatio」。
 dissendo|/disˈsen.do/|名词|直播，广播。|dis-（散）+ sendi（送）。
 distantia|/distʰaˈntʰia/|名词|距离。|源自拉丁语「distantia」。
@@ -809,6 +856,7 @@ dividítá|/diviˈdiːtʰaː/|形容词|被分割的。|「dividi」+ 后缀 -it
 diviline|/di.viˈli.nə/|名词|分界线。|"divi"（分割）+ "line"（线）。
 divisi|/diˈvisi/|形容词|分裂的。|源自拉丁语「divisus」。
 do|/do/|连词|那么，就。|世界语 "do"。
+dóbló|/ˈdoːbloː/|名词|蹄子。|原生词根。
 doksa|/ˈdokʰsa/|名词|赞美。|源自希腊语「δόξα」(doxa)。
 doktorina|/dokʰtʰoˈʁina/|名词|教义。|源自拉丁语「doctrina」。
 dokumento|/do.kʰuˈmen.tʰo/|名词|文件。|借拉丁 documentum。
@@ -821,12 +869,14 @@ dolma|/ˈdolma/|名词|葡萄叶卷。|借词「dolma」。
 dolorif|/ˈdo.lo.ʁif/|动词|伤害。|"dolor"（疼痛）+ 动词化后缀 "-if"。
 dolorifabela|/doloʁifaˈbela/|形容词|可伤害的。|「dolorif」+ 后缀 -bela（可被……的）。
 dolorifitá|/doloʁiˈfitʰaː/|形容词|被伤害的。|「dolorif」+ 后缀 -itá（结果状态）。
+dolus|/ˈdo.lus/|名词|欺诈，诡计。|源自拉丁语「dolus」
 doman|/ˈdoman/|名词|手稿。|原生词根。
 domar|/ˈdomaɹ/|动词|驯服。|源自拉丁语「domare」。
 domarabela|/domaʁaˈbela/|形容词|可驯服的。|「domar」+ 后缀 -bela（可被……的）。
 domaritá|/domaˈʁitʰaː/|形容词|被驯服的。|「domar」+ 后缀 -itá（结果状态）。
 domino|/ˈdo.mi.no/|名词|尊称：夫人，女士（正式）。|源自拉丁语「domina」(domina)。
 dominó|/do.miˈnoː/|名词|尊称：先生（正式）。|源自拉丁语「dominus」(dominus)。
+domna|/ˈdom.na/|名词|店主，老板，主人。|源自拉丁语「dominus」
 donac|/do.ˈnak/|动词|赠送。|借世界语 donaci。
 donaç|/doˈnas/|副词|作为礼物。|拉丁语 "donum" 变体。
 donant|/ˈdo.nantʰ/|名词|赠送者。|拉丁语 "donans"。
@@ -846,13 +896,12 @@ doseritá|/dosəˈʁitʰaː/|形容词|被教导的。|「doser」+ 后缀 -itá
 dotgé|/ˈdotʰɡeː/|名词|恶魔。|原生词根。
 douan|/doˈuan/|名词|海关。|源自法语「douane」。
 douli|/doˈuli/|形容词|受缚的。|源自希腊语「δοῦλος」(doulos)。
-dóbló|/ˈdoːbloː/|名词|蹄子。|原生词根。
+dráenu|/draːˈenu/|名词|树脂。|原生词根。
 drama|/ˈdrama/|名词|戏剧。|源自拉丁语「drama」。
 dramf|/dramf/|动词|打铁，锻造。|原生词根（与 drami 铁匠 同根）。
 drami|/ˈdrami/|名词|铁匠。|原生词根。
 drap|/ˈdrap/|名词|床单。|源自法语「drap」。
 drava|/ˈdrava/|名词|孤儿。|原生词根。
-dráenu|/draːˈenu/|名词|树脂。|原生词根。
 drem|/drəm/|动词|做梦。|英语 "dream"。
 dremabela|/drəmaˈbela/|形容词|可做梦的。|「drem」+ 后缀 -bela（可被……的）。
 dretlælu|/drəˈtʰlælu/|名词|门闩。|原生词根。
@@ -872,33 +921,40 @@ dubi|/ˈdubi/|形容词|可疑的。|源自拉丁语「dubius」。
 dubium|/duˈbium/|名词|怀疑。|源自拉丁语「dubium」。
 dubo|/ˈdubo/|名词|疑惑。|源自世界语「dubo」。
 dubrava|/duˈbrava/|名词|橡树林。|源自斯拉夫语「dubrava」。
+duca|/ˈdu.ka/|动词|引导，带领。|源自拉丁语「ducere」
 dueto|/duˈetʰo/|名词|二重奏。|源自意大利语「duetto」。
 dufur|/ˈdufuɹ/|名词|边缘。|原生词根。
 duk|/ˈdukʰ/|名词|鸭。|源自日耳曼语「duck」。
+dum|/dum/|连词|当……期间。|源自拉丁语「dum」。
 dunen|/ˈdunən/|名词|火刑柱。|原生词根。
+dupla|/ˈdu.pla/|形容词|双的，成双的，双倍的。|源自拉丁语「duplus」
+dúpófi|/duːˈpoːfi/|名词|荒野。|原生词根。
 durar|/duˈʁaɹ/|动词|持续。|拉丁语 "durare"。
 durarabela|/duʁaʁaˈbela/|形容词|可持续的。|「durar」+ 后缀 -bela（可被……的）。
 durian|/duˈʁian/|名词|榴莲。|源自马来语「durian」。
 duser|/ˈdusəɹ/|动词|领导。|源自拉丁语「ducere」。
 duserabela|/dusəʁaˈbela/|形容词|可领导的。|「duser」+ 后缀 -bela（可被……的）。
-dúpófi|/duːˈpoːfi/|名词|荒野。|原生词根。
+duseranto|/duseˈʁanto/|名词|领导者，领路人。|「duser」（领导）+ 后缀 -anto（施动者）
 dziekiol|/ziəˈkʰiol/|名词|啄木鸟。|源自波兰语「dzieciol」。
+é|/ˈeː/|名词|船。|源自日耳曼语「ship」。
 eaglo|/əˈaɡlo/|名词|鹰。|源自日耳曼语「eagle」。
 ebemãr|/əˈbemɐ̃ɹ/|名词|首领。|原生词根。
 eblo|/ˈeblo/|名词|机会，可能。|源自拉丁语「-abilis」（可能后缀名词化）。
 eĉ|/ˈetʃ/|副词|甚至。|源自世界语「eĉ」。
+ece|/ˈe.ke/|叹词|瞧，看哪。|源自拉丁语「ecce」
+éda|/ˈeː.da/|名词|食物（正式）。|拉丁语 "edere"（吃）。
 editeur|/ədiˈtʰeuɹ/|名词|编辑。|源自法语「éditeur」。
 edro|/ˈedro/|名词|婚礼。|原生词根。
 efa|/ˈefa/|名词|工匠。|原生词根。
 efiko|/əˈfikʰo/|名词|作用。|源自世界语「efiko」。
 efimeri|/əfiˈmeʁi/|形容词|短暂的。|源自希腊语「ἐφήμερος」(ephimeros)。
+eĝa|/ˈe.d͡ʒa/|名词|妻子。|原生词根。
+eĝensi|/əˈd͡ʒensi/|形容词|贫乏的。|源自拉丁语「egens」。
 eglél|/ˈeɡleːl/|名词|枷锁。|原生词根。
 egli|/ˈeɡli/|名词|地图。|原生词根。
 eglis|/ˈeɡlis/|名词|教堂。|源自法语「église」。
-egúf|/ˈeɡuːf/|名词|丝绸。|原生词根。
-eĝa|/ˈe.d͡ʒa/|名词|妻子。|原生词根。
-eĝensi|/əˈd͡ʒensi/|形容词|贫乏的。|源自拉丁语「egens」。
 eĝo|/ˈe.d͡ʒo/|名词|丈夫。|原生词根。
+egúf|/ˈeɡuːf/|名词|丝绸。|原生词根。
 eisenbahno|/əisəˈnbahno/|名词|铁路。|源自德语「Eisenbahn」。
 ekagera|/əkʰaˈɡeʁa/|名词|夸张。|源自拉丁语「exaggerare」。
 ekfã|/ˈekʰfɐ̃/|名词|菌类。|原生词根。
@@ -907,8 +963,12 @@ ekifa|/əˈkʰifa/|形容词|清晰的。|原生词根。
 ekolesia|/əkʰoləˈsia/|名词|教会。|源自拉丁语「ecclesia」。
 ekonomi|/əkʰoˈnomi/|名词|经济。|源自英语「economy」。
 ekrivain|/əkʰriˈvain/|名词|作家。|源自法语「écrivain」。
+eksciti|/ekˈsi.tʰi/|形容词|激动的。|源自拉丁语「excitatus」
 eksempoli|/əkʰsəˈmpoli/|副词|例如。|源自拉丁语「exempli」。
 eksersitus|/əkʰsəˈɹsitʰus/|名词|军队。|源自拉丁语「exercitus」。
+eksister|/ekˈsis.tʰəɹ/|动词|存在。|源自拉丁语「exsistere」
+eksita|/ekˈsi.tʰa/|形容词|激动的，兴奋的。|源自拉丁语「excitare」
+eksito|/ˈəkʰ.si.tʰo/|名词|兴奋，激动。|源自拉丁语「excitus」
 eksohibition|/əkʰsohibiˈtʰion/|名词|展览。|源自英语「exhibition」。
 eksopedition|/əkʰsopədiˈtʰion/|名词|探险。|源自英语「expedition」。
 eksoperĝisi|/əkʰsopəˈɹd͡ʒisi/|动词|醒来。|源自拉丁语「expergisci」。
@@ -918,8 +978,10 @@ eksoplorar|/əkʰsoˈploʁaɹ/|动词|探索。|源自拉丁语「explorare」�
 eksoplorarabela|/əkʰsoploʁaʁaˈbela/|形容词|可探索的。|「eksoplorar」+ 后缀 -bela（可被……的）。
 eksotratim|/əkʰsoˈtʰratʰim/|名词|加时赛。|源自英语「extra time」。
 eksotremi|/əkʰsoˈtʰremi/|形容词|极端的。|源自拉丁语「extremus」。
+eksplodar|/ekˈsplo.daɹ/|动词|爆发，爆炸。|源自拉丁语「explodere」
 ekuation|/əkʰuaˈtʰion/|名词|方程。|源自英语「equation」。
 ekuitatus|/əkʰuiˈtʰatʰus/|名词|骑兵。|源自拉丁语「equitatus」。
+ekzistar|/ekˈzi.stʰaɹ/|动词|存在。|源自拉丁语「existere」
 el|/əl/|代词|她（阴性单数）。|西班牙语 "ella" 简化。
 ela|/ˈela/|名词|小豆蔻。|源自梵语「एला」(ela)。
 elafri|/əˈlafri/|形容词|轻盈的。|源自希腊语「ἐλαφρός」(elaphros)。
@@ -932,6 +994,7 @@ elementum|/ələˈmentʰum/|名词|元素。|源自拉丁语「elementum」。
 eleuteri|/ələuˈtʰeʁi/|形容词|自由的。|源自希腊语「ἐλεύθερος」(eleutheros)。
 eleuterosli|/ələutʰəˈʁosli/|副词|自由地。|「eleuteros」+「-li」。
 elfalni|/əˈlfalni/|名词|乐师。|原生词根。
+élfolvi|/eːˈlfolvi/|名词|遗孤。|原生词根。
 elig|/ə.ˈliɡ/|动词|发出。|源自拉丁语「elicere」。
 elipsis|/əˈlipsis/|名词|椭圆。|源自拉丁语「ellipsis」。
 elir|/ə.ˈliɹ/|动词|走出。|源自拉丁语「exire」。
@@ -945,12 +1008,20 @@ elvli|/ˈelvli/|副词|其他地。|「elva」+ 后缀 -li（副词化）。
 embarasa|/əmbaˈʁasa/|形容词|尴尬的。|源自法语「embarras」。
 emna|/ˈe.ma/|动词|选择，挑选。|原生词根。
 emnabela|/əmnaˈbela/|形容词|可选择的。|「emna」+ 后缀 -bela（可被……的）。
+emocio|/eˈmo.ti.o/|名词|情感。|源自拉丁语「emotio」
 en|/ən/|介词|在...里面。|世界语 "en"。
+éna|/ˈeː.na/|形容词|空的，虚无的。|原生词根。
 ende|/ˈendə/|名词|怪兽。|原生词根。
+énen|/ˈeːnən/|动词|变成空。|「éna」+ 后缀 -en（变成）。
 energeia|/ənəɹɡəˈia/|名词|能量。|源自希腊语「ἐνέργεια」(energeia)。
-engoganko|/əŋɡoˈɡaŋkʰo/|名词|犀鸟。|源自马来语「enggang」。
+energeiali|/ə.nəɹ.ɡeˈia.li/|副词|充满活力地，有力地。|「energeia」（能量，希腊语 ἐνέργεια）+ 副词后缀 -li
 enĝin|/ˈend͡ʒin/|名词|引擎。|源自英语「engine」。
+engoganko|/əŋɡoˈɡaŋkʰo/|名词|犀鸟。|源自马来语「enggang」。
 enir|/ə.ˈniɹ/|动词|进入。|源自拉丁语「inire」。
+énis|/ˈeːnis/|名词|毛毡。|原生词根。
+énji|/ˈeːnd͡ʒi/|动词|使空。|「éna」+ 后缀 -ji（使动）。
+énli|/ˈeːnli/|副词|空地。|「éna」+ 后缀 -li（副词化）。
+éno|/ˈeː.no/|数词|一。|日耳曼词源。
 enoia|/ənoˈia/|名词|概念。|源自希腊语「ἔννοια」(ennoia)。
 ensiklopædia|/ənsikʰlopæˈdia/|名词|百科全书。|源自拉丁语「encyclopaedia」。
 enta|/ˈen.tʰa/|连词|以便，为了，引导目的状语从句。|原生功能词。
@@ -975,10 +1046,13 @@ ergo|/ˈeɹɡo/|副词|因此。|源自拉丁语「ergo」。
 eri|/ˈeʁi/|名词|斧头。|原生词根。
 erik|/ˈeʁikʰ/|名词|樱桃李。|借词「erik」。
 erinies|/əʁiˈniəs/|名词|复仇女神。|源自希腊语「Ἐρινύες」(erinyes)。
+érla|/ˈɜː.la/|动词|期待。|原生词根。
+érlabela|/eːɹlaˈbela/|形容词|可期待的。|「érla」+ 后缀 -bela（可被……的）。
 erlæn|/ɜˈlæn/|名词|交织的时光。|古英语 "erlǣnan" + "-læn" 名词化。
 eror|/ˈeɹroɹ/|名词|谬误。|源自拉丁语「error」。
 erpó|/ˈeɹpoː/|名词|犁沟。|原生词根。
 erto|/ˈeɹtʰo/|名词|大地。|源自德语「Erde」。
+ésdekton|/eːˈsdekʰtʰon/|名词|方案。|源自英语「plan」。
 ese|/ˈesə/|名词|传说。|原生词根。
 esek|/ˈesəkʰ/|名词|驴。|借词「esek」。
 esentia|/əsəˈntʰia/|名词|本质。|源自拉丁语「essentia」。
@@ -986,18 +1060,23 @@ esepto|/əˈseptʰo/|名词|例外。|源自世界语「escepto」。
 esese|/əˈsesə/|名词|收获季。|原生词根。
 esharpo|/əˈʃaɹpo/|名词|围巾。|源自法语「écharpe」。
 eskalier|/əskʰaˈliəɹ/|名词|楼梯。|源自法语「escalier」。
+eskludar|/esˈkʰlu.daɹ/|动词|排除，除外。|源自拉丁语「excludere」
 esnarap|/əˈsnaʁap/|名词|谜语。|原生词根。
 esper|/ˈes.pəɹ/|动词|希望。|拉丁语 "sperare"。
 esperabela|/əspəʁaˈbela/|形容词|可希望的。|「esper」+ 后缀 -bela（可被……的）。
+esprimer|/esˈpʁimeɹ/|动词|表达，表述。|源自拉丁语「exprimere」
 espuela|/əspuˈela/|名词|马刺。|源自西班牙语「espuela」。
 est|/əstʰ/|动词|是（状态）。|拉丁语 "esse"。
 estabela|/əstʰaˈbela/|形容词|可是（状态）的。|「est」+ 后缀 -bela（可被……的）。
+ésti|/ˈeːstʰi/|名词|井。|原生词根。
 esting|/əs.ˈtʰiŋɡ/|动词|熄灭。|借世界语 estingi。
 estu|/ˈestʰu/|名词|老翁。|原生词根。
 esu|/ˈesu/|动词|呻吟。|原生词根。
 eswekgon|/əswˈekʰɡon/|名词|棍棒。|原生词根。
+etaga|/eˈta.ɡa/|名词|楼层。|源自法语「étage」
 etaĝer|/əˈtʰad͡ʒəɹ/|名词|书架。|源自法语「étagère」。
 etanko|/əˈtʰaŋkʰo/|名词|池塘。|源自法语「étang」。
+etato|/ˈe.ta.to/|名词|年龄。|源自拉丁语「aetas, aetatis」
 etika|/əˈtʰikʰa/|名词|伦理。|源自拉丁语「ethica」。
 etos|/ˈetʰos/|名词|性格。|源自希腊语「ἦθος」(ethos)。
 etudianto|/ətʰudiˈantʰo/|名词|学生。|源自法语「étudiant」。
@@ -1009,16 +1088,26 @@ eurli|/əˈuɹli/|副词|广阔地。|「euri」+ 后缀 -li（副词化）。
 eusebi|/əuˈsebi/|形容词|虔诚的。|源自希腊语「εὐσεβής」(eusebes)。
 euteli|/əuˈtʰeli/|形容词|浅薄的。|源自希腊语「εὐτελής」(euteles)。
 ev|/əv/|名词|水。|原生词根。
+éva|/ˈeː.va/|名词|傍晚（与 vesper 同义）。|法语 "soir" 变体。
 evanĝelium|/əvand͡ʒəˈlium/|名词|福音。|源自拉丁语「evangelium」。
 evaporar|/əvaˈpoʁaɹ/|动词|蒸发。|源自拉丁语「evaporare」。
 evaporarabela|/əvapoʁaʁaˈbela/|形容词|可蒸发的。|「evaporar」+ 后缀 -bela（可被……的）。
 event|/əˈventʰ/|动词|发生。|拉丁语 "evenire"。
 eventabela|/əvəntʰaˈbela/|形容词|可发生的。|「event」+ 后缀 -bela（可被……的）。
 evolutio|/əvoluˈtʰio/|名词|进化。|源自拉丁语「evolutio」。
+exakte|/ekˈsak.tʰe/|副词|恰好，正是，正好。|源自拉丁语「exactus」（精确的）
+exaurir|/ekˈsau.riɹ/|动词|耗尽，使精疲力竭。|源自拉丁语「exhaurire」
+excitar|/ek.siˈtaɹ/|动词|使激动，激起。|源自拉丁语「excitare」
+excludar|/ek.skuˈdaɹ/|动词|排除，排除在外。|源自拉丁语「excludere」
+exfoliar|/eks.foˈliaɹ/|动词|剥落，脱落。|源自拉丁语「exfoliare」
+existar|/ekˈsis.taɹ/|动词|存在。|源自拉丁语「existere」
+expandar|/ekˈspan.daɹ/|动词|张开，展开。|源自拉丁语「expandere」
+expelar|/ek.speˈlaɹ/|动词|驱散，驱逐。|源自拉丁语「expellere」
 fa|/ˈfa/|名词|碗。|源自法语「bol」。
 fabel|/ˈfa.bəl/|名词|童话。|德语 "Fabel"。
 façila|/faˈsila/|形容词|容易的。|源自拉丁语「facilis」。
 fainomenon|/fainoˈmenon/|名词|现象。|源自希腊语「φαινόμενον」(phainomenon)。
+fãk|/ˈfɐ̃kʰ/|名词|词语。|原生词根（鼻化元音 /ɐ̃/）。
 fako|/ˈfakʰo/|名词|科目，学科。|源自德语「Fach」。
 fakteur|/faˈkʰtʰeuɹ/|名词|邮递员。|源自法语「facteur」。
 faktori|/faˈkʰtʰoʁi/|名词|工厂。|源自英语「factory」。
@@ -1038,18 +1127,16 @@ farmasien|/faɹmaˈsiən/|名词|药剂师。|源自法语「pharmacien」。
 farmer|/ˈfaɹməɹ/|名词|农民。|源自日耳曼语「farmer」。
 faros|/ˈfaʁos/|名词|灯塔。|源自希腊语「φάρος」(pharos)。
 fayrolumo|/faj.ˈʁo.lu.mo/|名词|萤火虫。|世界语 "fajrolumo"（"fajro" 火 + "lumo" 光）。
-fãk|/ˈfɐ̃kʰ/|名词|词语。|原生词根（鼻化元音 /ɐ̃/）。
 féa|/ˈfeːa/|名词|陶器。|原生词根。
+fea|/ˈfea/|名词|银币。|原生词根。
+febris|/ˈfeb.ris/|名词|发烧，热病。|源自拉丁语「febris」
 féla|/ˈfeː.la/|形容词|快乐，幸福的。|原生词根。
 félen|/ˈfeːlən/|动词|变成快乐。|「féla」+ 后缀 -en（变成）。
 féli|/ˈfeːli/|副词|快乐地。|「féla」+ 后缀 -li（副词化）。
-félji|/ˈfeːld͡ʒi/|动词|使快乐。|「féla」+ 后缀 -ji（使动）。
-fém|/feːm/|数词|五。|北日耳曼词源。
-fépnirãn|/feːˈpniɹrɐ̃n/|名词|笼子。|原生词根。
-fésætram|/feːˈsætʰram/|名词|圣所。|原生词根。
-fea|/ˈfea/|名词|银币。|原生词根。
 feliko|/fəˈlikʰo/|名词|幸福。|源自拉丁语「felix」。
+félji|/ˈfeːld͡ʒi/|动词|使快乐。|「féla」+ 后缀 -ji（使动）。
 feltit|/ˈfeltʰitʰ/|名词|织机。|原生词根。
+fém|/feːm/|数词|五。|北日耳曼词源。
 fenda|/ˈfen.da/|动词|劈开，分裂。|拉丁语 "findere"。
 fendabela|/fəndaˈbela/|形容词|可劈开的。|「fenda」+ 后缀 -bela（可被……的）。
 fenester|/fəˈnes.tʰəɹ/|名词|窗户。|拉丁语 "fenestra"。
@@ -1057,8 +1144,10 @@ fenetro|/fəˈnetʰro/|名词|窗。|源自法语「fenêtre」。
 feno|/ˈfeno/|名词|块茎。|原生词根。
 fensinko|/fəˈnsiŋkʰo/|名词|击剑。|源自英语「fencing」。
 fenta|/ˈfen.tʰa/|名词|幻想，想象。|原生词根。
+fépnirãn|/feːˈpniɹrɐ̃n/|名词|笼子。|原生词根。
 fer|/fəɹ/|名词|事物，承载物。|拉丁语 "ferre"。
 feraf|/ˈfeʁaf/|名词|布施。|源自梵语「दान」(dana)。
+feri|/ˈfe.ʁi/|形容词|野生的。|源自拉丁语「ferus」
 feria|/fəˈʁia/|名词|假日。|源自拉丁语「feriae」。
 ferio|/feˈʁi.o/|名词|假期。|借拉丁 feriae。
 ferm|/fəɹm/|动词|关闭。|借世界语 fermi。
@@ -1067,19 +1156,26 @@ fermentarabela|/fəɹməntʰaʁaˈbela/|形容词|可发酵的。|「fermentar�
 fermo|/ˈfeɹmo/|名词|农场。|源自法语「ferme」。
 fero|/ˈfe.ʁo/|名词|铁。|源自拉丁语「ferrum」(ferrum)。
 ferro|/ˈfe.ʁo/|名词|铁。|源自拉丁语「ferrum」(ferrum)。
+fésætram|/feːˈsætʰram/|名词|圣所。|原生词根。
 fester|/ˈfestʰəɹ/|名词|记号。|原生词根。
+fibula|/ˈfi.bu.la/|名词|别针，胸针。|源自拉丁语「fibula」
 fideli|/fiˈdeli/|形容词|忠诚的。|源自拉丁语「fidelis」。
 fidelitas|/fidəˈlitʰas/|名词|忠诚。|源自拉丁语「fidelitas」。
 fides|/ˈfidəs/|名词|信心。|源自拉丁语「fides」。
 fido|/ˈfi.do/|名词|信任。|拉丁语 "fides"。
 fiereko|/fiəˈʁekʰo/|名词|骄傲。|源自世界语「fiereco」。
+fíex|/ˈfiː.əks/|名词|歌曲。|拉丁语 "vox" 变体。
+fíexen|/ˈfiː.ə.ksən/|动词|作曲，唱歌。|"fíex" + 动词化后缀 "-en"。
+fíexenabela|/fiːəksənaˈbela/|形容词|可作曲的。|「fíexen」+ 后缀 -bela（可被……的）。
 fifes|/ˈfifəs/|名词|嫩芽。|原生词根。
+figura|/ˈfi.ɡu.ra/|名词|身影，身形，轮廓。|源自拉丁语「figura」
 fik|/ˈfikʰ/|名词|无花果。|借词「fig」。
 fikro|/ˈfikʰro/|名词|矛。|原生词根。
 filino|/fiˈlino/|名词|女儿。|源自世界语「filino」。
 filmo|/ˈfilmo/|名词|电影。|源自英语「film」。
 filo|/ˈfilo/|名词|儿子。|源自世界语「filo」。
 filosofia|/filosoˈfia/|名词|哲学。|源自拉丁语「philosophia」。
+filosofii|/fi.lo.soˈfi.i/|形容词|哲学的。|filosofia（哲学，词典词）+ -i（形容词化）
 filosofos|/filoˈsofos/|名词|哲学家。|源自希腊语「φιλόσοφος」(philosophos)。
 fin|/fin/|动词|结束。|源自拉丁语「finire」。
 fina|/ˈfi.na/|形容词|最后的。|fine/fino 同根 + 形容词化 -a。
@@ -1091,16 +1187,15 @@ finir|/fiˈniɹ/|动词|结束。|法语 "finir"。
 finirabela|/finiʁaˈbela/|形容词|可结束的。|「finir」+ 后缀 -bela（可被……的）。
 fino|/ˈfino/|名词|末尾，终。|源自拉丁语「finis」。
 fira|/ˈfi.ʁa/|数词|四。|日耳曼词源。
+firma|/ˈfiɹ.ma/|形容词|坚定的，牢固的。|源自拉丁语「firmus」
 firmar|/ˈfiɹmaɹ/|动词|加强。|源自拉丁语「firmare」。
 firmarabela|/fiɹmaʁaˈbela/|形容词|可加强的。|「firmar」+ 后缀 -bela（可被……的）。
+firmitas|/ˈfiɹ.mi.tʰas/|名词|稳固，坚实。|源自拉丁语「firmitas」
 fisho|/ˈfiʃo/|名词|鱼。|源自日耳曼语「fish」。
 fisika|/fiˈsikʰa/|名词|物理。|源自拉丁语「physica」。
 fistik|/ˈfistʰikʰ/|名词|开心果。|借词「fistik」。
 fistula|/fiˈstʰula/|名词|管道。|源自拉丁语「fistula」。
 fitrélpú|/fiˈtʰreːlpuː/|名词|手镯。|原生词根。
-fíex|/ˈfiː.əks/|名词|歌曲。|拉丁语 "vox" 变体。
-fíexen|/ˈfiː.ə.ksən/|动词|作曲，唱歌。|"fíex" + 动词化后缀 "-en"。
-fíexenabela|/fiːəksənaˈbela/|形容词|可作曲的。|「fíexen」+ 后缀 -bela（可被……的）。
 fjorto|/ˈfd͡ʒoɹtʰo/|名词|峡湾。|源自日耳曼语「fjord」。
 flalrohep|/flaˈlrohəp/|副词|偶尔地。|原生词根。
 flama|/ˈfla.ma/|名词|火。|拉丁语 "flamma"。
@@ -1119,12 +1214,12 @@ fleuristo|/fləuˈʁistʰo/|名词|花店。|源自法语「fleuriste」。
 flidu|/ˈflidu/|名词|门槛。|原生词根。
 floglune|/floˈɡlunə/|名词|幼童。|原生词根。
 flor|/floɹ/|动词|开花，绽放。|原创词。
+flóra|/ˈfloː.ʁa/|名词|花卉，群花。|原生词根。
 florabela|/floʁaˈbela/|形容词|可开花的。|「flor」+ 后缀 -bela（可被……的）。
+flóresú|/floːˈʁesuː/|名词|热汤。|原生词根。
 flosa|/ˈflo.sa/|动词|漂浮。|原生词根。
 flosabela|/flosaˈbela/|形容词|可漂浮的。|「flosa」+ 后缀 -bela（可被……的）。
 flosroze|/floˈsrozə/|名词|岛屿。|原生词根。
-flóra|/ˈfloː.ʁa/|名词|花卉，群花。|原生词根。
-flóresú|/floːˈʁesuː/|名词|热汤。|原生词根。
 flug|/fluɡ/|动词|飞。|源自德语「Flug」。
 fluganto|/fluˈɡan.tʰo/|形容词/名词|飞翔的（者）。|"flug"（飞）+ "-anto"（现在分词）。
 flugil|/ˈflu.ɡil/|名词|翅膀。|"flug"（飞）+ 工具后缀 "-il"。
@@ -1135,6 +1230,10 @@ flútof|/ˈfluːtʰof/|名词|界碑。|原生词根。
 fo|/ˈfo/|名词|米粉。|源自越南语「pho」。
 foederatio|/foədəʁaˈtʰio/|名词|联盟。|源自拉丁语「foederatio」。
 foedus|/foˈedus/|名词|条约。|源自拉丁语「foedus」。
+føhn|/føːn/|名词|疯子。|德语 "verrückt" 变体。
+føhna|/ˈføː.na/|形容词|疯狂的，疯癫的。|「føhn」（疯子）＋形容词化后缀 -a
+føhnen|/ˈføː.nən/|动词|发疯，疯狂行为。|"fø hn" + 动词化后缀 "-en"。
+føhnenabela|/føhnənaˈbela/|形容词|可发疯的。|「føhnen」+ 后缀 -bela（可被……的）。
 folio|/ˈfo.li.o/|名词|叶子。|拉丁语 "folium"。
 folte|/ˈfoltʰə/|名词|蒸汽。|原生词根。
 fond|/fond/|动词|建立。|借世界语 fondi。
@@ -1149,6 +1248,7 @@ forlas|/foɹ.ˈlas/|动词|遗弃。|借世界语 forlasi。
 forlok|/ˈfoɹ.lokʰ/|名词|远方。|"for"（远）+ "lok"（地方）。
 forma|/ˈfoɹma/|名词|形式。|源自拉丁语「forma」。
 formula|/foˈɹmula/|名词|公式。|源自英语「formula」。
+fornako|/ˈfoɹnako/|名词|熔炉，大熔炉。|源自拉丁语「fornax」
 forpren|/foɹ.ˈpren/|动词|拿走。|原生复合（for 离 + pren 取）。
 forset|/ˈfoɹ.sətʰ/|名词|森林。|第二版新增，源自德语 "Forst"。
 forta|/ˈfoɹ.tʰa/|形容词|坚强的。|拉丁语 "fortis"。
@@ -1162,6 +1262,8 @@ fortitudo|/foɹtʰiˈtʰudo/|名词|勇敢。|源自拉丁语「fortitudo」。
 fortli|/ˈfoɹtʰli/|副词|坚强地。|「forta」+ 后缀 -li（副词化）。
 forto|/ˈfoɹtʰo/|名词|力量。|源自拉丁语「fortis」。
 fortuiti|/foɹtʰuˈitʰi/|形容词|偶然的。|源自拉丁语「fortuitus」。
+fortuitli|/foɹ.tʰuˈitʰ.li/|副词|偶然地。|「fortuiti」（偶然的）＋副词化后缀 -li
+fortuno|/ˈfoɹ.tʰu.no/|名词|运气，命运。|源自拉丁语「fortuna」
 forum|/ˈfoʁum/|名词|市场。|源自拉丁语「forum」。
 fosa|/ˈfo.sa/|动词|挖掘。|拉丁语 "fodere"。
 fosabela|/fosaˈbela/|形容词|可挖掘的。|「fosa」+ 后缀 -bela（可被……的）。
@@ -1173,28 +1275,28 @@ fourneau|/fouɹnəˈau/|名词|炉灶。|源自法语「fourneau」。
 foursoheto|/fouɹsoˈhetʰo/|名词|叉子。|源自法语「fourchette」。
 foy|/ˈfoj/|名词|次，回。|原生词根（"kelkafoy" 词根）。
 fozitnæ|/foˈzitʰnæ/|名词|草鞋。|原生词根。
-føhn|/føːn/|名词|疯子。|德语 "verrückt" 变体。
-føhnen|/ˈføː.nən/|动词|发疯，疯狂行为。|"fø hn" + 动词化后缀 "-en"。
-føhnenabela|/føhnənaˈbela/|形容词|可发疯的。|「føhnen」+ 后缀 -bela（可被……的）。
 fraĝment|/frad͡ʒˈmentʰ/|名词|碎片，部分。|拉丁语 "fragmentum"。
 frais|/ˈfrais/|名词|草莓。|源自法语「fraise」。
 frap|/frap/|动词|敲。|借世界语 frapi。
-fratelo|/fraˈtʰelo/|名词|哥哥。|源自拉丁语「frater」变体。
-frazo|/ˈfra.zo/|名词|句子。|拉丁语 "phrasis"。
 frápdu|/ˈfraːpdu/|名词|柴堆。|原生词根。
 fráta|/ˈfraː.tʰa/|名词|兄弟（正式）。|拉丁语 "frater"。
-frékeko|/freːˈkʰekʰo/|名词|混沌。|源自希腊语「χάος」(chaos)。
+fratelo|/fraˈtʰelo/|名词|哥哥。|源自拉丁语「frater」变体。
+frazo|/ˈfra.zo/|名词|句子。|拉丁语 "phrasis"。
 freas|/ˈfreas/|名词|石碑。|原生词根。
+frékeko|/freːˈkʰekʰo/|名词|混沌。|源自希腊语「χάος」(chaos)。
 frelbakrup|/frəˈlbakʰrup/|名词|渔网。|原生词根。
 fremda|/ˈfrem.da/|形容词|陌生的，外国的。|源自德语「fremd」。
 fremdulo|/ˈfrem.du.lo/|名词|陌生人。|德语 "Fremder" + "-ulo"（人）。
+fremer|/ˈfre.məɹ/|动词|沙沙作响，飒飒。|源自拉丁语「fremere」
 fremfia|/frəˈmfia/|形容词|沉闷的。|原生词根。
 frente|/ˈfren.tʰə/|动词|面对。|拉丁语 "frontem" 动词化。
 frentebela|/frəntʰəˈbela/|形容词|可面对的。|「frente」+ 后缀 -bela（可被……的）。
 freol|/ˈfreol/|名词|财宝。|原生词根。
-friedhof|/friˈedhof/|名词|墓园。|源自德语「Friedhof」。
+freska|/ˈfres.ka/|形容词|清新的，清爽的。|源自意大利语「fresco」
 frí|/ˈfriː/|名词|雷电。|原生词根。
+friedhof|/friˈedhof/|名词|墓园。|源自德语「Friedhof」。
 frok|/ˈfrokʰ/|名词|蛙。|源自日耳曼语「frog」。
+frontispicio|/fron.tʰiˈspi.tʰio/|名词|扉页，卷首。|源自拉丁语「frontispicium」
 frost|/frostʰ/|名词/形容词|霜，寒。|德语 "Frost"。
 frosta|/ˈfros.tʰa/|动词|结冰，冻结。|"frost" 动词化。
 frostabela|/frostʰaˈbela/|形容词|可结冰的。|「frosta」+ 后缀 -bela（可被……的）。
@@ -1207,61 +1309,88 @@ fruji|/ˈfrud͡ʒi/|动词|使早。|「frui」+ 后缀 -ji（使动）。
 frukto|/ˈfru.kʰtʰo/|名词|果实。|拉丁语 "fructus"。
 fruli|/ˈfruli/|副词|早地。|「frui」+ 后缀 -li（副词化）。
 frumentum|/fruˈmentʰum/|名词|粮食。|源自拉丁语「frumentum」。
-frusorsi|/fruˈsoɹsi/|名词|匕首。|原生词根。
 frŭmrup|/ˈfrʌmrup/|名词|石匠。|原生词根。
+frusorsi|/fruˈsoɹsi/|名词|匕首。|原生词根。
+fuga|/ˈfu.ɡa/|名词|逃跑。|源自拉丁语「fuga」
+fugo|/ˈfuɡo/|名词|逃离，逃跑。|源自拉丁语「fuga」
+fulcila|/ˈful.ki.la/|名词|支撑物，扶手。|fulcir（支撑）+ -ilo（工具名词）
+fulcir|/ˈful.kiɹ/|动词|支撑，撑住，扶。|源自拉丁语「fulcire」
 fulgard|/ˈfulɡaɹd/|名词|雨歇后空气里那股清冽的草木香。|ful（雨后）+ gard（气味）。
 fumo|/ˈfu.mo/|名词|烟雾。|拉丁语 "fumus"。
 fundamento|/fundaˈmentʰo/|名词|地基。|源自德语「Fundament」。
 fundlinio|/funˈdi.ni.o/|名词|底线。|fundo（底）+ linio。
+funkciar|/funkˈsi.aɹ/|动词|运作，起作用。|源自拉丁语「functio」
 funu|/ˈfunu/|名词|幽灵。|原生词根。
 fur|/ˈfuɹ/|名词|毛皮。|源自日耳曼语「fur」。
+fúr|/ˈfuːɹ/|名词|贝壳。|原生词根。
 furiosi|/fuʁiˈosi/|形容词|狂暴的。|源自拉丁语「furiosus」。
 furiozo|/fuˈʁi.o.zo/|名词|狂澜。|借拉丁 furiosus。
 furniflama|/fuɹ.niˈfla.ma/|名词|炉火。|fourneau（炉）+ flama（火）。
 fusono|/fuˈsono/|名词|缺口。|原生词根。
 futur|/ˈfu.tʰuɹ/|名词|未来。|法语 "futur"。
-fúr|/ˈfuːɹ/|名词|贝壳。|原生词根。
+fyǽli|/ˈfjæː.li/|名词|花瓣。|古诺斯语 "fjaðr" + 日语 "花びら"。
 fyar|/fjaɹ/|动词|感觉，感知。|原创词。
 fyarabela|/fjaʁaˈbela/|形容词|可感觉的。|「fyar」+ 后缀 -bela（可被……的）。
-fyǽli|/ˈfjæː.li/|名词|花瓣。|古诺斯语 "fjaðr" + 日语 "花びら"。
+-ga|/ɡa/|助词|也（接续）。|源自日语助词 "も"。
+gãæ|/ˈɡɐ̃æ/|名词|戒指。|原生词根。
 gaĝa|/ˈɡad͡ʒa/|名词|大象。|源自梵语「गज」(gaja)。
 gai|/ˈɡai/|名词|网绳。|原生词根。
 gajn|/ɡajn/|动词|获得。|借世界语 gajni。
 gala|/ˈɡa.la/|名词|声音（与 son 同义，更偏向人声）。|原生词根。
+gála|/ˈɡaː.la/|连词|或者，要么。|原生功能词。
 galeri|/ɡaˈleʁi/|名词|画廊。|源自法语「galerie」。
 gam|/ˈɡam/|名词|游戏。|源自英语「game」。
+gæna|/ˈɡæ.na/|名词|宝石，珍贵之物。|梵语 "रत्न" (ratna)。
 ganta|/ˈɡan.tʰa/|动词|拿，取。|原生词根。
 gantabela|/ɡantʰaˈbela/|形容词|可拿的。|「ganta」+ 后缀 -bela（可被……的）。
 gao|/ˈɡao/|名词|大米。|源自越南语「gao」。
+ĝapati|/d͡ʒaˈpatʰi/|动词|默念。|源自梵语「जपति」(japati)。
 gapfa|/ˈɡapfa/|名词|沼泽。|原生词根。
 gar|/ˈɡaɹ/|名词|火车站。|源自法语「gare」。
 garavrut|/ɡaˈʁavrutʰ/|名词|高处。|原生词根。
 garda|/ˈɡaɹ.da/|动词|守护，保卫。|日耳曼语源。
 gardabela|/ɡaɹdaˈbela/|形容词|可守护的。|「garda」+ 后缀 -bela（可被……的）。
+gardo|/ˈɡaɹ.do/|名词|守卫，护卫。|源自日耳曼语「wardon」。
 gari|/ˈɡaʁi/|名词|腌姜。|源自日语「ガリ」(gari)。
+ĝarit|/ˈd͡ʒaʁitʰ/|动词|翻炒。|源自俄语「жарить」(zharit)。
+gárká|/ˈɡaːɹkʰaː/|名词|蜂群。|原生词根。
 gas|/ˈɡas/|名词|天然气。|源自英语「gas」。
+gása|/ˈɡaː.sa/|名词|客人。|日耳曼语源。
 gasolin|/ɡaˈsolin/|名词|汽油。|源自英语「gasoline」。
 gastigard|/ɡas.tʰiˈɡaɹd/|名词|客人即将到来前，家中弥漫的那种期待与忙乱。|gast（客）+ gard（预备）。
 gateau|/ɡatʰəˈau/|名词|蛋糕。|源自法语「gâteau」。
-gála|/ˈɡaː.la/|连词|或者，要么。|原生功能词。
-gárká|/ˈɡaːɹkʰaː/|名词|蜂群。|原生词根。
-gása|/ˈɡaː.sa/|名词|客人。|日耳曼语源。
-gæna|/ˈɡæ.na/|名词|宝石，珍贵之物。|梵语 "रत्न" (ratna)。
-gãæ|/ˈɡɐ̃æ/|名词|戒指。|原生词根。
-géra|/ˈɡeː.ʁa/|形容词|公正的，正义的。|原生词根。
-géren|/ˈɡeːʁən/|动词|变成公正。|「géra」+ 后缀 -en（变成）。
-gérji|/ˈɡeːɹd͡ʒi/|动词|使公正。|「géra」+ 后缀 -ji（使动）。
-gérli|/ˈɡeːɹli/|副词|公正地。|「géra」+ 后缀 -li（副词化）。
+ĝati|/ˈd͡ʒatʰi/|名词|茉莉。|源自梵语「जाति」(jati)。
+ĝavoronok|/d͡ʒavoˈʁonokʰ/|名词|云雀。|源自俄语「жаворонок」(zhavoronok)。
+ĝear|/ˈd͡ʒeaɹ/|名词|齿轮。|源自英语「gear」。
+ĝédzeko|/d͡ʒeːˈdzekʰo/|名词|婚姻。|源自世界语「geedzeco」。
 gekfu|/ˈɡekʰfu/|名词|旅人。|原生词根。
+ĝelato|/d͡ʒəˈlatʰo/|名词|冰淇淋。|源自意大利语「gelato」。
 gemøm|/ˈɡemøm/|名词|蜂巢。|原生词根。
+ĝen|/ˈd͡ʒen/|名词|基因。|源自英语「gene」。
 genai|/ɡəˈnai/|形容词|高贵的。|源自希腊语「γενναῖος」(gennaios)。
+ĝendarmeri|/d͡ʒəndaˈɹmeʁi/|名词|宪兵。|源自法语「gendarmerie」。
+ĝeneral|/d͡ʒəˈneʁal/|名词|将军。|源自法语「général」。
+ĝenerator|/d͡ʒənəˈʁatʰoɹ/|名词|发电机。|源自英语「generator」。
+ĝenerosi|/d͡ʒənəˈʁosi/|形容词|慷慨的。|源自拉丁语「generosus」。
 gennai|/ɡəˈnnai/|形容词|高贵的。|源自希腊语「γενναῖος」(gennaios)。
+ĝentileka|/d͡ʒəntʰiˈlekʰa/|形容词|有礼貌的。|「ĝentileko」派生。
+ĝentileko|/d͡ʒəntʰiˈlekʰo/|名词|礼貌。|源自世界语「ĝentileco」。
 genuo|/ˈɡe.nu.o/|名词|膝盖。|拉丁语 "genu"。
 geografia|/ɡəoɡraˈfia/|名词|地理。|源自希腊语「γεωγραφία」(geographia)。
 geologia|/ɡəoloˈɡia/|名词|地质。|源自希腊语「γεωλογία」(geologia)。
+ĝeometria|/d͡ʒəoməˈtʰria/|名词|几何。|源自拉丁语「geometria」。
+ĝepak|/ˈd͡ʒepakʰ/|名词|行李。|源自德语「Gepäck」。
+ĝepatroj|/d͡ʒəˈpatʰrod͡ʒ/|名词|父母。|原生复合（patro 父 + matro 母 + 复数）。
+géra|/ˈɡeː.ʁa/|形容词|公正的，正义的。|原生词根。
 gera|/ˈɡeʁa/|名词|皮匠。|原生词根。
+géren|/ˈɡeːʁən/|动词|变成公正。|「géra」+ 后缀 -en（变成）。
+ĝerikto|/d͡ʒəˈʁikʰtʰo/|名词|法院。|源自德语「Gericht」。
+gérji|/ˈɡeːɹd͡ʒi/|动词|使公正。|「géra」+ 后缀 -ji（使动）。
+gérli|/ˈɡeːɹli/|副词|公正地。|「géra」+ 后缀 -li（副词化）。
 gesipro|/ɡəˈsipro/|名词|兽角。|原生词根。
+gesto|/ˈges.tʰo/|名词|动作，手势。|源自拉丁语「gestus」
 getah|/ˈɡetʰah/|名词|橡胶树。|源自马来语「getah」。
+gíã|/ˈɡiːɐ̃/|动词|浇洒。|原生词根。
 giani|/ɡiˈani/|名词|鸟巢。|原生词根。
 gifrók|/ˈɡifroːkʰ/|名词|鱼篓。|原生词根。
 gift|/ɡiftʰ/|名词|礼物。|英语 "gift"。
@@ -1271,11 +1400,17 @@ gimgét|/ˈɡimɡeːtʰ/|名词|兽牙。|原生词根。
 gimnasion|/ɡimnaˈsion/|名词|体育馆。|源自希腊语「γυμνάσιον」(gymnasion)。
 gimnastik|/ɡiˈmnastʰikʰ/|名词|体操。|源自希腊语「γυμναστική」(gymnastike)。
 gingæ|/ˈɡiŋɡæ/|动词|渗漏。|原生词根。
+ĝinĝa|/ˈd͡ʒind͡ʒa/|名词|神社。|源自日语「神社」(jinja)。
+ĝioni|/d͡ʒiˈoni/|形容词|酥脆的。|源自越南语「gion」。
 gis|/ɡis/|连词|直到。|世界语 "ĝis"，音系调整。
 gita|/ˈɡitʰa/|名词|薄伽梵歌。|源自梵语「गीता」(gita)。
-gíã|/ˈɡiːɐ̃/|动词|浇洒。|原生词根。
 gla|/ˈɡla/|名词|村落。|原生词根。
 glacio|/ˈɡla.ki.o/|名词|冰。|拉丁语 "glacies"。
+glæm|/ˈɡlæm/|名词|宝剑。|原生词根。
+glæna|/ˈɡlæ.na/|形容词|清澈的，明亮的。|原生词根。
+glænen|/ˈɡlænən/|动词|变成清澈。|「glæna」+ 后缀 -en（变成）。
+glænji|/ˈɡlænd͡ʒi/|动词|使清澈。|「glæna」+ 后缀 -ji（使动）。
+glænli|/ˈɡlænli/|副词|清澈地。|「glæna」+ 后缀 -li（副词化）。
 glanru|/ˈɡlanru/|名词|亲戚。|原生词根。
 glara|/ˈɡlaʁa/|名词|木棍。|原生词根。
 glas|/ˈɡlas/|名词|酒杯。|源自德语「Glas」。
@@ -1286,11 +1421,6 @@ glatji|/ˈɡlatʰd͡ʒi/|动词|使光滑。|「glata」+ 后缀 -ji（使动）
 glatli|/ˈɡlatʰli/|副词|光滑地。|「glata」+ 后缀 -li（副词化）。
 glatlu|/ˈɡlatʰlu/|名词|时钟。|源自德语「Uhr」。
 glatu|/ˈɡlatʰu/|名词|房梁。|原生词根。
-glæm|/ˈɡlæm/|名词|宝剑。|原生词根。
-glæna|/ˈɡlæ.na/|形容词|清澈的，明亮的。|原生词根。
-glænen|/ˈɡlænən/|动词|变成清澈。|「glæna」+ 后缀 -en（变成）。
-glænji|/ˈɡlænd͡ʒi/|动词|使清澈。|「glæna」+ 后缀 -ji（使动）。
-glænli|/ˈɡlænli/|副词|清澈地。|「glæna」+ 后缀 -li（副词化）。
 glelberof|/ɡləˈlbeʁof/|名词|锁子甲。|源自日耳曼语「mail」。
 glem|/ɡləm/|动词|忘记。|受德语 "vergessen" 影响。
 glemabela|/ɡləmaˈbela/|形容词|可忘记的。|「glem」+ 后缀 -bela（可被……的）。
@@ -1300,14 +1430,16 @@ glidém|/ˈɡlideːm/|名词|背篓。|原生词根。
 gliki|/ˈɡlikʰi/|形容词|甜美的。|源自希腊语「γλυκύς」(glykys)。
 glisef|/ˈɡlisəf/|名词|占卜师。|原生词根。
 gloa|/ˈɡloa/|名词|蛛网。|原生词根。
-glopkoza|/ɡloˈpkʰoza/|形容词|隐约的。|原生词根。
-gloria|/ɡloˈʁia/|名词|光荣。|源自拉丁语「gloria」。
 glóma|/ˈɡloː.ma/|名词|黄昏，暮色。|原生词根。
 glómatump|/ɡloː.maˈtʰump/|名词|暮色四合、万物沉静下坠的那一下。|glóma（暮）+ tump（沉）。
+glopkoza|/ɡloˈpkʰoza/|形容词|隐约的。|原生词根。
+gloria|/ɡloˈʁia/|名词|光荣。|源自拉丁语「gloria」。
 gluguf|/ˈɡluɡuf/|动词|磨蹭。|原生词根。
 go|/ˈɡo/|名词|棋。|源自日语「碁」(go)。
 goal|/ˈɡoal/|名词|目标。|源自英语「goal」。
+goaltokino|/ɡo.al.tʰoˈkʰi.no/|名词|目标人物。|「goal」（目标，英语 goal）+「tokin」（人）+ -o
 goat|/ˈɡoatʰ/|名词|山羊。|源自日耳曼语「goat」。
+goatpeda|/ˈɡoat.pʰe.da/|形容词|羊足的。|「goat」（山羊）+ 拉丁语「pes, pedis」（足）
 gohan|/ˈɡohan/|名词|米饭。|源自日语「ご飯」(gohan)。
 goikuon|/ɡoiˈkʰuon/|名词|春卷。|源自越南语「goi cuon」。
 gojli|/ˈɡoj.li/|副词|喜悦地。|「gojo」+ 副词化 -li。
@@ -1318,31 +1450,35 @@ golup|/ˈɡolup/|名词|鸽。|源自斯拉夫语「golub」。
 gonkar|/ˈɡoŋkʰaɹ/|名词|陶轮。|源自斯拉夫语「gonchar」。
 gonko|/ˈɡoŋkʰo/|名词|锣。|源自马来语「gong」。
 gonunså|/ɡoˈnunsɔː/|名词|轮子。|原生词根。
-goskini|/ɡoˈskʰini/|形容词|好客的。|源自波兰语「goscinny」。
-gozi|/ˈɡozi/|名词|弩。|原生词根。
+gorgo|/ˈɡoɹ.ɡo/|名词|喉咙。|源自法语「gorge」。
 gós|/ˈɡoːs/|名词|鹅。|源自日耳曼语「goose」。
+goskini|/ɡoˈskʰini/|形容词|好客的。|源自波兰语「goscinny」。
 gøtfo|/ˈɡøtʰfo/|名词|巨龙。|原生词根。
+gozi|/ˈɡozi/|名词|弩。|原生词根。
+græ|/ˈɡræ/|动词|喷嚏。|原生词根。
 grablo|/ˈɡrablo/|名词|耙。|源自斯拉夫语「grabl」。
+grada|/ˈɡra.da/|名词|程度，等级。|源自拉丁语「gradus」
 gradaçia|/ɡradaˈsia/|名词|毕业。|源自拉丁语「gradatio」。
 gradatim|/ɡraˈdatʰim/|副词|逐渐。|源自拉丁语「gradatim」。
 graflu|/ˈɡraflu/|名词|花火。|源自日语「花火」(hanabi)。
 gramatika|/ɡramaˈtʰikʰa/|名词|语法。|源自拉丁语「grammatica」。
 gramatikos|/ɡramaˈtʰikʰos/|名词|语法学家。|源自希腊语「γραμματικός」(grammatikos)。
+gramo|/ˈgʁa.mo/|名词|克，公克。|源自法语「gramme」
 granda|/ˈɡran.da/|形容词|大的（强调抽象概念）。|英语 "grand"。
 grandanimó|/ɡran.ˈda.ni.moː/|名词|宽宏大量。|"granda"（大）+ "animó"（灵魂）。
 grandarmitrupokorpo|/ɡrand.aɹ.mi.tʰru.poˈkʰoɹ.po/|名词|大批武装部队。|"granda" + "armitrupo" + "korpo"。
 granden|/ˈɡrandən/|动词|变成大的（强调抽象概念）。|「granda」+ 后缀 -en（变成）。
 grandji|/ˈɡrand͡ʒi/|动词|使大的（强调抽象概念）。|「granda」+ 后缀 -ji（使动）。
 grandli|/ˈɡrandli/|副词|大的（强调抽象概念）地。|「granda」+ 后缀 -li（副词化）。
+grano|/ˈɡrano/|名词|谷物，谷粒。|源自拉丁语「granum」
 grasa|/ˈɡra.sa/|名词|脂肪。|原生词根。
+græses|/ˈɡræ.səs/|助词|谢谢。|拉丁语 "gratias"。
 grata|/ˈɡra.tʰa/|动词|抓挠。|拉丁语 "grattare"。
 gratabela|/ɡratʰaˈbela/|形容词|可抓挠的。|「grata」+ 后缀 -bela（可被……的）。
 gratia|/ɡraˈtʰia/|名词|恩惠。|源自拉丁语「gratia」。
 gratulari|/ɡratʰuˈlaʁi/|动词|感激。|源自拉丁语「gratulari」。
 gratularibela|/ɡratʰulaʁiˈbela/|形容词|可感激的。|「gratulari」+ 后缀 -bela（可被……的）。
 gratulo|/ɡraˈtʰulo/|名词|祝贺。|源自世界语「gratulo」。
-græ|/ˈɡræ/|动词|喷嚏。|原生词根。
-græses|/ˈɡræ.səs/|助词|谢谢。|拉丁语 "gratias"。
 græzé|/ˈɡræzeː/|动词|冲刷。|原生词根。
 grebef|/ˈɡrebəf/|动词|端详。|原生词根。
 greka|/ˈɡrekʰa/|名词|荞麦。|源自俄语「гречка」(grechka)。
@@ -1352,69 +1488,69 @@ greprø|/ˈɡreprø/|名词|庭院。|原生词根。
 grevon|/ˈɡrevon/|动词|沉淀。|原生词根。
 grifo|/ˈɡrifo/|名词|把手。|源自德语「Griff」。
 gripso|/ˈɡripso/|名词|狮鹫。|源自希腊语「γρύψ」(gryps)。
+grisa|/ˈɡri.sa/|形容词|灰色的。|源自法语「gris」
 grolzi|/ˈɡrolzi/|名词|烟囱。|原生词根。
-grozibova|/ɡroziˈbova/|名词|蘑菇汤。|源自波兰语「grzybowa」。
 grómsa|/ˈɡroːmsa/|名词|橄榄树。|借词「zeytin」。
+grozibova|/ɡroziˈbova/|名词|蘑菇汤。|源自波兰语「grzybowa」。
 grulkæ|/ˈɡrulkʰæ/|名词|旷野。|原生词根。
 gruo|/ˈɡruo/|名词|鹤。|源自拉丁语「grus」。
 grupo|/ˈɡru.po/|名词|组，群。|源自意大利语「gruppo」。
+gubernar|/ɡuˈbeɹ.naɹ/|动词|控制，掌管。|源自拉丁语「gubernare」
 gubernatio|/ɡubəɹnaˈtʰio/|名词|治理。|源自拉丁语「gubernatio」。
+ĝudo|/ˈd͡ʒudo/|名词|柔道。|源自日语「柔道」(judo)。
 gufatbe|/ɡuˈfatʰbə/|名词|学徒。|原生词根。
+gúfke|/ˈɡuːfkʰə/|名词|沙漠。|原生词根。
 guflefbat|/ɡuˈflefbatʰ/|名词|尺度。|原生词根。
 guitara|/ɡuiˈtʰaɹra/|名词|吉他。|源自西班牙语「guitarra」。
+gúkpa|/ˈɡuːkʰpa/|副词|轻盈地。|原生词根。
 gukpehut|/ɡuˈkʰpehutʰ/|动词|凸起。|原生词根。
 gulai|/ɡuˈlai/|名词|咖喱。|源自马来语「gulai」。
+gúlam|/ˈɡuːlam/|名词|马鞍。|原生词根。
+ĝuravlo|/d͡ʒuˈʁavlo/|名词|鹤。|源自俄语「журавль」(zhuravl)。
+gúrma|/ˈɡuːɹma/|名词|车轴。|原生词根。
 gurtel|/ˈɡuɹtʰəl/|名词|皮带。|源自德语「Gürtel」。
 guru|/ˈɡuʁu/|名词|古鲁。|源自梵语「गुरु」(guru)。
+gustar|/ˈgus.tʰaɹ/|动词|品尝。|源自拉丁语「gustare」
 gusti|/ˈɡustʰi/|形容词|浓稠的。|源自俄语「густой」(gustoy)。
 gusto|/ˈɡustʰo/|名词|味道。|源自拉丁语「gustus」。
+guta|/ˈɡu.tʰa/|名词|滴，液滴。|源自拉丁语「gutta」
+guto|/ˈgu.tʰo/|名词|滴。|源自拉丁语「gutta」
 guvernó|/ɡu.ˈveɹ.noː/|名词|政府。|英语 "government"。
-gúfke|/ˈɡuːfkʰə/|名词|沙漠。|原生词根。
-gúkpa|/ˈɡuːkʰpa/|副词|轻盈地。|原生词根。
-gúlam|/ˈɡuːlam/|名词|马鞍。|原生词根。
-gúrma|/ˈɡuːɹma/|名词|车轴。|原生词根。
-ĝapati|/d͡ʒaˈpatʰi/|动词|默念。|源自梵语「जपति」(japati)。
-ĝarit|/ˈd͡ʒaʁitʰ/|动词|翻炒。|源自俄语「жарить」(zharit)。
-ĝati|/ˈd͡ʒatʰi/|名词|茉莉。|源自梵语「जाति」(jati)。
-ĝavoronok|/d͡ʒavoˈʁonokʰ/|名词|云雀。|源自俄语「жаворонок」(zhavoronok)。
-ĝédzeko|/d͡ʒeːˈdzekʰo/|名词|婚姻。|源自世界语「geedzeco」。
-ĝear|/ˈd͡ʒeaɹ/|名词|齿轮。|源自英语「gear」。
-ĝelato|/d͡ʒəˈlatʰo/|名词|冰淇淋。|源自意大利语「gelato」。
-ĝen|/ˈd͡ʒen/|名词|基因。|源自英语「gene」。
-ĝendarmeri|/d͡ʒəndaˈɹmeʁi/|名词|宪兵。|源自法语「gendarmerie」。
-ĝeneral|/d͡ʒəˈneʁal/|名词|将军。|源自法语「général」。
-ĝenerator|/d͡ʒənəˈʁatʰoɹ/|名词|发电机。|源自英语「generator」。
-ĝenerosi|/d͡ʒənəˈʁosi/|形容词|慷慨的。|源自拉丁语「generosus」。
-ĝentileka|/d͡ʒəntʰiˈlekʰa/|形容词|有礼貌的。|「ĝentileko」派生。
-ĝentileko|/d͡ʒəntʰiˈlekʰo/|名词|礼貌。|源自世界语「ĝentileco」。
-ĝeometria|/d͡ʒəoməˈtʰria/|名词|几何。|源自拉丁语「geometria」。
-ĝepak|/ˈd͡ʒepakʰ/|名词|行李。|源自德语「Gepäck」。
-ĝepatroj|/d͡ʒəˈpatʰrod͡ʒ/|名词|父母。|原生复合（patro 父 + matro 母 + 复数）。
-ĝerikto|/d͡ʒəˈʁikʰtʰo/|名词|法院。|源自德语「Gericht」。
-ĝinĝa|/ˈd͡ʒind͡ʒa/|名词|神社。|源自日语「神社」(jinja)。
-ĝioni|/d͡ʒiˈoni/|形容词|酥脆的。|源自越南语「gion」。
-ĝudo|/ˈd͡ʒudo/|名词|柔道。|源自日语「柔道」(judo)。
-ĝuravlo|/d͡ʒuˈʁavlo/|名词|鹤。|源自俄语「журавль」(zhuravl)。
+habili|/haˈbi.li/|形容词|熟练的，灵巧的。|源自拉丁语「habilis」
 habitanto|/habiˈtʰantʰo/|名词|居民。|源自法语「habitant」。
 hafsé|/ˈhafseː/|名词|车夫。|原生词根。
 haiku|/haˈikʰu/|名词|俳句。|源自日语「俳句」(haiku)。
 hait|/ˈhaitʰ/|名词|蜜饯。|原生词根。
 hakaru|/haˈkʰaʁu/|动词|斟酌。|源自日语「はかる」(hakaru)。
 haken|/ˈhakʰən/|名词|钩子。|源自德语「Haken」。
+hæla|/ˈhæ.la/|动词|隐藏，躲藏。|原生词根。
+hælabela|/hælaˈbela/|形容词|可隐藏的。|「hæla」+ 后缀 -bela（可被……的）。
 halo|/ˈhalo/|名词|大厅。|源自日耳曼语「hall」。
 halt|/haltʰ/|动词|停。|借世界语 halti。
 ham|/ˈham/|动词|炖煮。|源自越南语「ham」。
 hamam|/ˈhamam/|名词|浴池。|借词「hamam」。
+hámlú|/ˈhaːmluː/|名词|牧人。|原生词根。
 hanabi|/haˈnabi/|名词|烟花。|源自日语「花火」(hanabi)。
 hanami|/haˈnami/|名词|樱花节。|源自日语「花見」(hanami)。
+háó|/ˈhaːoː/|名词|经文。|原生词根。
+hápúma|/haːˈpuːma/|形容词|浓密的。|原生词根。
 hara|/ˈha.ʁa/|名词|毛发。|原生词根。
+hára|/ˈhaː.ʁa/|形容词|高的。|原生词根。
 harau|/haˈʁau/|动词|拂拭。|源自日语「払う」(harau)。
 hardovar|/haˈɹdovaɹ/|名词|硬件。|源自英语「hardware」。
 harem|/ˈhaʁəm/|名词|后宫。|借词「harem」。
+háren|/ˈhaːʁən/|动词|变成高。|「hára」+ 后缀 -en（变成）。
+hæresis|/hæˈʁesis/|名词|异端。|源自拉丁语「haeresis」。
 haridra|/haˈʁidra/|名词|姜黄。|源自梵语「हरिद्रा」(haridra)。
+hárji|/ˈhaːɹd͡ʒi/|动词|使高。|「hára」+ 后缀 -ji（使动）。
+hárli|/ˈhaːɹli/|副词|高地。|「hára」+ 后缀 -li（副词化）。
 harmonia|/haɹmoˈnia/|名词|和谐。|源自拉丁语「harmonia」。
 harmoniki|/haɹmoˈnikʰi/|形容词|和谐的。|源自希腊语「ἁρμονικός」(harmonikos)。
+haro|/ˈha.ʁo/|名词|头发。|源自德语「Haar」。
+harofalo|/ha.ˈʁo.fa.lo/|名词|脱发。|「haro」+「falo」。
+harpino|/ˈhaɹ.pi.no/|名词|发卡，发夹。|「hara」（毛发）+ 拉丁语「spina」（针）
 hasienda|/hasiˈenda/|名词|庄园。|源自西班牙语「hacienda」。
+hæsitar|/ˈhæ.si.taɹ/|动词|犹豫，迟疑。|源自拉丁语「haesitare」
 hasta|/ˈhas.tʰa/|形容词|匆忙的。|德语 "Hast"。
 hasta-avanc|/ˈhastʰ.a.vank/|动词短语|匆匆划过。|"hast" + "avanc"。
 hasta-avancabela|/hastʰa.avankaˈbela/|形容词|可匆匆划过的。|「hasta-avanc」+ 后缀 -bela（可被……的）。
@@ -1425,24 +1561,13 @@ haswom|/ˈhaswom/|名词|斥候。|原生词根。
 haus|/ˈhaus/|名词|房屋。|源自德语「Haus」。
 hauto|/ˈhau.tʰo/|名词|皮肤。|原生词根。
 havi|/ˈha.vi/|动词|有。|源自拉丁语「habere」。
-hámlú|/ˈhaːmluː/|名词|牧人。|原生词根。
-háó|/ˈhaːoː/|名词|经文。|原生词根。
-hápúma|/haːˈpuːma/|形容词|浓密的。|原生词根。
-hára|/ˈhaː.ʁa/|形容词|高的。|原生词根。
-háren|/ˈhaːʁən/|动词|变成高。|「hára」+ 后缀 -en（变成）。
-hárji|/ˈhaːɹd͡ʒi/|动词|使高。|「hára」+ 后缀 -ji（使动）。
-hárli|/ˈhaːɹli/|副词|高地。|「hára」+ 后缀 -li（副词化）。
-hæla|/ˈhæ.la/|动词|隐藏，躲藏。|原生词根。
-hælabela|/hælaˈbela/|形容词|可隐藏的。|「hæla」+ 后缀 -bela（可被……的）。
-hæresis|/hæˈʁesis/|名词|异端。|源自拉丁语「haeresis」。
-hélma|/ˈheːl.ma/|名词|头盔。|日耳曼语源。
-héra|/ˈheː.ʁa/|名词|主人，领主。|日耳曼语源。
 hebdomas|/həˈbdomas/|名词|星期。|源自拉丁语「hebdomas」。
 hef|/ˈhef/|名词|爱欲。|源自梵语「काम」(kama)。
 hejmo|/ˈhe.d͡ʒ.mo/|名词|家（情感归属）。|借英语 home。
 hekatompo|/həkʰaˈtʰompo/|名词|神庙献祭。|源自希腊语「ἑκατόμβη」(hekatombe)。
 hektaro|/həˈkʰtʰaʁo/|名词|公顷。|源自法语「hectare」。
 helikopter|/həliˈkʰoptʰəɹ/|名词|直升机。|源自英语「helicopter」。
+hélma|/ˈheːl.ma/|名词|头盔。|日耳曼语源。
 help|/həlp/|动词|帮助。|借英语 help。
 helpanto|/həlˈpan.tʰo/|名词|助手。|helpi + -anto。
 helpi|/ˈhelpi/|动词|帮助。|源自世界语「helpi」。
@@ -1450,10 +1575,13 @@ helpo|/ˈhelpo/|名词|帮助。|源自世界语「helpo」。
 hemiteos|/həmiˈtʰeos/|名词|半神。|源自希腊语「ἡμίθεος」(hemitheos)。
 heortazein|/həoɹtʰaˈzein/|动词|庆祝。|源自希腊语「ἑορτάζειν」(heortazein)。
 hepato|/həˈpa.tʰo/|名词|肝脏。|拉丁语 "hepar"。
+héra|/ˈheː.ʁa/|名词|主人，领主。|日耳曼语源。
 herbo|/ˈheɹ.bo/|名词|草。|拉丁语 "herba"。
 herfo|/ˈheɹfo/|名词|竖琴。|原生词根。
 heros|/ˈheʁos/|名词|英雄。|源自法语「héros」。
+hesita|/ˈhe.si.tʰa/|动词|犹豫，迟疑。|源自拉丁语「haesitare」
 Hey|/həj/|叹词|嘿。|第二版新增，拟声词。
+hezitar|/heˈzi.taɹ/|动词|犹豫，踌躇。|源自拉丁语「haesitare」
 hiæ|/ˈhiæ/|名词|行囊。|原生词根。
 hiemorna|/hiəˈmoɹna/|名词|冬天早晨赖在被窝里的那种慵懒安宁。|hiem（冬）+ morn（晨）。
 hiemso|/hiˈemso/|名词|冬日。|源自拉丁语「hiems」。
@@ -1472,12 +1600,16 @@ hiruáp|/hiˈʁuaːp/|名词|符号。|原生词根。
 histion|/hiˈstʰion/|名词|帆。|源自希腊语「ἱστίον」(histion)。
 historia|/histʰoˈʁia/|名词|历史。|源自拉丁语「historia」。
 hivér|/ˈhi.veː/|名词|冬季。|法语 "hiver"。
+ho-|/ho/|前缀|此（指示，表强调）。|自创。
+ho-nokt|/ˈho.nokʰtʰ/|名词|此夜。|"ho-" + "nokt"。
 hoangokunko|/hoaŋɡoˈkʰuŋkʰo/|名词|皇宫。|源自越南语「hoang cung」。
 hodi|/ˈhø.di/|动词|独立。|原生词根。
 hodiau|/hoˈdi.au/|副词|今天。|借拉丁 hodie。
 hodibela|/hodiˈbela/|形容词|可独立的。|「hodi」+ 后缀 -bela（可被……的）。
 hodie|/hoˈdi.ə/|名词|今天。|拉丁语 "hodie"。
+hødŭsus|/høˈdʌsus/|名词|肉汤。|原生词根。
 hofe|/ˈhofə/|名词|浅处。|原生词根。
+høfro|/ˈhøfro/|名词|凹陷。|原生词根。
 holdirir|/hoˈldiʁiɹ/|名词|阴影。|原生词根。
 holi|/ˈholi/|形容词|完整的。|源自希腊语「ὅλος」(holos)。
 holzo|/ˈholzo/|名词|木材。|源自德语「Holz」。
@@ -1501,13 +1633,12 @@ horseridinko|/hoɹsəʁiˈdiŋkʰo/|名词|骑马。|源自英语「horse riding
 hortus|/ˈhoɹtʰus/|名词|花园。|源自拉丁语「hortus」。
 hos|/ˈhos/|名词|裤子。|源自德语「Hose」。
 hotel|/ˈhotʰəl/|名词|旅馆。|源自法语「hôtel」。
-ho-|/ho/|前缀|此（指示，表强调）。|自创。
-ho-nokt|/ˈho.nokʰtʰ/|名词|此夜。|"ho-" + "nokt"。
-hødŭsus|/høˈdʌsus/|名词|肉汤。|原生词根。
-høfro|/ˈhøfro/|名词|凹陷。|原生词根。
 hresta|/ˈhres.tʰa/|动词|休息，暂停。|原生词根。
 hrestabela|/hrəstʰaˈbela/|形容词|可休息的。|「hresta」+ 后缀 -bela（可被……的）。
+hrestinte|/hresˈtʰin.tʰe/|分词|休息过后（hresta 的过去分词）。|「hresta」(休息) + 过去分词 -inte
 hudol|/ˈhudol/|名词|棉布。|原生词根。
+humanita|/huˈmanita/|形容词|人道的，博爱的。|源自拉丁语「humanitas」
+humera|/huˈme.ra/|名词|肩膀。|源自拉丁语「humerus」
 humil|/ˈhu.mil/|名词|谦虚。|原生词根。
 humila|/hu.ˈmi.la/|形容词|谦虚的。|"humil" 派生。
 humilen|/huˈmilən/|动词|变成谦虚。|「humila」+ 后缀 -en（变成）。
@@ -1517,8 +1648,8 @@ humiltermon|/hu.milˈtʰeɹ.mon/|名词|谦卑的措辞。|"humil"（谦卑）+ 
 hurma|/ˈhuɹma/|名词|枣。|借词「hurma」。
 hutropup|/huˈtʰropup/|名词|咒语。|原生词根。
 huzú|/ˈhuzuː/|名词|粥。|原生词根。
-iagoda|/iaˈɡoda/|名词|莓果。|源自俄语「ягода」(yagoda)。
 iaĝna|/iˈad͡ʒna/|名词|火祭。|源自梵语「यज्ञ」(yajna)。
+iagoda|/iaˈɡoda/|名词|莓果。|源自俄语「ягода」(yagoda)。
 iakmen|/iˈakʰmən/|名词|大麦。|源自俄语「ячмень」(yachmen)。
 iam|/ˈiam/|副词|已经。|源自拉丁语「iam」。
 ianagi|/iaˈnaɡi/|名词|柳。|源自日语「柳」(yanagi)。
@@ -1534,26 +1665,33 @@ idonfef|/iˈdonfəf/|名词|平原。|原生词根。
 ieiunium|/iəiuˈnium/|名词|斋戒。|源自拉丁语「ieiunium」。
 iel|/ˈiəl/|名词|云杉。|源自俄语「ель」(yel)。
 ieniceri|/iəniˈkeʁi/|名词|禁卫军。|借词「yeniceri」。
+ífa|/ˈiː.fa/|代词|某，某个（不定代词）。|原生词根。
 ifi|/ˈifi/|名词|剑柄。|原生词根。
 ignoser|/iˈɡnosəɹ/|动词|原谅。|源自拉丁语「ignoscere」。
 igo|/ˈiɡo/|名词|围棋。|源自日语「囲碁」(igo)。
 ika|/ˈikʰa/|名词|藤蔓。|原生词根。
+íka|/ˈiːkʰa/|名词|头巾。|原生词根。
 ikanmasin|/ikʰaˈnmasin/|名词|腌鱼。|源自马来语「ikan masin」。
 ikat|/ˈikʰatʰ/|动词|打结。|源自马来语「ikat」。
 ikona|/iˈkʰona/|名词|圣像。|源自拉丁语「icona」。
 ikonostas|/ikʰoˈnostʰas/|名词|圣像屏。|源自俄语「иконостас」(ikonostas)。
 ikra|/ˈikʰra/|名词|鱼子酱。|源自俄语「икра」(ikra)。
+-il|/il/|后缀|工具名词（表器械）。|foto（照片）→ fotil（相机）。
 ilahuni|/ilaˈhuni/|形容词|隐晦的。|源自拉丁语「obscurus」。
 ilæn|/ˈilæn/|名词|针。|原生词根。
+ilegala|/iˈle.ɡa.la/|形容词|违法的，非法的。|源自英语「illegal」
 ilrø|/ˈilrø/|名词|铜镜。|原生词根。
 ilta|/ˈil.tʰa/|形容词|几乎，差不多的。|原生词根。
 ilten|/ˈiltʰən/|动词|变成几乎。|「ilta」+ 后缀 -en（变成）。
 iltji|/ˈiltʰd͡ʒi/|动词|使几乎。|「ilta」+ 后缀 -ji（使动）。
 iltli|/ˈiltʰli/|副词|几乎地。|「ilta」+ 后缀 -li（副词化）。
 ilu|/ˈi.lu/|名词|工具。|世界语 "ilo" 变体。
+iluzio|/iˈlu.zi.o/|名词|错觉，幻觉。|源自拉丁语「illusio」
 ima|/ˈima/|形容词|温顺的。|原生词根。
+íma|/ˈiː.ma/|副词|几乎，将近。|原生词根。
 imago|/iˈmaɡo/|名词|想象。|源自世界语「imago」。
 imanvã|/iˈmanvɐ̃/|名词|尘土。|原生词根。
+imbis|/imˈbis/|名词|零食，小吃。|源自德语「Imbiss」。
 imigranto|/imiˈɡrantʰo/|名词|移民。|源自法语「immigrant」。
 imperator|/impəˈʁatʰoɹ/|名词|皇帝。|源自拉丁语「imperator」。
 imperium|/impəˈʁium/|名词|帝国。|源自拉丁语「imperium」。
@@ -1562,9 +1700,12 @@ importa|/imˈpoɹ.tʰa/|形容词|重要的。|拉丁语 "importare"。
 importen|/iˈmpoɹtʰən/|动词|变成重要。|「importa」+ 后缀 -en（变成）。
 importji|/iˈmpoɹtʰd͡ʒi/|动词|使重要。|「importa」+ 后缀 -ji（使动）。
 importli|/iˈmpoɹtʰli/|副词|重要地。|「importa」+ 后缀 -li（副词化）。
+-ina|/ˈi.na/|后缀|亲昵小称（名）：爱称，小名。|与 -ino 成对，亲昵语域。
+inaugurar|/inˈau.ɡu.ʁaɹ/|动词|就职，就任。|源自拉丁语「inaugurare」
 incir|/ˈinkiɹ/|名词|无花果树。|借词「incir」。
 indekso|/iˈndekʰso/|名词|索引。|源自拉丁语「index」。
 indiansovaĝuló|/in.di.an.so.vaˈd͡ʒu.loː/|名词|印第安野蛮人（历史用语）。|"indian" + "sovaĝuló"。
+indigo|/ˈindigo/|名词|靛蓝，深蓝。|源自拉丁语「indicum」
 induktio|/induˈkʰtʰio/|名词|归纳。|源自拉丁语「inductio」。
 industori|/induˈstʰoʁi/|名词|行业。|源自英语「industry」。
 infan|/ˈin.fan/|名词|小孩。|拉丁语 "infans"。
@@ -1574,14 +1715,21 @@ infoluo|/infoˈluo/|名词|影响。|源自世界语「influo」。
 inform|/inˈfoɹm/|动词|告知。|拉丁语 "informare"。
 informatio|/infoɹmaˈtʰio/|名词|信息。|源自拉丁语「informatio」。
 inĝenieur|/ind͡ʒəniˈeuɹ/|名词|工程师。|源自法语「ingénieur」。
+inkongrua|/inˈkʰoŋ.ɡru.a/|形容词|不协调的，格格不入的。|源自拉丁语「incongruens」
+-ino|/ˈi.no/|后缀|亲昵小称（男/中性）：昵称。|与 -ina 成对，亲昵语域。
 inondation|/inondaˈtʰion/|名词|洪水。|源自法语「inondation」。
 insendi|/iˈnsendi/|名词|火灾。|源自法语「incendie」。
 insigni|/iˈnsiɡni/|形容词|显著的。|源自拉丁语「insignis」。
 insotitutio|/insotʰitʰuˈtʰio/|名词|机构。|源自拉丁语「institutio」。
 insotrumentum|/insotʰruˈmentʰum/|名词|乐器。|源自拉丁语「instrumentum」。
+-int-|/intʰ/|中缀|过去分词（已经……的）。|penter（画）→ pentinta。
 inta|/ˈin.tʰa/|连词|即使，纵然。|原生功能词。
+intenta|/inˈten.tʰa/|名词|意图，用意。|源自拉丁语「intentio」
+intente|/inˈten.tʰe/|副词|故意地，有意地。|源自拉丁语「intente」
 intentorektitudó|/in.tʰen.tʰo.ʁekʰ.tʰi.tʰuˈdoː/|名词|意图的正当性。|"intento" + "rektitudó"。
 inter|/ˈintʰəɹ/|介词|在……之间。|源自拉丁语「inter」。
+interesen|/in.tʰeˈʁe.sen/|动词|感兴趣，起兴趣。|intereso（兴趣）+ -en（变成）
+intereso|/in.tʰeˈʁe.so/|名词|兴趣。|源自拉丁语「interesse」
 internaciona|/in.tʰəɹ.na.kiˈo.na/|形容词|国际的。|源自法语「internationale」。
 internakonvulsio|/in.tʰeɹ.na.kʰonˈvul.si.o/|名词|内部动荡。|"interna" + "konvulsio"。
 internet|/iˈntʰeɹnətʰ/|名词|互联网。|源自英语「internet」。
@@ -1592,12 +1740,15 @@ intimonten|/intʰiˈmontʰən/|动词|变成亲密。|「intimonta」+ 后缀 -e
 intimontji|/intʰiˈmontʰd͡ʒi/|动词|使亲密。|「intimonta」+ 后缀 -ji（使动）。
 intimontli|/intʰiˈmontʰli/|副词|亲密地。|「intimonta」+ 后缀 -li（副词化）。
 introverta|/intʰroˈveɹtʰa/|形容词|内向的。|源自拉丁语「introvertere」。
+intuitio|/in.tuˈi.ti.o/|名词|直觉。|源自拉丁语「intuitio」
+invalida|/in.vaˈli.da/|形容词|残疾的，行动不便的。|源自拉丁语「invalidus」
 invenir|/iˈnveniɹ/|动词|发现。|源自拉丁语「invenire」。
 investigation|/invəstʰiɡaˈtʰion/|名词|调查。|源自英语「investigation」。
 investomento|/invəstʰoˈmentʰo/|名词|投资。|源自英语「investment」。
+invitar|/inˈvi.tʰaɹ/|动词|邀请。|源自拉丁语「invitare」
+ioĝ|/ˈiod͡ʒ/|名词|刺猬。|源自俄语「ёж」(yozh)。
 ioga|/iˈoɡa/|名词|瑜伽。|源自梵语「योग」(yoga)。
 iogurto|/ioˈɡuɹtʰo/|名词|酸奶。|借词「yogurt」。
-ioĝ|/ˈiod͡ʒ/|名词|刺猬。|源自俄语「ёж」(yozh)。
 iom|/ˈiom/|副词|一点，少许。|源自世界语「iom」。
 ioroi|/ioˈʁoi/|名词|铠甲。|源自日语「鎧」(yoroi)。
 ipírim|/iˈpiːʁim/|名词|畜棚。|原生词根。
@@ -1605,6 +1756,8 @@ iplenu|/iˈplenu/|名词|峭壁。|原生词根。
 ipnǽmha|/iˈpnæːmha/|形容词|黏稠的。|原生词根。
 ipot|/ˈipotʰ/|名词|纹章。|原生词根。
 ipse|/ˈipsə/|名词|海怪。|原生词根。
+íra|/ˈiː.ʁa/|动词|发怒，生气。|拉丁语 "ira"。
+íran|/ˈiː.ʁan/|动词|发怒。|「íra」+ 动词化 -an。
 irar|/iˈʁaɹ/|动词|去，走（正式）。|拉丁语 "ire" + "-ar"。
 irbis|/ˈiɹbis/|名词|雪豹。|源自俄语「ирбис」(irbis)。
 irigar|/iˈɹriɡaɹ/|动词|灌溉。|源自拉丁语「irrigare」。
@@ -1615,33 +1768,35 @@ ishidoro|/iʃiˈdoʁo/|名词|石灯笼。|源自日语「石灯籠」(ishidoro)
 isi|/ˈisi/|形容词|平等的。|源自希腊语「ἴσος」(isos)。
 iskohiri|/iskʰoˈhiʁi/|形容词|强壮的。|源自希腊语「ἰσχυρός」(iskhyros)。
 ispanak|/iˈspanakʰ/|名词|菠菜。|借词「ispanak」。
+ístra|/ˈiːs.tʰra/|动词|渴望，强烈希望。|原生词根。
+ístraswen|/ˈiːs.tʰra.swən/|名词|对远方某处莫名的牵挂，说不清为何。|ístra（渴望）+ swen（牵）。
 isvimnak|/iˈsvimnakʰ/|名词|瓦罐。|原生词根。
 iter|/ˈi.tʰəɹ/|副词|又，再次。|拉丁语 "iterum"。
 itpaf|/ˈitʰpaf/|名词|中心。|原生词根。
 itró|/ˈi.tʰroː/|名词|奴隶。|希腊语 "δοῦλος" 变体。
 iukata|/iuˈkʰatʰa/|名词|浴衣。|源自日语「浴衣」(yukata)。
+íulse|/iːˈulsə/|名词|扁担。|原生词根。
 iurto|/iˈuɹtʰo/|名词|毡房。|借词「yurt」。
 ius|/ˈius/|名词|权利。|源自拉丁语「ius」。
 iustitia|/iustʰiˈtʰia/|名词|正义。|源自拉丁语「iustitia」。
 ix|/iks/|名词|笔。|拉丁语 "stilus" 简化。
 izba|/ˈizba/|名词|木屋。|源自俄语「изба」(izba)。
-ífa|/ˈiː.fa/|代词|某，某个（不定代词）。|原生词根。
-íka|/ˈiːkʰa/|名词|头巾。|原生词根。
-íma|/ˈiː.ma/|副词|几乎，将近。|原生词根。
-íra|/ˈiː.ʁa/|动词|发怒，生气。|拉丁语 "ira"。
-íran|/ˈiː.ʁan/|动词|发怒。|「íra」+ 动词化 -an。
-ístra|/ˈiːs.tʰra/|动词|渴望，强烈希望。|原生词根。
-ístraswen|/ˈiːs.tʰra.swən/|名词|对远方某处莫名的牵挂，说不清为何。|ístra（渴望）+ swen（牵）。
-íulse|/iːˈulsə/|名词|扁担。|原生词根。
+izolar|/iˈzo.laɹ/|动词|隔离。|源自意大利语「isolare」
 jagoda|/d͡ʒaˈɡoda/|名词|蓝莓。|源自波兰语「jagoda」。
 jak|/ˈd͡ʒakʰ/|名词|上衣。|源自德语「Jacke」。
+japonika|/d͡ʒaˈpo.ni.kʰa/|形容词|日本的。|源自拉丁语「Iaponia」
 jardinier|/d͡ʒaɹdiˈniəɹ/|名词|园丁。|源自法语「jardinier」。
 jaro|/ˈja.ʁo/|名词|年。|借法语 année 变体。
 jinpesilua|/d͡ʒin.pe.ˈsi.lu.a/|形容词|口误的，说错了的。|原生词根（新造）。
 join|/ˈd͡ʒo.in/|动词|结合。|英语 "join"。
+joka|/ˈjo.kʰa/|形容词|戏谑的，爱开玩笑的。|源自拉丁语「iocosus」
+jokosa|/ˈjo.kʰo.sa/|形容词|有趣的，诙谐的。|源自拉丁语「jocosus」
+journalistino|/d͡ʒuɹ.na.lisˈtʰi.no/|名词|女记者。|jurnalisto + -ino（阴性）。
 journalisto|/d͡ʒouɹnaˈlistʰo/|名词|记者。|源自法语「journaliste」。
 judiçia|/d͡ʒuˈdi.si.a/|名词|法律。|词源不详，视为原创词。
+judiçiar|/d͡ʒuˈdi.si.aɹ/|动词|审判，裁断。|「judiçia」（法律）+ 动词化 -ar
 judiçiastró|/d͡ʒu.di.si.as.tʰə.ˈroː/|名词|法官。|"judiçia" + 施动者后缀 "-astró"。
+judiker|/ˈjudikeɹ/|动词|审判，裁决。|源自拉丁语「judicare」
 juna|/ˈd͡ʒu.na/|形容词|年轻的。|源自拉丁语「iuvenis」。
 junen|/ˈd͡ʒunən/|动词|变成年轻。|「juna」+ 后缀 -en（变成）。
 jungo|/ˈd͡ʒun.ɡo/|动词|连接。|拉丁语 "jungere"。
@@ -1649,7 +1804,6 @@ junji|/ˈd͡ʒund͡ʒi/|动词|使年轻。|「juna」+ 后缀 -ji（使动）�
 junli|/ˈd͡ʒunli/|副词|年轻地。|「juna」+ 后缀 -li（副词化）。
 jup|/ˈd͡ʒup/|名词|裙子。|源自法语「jupe」。
 jupitadien|/d͡ʒu.pi.tʰaˈdi.en/|名词|星期四（木曜日）。|jupita（木星）+ dien。
-journalistino|/d͡ʒuɹ.na.lisˈtʰi.no/|名词|女记者。|jurnalisto + -ino（阴性）。
 kabak|/ˈkʰabakʰ/|名词|南瓜。|借词「kabak」。
 kabalero|/kʰabaˈleʁo/|名词|游侠。|源自西班牙语「caballero」。
 kabinum|/kʰaˈbinum/|名词|内阁。|源自拉丁语「cabinum」。
@@ -1657,6 +1811,7 @@ kablo|/ˈkʰablo/|名词|电缆。|源自英语「cable」。
 kabuki|/kʰaˈbukʰi/|名词|歌舞伎。|源自日语「歌舞伎」(kabuki)。
 kadali|/kʰaˈdali/|名词|香蕉。|源自梵语「कदली」(kadali)。
 kader|/ˈkʰadəɹ/|动词|跌倒。|源自拉丁语「cadere」。
+kæder|/ˈkʰædəɹ/|动词|砍伐。|源自拉丁语「caedere」。
 kado|/ˈkʰado/|名词|花道。|源自日语「華道」(kado)。
 kadro|/ˈkʰadro/|名词|相框。|源自法语「cadre」。
 kaf|/ˈkʰaf/|名词|咖啡馆。|源自法语「café」。
@@ -1667,6 +1822,7 @@ kajero|/kʰaˈd͡ʒe.ʁo/|名词|本子，笔记本。|借法语 cahier。
 kajo|/ˈkʰa.jo/|名词|站台。|借世界语 kajo。
 kakao|/kʰaˈkʰao/|名词|可可。|源自西班牙语「cacao」。
 kakul|/ˈkʰakʰul/|名词|豆蔻。|借词「kakule」。
+kalcio|/ˈkal.ki.o/|名词|钙。|源自拉丁语「calcium」。
 kalefaser|/kʰaləˈfasəɹ/|动词|加热。|源自拉丁语「calefacere」。
 kalendarium|/kʰaləndaˈʁium/|名词|日历。|源自拉丁语「calendarium」。
 kalidi|/kʰaˈlidi/|形容词|狡猾的。|源自拉丁语「callidus」。
@@ -1684,24 +1840,28 @@ kampanil|/kʰaˈmpanil/|名词|钟楼。|源自拉丁语「campanile」。
 kampinko|/kʰaˈmpiŋkʰo/|名词|露营。|源自英语「camping」。
 kampio|/kʰamˈpi.o/|名词|原野，田野。|拉丁语 "campus" + "-io"。
 kampuso|/kʰaˈmpuso/|名词|校园。|源自拉丁语「campus」。
+kæn|/kʰæn/|名词|家。|原生词根。
 kana|/ˈkʰana/|名词|甘蔗。|源自西班牙语「caña」。
 kanalis|/kʰaˈnalis/|名词|运河。|源自拉丁语「canalis」。
 kanap|/ˈkʰanap/|名词|沙发。|源自法语「canapé」。
+kænen|/ˈkʰæ.nən/|动词|安家，定居。|"kæn" + 动词化后缀 "-en"。
 kano|/ˈkʰano/|名词|水壶。|源自德语「Kanne」。
 kanon|/ˈkʰanon/|名词|大炮。|源自英语「cannon」。
+kanonika|/kaˈnonika/|形容词|经典的，正统的，典范的。|源自希腊语「κανονικός」(kanonikos)
 kansji|/ˈkʰand͡ʒi/|动词|更迭，变换。|原创词。
 kant|/kʰantʰ/|名词|歌。|拉丁语 "cantus"。
 kantar|/kʰanˈtʰaɹ/|动词|唱歌。|拉丁语 "cantare"。
 kaofi|/kʰaˈofi/|名词|气泡。|原生词根。
 kaos|/ˈkʰaos/|名词|混乱。|源自拉丁语「chaos」。
 kaotiki|/kʰaoˈtʰikʰi/|形容词|混乱的。|源自希腊语「χαοτικός」(chaotikos)。
+kapablo|/kaˈpa.blo/|名词|能力。|源自拉丁语「capabilis」
 kapal|/ˈkʰapal/|名词|帆船。|源自马来语「kapal」。
 kaper|/ˈkʰapəɹ/|动词|抓握。|源自拉丁语「capere」。
 kapit|/kʰaˈpitʰ/|动词|抓住。|拉丁语 "capere" 变体。
+kapít|/kʰaˈpiːtʰ/|名词|开头，首。|拉丁语 "caput"。
 kapitain|/kʰapiˈtʰain/|名词|上尉。|源自法语「capitaine」。
 kapitan|/kʰaˈpitʰan/|名词|船长。|源自西班牙语「capitán」。
 kapitulum|/kʰapiˈtʰulum/|名词|篇章。|源自拉丁语「capitulum」。
-kapít|/kʰaˈpiːtʰ/|名词|开头，首。|拉丁语 "caput"。
 kaplika|/kʰaˈplikʰa/|名词|礼拜堂。|源自波兰语「kaplica」。
 kapo|/ˈkʰa.po/|名词|头。|拉丁语 "caput" 简化。
 kaprico|/kʰaˈpriko/|名词|任性。|源自法语「caprice」。
@@ -1710,7 +1870,10 @@ kaptar|/ˈkʰaptʰaɹ/|动词|捕捉。|源自拉丁语「captare」。
 kapusta|/kʰaˈpustʰa/|名词|白菜。|源自俄语「капуста」(kapusta)。
 kaput|/ˈkʰaputʰ/|名词|首都。|源自拉丁语「caput」。
 kar|/ˈkʰaɹ/|名词|汽车。|源自英语「car」。
+kár|/ˈkʰaːɹ/|连词|因为。|世界语 "ĉar"。
 kara|/ˈkʰa.ʁa/|形容词|心爱的。|源自拉丁语「carus」。
+kára|/ˈkʰaː.ʁa/|名词|王，君主。|拉丁语 "caesar" 变体。
+kǽra|/ˈkʰæːʁa/|名词|卫兵。|原生词根。
 karanfil|/kʰaˈʁanfil/|名词|康乃馨。|借词「karanfil」。
 karat|/ˈkʰaʁatʰ/|名词|空手道。|源自日语「空手」(karate)。
 karaté|/kʰa.ʁaˈtʰeː/|名词|把对方看作亲人般的深情（非血缘）。|kara（亲爱）+ té（集合）。
@@ -1728,36 +1891,32 @@ karser|/ˈkʰaɹsəɹ/|名词|监狱。|源自拉丁语「carcer」。
 karuna|/kʰaˈʁuna/|名词|慈悲。|源自梵语「करुणा」(karuna)。
 kaserno|/kʰaˈseɹno/|名词|兵营。|源自德语「Kaserne」。
 kaserol|/kʰaˈseʁol/|名词|锅。|源自法语「casserole」。
+kash|/kʰaʃ/|动词|隐藏。|借世界语 kaŝi。
 kasha|/ˈkʰaʃa/|名词|燕麦粥。|源自俄语「каша」(kasha)。
 kasho|/ˈkʰaʃo/|名词|现金。|源自英语「cash」。
 kasovoi|/kʰasoˈvoi/|名词|哨兵。|源自俄语「часовой」(chasovoy)。
+kasta|/ˈkʰas.tʰa/|形容词|贞洁的，纯洁的。|源自拉丁语「castus」
 kastelum|/kʰaˈstʰelum/|名词|城堡。|源自拉丁语「castellum」。
 kastora|/kʰaˈstʰoʁa/|名词|营地。|源自拉丁语「castra」。
 kastorum|/kʰaˈstʰoʁum/|名词|堡垒。|源自拉丁语「castrum」。
-kash|/kʰaʃ/|动词|隐藏。|借世界语 kaŝi。
+kát|/ˈkʰaːtʰ/|名词|苦，苦难。|原生词根（与 katif 使受苦 同根）。
+káta|/ˈkʰaː.tʰa/|形容词|命苦的，饥寒交迫的。|原生词根。
 katairein|/kʰatʰaiˈʁein/|动词|净化。|源自希腊语「καθαίρειν」(kathairein)。
 katalogus|/kʰatʰaˈloɡus/|名词|目录。|源自拉丁语「catalogus」。
 katari|/kʰaˈtʰaʁi/|形容词|纯净的。|源自希腊语「καθαρός」(katharos)。
 katastorof|/kʰatʰaˈstʰoʁof/|名词|灾难。|源自法语「catastrophe」。
 kategoria|/kʰatʰəɡoˈʁia/|名词|范畴。|源自希腊语「κατηγορία」(kategoria)。
+káten|/ˈkʰaːtʰən/|动词|变成命苦。|「káta」+ 后缀 -en（变成）。
 katif|/ˈkʰa.tʰif/|动词|使受苦。|"kát" + 使动后缀 "-if"。
+kátji|/ˈkʰaːtʰd͡ʒi/|动词|使命苦。|「káta」+ 后缀 -ji（使动）。
+kátli|/ˈkʰaːtʰli/|副词|命苦地。|「káta」+ 后缀 -li（副词化）。
 katsusva|/kʰaˈtʰsusva/|名词|称量。|原生词根。
 kaukhi|/kʰaˈukʰhi/|名词|竹桥。|源自越南语「cau khi」。
 kausa|/kʰaˈusa/|名词|原因。|源自拉丁语「causa」。
 kauti|/kʰaˈutʰi/|形容词|谨慎的。|源自拉丁语「cautus」。
+kautili|/ˈkʰau.tʰi.li/|副词|谨慎地，小心地。|「kauti」（谨慎的，拉丁语 cautus）+ 副词化后缀 -li
 kav|/ˈkʰav/|名词|地下室。|源自法语「cave」。
 kavak|/ˈkʰavakʰ/|名词|杨树。|借词「kavak」。
-kár|/ˈkʰaːɹ/|连词|因为。|世界语 "ĉar"。
-kára|/ˈkʰaː.ʁa/|名词|王，君主。|拉丁语 "caesar" 变体。
-kát|/ˈkʰaːtʰ/|名词|苦，苦难。|原生词根（与 katif 使受苦 同根）。
-káta|/ˈkʰaː.tʰa/|形容词|命苦的，饥寒交迫的。|原生词根。
-káten|/ˈkʰaːtʰən/|动词|变成命苦。|「káta」+ 后缀 -en（变成）。
-kátji|/ˈkʰaːtʰd͡ʒi/|动词|使命苦。|「káta」+ 后缀 -ji（使动）。
-kátli|/ˈkʰaːtʰli/|副词|命苦地。|「káta」+ 后缀 -li（副词化）。
-kæder|/ˈkʰædəɹ/|动词|砍伐。|源自拉丁语「caedere」。
-kæn|/kʰæn/|名词|家。|原生词根。
-kænen|/ˈkʰæ.nən/|动词|安家，定居。|"kæn" + 动词化后缀 "-en"。
-kéna|/ˈkʰeː.na/|动词|砍，切。|原生词根。
 ké|/kʰeː/|名词|全世界。|原生词根。
 ke|/kʰə/|连词|引导关系从句与名词性从句。|世界语 "ke"。
 kebap|/ˈkʰebap/|名词|烤肉串。|借词「kebab」。
@@ -1768,12 +1927,14 @@ kelka|/ˈkʰel.kʰa/|不定代词|一些。|与 "kelkafoy" 同根。
 kelkafoy|/kʰəl.kʰaˈfoj/|副词|有时。|世界语 "kelkafoje"。
 kembúf|/ˈkʰembuːf/|名词|耳环。|原生词根。
 kemeia|/kʰəməˈia/|名词|化学。|源自希腊语「χημεία」(chemeia)。
+kéna|/ˈkʰeː.na/|动词|砍，切。|原生词根。
 kendo|/ˈkʰendo/|名词|剑道。|源自日语「剣道」(kendo)。
 kentauros|/kʰəntʰaˈuʁos/|名词|半人马。|源自希腊语「κένταυρος」(kentauros)。
 kerbau|/kʰəˈɹbau/|名词|水牛。|源自马来语「kerbau」。
 kereviz|/kʰəˈʁeviz/|名词|芹菜。|借词「kereviz」。
 keri|/ˈkʰeʁi/|名词|黄油。|原生词根。
 keris|/ˈkʰeʁis/|名词|短剑。|源自马来语「keris」。
+kerulea|/keˈʁu.le.a/|形容词|蓝色的。|源自拉丁语「caeruleus」
 kervan|/ˈkʰeɹvan/|名词|商队。|借词「kervan」。
 kestan|/ˈkʰestʰan/|名词|栗子。|借词「kestane」。
 ketam|/ˈkʰetʰam/|名词|蟹。|源自马来语「ketam」。
@@ -1810,8 +1971,8 @@ kitfa|/ˈkʰitʰfa/|名词|深渊。|原生词根。
 kiu|/kʰi.ˈu/|代词|谁。|世界语 "kiu"。
 kiudo|/kʰiˈudo/|名词|弓道。|源自日语「弓道」(kyudo)。
 klaĉo|/ˈkʰlatʃo/|名词|闲话，流言。|源自德语「Klatsch」。
-klaltis|/ˈkʰlaltʰis/|名词|雨季里空气湿得能拧出水的那种氛围。|klalt（雨季）+ is（湿重）。
 klaltǽ|/ˈkʰlaltʰæː/|名词|雨季。|原生词根。
+klaltis|/ˈkʰlaltʰis/|名词|雨季里空气湿得能拧出水的那种氛围。|klalt（雨季）+ is（湿重）。
 klarig|/ˈkʰla.ʁiɡ/|动词|解释。|源自拉丁语「clarificare」。
 klaru|/ˈkʰlaʁu/|名词|石臼。|原生词根。
 klasamikint|/kʰla.sa.miˈkʰintʰ/|名词|学生时代那种纯粹、再无后来者的友谊。|klasamiko（同学）+ int（纯粹）。
@@ -1862,13 +2023,17 @@ kolor|/ˈkʰo.loɹ/|名词|颜色。|拉丁语 "color"。
 koloratura|/kʰoloʁaˈtʰuʁa/|名词|花腔。|源自意大利语「coloratura」。
 kolpako|/kʰoˈlpakʰo/|名词|帽盖。|源自俄语「колпак」(kolpak)。
 komaka|/kʰoˈmakʰa/|形容词|精巧的。|源自日语「こまか」(komaka)。
+komakaes|/kʰoˈma.kʰa.əs/|名词|精致，精巧。|「komaka」（精巧的，日语 こまか）+ 抽象名词后缀 -es
+kombinatio|/kom.biˈna.tʰi.o/|名词|组合，搭配。|源自拉丁语「combinatio」
 komenc|/kʰo.ˈmenk/|动词|开始。|借世界语 komenci。
 komenco|/kʰoˈmen.ko/|名词|开始。|源自拉丁语「cominitium」（复合词）。
 komentarium|/kʰoməntʰaˈʁium/|名词|评论。|源自拉丁语「commentarium」。
 komer|/kʰoˈmeɹ/|动词|吃（正式）。|西班牙语 "comer"。
 komisariat|/kʰomisaˈʁiatʰ/|名词|警察局。|源自法语「commissariat」。
+komisio|/koˈmisio/|名词|佣金，提成，抽成。|源自拉丁语「commissio」
 komitatus|/kʰomiˈtʰatʰus/|名词|郡。|源自拉丁语「comitatus」。
 komiti|/kʰoˈmitʰi/|名词|委员会。|源自英语「committee」。
+komoda|/ˈkʰo.mo.da/|形容词|舒适的，安适的。|源自拉丁语「commodus」（舒适的）
 komodos|/kʰoˈmodos/|名词|喜剧诗人。|源自希腊语「κωμῳδός」(komodos)。
 komoedia|/kʰomoəˈdia/|名词|喜剧。|源自拉丁语「comoedia」。
 kompagnon|/kʰoˈmpaɡnon/|名词|同伴。|源自法语「compagnon」。
@@ -1877,9 +2042,11 @@ komparar|/kʰoˈmpaʁaɹ/|动词|比较。|源自拉丁语「comparare」。
 kompenso|/kʰoˈmpenso/|名词|补偿。|源自拉丁语「compensare」。
 kompleksa|/kʰoˈmplekʰsa/|形容词|复杂的。|源自拉丁语「complexus」。
 komplet|/kʰomˈpletʰ/|副词|毕竟，完全地。|拉丁语 "completus"。
+komponer|/ˈkʰom.po.nəɹ/|动词|组合，拼合。|源自拉丁语「componere」
 komporomiso|/kʰompoʁoˈmiso/|名词|妥协。|源自世界语「kompromiso」。
 kompren|/kʰomˈpren/|动词|理解，懂。|源自拉丁语「comprehendere」。
 komprenar|/kʰom.prəˈnaɹ/|动词|理解。|世界语 "kompreni" 变体。
+komprenli|/komˈpren.li/|副词|理解地，体谅地，会意地。|「kompren」（理解，词典词）+ -li（副词化）
 komputer|/kʰoˈmputʰəɹ/|名词|计算机。|源自英语「computer」。
 komunaĉarenteçoligó|/kʰo.mu.na.tʃa.ʁen.tʰe.so.liˈɡoː/|名词|共同亲缘关系。|"komuna" + "ĉarenteco" + "ligó"。
 komunalwen|/kʰo.mu.nalˈwen/|名词|同代人共有的、无需解释的集体记忆。|komuna（共同）+ wen（印记）。
@@ -1887,24 +2054,36 @@ komuni|/kʰoˈmuni/|形容词|共同的。|源自拉丁语「communis」。
 konata|/kʰoˈna.tʰa/|形容词|熟悉的，认识的。|koni（认识）+ -ata。
 kondensar|/kʰoˈndensaɹ/|动词|凝结。|源自拉丁语「condensare」。
 kondiĉo|/kʰoˈnditʃo/|名词|条件。|源自拉丁语「condicio」。
+kóne|/ˈkʰoːnə/|名词|舞者。|原生词根。
 konektar|/kʰoˈnekʰ.tʰaɹ/|动词|连接。|英语 "connect" + "-ar"。
 konekti|/kʰoˈnekʰ.tʰi/|动词|连接。|"konektar" 词根。
 konfesio|/kʰonfəˈsio/|名词|忏悔。|源自拉丁语「confessio」。
+konfirma|/kʰonˈfiɹ.ma/|形容词|肯定的，确认的。|源自拉丁语「confirmare」
 konfitur|/kʰoˈnfitʰuɹ/|名词|果酱。|源自法语「confiture」。
+konfluar|/konˈflu.aɹ/|动词|汇合，汇聚。|源自拉丁语「confluere」
+konformar|/konˈfor.maɹ/|动词|符合，与…相配。|源自拉丁语「conformare」
+konfusa|/ˈkʰon.fu.sa/|形容词|困惑的，混乱的。|源自拉丁语「confusus」
+konfuso|/ˈkʰon.fu.so/|名词|困惑，混乱。|源自拉丁语「confusio」
+konfuzi|/konˈfu.zi/|形容词|慌乱的，杂乱的。|源自拉丁语「confusus」
 koniuratio|/kʰoniuʁaˈtʰio/|名词|密谋。|源自拉丁语「coniuratio」。
 konkolusio|/kʰoŋkʰoluˈsio/|名词|结论。|源自拉丁语「conclusio」。
 konkoret|/kʰoˈŋkʰoʁətʰ/|名词|混凝土。|源自英语「concrete」。
 konkuestio|/kʰoŋkʰuəˈstʰio/|名词|征服。|源自拉丁语「conquestio」。
+kónomé|/kʰoːˈnomeː/|名词|林间漏下的日光，一束穿过枝叶的暖阳。|kônno（木）+ mé（漏）——日语「木漏れ日」类意境。
 konsento|/kʰoˈnsentʰo/|名词|一致。|源自拉丁语「consensus」。
 konserto|/kʰoˈnseɹtʰo/|名词|音乐会。|源自英语「concert」。
 konserv|/kʰon.ˈseɹv/|动词|保存。|借世界语 konservi。
 konsider|/kʰonˈsi.dəɹ/|动词|考虑。|拉丁语 "considerare"。
 konsolo|/kʰoˈnsolo/|名词|安慰。|源自拉丁语「consolatio」。
 konsosiatio|/kʰonsosiaˈtʰio/|名词|协会。|源自拉丁语「consociatio」。
+konsosien|/kon.soˈsi.en/|动词|意识到，觉察到。|konsosio（意识，词典词）+ -en（进入某状态）
 konsosio|/kʰonsoˈsio/|名词|意识。|源自拉丁语「conscientia」。
 konsotitution|/kʰonsotʰitʰuˈtʰion/|名词|宪法。|源自英语「constitution」。
 konstru|/ˈkʰon.stʰə.ru/|动词|建造。|源自拉丁语「construere」。
 konsul|/ˈkʰonsul/|名词|执政官。|源自拉丁语「consul」。
+konsulta|/konˈsul.tʰa/|动词|咨询，商议；任顾问。|源自拉丁语「consultare」
+kontagier|/konˈtaɡieɹ/|动词|传染，感染。|源自拉丁语「contagiare」
+kontaktar|/konˈtak.tʰaɹ/|动词|联系，联络。|源自拉丁语「contactus」
 konten|/kʰonˈtʰen/|名词|内容。|拉丁语 "contentum"。
 kontenta|/kʰoˈntʰentʰa/|形容词|满意的。|源自世界语「kontenta」。
 kontinuar|/kʰontʰiˈnuaɹ/|动词|继续。|源自拉丁语「continuare」。
@@ -1915,11 +2094,15 @@ kontoraudiro|/kʰontʰoʁauˈdiʁo/|名词|矛盾。|源自世界语「kontraʌd
 kontoraueko|/kʰontʰoʁauˈekʰo/|名词|对立。|源自世界语「kontraʌeco」。
 kontrakt|/kʰonˈtʰrakʰtʰ/|名词|契约。|拉丁语 "contractus"。
 kontraue|/kʰontʰraˈuə/|副词|相反。|源自拉丁语「contra」。
+kontributio|/kontriˈbutio/|名词|贡献，功绩。|源自拉丁语「contributio」
 konus|/ˈkʰonus/|名词|圆锥。|源自拉丁语「conus」。
+konversacio|/kon.veɹˈsa.ti.o/|名词|交谈，谈话。|源自拉丁语「conversatio」
+konvi|/ˈkʰon.vi/|动词|邀请，邀约。|源自法语「convier」
 konzertosál|/kʰonzəˈɹtʰosaːl/|名词|音乐厅。|源自德语「Konzertsaal」。
 kop|/ˈkʰop/|名词|桨。|源自希腊语「κόπη」(kope)。
 kopkionaiariba|/kʰopkʰionaiaˈʁiba/|名词|熏鱼。|源自俄语「копчёная рыба」(kopchyonaya ryba)。
 kopkit|/ˈkʰopkʰitʰ/|动词|熏制。|源自俄语「коптить」(kopchit)。
+kóra|/ˈkʰoː.ʁa/|动词|命令，吩咐。|拉丁语 "curare" 变体。
 kordi|/ˈkʰoɹ.di/|名词|心（情感核心）。|拉丁语 "cor"。
 kordivek|/kʰoɹ.diˈvekʰ/|名词|心口微微发紧的预感，说不清是喜是忧。|kordi（心）+ vek（预感）。
 kordonier|/kʰoɹdoˈniəɹ/|名词|鞋匠。|源自法语「cordonnier」。
@@ -1930,11 +2113,18 @@ korektli|/kʰoˈʁekʰtʰli/|副词|正确地。|「korekta」+ 后缀 -li（副
 korida|/kʰoˈɹrida/|名词|斗牛。|源自西班牙语「corrida」。
 korno|/ˈkʰoɹ.no/|名词|角。|拉丁语 "cornu"。
 koro|/ˈkʰo.ʁo/|名词|心脏，内心。|源自拉丁语「cor」。
+kóro|/ˈkʰoː.ʁo/|名词|命令，指挥，号令。|源自词典「kóra」（拉丁语「curare」变体），加 -o 名词化
 koros|/ˈkʰoʁos/|名词|合唱团。|源自希腊语「χορός」(choros)。
+korpo|/ˈkoɹ.po/|名词|身体。|源自拉丁语「corpus」。
 korpogardisto|/kʰoɹ.po.ɡaɹˈdi.stʰo/|名词|保镖。|korpo + gardi + -isto。
+korpus|/ˈkʰoɹ.pus/|名词|身体，躯体。|源自拉丁语「corpus」
 kort|/kʰoɹtʰ/|名词|宅，院。|拉丁语 "cors" 变体。
 korus|/ˈkʰoʁus/|名词|合唱。|源自拉丁语「chorus」。
+køsen|/ˈkʰøsən/|动词|变成青涩。|「køsi」+ 后缀 -en（变成）。
+køsi|/ˈkʰø.si/|形容词|青涩的，未成熟的。|原创词。
+køsji|/ˈkʰøsd͡ʒi/|动词|使青涩。|「køsi」+ 后缀 -ji（使动）。
 kosko|/ˈkʰoskʰo/|名词|凉亭。|借词「kosk」。
+køsli|/ˈkʰøsli/|副词|青涩地。|「køsi」+ 后缀 -li（副词化）。
 kosmiki|/kʰoˈsmikʰi/|形容词|世俗的。|源自希腊语「κοσμικός」(kosmikos)。
 kosmonavto|/kʰosmoˈnavtʰo/|名词|宇航员。|源自俄语「космонавт」(kosmonavt)。
 kosmos|/ˈkʰosmos/|名词|宇宙。|源自希腊语「κόσμος」(kosmos)。
@@ -1950,31 +2140,27 @@ kouteau|/kʰoutʰəˈau/|名词|刀。|源自法语「couteau」。
 kouvertur|/kʰouˈveɹtʰuɹ/|名词|毯子。|源自法语「couverture」。
 kov|/ˈkʰov/|名词|牛。|源自日耳曼语「cow」。
 koverto|/kʰoˈveɹ.tʰo/|名词|信封。|源自法语「couvert」。
-Kozak|/ˈkʰo.zakʰ/|名词|哥萨克。|第二版新增。
-kóne|/ˈkʰoːnə/|名词|舞者。|原生词根。
-kónomé|/kʰoːˈnomeː/|名词|林间漏下的日光，一束穿过枝叶的暖阳。|kônno（木）+ mé（漏）——日语「木漏れ日」类意境。
-kóra|/ˈkʰoː.ʁa/|动词|命令，吩咐。|拉丁语 "curare" 变体。
+kovrila|/kovˈri.la/|名词|覆盖物，罩；被子。|「kovr-」（覆盖）+ -ilo（工具名词）
 kóza|/ˈkʰoːza/|名词|富翁。|原生词根。
-køsen|/ˈkʰøsən/|动词|变成青涩。|「køsi」+ 后缀 -en（变成）。
-køsi|/ˈkʰø.si/|形容词|青涩的，未成熟的。|原创词。
-køsji|/ˈkʰøsd͡ʒi/|动词|使青涩。|「køsi」+ 后缀 -ji（使动）。
-køsli|/ˈkʰøsli/|副词|青涩地。|「køsi」+ 后缀 -li（副词化）。
+Kozak|/ˈkʰo.zakʰ/|名词|哥萨克。|第二版新增。
 kra|/kʰra/|助词|是（判断）。|原生功能词。
 kraĉa|/ˈkʰra.tʃa/|动词|吐痰。|拟声词根。
 kraditol|/kʰraˈditʰol/|名词|河岸。|原生词根。
 kraĝen|/ˈkʰrad͡ʒən/|名词|衣领。|源自德语「Kragen」。
 kraj|/kʰraj/|连词|和。|斯拉夫语源。
 krankenhaus|/kʰraŋkʰəˈnhaus/|名词|医院。|源自德语「Krankenhaus」。
+krápa|/ˈkʰraː.pa/|名词|陡崖，峭壁。|原生词根。
 krapfa|/ˈkʰrapfa/|名词|石像。|原生词根。
 krash|/kʰraʃ/|动词|打破。|原创词。
+krǽtúmso|/kʰræːˈtʰuːmso/|名词|斗篷。|原生词根。
 krauna|/ˈkʰrau.na/|名词|王冠，顶点。|原生词根。
 kravat|/ˈkʰravatʰ/|名词|领带。|源自法语「cravate」。
-krápa|/ˈkʰraː.pa/|名词|陡崖，峭壁。|原生词根。
 kre|/kʰrə/|动词|创造。|拉丁语 "creare" 简化。
 kreder|/ˈkʰredəɹ/|动词|相信。|源自拉丁语「credere」。
 kredit|/ˈkʰreditʰ/|名词|信用。|源自英语「credit」。
 krefpút|/ˈkʰrefpuːtʰ/|名词|盔甲。|原生词根。
 krei|/ˈkʰre.i/|动词|创造。|借世界语 krei。
+krema|/ˈkre.ma/|名词|霜，乳膏。|源自法语「crème」
 kremlo|/ˈkʰremlo/|名词|克里姆林。|源自俄语「кремль」(kreml)。
 krepa|/ˈkʰrepa/|名词|波浪。|原生词根。
 kreposto|/kʰrəˈpostʰo/|名词|要塞。|源自俄语「крепость」(krepost)。
@@ -1983,20 +2169,22 @@ kreser|/ˈkʰresəɹ/|动词|生长。|源自拉丁语「crescere」。
 kresko|/ˈkʰreskʰo/|名词|成长。|源自世界语「kresko」。
 kreto|/ˈkʰretʰo/|名词|粉笔。|源自拉丁语「creta」。
 kri|/kʰri/|动词|喊叫。|借世界语 krii。
+kribar|/kʰriˈbaɹ/|动词|书写（正式）。|世界语 "skribi" + "-ar"。
+kribo|/ˈkʰri.bo/|名词|书写，笔迹。|借拉丁 scriptum。
 krif|/kʰrif/|名词|信。|原创词。
+kriflonko|/kʰrifˈlon.kʰo/|名词|信纸。|「krif」（信）+「lonk」（纸）
 krimæat|/kʰriˈmæatʰ/|名词|锁。|原生词根。
 krimen|/ˈkʰrimən/|名词|罪。|源自拉丁语「crimen」。
 Kristnask|/ˈkʰristʰ.naskʰ/|名词|圣诞。|英语 "Christmas"。
 Kristnaskarbo|/kʰristʰnaˈskʰaɹbo/|名词|圣诞树。|「Kristnask」+「arbo」。
+krít|/ˈkʰriːtʰ/|名词|树叶。|原生词根。
 kritika|/kʰriˈtʰikʰa/|名词|批判。|源自拉丁语「critica」。
 kritiko|/kʰriˈtʰikʰo/|名词|批评。|源自世界语「kritiko」。
-krít|/ˈkʰriːtʰ/|名词|树叶。|原生词根。
 kronika|/kʰroˈnikʰa/|名词|编年史。|源自拉丁语「chronica」。
 krubo|/ˈkʰrubo/|名词|螺旋。|源自拉丁语「spira」。
 krudeli|/kʰruˈdeli/|形容词|残酷的。|源自拉丁语「crudelis」。
 kruk|/ˈkʰrukʰ/|名词|啤酒杯。|源自德语「Krug」。
 kruro|/ˈkʰru.ʁo/|名词|腿。|拉丁语 "crus"。
-krǽtúmso|/kʰræːˈtʰuːmso/|名词|斗篷。|原生词根。
 ksohatría|/kʰsohaˈtʰriːa/|名词|刹帝利。|源自梵语「क्षत्रिय」(kshatriya)。
 kuai|/kʰuˈai/|名词|码头。|源自法语「quai」。
 kuala|/kʰuˈala/|名词|河口。|源自马来语「kuala」。
@@ -2005,17 +2193,19 @@ kuarterfinal|/kʰuaɹtʰəˈɹfinal/|名词|季度赛。|源自英语「quarterf
 kuarteto|/kʰuaˈɹtʰetʰo/|名词|四重奏。|源自意大利语「quartetto」。
 kubar|/ˈkʰubaɹ/|动词|躺下。|源自拉丁语「cubare」。
 kubus|/ˈkʰubus/|名词|立方体。|源自拉丁语「cubus」。
-kuén|/ˈkʰueːn/|名词|王后。|源自日耳曼语「queen」。
 kudra|/ˈkʰud.ra/|动词|缝纫。|拉丁语 "consuere" 简化。
+kuén|/ˈkʰueːn/|名词|王后。|源自日耳曼语「queen」。
 kuies|/kʰuˈiəs/|名词|静止。|源自拉丁语「quies」。
 kuiler|/kʰuˈiləɹ/|名词|汤匙。|源自法语「cuillère」。
 kuisin|/kʰuˈisin/|名词|厨房。|源自法语「cuisine」。
 kuki|/ˈkʰukʰi/|动词|撕扯。|原生词根。
 kukus|/ˈkʰukʰus/|动词|蒸。|源自马来语「kukus」。
 kukushoka|/kʰukʰuˈʃokʰa/|名词|布谷鸟。|源自斯拉夫语「kukushka」。
+kulpo|/ˈkulpo/|名词|过错，罪责；肇事者。|源自拉丁语「culpa」
 kultiv|/kʰul.ˈtʰiv/|动词|种植。|借世界语 kultivi。
 kulturo|/kʰuˈltʰuʁo/|名词|文化。|源自世界语「kulturo」。
 kun|/ˈkʰun/|介词|与，和。|源自世界语「kun」。
+kunabla|/ˈku.na.bla/|名词|摇篮。|源自拉丁语「cunabula」
 kundalini|/kʰundaˈlini/|名词|昆达里尼。|源自梵语「कुण्डलिनी」(kundalini)。
 kune|/ˈkʰu.nə/|副词|共同地。|世界语 "kune"。
 kuneje|/kʰuˈne.d͡ʒə/|名词|无需言语、一个眼神就懂的默契。|kune（共同）+ je（相视）。
@@ -2023,11 +2213,12 @@ kunevivio|/kʰunəviˈvio/|名词|相处，共同生活。|「kune」+「vivio�
 kungodien|/kʰuŋɡoˈdiən/|名词|王宫。|源自越南语「cung dien」。
 kunin|/ˈkʰunin/|名词|商人。|原生词根。
 kupola|/kʰuˈpola/|名词|圆顶。|源自拉丁语「cupola」。
-kurago|/kʰuˈʁaɡo/|名词|勇气。|源自世界语「kuraĝo」。
 kuraĝigo|/kʰuʁaˈd͡ʒiɡo/|名词|鼓励。|源自世界语「kuraĝigo」。
+kurago|/kʰuˈʁaɡo/|名词|勇气。|源自世界语「kuraĝo」。
 kurakado|/kʰuʁaˈkʰado/|名词|治疗。|源自世界语「kuracado」。
 kurensi|/kʰuˈɹrensi/|名词|货币。|源自英语「currency」。
 kurer|/ˈkʰuɹrəɹ/|动词|奔跑。|源自拉丁语「currere」。
+kuriositas|/ku.riˈo.si.tas/|名词|好奇心。|源自拉丁语「curiositas」
 kurta|/ˈkʰuɹ.tʰa/|形容词|短的。|原生词根。
 kurten|/ˈkʰuɹtʰən/|动词|变成短。|「kurta」+ 后缀 -en（变成）。
 kurteno|/kʰuɹˈtʰe.no/|名词|窗帘。|借世界语 kurteno。
@@ -2035,14 +2226,16 @@ kurtji|/ˈkʰuɹtʰd͡ʒi/|动词|使短。|「kurta」+ 后缀 -ji（使动）�
 kurtli|/ˈkʰuɹtʰli/|副词|短地。|「kurta」+ 后缀 -li（副词化）。
 kurus|/ˈkʰuɹrus/|名词|战车。|源自拉丁语「currus」。
 kurva|/ˈkʰuɹva/|名词|曲线。|源自拉丁语「curva」。
-kusha|/ˈkʰu.ʃa/|动词|躺卧。|原生词根。
 kush|/kʰuʃ/|动词|躺。|借世界语 kuŝi。
+kusha|/ˈkʰu.ʃa/|动词|躺卧。|原生词根。
 kutimo|/kʰuˈtʰimo/|名词|习惯。|源自世界语「kutimo」。
+kvalifiko|/kʰvaˈli.fi.kʰo/|名词|资格。|源自拉丁语「qualificatio」。
 kvalik|/ˈkʰvalikʰ/|动词|赞颂。|源自波兰语「chwalic」。
 kvankam|/ˈkʰvan.kʰam/|连词|尽管。|世界语 "kvankam"。
 kvas|/ˈkʰvas/|名词|格瓦斯。|源自俄语「квас」(kvas)。
 kverelo|/kʰvəˈʁelo/|名词|争吵。|源自世界语「kverelo」。
-kǽra|/ˈkʰæːʁa/|名词|卫兵。|原生词根。
+læ|/ˈlæ/|名词|族人。|原生词根。
+-la|/la/|后缀|形容词化（外来词专用）。|第二版新增。示例：tinyénla（理所当然的）。
 labi|/ˈlabi/|动词|滑动。|源自拉丁语「labi」。
 laborar|/laˈboʁaɹ/|动词|工作。|源自拉丁语「laborare」。
 laboratori|/laboʁaˈtʰoʁi/|名词|实验室。|源自英语「laboratory」。
@@ -2053,6 +2246,7 @@ lacig|/la.ˈkiɡ/|动词|使疲劳。|借世界语 lacigi。
 lafi|/ˈlafi/|名词|州。|源自拉丁语「provincia」。
 laga|/ˈlaɡa/|名词|墓地。|原生词根。
 lago|/ˈla.ɡo/|名词|湖泊。|拉丁语 "lacus"。
+-lai|/lai/|后缀|能够。|第二版新增情态词缀。
 laiangolaianko|/laiaŋɡolaiˈaŋkʰo/|名词|风筝。|源自马来语「layang-layang」。
 laika|/laˈikʰa/|名词|雪橇犬。|源自俄语「лайка」(layka)。
 laiteri|/laiˈtʰeʁi/|名词|乳品店。|源自法语「laiterie」。
@@ -2061,42 +2255,51 @@ lampo|/ˈlampo/|名词|灯具。|源自法语「lampe」。
 lampori|/laˈmpoʁi/|形容词|明亮的。|源自希腊语「λαμπρός」(lampros)。
 landapropiaçión|/lan.da.pro.pi.aˈsi.oːn/|名词|土地占有。|"land" + "apropiaçión"。
 lang|/laŋ/|名词|舌头。|古英语 "lang"。
+làng|/læŋ/|动词|喜欢。|「lànga」（光）词根；与「am」（爱）相区别。
+lànga|/ˈlæŋ.ɡa/|名词/形容词|光，光明；光明的。|原生词根。
+làngen|/ˈlæŋ.ɡən/|动词|变成光。|「lànga」+ 后缀 -en（变成）。
+làngif|/ˈlæŋ.ɡif/|动词|照亮。|"lànnga" + 使动后缀 "-if"。
+làngji|/ˈlæŋɡ.d͡ʒi/|动词|使光。|「lànga」+ 后缀 -ji（使动）。
+làngli|/ˈlæŋɡ.li/|副词|光地。|「lànga」+ 后缀 -li（副词化）。
 lanko|/ˈlaŋkʰo/|名词|陵墓。|源自越南语「lang」。
+lára|/ˈlaː.ʁa/|形容词|自由的（区别于专名 Libér）。|原生词根。
+láren|/ˈlaːʁən/|动词|变成自由的（区别于专名 Libér）。|「lára」+ 后缀 -en（变成）。
 larĝa|/ˈlaɹ.d͡ʒa/|形容词|宽阔的。|原生词根。
 larĝen|/ˈlaɹd͡ʒən/|动词|变成宽阔。|「larĝa」+ 后缀 -en（变成）。
 larĝji|/ˈlaɹd͡ʒd͡ʒi/|动词|使宽阔。|「larĝa」+ 后缀 -ji（使动）。
 larĝli|/ˈlaɹd͡ʒli/|副词|宽阔地。|「larĝa」+ 后缀 -li（副词化）。
+lárji|/ˈlaːɹd͡ʒi/|动词|使自由的（区别于专名 Libér）。|「lára」+ 后缀 -ji（使动）。
+lárli|/ˈlaːɹli/|副词|自由的（区别于专名 Libér）地。|「lára」+ 后缀 -li（副词化）。
 larm|/laɹm/|名词|眼泪。|法语 "larme"。
 larzalsa|/laˈɹzalsa/|名词|时辰。|原生词根。
 lasagna|/laˈsaɡna/|名词|千层面。|源自意大利语「lasagna」。
 lasar|/laˈsaɹ/|动词|放开，释放。|拉丁语 "laxare"。
 laser|/ˈlasəɹ/|名词|激光。|源自英语「laser」。
+låtbegé|/lɔːˈtʰbeɡeː/|名词|石榴树。|借词「nar」。
+latera|/laˈte.ra/|名词|侧，边，侧面。|源自拉丁语「latus, lateris」
+latere|/ˈla.tʰe.ʁe/|副词|侧旁地，在一旁。|源自拉丁语「latus, lateris」（侧）
+latero|/ˈla.tʰe.ʁo/|名词|侧面，侧边。|源自拉丁语「latus, lateris」（侧）
 latigo|/laˈtʰiɡo/|名词|鞭子。|源自西班牙语「látigo」。
+lato|/ˈla.tʰo/|名词|侧面，一方，方面。|源自拉丁语「latus」（侧面）
 lau|/lau/|介词|按照，依照。|造词。
 laudo|/laˈudo/|名词|表扬。|源自世界语「laʌdo」。
+lauso|/ˈlau.so/|名词|虱子。|原生词根。
 laut|/lautʰ/|副词|大声地。|德语 "laut"。
 laute|/ˈlau.tʰə/|副词|大声地。|「lau」+ 副词化 -e；与「mallaute」相对。
-lauso|/ˈlau.so/|名词|虱子。|原生词根。
 lava|/ˈla.va/|动词|洗涤。|拉丁语 "lavare"。
 lavanga|/laˈvaŋɡa/|名词|丁香。|源自梵语「लवङ्ग」(lavanga)。
 lavanta|/laˈvantʰa/|名词|薰衣草。|借词「lavanta」。
-lára|/ˈlaː.ʁa/|形容词|自由的（区别于专名 Libér）。|原生词根。
-láren|/ˈlaːʁən/|动词|变成自由的（区别于专名 Libér）。|「lára」+ 后缀 -en（变成）。
-lárji|/ˈlaːɹd͡ʒi/|动词|使自由的（区别于专名 Libér）。|「lára」+ 后缀 -ji（使动）。
-lárli|/ˈlaːɹli/|副词|自由的（区别于专名 Libér）地。|「lára」+ 后缀 -li（副词化）。
-læ|/ˈlæ/|名词|族人。|原生词根。
-låtbegé|/lɔːˈtʰbeɡeː/|名词|石榴树。|借词「nar」。
-léta|/ˈleː.tʰa/|动词|留下，遗落。|原生词根。
 leagu|/ləˈaɡu/|名词|联赛。|源自英语「league」。
 lefpit|/ˈlefpitʰ/|名词|草堆。|原生词根。
 legatus|/ləˈɡatʰus/|名词|使者。|源自拉丁语「legatus」。
-legislatúr|/le.ˈɡis.la.tʰuːɹ/|名词|立法机关。|"legisla" + 后缀 "-túr"。
 leĝio|/ləˈd͡ʒio/|名词|军团。|源自拉丁语「legio」。
+legislatúr|/le.ˈɡis.la.tʰuːɹ/|名词|立法机关。|"legisla" + 后缀 "-túr"。
 leklér|/ˈlekʰleːɹ/|名词|炭火。|原生词根。
 lekso|/ˈlekʰso/|名词|法律条文。|源自拉丁语「lex」。
 lektur|/ˈlekʰtʰuɹ/|名词|演讲。|源自英语「lecture」。
 lekú|/ˈlekʰuː/|名词|山腰。|原生词根。
 lekva|/ˈlekʰva/|形容词|弯曲的。|原生词根。
+lensa|/ˈlen.sa/|名词|镜片，透镜。|源自拉丁语「lens」
 lenten|/ˈlentʰən/|动词|变成慢。|「lenti」+ 后缀 -en（变成）。
 lenti|/ˈlen.tʰi/|形容词|慢的。|拉丁语 "lentus"。
 lentiji|/lənˈtʰi.d͡ʒi/|动词|使慢。|"lent" + 使动后缀 "-ji"。
@@ -2105,6 +2308,7 @@ lento|/ˈlentʰo/|副词|缓慢地。|源自拉丁语「lente」。
 leom|/ˈleom/|动词|伸展。|原生词根。
 lernar|/ləɹˈnaɹ/|动词|学习。|德语 "lernen"。
 leszokzina|/ləszoˈkʰzina/|名词|榛树。|源自波兰语「leszczyna」。
+léta|/ˈleː.tʰa/|动词|留下，遗落。|原生词根。
 letero|/ləˈtʰe.ʁo/|名词|信件。|借拉丁 littera。
 lev|/ləv/|动词|举，抬。|源自拉丁语「levare」。
 levi|/ˈlevi/|形容词|轻浮的。|源自拉丁语「levis」。
@@ -2119,15 +2323,19 @@ lieutenanto|/liəutʰəˈnantʰo/|名词|中尉。|源自法语「lieutenant」�
 lifto|/ˈlif.tʰo/|名词|电梯。|源自英语「lift」。
 liga|/ˈli.ɡa/|动词|系，绑。|拉丁语 "ligare"。
 ligar|/ˈliɡaɹ/|动词|捆绑。|源自拉丁语「ligare」。
+ligno|/ˈliɡ.no/|名词|木头。|源自拉丁语「lignum」。
 ligo|/ˈliɡo/|名词|联系。|源自世界语「ligo」。
 likeion|/likʰəˈion/|名词|学园。|源自希腊语「λύκειον」(lykeion)。
 likri|/ˈlikʰri/|形容词|鲜嫩的。|原生词根。
 lilit|/ˈlilitʰ/|动词|缠绕。|源自马来语「lilit」。
 lim|/lim/|动词|吃。|原生词根。
+limbastono|/limˈbas.tʰo.no/|名词|筷子。|「lim」（吃）+「baston」（棍）
 limenmondo|/li.mənˈmon.do/|名词|阈界（书名）。|limen（门槛）+ mondo 复合。
+limglaro|/limˈɡlaʁo/|名词|筷子。|「lim」（吃）+「glara」（木棍）复合
 limito|/liˈmitʰo/|名词|限制。|源自拉丁语「limes」。
 line|/ˈli.nə/|名词|线。|拉丁语 "linea"。
 linea|/liˈnea/|名词|直线。|源自拉丁语「linea」。
+lingova|/liŋˈɡo.va/|形容词|语言的。|「lingovo」（语言，借世界语 lingvo）+ 形容词词尾 -a
 lingovo|/liˈŋɡovo/|名词|语言。|源自拉丁语「lingua」。
 liotkik|/liˈotʰkʰikʰ/|名词|飞行员。|源自俄语「лётчик」(lyotchik)。
 lipa|/ˈlipa/|名词|椴树。|源自波兰语「lipa」。
@@ -2138,16 +2346,22 @@ lirika|/liˈʁikʰa/|名词|抒情诗。|源自拉丁语「lyrica」。
 lisa|/ˈlisa/|名词|狐狸。|源自俄语「лиса」(lisa)。
 lita|/ˈlitʰa/|形容词|粗糙的。|原生词根。
 litera|/liˈtʰeʁa/|名词|字母。|源自拉丁语「littera」。
+literata|/liˈteʁata/|形容词|有书卷气的，有学养的。|源自拉丁语「litteratus」
 literatura|/litʰəʁaˈtʰuʁa/|名词|文学。|源自拉丁语「litteratura」。
 lito|/ˈli.tʰo/|名词|床。|借拉丁 lectus。
 loan|/ˈloan/|名词|贷款。|源自英语「loan」。
 lobha|/ˈlobha/|名词|贪婪。|源自梵语「लोभ」(lobha)。
 lofel|/ˈlofəl/|名词|勺子。|源自德语「Löffel」。
-logĝia|/loˈɡd͡ʒia/|名词|拱廊。|源自意大利语「loggia」。
+lóga|/ˈloː.ɡa/|名词|逻辑，理性。|拉丁语 "logica"。
+lógai|/ˈloː.gai/|形容词|理性的，合理的。|「lóga」（逻辑，理性）+ 后缀 -i（形容词化）
 loĝejo|/loˈd͡ʒe.jo/|名词|住处，住所。|loĝi（居住）+ -ejo（场所）。
+logĝia|/loˈɡd͡ʒia/|名词|拱廊。|源自意大利语「loggia」。
 lok|/lokʰ/|名词|地方。|英语 "location" 截取。
 loka|/ˈlokʰa/|名词|毛笔。|原生词根。
 lokus|/ˈlokʰus/|名词|位置。|源自拉丁语「locus」。
+lømi|/ˈlømi/|名词|笛子。|原生词根。
+lómú|/ˈloːmuː/|名词|残羹。|原生词根。
+lømvir|/ˈlømviɹ/|副词|同时。|源自拉丁语「simul」。
 longa|/ˈloŋ.ɡa/|形容词|长的。|英语 "long"。
 longe|/ˈloŋɡə/|副词|长久地。|「longa」词根。
 longen|/ˈloŋɡən/|动词|变成长。|「longa」+ 后缀 -en（变成）。
@@ -2168,16 +2382,15 @@ losgive|/loˈsɡivə/|名词|箭。|原生词根。
 loso|/ˈloso/|名词|亏损。|源自英语「loss」。
 lot|/lotʰ/|代词|你（单数）。|原生代词。
 lotdo|/ˈlotʰdo/|名词|野草。|原生词根。
-lóga|/ˈloː.ɡa/|名词|逻辑，理性。|拉丁语 "logica"。
-lómú|/ˈloːmuː/|名词|残羹。|原生词根。
-lømi|/ˈlømi/|名词|笛子。|原生词根。
-lømvir|/ˈlømviɹ/|副词|同时。|源自拉丁语「simul」。
 lua|/ˈlua/|名词|水稻。|源自越南语「lua」。
+lŭå|/ˈlʌɔː/|名词|灌木。|原生词根。
 lud|/lud/|动词|玩耍。|拉丁语 "ludere"。
 ludus|/ˈludus/|名词|竞技。|源自拉丁语「ludus」。
+luft|/ˈluftʰ/|名词|空气，大气。|源自德语「Luft」
 luk|/ˈlukʰ/|名词|草场。|源自斯拉夫语「lug」。
 lum|/lum/|名词|天体（词根）。|与 "lànnga"（光）关联。
 lumbildo|/lumˈbil.do/|名词|幻灯片。|lumo（光）+ bildo（图）。
+lŭmbŭp|/ˈlʌmbʌp/|名词|魂魄。|原生词根。
 lumiére|/luˈmieː.ə/|名词|希望。|法语借词 "lumière"。
 lumiéremen|/lu.mjeː.ˈʁe.mən/|名词|绝望里忽然透进的一线微光。|lumiére（希望之光）+ men（进入）。
 lumiérif|/lu.miˈeː.rif/|动词|给予希望。|"lumiére" + 使动后缀 "-if"。
@@ -2187,32 +2400,30 @@ lunadien|/lu.naˈdi.ən/|名词|星期一（月曜日）。|luna（月亮）+ di
 luraf|/ˈluʁaf/|名词|陶罐。|原生词根。
 luser|/ˈlusəɹ/|动词|发光。|源自拉丁语「lucere」。
 lúta|/ˈluː.tʰa/|动词|清洁，洗净。|原生词根。
-lŭå|/ˈlʌɔː/|名词|灌木。|原生词根。
-lŭmbŭp|/ˈlʌmbʌp/|名词|魂魄。|原生词根。
-làng|/læŋ/|动词|喜欢。|「lànga」（光）词根；与「am」（爱）相区别。
-lànga|/ˈlæŋ.ɡa/|名词/形容词|光，光明；光明的。|原生词根。
-làngen|/ˈlæŋ.ɡən/|动词|变成光。|「lànga」+ 后缀 -en（变成）。
-làngif|/ˈlæŋ.ɡif/|动词|照亮。|"lànnga" + 使动后缀 "-if"。
-làngji|/ˈlæŋɡ.d͡ʒi/|动词|使光。|「lànga」+ 后缀 -ji（使动）。
-làngli|/ˈlæŋɡ.li/|副词|光地。|「lànga」+ 后缀 -li（副词化）。
-macuri|/maˈkuʁi/|名词|祭典。|源自日语「祭り」(matsuri)。
+-ma|/ma/|后缀|主格单数。|第二版新增语法词缀。
 maĉin|/ˈmatʃin/|名词|机器。|源自英语「machine」。
 maĉinegun|/matʃiˈneɡun/|名词|机枪。|源自英语「machine gun」。
+macuri|/maˈkuʁi/|名词|祭典。|源自日语「祭り」(matsuri)。
 magasin|/maˈɡasin/|名词|商店。|源自法语「magasin」。
 magazin|/maˈɡazin/|名词|杂志。|源自英语「magazine」。
+magra|/ˈma.ɡra/|形容词|瘦的，消瘦的。|源自拉丁语「macer」（瘦的）
 mahabharata|/mahabhaˈʁatʰa/|名词|摩诃婆罗多。|源自梵语「महाभारत」(mahabharata)。
 mail|/ˈmail/|名词|邮件。|源自英语「mail」。
 mair|/ˈmaiɹ/|名词|市长。|源自法语「maire」。
 mairi|/maˈiʁi/|名词|市政厅。|源自法语「mairie」。
 maiura|/maiˈuʁa/|名词|孔雀。|源自梵语「मयूर」(mayura)。
 mak|/ˈmakʰ/|名词|罂粟籽。|源自波兰语「mak」。
+mækbor|/ˈmækʰboɹ/|动词|霉变。|原生词根。
+måki|/ˈmɔːkʰi/|动词|蜷缩。|原生词根。
 makont|/ˈma.kʰontʰ/|名词|山。|世界语 "monto" 变体。
 maksoheroni|/makʰsohəˈʁoni/|名词|通心粉。|源自意大利语「maccheroni」。
+mal-|/mal/|前缀|否定，相反。|世界语反义前缀 "mal-"。
 malakra|/maˈla.kʰra/|形容词|钝的。|"mal-" + "akra"。
 malakraji|/malaˈkʰrad͡ʒi/|动词|使钝。|「malakra」+ 后缀 -ji（使动）。
 malakrali|/malaˈkʰrali/|副词|钝地。|「malakra」+ 后缀 -li（副词化）。
 malakren|/maˈlakʰrən/|动词|变成钝。|「malakra」+ 后缀 -en（变成）。
 malamo|/maˈlamo/|名词|仇恨。|源自世界语「malamo」。
+malante|/ˈma.lan.tʰe/|副词|在后面；之后。|mal-（相反）+ ante（之前，词典词）
 malaper|/ma.la.ˈpeɹ/|动词|消失。|借世界语 malaperi。
 malavareko|/malavaˈʁekʰo/|名词|慷慨。|源自世界语「malavareco」。
 malbona|/malˈbo.na/|形容词|坏的。|"mal-" + "bona"。
@@ -2243,6 +2454,7 @@ malina|/maˈlina/|名词|覆盆子。|源自俄语「малина」(malina)。
 malkonsento|/malkʰoˈnsentʰo/|名词|分歧。|源自世界语「malkonsento」。
 malkovr|/mal.ˈkʰo.vr/|动词|发现。|借世界语 malkovri。
 mallaute|/mal.ˈlau.tʰə/|副词|低声地。|「mal-」+「laute」。
+malmolili|/malˈmolili/|副词|坚硬地，生硬地。|「moli」（柔软的）加反义前缀 mal- 与后缀 -li
 malmulta|/malˈmul.tʰa/|形容词|少的。|"mal-" + "multa"。
 malmulten|/maˈlmultʰən/|动词|变成少。|「malmulta」+ 后缀 -en（变成）。
 malmultji|/maˈlmultʰd͡ʒi/|动词|使少。|「malmulta」+ 后缀 -ji（使动）。
@@ -2264,19 +2476,24 @@ malseka|/malˈse.kʰa/|形容词|潮湿的。|"mal-" + "seka"。
 malseken|/maˈlsekʰən/|动词|变成潮湿。|「malseka」+ 后缀 -en（变成）。
 malsekli|/maˈlsekʰli/|副词|潮湿地。|「malseka」+ 后缀 -li（副词化）。
 malsukseso|/malsuˈkʰseso/|名词|失败。|源自世界语「malsukceso」。
+maltrankuiles|/mal.tʰraŋ.kʰuˈi.les/|副词|不安地，焦虑地。|「trankuili」(平静的) 加否定前缀 mal- 与副词后缀 -es
+maltrankuili|/mal.traŋ.kʰuˈi.li/|形容词|不安的，心神不宁的。|mal-（相反）+ trankuili（平静的，词典词）
+maltrankuilo|/malˈtʰraŋ.kʰui.lo/|名词|不安，心神不宁。|「mal-」+「trankuili」（平静的）
 malvarma|/malˈvaɹ.ma/|形容词|寒冷的。|"mal-" + "varma"。
 malvarmali|/malvaˈɹmali/|副词|寒冷地。|「malvarma」+ 后缀 -li（副词化）。
 malvarmen|/maˈlvaɹmən/|动词|变成寒冷。|「malvarma」+ 后缀 -en（变成）。
-mal-|/mal/|前缀|否定，相反。|世界语反义前缀 "mal-"。
 mamo|/ˈma.mo/|名词|乳房。|原生词根。
 man|/man/|名词|手。|拉丁语 "manus"。
 mana|/ˈmana/|名词|傲慢。|源自梵语「मनस्」(mana)。
+mána|/ˈmaː.na/|动词|保持，维持。|拉丁语 "manere"。
 mandala|/maˈndala/|名词|曼陀罗。|源自梵语「मण्डल」(mandala)。
+mandar|/ˈman.daɹ/|动词|点（餐），订购。|源自拉丁语「mandare」
 mandir|/ˈmandiɹ/|名词|寺庙。|源自梵语「मन्दिर」(mandir)。
 manga|/ˈmaŋɡa/|名词|漫画。|源自日语「漫画」(manga)。
 mangala|/maˈŋɡala/|形容词|吉祥的。|源自梵语「मङ्गल」(mangala)。
 mangoĝis|/maˈŋɡod͡ʒis/|名词|山竹。|源自马来语「manggis」。
 maniko|/maˈni.kʰo/|名词|袖子。|借拉丁 manica。
+mankar|/ˈman.kaɹ/|动词|缺少。|源自拉丁语「mancare」
 mano|/ˈmano/|名词|手。|源自拉丁语「manus」。
 mansoheto|/mansoˈhetʰo/|名词|袖口。|源自德语「Manschette」。
 manteau|/mantʰəˈau/|名词|外套。|源自法语「manteau」。
@@ -2286,6 +2503,8 @@ manti|/ˈmantʰi/|名词|汤饺。|借词「manti」。
 mantila|/maˈntʰila/|名词|披肩。|源自西班牙语「mantilla」。
 mantis|/ˈmantʰis/|名词|神谕。|源自希腊语「μάντις」(mantis)。
 mantora|/maˈntʰoʁa/|名词|真言。|源自梵语「मन्त्र」(mantra)。
+mára|/ˈmaː.ʁa/|名词|田野，旷野。|原生词根。
+máræ|/ˈmaːʁæ/|名词|破晓。|原生词根。
 maraton|/maˈʁatʰon/|名词|马拉松。|源自英语「marathon」。
 marinero|/maʁiˈneʁo/|名词|水手。|源自西班牙语「marinero」。
 marka|/ˈmaɹ.kʰa/|名词|标记。|德语 "Marke"。
@@ -2309,26 +2528,24 @@ matrioshoka|/matʰrioˈʃokʰa/|名词|套娃。|源自俄语「матрёшка
 matureser|/matʰuˈʁesəɹ/|动词|成熟。|源自拉丁语「maturescere」。
 mauer|/maˈuəɹ/|名词|围墙。|源自德语「Mauer」。
 mawasu|/maˈwa.su/|动词|把玩。|源自日语「回す」(mawasu)。
-mána|/ˈmaː.na/|动词|保持，维持。|拉丁语 "manere"。
-mára|/ˈmaː.ʁa/|名词|田野，旷野。|原生词根。
-máræ|/ˈmaːʁæ/|名词|破晓。|原生词根。
 máxima|/ˈmaːkʰ.si.ma/|形容词|最重要的。|拉丁语 "maximus"。
 máximen|/maːˈksimən/|动词|变成最重要。|「máxima」+ 后缀 -en（变成）。
 máximli|/maːˈksimli/|副词|最重要地。|「máxima」+ 后缀 -li（副词化）。
-mækbor|/ˈmækʰboɹ/|动词|霉变。|原生词根。
-måki|/ˈmɔːkʰi/|动词|蜷缩。|原生词根。
-mék|/meːkʰ/|动词|死。|原生词根。
-méla|/ˈmeː.la/|名词|磨坊，碾磨。|日耳曼语源。
+-mé|/meː/|后缀|主格复数。|第二版新增语法词缀。
 meantime|/ˈmeːn.tʰimə/|名词|其间。|英语借入。
 meat|/ˈmeatʰ/|名词|蜜酒。|源自日耳曼语「mead」。
 medal|/ˈmedal/|名词|奖牌。|源自英语「medal」。
 medesin|/məˈdesin/|名词|医生。|源自法语「médecin」。
 media|/məˈdia/|名词|媒体。|源自英语「media」。
+medieta|/me.diˈe.ta/|名词|一半。|源自拉丁语「medietas」
 medikamentum|/mədikʰaˈmentʰum/|名词|药。|源自拉丁语「medicamentum」。
 medisina|/mədiˈsina/|名词|医学。|源自拉丁语「medicina」。
 medovukha|/mədoˈvukʰha/|名词|蜂蜜酒。|源自俄语「медовуха」(medovukha)。
 meí|/ˈmeiː/|名词|甲壳。|原生词根。
+mék|/meːkʰ/|动词|死。|原生词根。
 mekbua|/məˈkʰbua/|形容词|精明的。|原生词根。
+méla|/ˈmeː.la/|名词|磨坊，碾磨。|日耳曼语源。
+melioriji|/me.liˈo.ʁi.d͡ʒi/|动词|改进，改善。|源自拉丁语「meliorare」(使变好) + 使动后缀 -iji
 melodia|/məloˈdia/|名词|旋律。|源自意大利语「melodia」。
 melon|/ˈmelon/|名词|甜瓜。|源自法语「melon」。
 mem|/məm/|代词|自己。|世界语 "mem"。
@@ -2340,6 +2557,7 @@ mene|/ˈme.nə/|名词|心态，精神。|拉丁语 "mens"。
 meneksen|/məˈnekʰsən/|名词|紫罗兰。|借词「meneksen」。
 mensa|/ˈmensa/|名词|食堂。|源自拉丁语「mensa」。
 mensis|/ˈmensis/|名词|月份。|源自拉丁语「mensis」。
+mentir|/ˈmen.tʰiɹ/|动词|说谎。|源自拉丁语「mentiri」
 menu|/ˈmenu/|名词|菜单。|源自法语「menu」。
 meo|/ˈmeo/|名词|冰层。|原生词根。
 mer|/ˈmeɹ/|名词|大海。|源自法语「mer」。
@@ -2361,11 +2579,13 @@ metve|/ˈmetʰvə/|名词|坚果。|原生词根。
 metzoĝerei|/mətʰzod͡ʒəˈʁei/|名词|肉铺。|源自德语「Metzgerei」。
 meublo|/məˈublo/|名词|家具。|源自法语「meuble」。
 mezo|/ˈmezo/|名词|中音。|源自意大利语「mezzo」。
+míabi|/miːˈabi/|形容词|雅致的。|源自日语「雅」(miyabi)。
 miagki|/miˈaɡkʰi/|形容词|绵软的。|源自俄语「мягкий」(myagkiy)。
 miba|/ˈmiba/|名词|精灵。|原生词根。
 micumeru|/mikuˈmeʁu/|动词|细看。|源自日语「見つめる」(mitsumeru)。
 midó|/ˈmidoː/|名词|瞭望塔。|原生词根。
 mifersit|/miˈfeɹsitʰ/|名词|兜帽。|原生词根。
+míful|/ˈmiːful/|副词|缓缓地。|原生词根。
 migaku|/miˈɡakʰu/|动词|打磨。|源自日语「磨く」(migaku)。
 mikri|/ˈmikʰri/|形容词|微小的。|源自希腊语「μικρός」(mikros)。
 mikrofono|/mikʰ.ʁoˈfo.no/|名词|话筒。|借英语 microphone。
@@ -2380,8 +2600,15 @@ ministerium|/ministʰəˈʁium/|名词|部。|源自拉丁语「ministerium」�
 ministoro|/miniˈstʰoʁo/|名词|部长。|源自法语「ministre」。
 minuer|/miˈnuəɹ/|动词|减少。|源自拉丁语「minuere」。
 minut|/ˈmi.nutʰ/|名词|分钟。|英语 "minute"。
+míra|/ˈmiː.ʁa/|形容词|奇妙的，惊人的。|拉丁语 "mirus"。
+míraji|/ˈmiː.ʁa.d͡ʒi/|动词|使惊异，使惊奇。|「míra」+ 使动后缀 -ji。
+mírajite|/ˈmiː.ʁa.d͡ʒi.tʰe/|副词|惊讶地，被惊到地。|「míraji」（使惊异）+ 过去分词中缀 -it- + 副词尾 -e
 mirakel|/miˈʁa.kʰəl/|名词|奇迹。|拉丁语 "miraculum"。
+mírali|/ˈmiː.ʁa.li/|副词|惊讶地，惊奇地。|「míra」（奇妙的，惊人的，词典词）+ -li
+mírante|/miːˈʁan.tʰe/|分词|惊讶着，感到惊奇的（míra 的现在分词）。|「míra」(奇妙的，惊人的) + 现在分词 -ante
 miraritá|/miˈʁa.ʁi.tʰaː/|形容词|令人赞叹的。|西班牙语 "mirar" 形容词化。
+míren|/ˈmiːʁən/|动词|变成奇妙。|「míra」+ 后缀 -en（变成）。
+mírli|/ˈmiːɹli/|副词|奇妙地。|「míra」+ 后缀 -li（副词化）。
 miroir|/miˈʁoiɹ/|名词|镜子。|源自法语「miroir」。
 miroserkon|/mi.ʁoˈseɹ.kʰon/|动词|珍视，珍惜。|"mirāri" + "servāre" + 动词化后缀 "-kon"。
 miser|/ˈmisəɹ/|动词|搅拌。|源自拉丁语「miscere」。
@@ -2397,12 +2624,6 @@ mistosis|/miˈstʰosis/|名词|雾气浓得化不开的清晨，一切轮廓都�
 mitinko|/miˈtʰiŋkʰo/|名词|会议。|源自英语「meeting」。
 mitus|/ˈmitʰus/|名词|神话。|源自拉丁语「mythus」。
 mizuoiaru|/mizuoiˈaʁu/|动词|浇灌。|源自日语「水をやる」(mizu o yaru)。
-míabi|/miːˈabi/|形容词|雅致的。|源自日语「雅」(miyabi)。
-míful|/ˈmiːful/|副词|缓缓地。|原生词根。
-míra|/ˈmiː.ʁa/|形容词|奇妙的，惊人的。|拉丁语 "mirus"。
-míraji|/ˈmiː.ʁa.d͡ʒi/|动词|使惊异，使惊奇。|「míra」+ 使动后缀 -ji。
-míren|/ˈmiːʁən/|动词|变成奇妙。|「míra」+ 后缀 -en（变成）。
-mírli|/ˈmiːɹli/|副词|奇妙地。|「míra」+ 后缀 -li（副词化）。
 mlnk|/ˈml̩ŋkʰ/|名词|书。|原创词（l=/i/，鼻音同化）。
 mobil|/ˈmobil/|名词|手机。|源自英语「mobile」。
 mockprocesó|/mokʰ.pro.səˈsoː/|名词|模拟审判。|"mock" + "procesó"。
@@ -2461,6 +2682,7 @@ mublå|/ˈmublɔː/|名词|筵席。|原生词根。
 muciat|/muˈkiatʰ/|动词|超脱。|源自梵语「मुच्यते」(mucyate)。
 muela|/muˈe.la/|动词|磨，碾。|拉丁语 "molere"。
 mukludri|/muˈkʰludri/|名词|水槽。|原生词根。
+múla|/ˈmuː.la/|动词|移动，变化。|拉丁语 "movere" 变体。
 mulĝer|/ˈmuld͡ʒəɹ/|动词|挤奶。|源自拉丁语「mulgere」。
 multa|/ˈmul.tʰa/|形容词/代词|许多。|第二版新增，源自拉丁语 "multus"。
 multen|/ˈmultʰən/|动词|变成许多。|「multa」+ 后缀 -en（变成）。
@@ -2469,8 +2691,8 @@ mulu|/ˈmulu/|名词|长辈。|原生词根。
 munisipium|/munisiˈpium/|名词|市镇。|源自拉丁语「municipium」。
 munus|/ˈmunus/|名词|职责。|源自拉丁语「munus」。
 mur|/ˈmuɹ/|名词|墙壁。|源自法语「mur」。
-muravei|/muʁaˈvei/|名词|蚂蚁。|源自斯拉夫语「muravey」。
 murá|/ˈmuʁaː/|动词|咆哮。|原生词根。
+muravei|/muʁaˈvei/|名词|蚂蚁。|源自斯拉夫语「muravey」。
 murus|/ˈmuʁus/|名词|城墙。|源自拉丁语「murus」。
 musa|/ˈmusa/|名词|缪斯。|源自希腊语「μοῦσα」(musa)。
 muse|/ˈmusə/|名词|博物馆。|源自法语「musée」。
@@ -2480,24 +2702,29 @@ mutar|/ˈmutʰaɹ/|动词|改变。|源自拉丁语「mutare」。
 mutatio|/mutʰaˈtʰio/|名词|变化。|源自拉丁语「mutatio」。
 mutilosi|/mutʰiˈlosi/|形容词|残缺的。|源自希腊语「mutilos」。
 muzelomp|/mu.zəˈlomp/|名词|远远飘来、若隐若现的一段乐声。|muzel（乐）+ lomp（远处）。
-múla|/ˈmuː.la/|动词|移动，变化。|拉丁语 "movere" 变体。
 nafú|/ˈnafuː/|名词|中途。|原生词根。
+náfu|/ˈnaːfu/|名词|壁画。|原生词根。
 naga|/ˈnaɡa/|名词|眼镜蛇。|源自梵语「नाग」(naga)。
-naginata|/naɡiˈnatʰa/|名词|薙刀。|源自日语「薙刀」(naginata)。
+nága|/ˈnaː.ɡa/|副词|从不，永不。|原生词根。
 naĝel|/ˈnad͡ʒəl/|名词|钉子。|源自德语「Nagel」。
+naginata|/naɡiˈnatʰa/|名词|薙刀。|源自日语「薙刀」(naginata)。
 nahata|/naˈhatʰa/|形容词|清凉的。|原生词根。
 naias|/naˈias/|名词|水泽仙女。|源自希腊语「ναϊάς」(naias)。
 naiplin|/naˈiplin/|名词|缰绳。|原生词根。
 nakovalnia|/nakʰovaˈlnia/|名词|铁砧。|源自斯拉夫语「nakovalnya」。
 namasto|/naˈmastʰo/|名词|问候。|源自梵语「नमस्ते」(namaste)。
 namati|/naˈmatʰi/|动词|膜拜。|源自梵语「नमति」(namati)。
+næn|/ˈnæn/|名词|领事。|源自法语「consul」。
+nánafe|/naːˈnafə/|名词|船夫。|原生词根。
 nanas|/ˈnanas/|名词|菠萝。|源自马来语「nanas」。
 naos|/ˈnaos/|名词|神庙。|源自希腊语「ναός」(naos)。
 napøri|/naˈpøɹri/|名词|谚语。|原生词根。
 nar|/ˈnaɹ/|名词|石榴。|借词「nar」。
+næra|/ˈnæ.ʁa/|代词|没有人（否定代词，区别于 neniu）。|原生词根。
 nargil|/ˈnaɹɡil/|名词|水烟。|借词「nargile」。
 narikela|/naʁiˈkʰela/|名词|椰子。|源自梵语「नारिकेल」(narikela)。
 naru|/ˈnaʁu/|名词|奶汁。|原生词根。
+nása|/ˈnaː.sa/|名词|鼻子。|原生词根。
 nasi|/ˈnasi/|名词|椰子饭。|源自马来语「nasi」。
 nasigorenko|/nasiɡoˈʁeŋkʰo/|名词|炒饭。|源自马来语「nasi goreng」。
 nasio|/naˈsio/|名词|民族。|源自世界语「nacio」。
@@ -2506,32 +2733,35 @@ nask|/naskʰ/|动词|出生。|借世界语 naski。
 naska|/ˈnaskʰa/|形容词|天生的。|「nask-」词根。
 naskigo|/naˈskʰiɡo/|名词|出生。|源自世界语「naskiĝo」。
 naskigtago|/naskʰiˈɡtʰaɡo/|名词|生日。|原生复合（nask 出生 + dien 日）。
-natura|/naˈtʰuʁa/|名词|自然。|源自拉丁语「natura」。
-naus|/ˈnaus/|名词|船只。|源自希腊语「ναῦς」(naus)。
-nautik|/naˈutʰikʰ/|名词|航海。|源自希腊语「ναυτική」(nautike)。
-nazutan|/naˈzutʰan/|名词|藤条。|原生词根。
-náfu|/ˈnaːfu/|名词|壁画。|原生词根。
-nága|/ˈnaː.ɡa/|副词|从不，永不。|原生词根。
-nánafe|/naːˈnafə/|名词|船夫。|原生词根。
-nása|/ˈnaː.sa/|名词|鼻子。|原生词根。
-næn|/ˈnæn/|名词|领事。|源自法语「consul」。
-næra|/ˈnæ.ʁa/|代词|没有人（否定代词，区别于 neniu）。|原生词根。
 næstra|/ˈnæs.tʰra/|形容词|狭窄的，紧的。|原生词根。
 næstrali|/næˈstʰrali/|副词|狭窄地。|「næstra」+ 后缀 -li（副词化）。
 næstren|/ˈnæstʰrən/|动词|变成狭窄。|「næstra」+ 后缀 -en（变成）。
+natio|/ˈna.tʰi.o/|名词|民族，国族。|源自拉丁语「natio」
+natura|/naˈtʰuʁa/|名词|自然。|源自拉丁语「natura」。
+naturali|/naˈtʰu.ʁa.li/|副词|自然地。|「natura」（自然）＋副词化后缀 -li
+naus|/ˈnaus/|名词|船只。|源自希腊语「ναῦς」(naus)。
+nautik|/naˈutʰikʰ/|名词|航海。|源自希腊语「ναυτική」(nautike)。
 nævi|/ˈnævi/|名词|房柱。|原生词根。
-nélbøl|/ˈneːlbøl/|名词|鱼干。|原生词根。
-néra|/ˈneː.ʁa/|动词|接近，靠近（与 proksimi 同义）。|原生词根。
+nazutan|/naˈzutʰan/|名词|藤条。|原生词根。
+ne-|/nə/|前缀|不，非。|拉丁语 "ne"。
 nebulo|/ˈne.bu.lo/|名词|雾。|拉丁语 "nebula"。
 neces|/nə.ˈkes/|动词|必要。|借世界语 necesi。
 nefinitá|/nə.fin.ˈi.tʰaː/|形容词|未完成的。|"ne-" + "fin" + 后缀 "-itá"。
 neĝa|/ˈne.d͡ʒa/|名词|雪。|拉丁语 "nix" 派生。
+negociosa|/ne.ɡoˈsi.o.sa/|形容词|忙碌的，事务繁多的。|源自拉丁语「negotiosus」
 nei|/ˈnei/|形容词|新颖的。|源自希腊语「νέος」(neos)。
+neke|/ˈne.kʰe/|连词|既不…也不…，也不。|源自拉丁语「neque」
+nekonatli|/ne.kʰoˈnatʰ.li/|副词|未知地，不知何时。|「ne-」（不）＋「konata」（熟悉的）＋副词化后缀 -li
+nélbøl|/ˈneːlbøl/|名词|鱼干。|原生词根。
 nenia|/nəˈnia/|形容词|没有任何的。|源自世界语「nenia」。
 neniavai|/nə.ni.aˈvai/|副词|绝非，决不是。|nai 强调形式 + 情态 -vai（应该）。
 nenomdiĝité|/nə.nom.di.d͡ʒiˈtʰeː/|名词|无名指。|"ne-" + "nom" + "diĝité"。
 nep|/ˈnep/|名词|糯米。|源自越南语「nep」。
 nepfumi|/nəˈpfumi/|形容词|韧劲的。|源自越南语「dai」。
+néra|/ˈneː.ʁa/|动词|接近，靠近（与 proksimi 同义）。|原生词根。
+nervosa|/neɹˈvo.sa/|形容词|紧张的，发怵的。|源自拉丁语「nervosus」
+nervoza|/ˈner.vo.za/|形容词|紧张的，忐忑不安的。|源自拉丁语「nervosus」
+nervus|/ˈneɹ.vus/|名词|神经。|源自拉丁语「nervus」
 nesesari|/nəsəˈsaʁi/|形容词|必要的。|源自拉丁语「necessarius」。
 nesesario|/nəsəsaˈʁio/|副词|必定。|源自拉丁语「necessario」。
 neslebe|/nəˈslebə/|名词|猎物。|原生词根。
@@ -2541,9 +2771,10 @@ netvorko|/nəˈtʰvoɹkʰo/|名词|网络。|源自英语「network」。
 nevér|/ˈneveːɹ/|名词|乞丐。|原生词根。
 nevso|/ˈnevso/|名词|新闻。|源自英语「news」。
 nevsopaper|/nəvsoˈpapəɹ/|名词|报纸。|源自英语「newspaper」。
-ne-|/nə/|前缀|不，非。|拉丁语 "ne"。
 nhaku|/ˈɲakʰu/|名词|稻田屋。|源自越南语「nha que」。
 nhan|/ɲan/|名词|龙眼。|源自越南语「nhan」。
+nía|/ˈniː.a/|数词|九。|日耳曼词源。
+níamens|/niːˈaməns/|名词|九月。|「nía」+「mensis」。
 nifua|/niˈfua/|名词|蚁巢。|原生词根。
 nigra|/ˈni.ɡra/|形容词|黑色的。|借拉丁 niger。
 niĝronta|/nid͡ʒˈʁon.tʰa/|形容词|黑色的。|拉丁语 "niger"。
@@ -2558,13 +2789,13 @@ ninĝa|/ˈnind͡ʒa/|名词|忍者。|源自日语「忍者」(ninja)。
 nipbe|/ˈnipbə/|名词|地精。|原生词根。
 nirbur|/ˈniɹbuɹ/|名词|腌肉。|原生词根。
 nirvana|/niˈɹvana/|名词|涅槃。|源自梵语「निर्वाण」(nirvana)。
-niset|/ˈnisətʰ/|名词|触角。|原生词根。
-nía|/ˈniː.a/|数词|九。|日耳曼词源。
-níamens|/niːˈaməns/|名词|九月。|「nía」+「mensis」。
 nísé|/ˈniːseː/|名词|泥沙。|原生词根。
+niset|/ˈnisətʰ/|名词|触角。|原生词根。
+nivel|/ˈni.vel/|名词|水平，水准。|源自法语「niveau」
 nklmdo|/nəkʰˈim.do/|名词|敌人。|原创词（l=/i/，模拟敌对感）。
 no|/ˈno/|名词|能剧。|源自日语「能」(no)。
 nobilis|/noˈbilis/|名词|贵族。|源自拉丁语「nobilis」。
+nod|/ˈnod/|名词|结，绳结（诗歌体用语）。|源自拉丁语「nodus」
 noheøn|/ˈno.høːn/|名词|地板。|北欧语言借词。
 noheønif|/noˈhøː.nif/|动词|铺地板。|"noheøn" + 使动后缀 "-if"。
 nohut|/ˈnohutʰ/|名词|鹰嘴豆。|借词「nohut」。
@@ -2572,51 +2803,70 @@ nokt|/ˈnokʰtʰ/|名词|夜晚。|法语 "nuit" 与德语 "Nacht" 混合。
 nom|/nom/|名词|名字。|拉丁语 "nomen"。
 nondum|/ˈnondum/|副词|尚未。|源自拉丁语「nondum」。
 nonla|/ˈnonla/|名词|斗笠。|源自越南语「non la」。
+nóra|/ˈnoː.ʁa/|名词|北方。|日耳曼语源。
+nørbå|/ˈnøɹbɔː/|名词|木屐。|原生词根。
 nori|/ˈnoʁi/|名词|海苔。|源自日语「海苔」(nori)。
+nosker|/ˈnoskeɹ/|动词|认识，熟悉（某人）。|源自拉丁语「noscere」
 nostalga|/nosˈtʰal.ɡa/|形容词|思念的，牵挂的。|「nostalgo」+ 形容词化 -a。
 nostalgen|/nosˈtʰal.ɡən/|动词|思念。|「nostalgo」+ 动词化 -en。
 nostalgi|/nosˈtʰal.ɡi/|副词|思念地。|「nostalgo」+ 副词化 -i。
-nostalgo|/nosˈtʰal.ɡo/|名词|思念，牵挂。|源自希腊语「νόστος」(nostos) + -o。
 nostalĝia|/nostʰaˈld͡ʒia/|名词|怀念，怀旧。|源自希腊语「νοσταλγία」(nostalgia)。
+nostalgo|/nosˈtʰal.ɡo/|名词|思念，牵挂。|源自希腊语「νόστος」(nostos) + -o。
 nostalvint|/nos.tʰalˈvintʰ/|名词|怀念某个回不去的地方时，心里微微发酸。|nostal（思念）+ vint（酸）。
 nota|/ˈnotʰa/|名词|注释。|源自拉丁语「nota」。
 notair|/noˈtʰaiɹ/|名词|公证人。|源自法语「notaire」。
+nøtar|/ˈnø.tʰaɹ/|动词|记录，写下。|原创词。
 nous|/ˈnous/|名词|心智。|源自希腊语「νοῦς」(nous)。
 nova|/ˈno.va/|形容词|新的。|拉丁语 "novus"。
+novelo|/noˈve.lo/|名词|小说。|源自意大利语「novella」
 noven|/ˈnovən/|动词|变成新。|「nova」+ 后缀 -en（变成）。
 novigot|/noˈviɡotʰ/|名词|新年。|源自俄语「Новый год」(novy god)。
 novli|/ˈnovli/|副词|新地。|「nova」+ 后缀 -li（副词化）。
-nóra|/ˈnoː.ʁa/|名词|北方。|日耳曼语源。
-nørbå|/ˈnøɹbɔː/|名词|木屐。|原生词根。
-nøtar|/ˈnø.tʰaɹ/|动词|记录，写下。|原创词。
+novzelandi|/nov.zeˈlan.di/|形容词|新西兰的。|源自地名「Novzelando」（新西兰）
 nubo|/ˈnu.bo/|名词|云。|拉丁语 "nubes"。
+nudelmagasin|/nu.del.maˈɡa.sin/|名词|面馆。|「nudelo」（面条）+「magasin」（商店）
 nudelo|/nuˈde.lo/|名词|面条。|源自德语「Nudel」。
 nufbálnu|/nuˈfbaːlnu/|名词|誓言。|原生词根。
 nufradipa|/nufraˈdipa/|形容词|模糊的。|原生词根。
 nulsém|/ˈnulseːm/|名词|湖畔。|原生词根。
 numerar|/nuˈmeʁaɹ/|动词|计数。|源自拉丁语「numerare」。
+númeri|/ˈnuː.mə.ʁi/|动词|命名。|拉丁语 "nōmināre" + "-i"。
 nun|/nun/|名词|现在。|原生词根。
 nundina|/nuˈndina/|名词|集市日。|源自拉丁语「nundinae」。
 nuniai|/nuˈni.a.i/|副词|并不，根本不。|nun（现在）+ nai（否定）强调。
+nuntio|/ˈnun.tʰio/|名词|消息，讯息。|源自拉丁语「nuntium」
+nuper|/ˈnu.pəɹ/|副词|刚刚，方才。|源自拉丁语「nuper」
 nuri|/ˈnuʁi/|名词|鹦鹉。|源自马来语「nuri」。
-nut|/ˈnutʰ/|名词|螺母。|源自英语「nut」。
-númeri|/ˈnuː.mə.ʁi/|动词|命名。|拉丁语 "nōmināre" + "-i"。
 nŭrí|/ˈnʌʁiː/|名词|史书。|原生词根。
+nut|/ˈnutʰ/|名词|螺母。|源自英语「nut」。
 obilni|/oˈbilni/|形容词|丰盛的。|源自俄语「обильный」(obilnyy)。
+obiter|/ˈo.bi.tʰeɹ/|副词|顺便，另外。|源自拉丁语「obiter」
+objektum|/obˈd͡ʒek.tʰum/|名词|物品，物件。|源自拉丁语「obiectum」
 oble|/ˈoblə/|名词|倍。|源自拉丁语「-plex」（倍数）。
+oblika|/oˈblikʰa/|形容词|斜的，歪斜的。|源自拉丁语「obliquus」
 oblivisi|/obliˈvisi/|动词|遗忘。|源自拉丁语「oblivisci」。
+oboediar|/oˈbo.e.djaɹ/|动词|服从，听从。|源自拉丁语「oboedire」
 oboedientia|/oboədiəˈntʰia/|名词|服从。|源自拉丁语「oboedientia」。
+oboedientli|/o.bo.e.diˈent.li/|副词|顺从地，乖巧地。|「oboedientia」（服从，词典词）+ -li（副词化）
 obon|/ˈobon/|名词|盂兰盆节。|源自日语「お盆」(obon)。
 observar|/oˈbseɹvaɹ/|动词|观察。|源自拉丁语「observare」。
+obskura|/obˈsku.ra/|形容词|昏暗的，暗的。|源自拉丁语「obscurus」
+obskuren|/obˈsku.ren/|动词|变暗，暗下来。|obskura（昏暗的）+ -en（变成）
 obsokuri|/obsoˈkʰuʁi/|形容词|无名的。|源自拉丁语「obscurus」。
-oép|/ˈoeːp/|名词|露水。|原生词根。
 oĉa|/ˈotʃa/|名词|绿茶。|源自日语「お茶」(ocha)。
+ociosa|/oˈsi.o.sa/|形容词|空闲的，无所事事的。|源自拉丁语「otiosus」
+óda|/ˈoː.da/|名词|颂歌，赞美诗。|拉丁语 "ode"。
+odoro|/oˈdo.ʁo/|名词|气味。|源自拉丁语「odor」
+oép|/ˈoeːp/|名词|露水。|原生词根。
+óér|/ˈoːeːɹ/|名词|火山。|原生词根。
 ofen|/ˈofən/|名词|炉子。|源自德语「Ofen」。
 ofensio|/ofəˈnsio/|名词|进攻。|源自拉丁语「offensio」。
-oficotenúr|/o.fi.ˈko.tʰe.nuːɹ/|名词|职位任期。|"ofico" + "tenúr"。
 ofiçiroswár|/o.fi.si.ʁosˈwaːɹ/|名词|成群的官员。|"oficiro" + "swár"。
+oficolok|/oˈfi.kʰo.lokʰ/|名词|办公室。|「ofico」（职务）+「lok」（地方）
+oficotenúr|/o.fi.ˈko.tʰe.nuːɹ/|名词|职位任期。|"ofico" + "tenúr"。
 ofisier|/ofiˈsiəɹ/|名词|军官。|源自法语「officier」。
 ofisium|/ofiˈsium/|名词|义务。|源自拉丁语「officium」。
+ófmofã|/oːˈfmofɐ̃/|名词|少年。|原生词根。
 ofte|/ˈoftʰə/|副词|经常。|源自德语「oft」。
 ogorek|/oˈɡoʁəkʰ/|名词|酸黄瓜。|源自波兰语「ogorek」。
 ogorot|/oˈɡoʁotʰ/|名词|菜园。|源自斯拉夫语「ogorod」。
@@ -2634,7 +2884,11 @@ oksi|/ˈokʰsi/|形容词|锐利的。|源自希腊语「ὀξύς」(oxys)。
 okul|/ˈo.kʰul/|名词|眼睛。|拉丁语 "oculus"。
 okulreturne|/o.kʰul.ʁəˈtʰuɹ.nə/|名词|回眸。|"okul" + "returne"。
 okun|/ˈokʰun/|名词|鲈鱼。|源自斯拉夫语「okun」。
+okupar|/o.kuˈpaɹ/|动词|忙于，占用。|源自拉丁语「occupare」
+okuper|/oˈkʰu.pəɹ/|动词|占据，占用。|源自拉丁语「occupare」
 ol|/ol/|连词|比（比较）。|借世界语 ol。
+øl|/ˈøːl/|名词|啤酒。|丹麦语 "øl"。
+óla|/ˈoː.la/|名词|油，油脂。|拉丁语 "oleum"。
 olda|/ˈol.da/|形容词|老的。|英语 "old"。
 olden|/ˈoldən/|动词|变成老。|「olda」+ 后缀 -en（变成）。
 oldiĝ|/ˈol.did͡ʒ/|动词|变老。|"old" + 后缀 "-iĝ"。
@@ -2644,30 +2898,48 @@ oligarkia|/oliɡaˈɹkʰia/|名词|寡头制。|源自希腊语「ὀλιγαρ�
 olimpiakos|/olimpiˈakʰos/|名词|奥林匹克。|源自希腊语「ὀλυμπιακός」(olympiakos)。
 olio|/oˈlio/|名词|橄榄油。|源自意大利语「olio」。
 olivetum|/oliˈvetʰum/|名词|橄榄园。|源自拉丁语「olivetum」。
+ølson|/ˈøːl.son/|名词|小麦。|"øl" + "son"（子粒）。
+óm|/ˈoːm/|名词|榕树。|源自越南语「da」。
 omber|/ˈom.bəɹ/|名词|影子。|法语 "ombre"。
 omnen|/ˈomnən/|动词|变成所有。|「omni」+ 后缀 -en（变成）。
 omni|/ˈom.ni/|形容词|所有的。|拉丁语 "omnis"。
+omnidien|/omˈni.di.ən/|副词|每天。|「omni」+「dien」。
 omnifer|/ˈom.ni.fəɹ/|代词/名词|一切事物。|"omni" + "fer"。
+omnifoy|/ˈom.ni.foj/|副词|每次，每回。|omni（所有的）+ foy（次）
 omnimondoparto|/om.ni.mon.doˈpaɹ.tʰo/|名词|世界各地。|"omni" + "mondo" + "parto"。
+omniorli|/ˈom.ni.or.li/|副词|四面八方地，全方向地。|「omni」（所有的）+「or」（方向）+ 后缀 -li（副词化）
 omnli|/ˈomnli/|副词|所有地。|「omni」+ 后缀 -li（副词化）。
+-on|/on/|后缀|与格单数。|第二版新增语法词缀。
+óne|/ˈoːnə/|名词|荆棘。|原生词根。
 onfokrup|/oˈnfokʰrup/|名词|披风。|原生词根。
 onigiri|/oniˈɡiʁi/|名词|饭团。|源自日语「おにぎり」(onigiri)。
+-ont-|/ontʰ/|中缀|将来分词。|世界语 "-ont-"。
 ontologia|/ontʰoloˈɡia/|名词|本体论。|源自希腊语「ὀντολογία」(ontologia)。
+øpalã|/øˈpalɐ̃/|名词|长弓。|原生词根。
 openar|/o.pəˈnaɹ/|动词|打开。|英语 "open" + "-ar"。
 opera|/oˈpeʁa/|名词|歌剧。|源自意大利语「opera」。
 opidum|/oˈpidum/|名词|城镇。|源自拉丁语「oppidum」。
+opinar|/oˈpi.naɹ/|动词|认为，以为。|源自拉丁语「opinari」
+opiniar|/oˈpi.njaɹ/|动词|认为。|源自拉丁语「opinari」
+opinio|/oˈpi.ni.o/|名词|舆论，意见。|源自拉丁语「opinio」
 opon|/ˈo.pon/|前缀|反对，违背。|「opono」（反对）词根。
 opono|/oˈpono/|名词|反对。|源自世界语「opono」。
+oprimer|/oˈpri.məɹ/|动词|压迫，剥削。|源自拉丁语「opprimere」
+ópte|/ˈoːptʰə/|名词|浮冰。|原生词根。
 opulenti|/opuˈlentʰi/|形容词|富饶的。|源自拉丁语「opulentus」。
 or|/oɹ/|名词|方向，源头；金。|拉丁语 "oriri" 简化。
 oraĝ|/ˈoʁad͡ʒ/|名词|雷雨。|源自法语「orage」。
-orangutan|/oʁaˈŋɡutʰan/|名词|猩猩。|源自马来语「orangutan」。
 oranĝo|/oˈʁand͡ʒo/|名词|橙子。|源自法语「orange」。
+orangutan|/oʁaˈŋɡutʰan/|名词|猩猩。|源自马来语「orangutan」。
 oratio|/oʁaˈtʰio/|名词|演说。|源自拉丁语「oratio」。
 orator|/oˈʁatʰoɹ/|名词|雄辩家。|源自希腊语「orator」。
+órda|/ˈoːɹ.da/|名词|秩序。|拉丁语 "ordo"。
+órdaji|/ˈoːɹ.da.d͡ʒi/|动词|整理，使有序。|「órda」（秩序）+ 后缀 -ji（使动）
 ordina|/oɹ.diˈna/|形容词|平凡的。|法语 "ordinaire"。
+ordinar|/or.diˈnaɹ/|动词|整理，排列。|源自拉丁语「ordinare」
 ordinari|/oɹdiˈnaʁi/|形容词|普通的。|源自拉丁语「ordinarius」。
 ordinen|/oˈɹdinən/|动词|变成平凡。|「ordina」+ 后缀 -en（变成）。
+ordiner|/ˈoɹdineɹ/|动词|整理，归置，排列。|源自拉丁语「ordinare」
 ordinli|/oˈɹdinli/|副词|平凡地。|「ordina」+ 后缀 -li（副词化）。
 organizatio|/oɹɡanizaˈtʰio/|名词|组织。|源自拉丁语「organizatio」。
 organum|/oˈɹɡanum/|名词|管风琴。|源自拉丁语「organum」。
@@ -2680,11 +2952,17 @@ orkoloren|/oɹkʰoˈloʁən/|动词|变成金色。|「orkolora」+ 后缀 -en�
 orkolorli|/oɹkʰoˈloɹli/|副词|金色地。|「orkolora」+ 后缀 -li（副词化）。
 orlatin|/oɹ.laˈtʰin/|名词|山脊上最先被照亮的那一道金边。|or（金）+ latin（边缘）。
 ornar|/ˈoɹnaɹ/|动词|装饰。|源自拉丁语「ornare」。
+ørsum|/ˈøɹsum/|名词|烛光。|原生词根。
+ósa|/ˈoː.sa/|动词|敢于，胆敢。|原生词根。
 osbe|/ˈosbə/|名词|雕像。|原生词根。
 osean|/oˈsean/|名词|海洋。|源自法语「océan」。
 osetro|/oˈsetʰro/|名词|鲟鱼。|源自斯拉夫语「osetr」。
 osha|/ˈoʃa/|副词|婉转地。|原生词根。
+óslu|/ˈoːslu/|名词|巨人。|原生词根。
+øsmilsu|/øˈsmilsu/|名词|树根。|原生词根。
+osto|/ˈos.tʰo/|名词|骨头。|源自希腊语「ὀστέον」。
 oswubla|/oˈswu.bla/|名词|鳞片。|原生词根。
+óta|/ˈoː.tʰa/|连词|否则，要不然。|原生功能词。
 otafuf|/oˈtʰafuf/|名词|邻人。|原生词根。
 otina|/oˈtʰina/|名词|隆起。|原生词根。
 otirpor|/oˈtʰiɹpoɹ/|副词|勉强地。|原生词根。
@@ -2696,22 +2974,6 @@ ovæif|/oˈvæif/|动词|镶玻璃。|"ovaæ" + 使动后缀 "-if"。
 ovo|/ˈo.vo/|名词|蛋。|拉丁语 "ovum"。
 ovos|/ˈovos/|名词|燕麦。|源自俄语「овощ」(ovos)。
 ozo|/ˈozo/|名词|花蕾。|原生词根。
-óér|/ˈoːeːɹ/|名词|火山。|原生词根。
-óda|/ˈoː.da/|名词|颂歌，赞美诗。|拉丁语 "ode"。
-ófmofã|/oːˈfmofɐ̃/|名词|少年。|原生词根。
-óla|/ˈoː.la/|名词|油，油脂。|拉丁语 "oleum"。
-óm|/ˈoːm/|名词|榕树。|源自越南语「da」。
-óne|/ˈoːnə/|名词|荆棘。|原生词根。
-ópte|/ˈoːptʰə/|名词|浮冰。|原生词根。
-órda|/ˈoːɹ.da/|名词|秩序。|拉丁语 "ordo"。
-ósa|/ˈoː.sa/|动词|敢于，胆敢。|原生词根。
-óslu|/ˈoːslu/|名词|巨人。|原生词根。
-óta|/ˈoː.tʰa/|连词|否则，要不然。|原生功能词。
-øl|/ˈøːl/|名词|啤酒。|丹麦语 "øl"。
-ølson|/ˈøːl.son/|名词|小麦。|"øl" + "son"（子粒）。
-øpalã|/øˈpalɐ̃/|名词|长弓。|原生词根。
-ørsum|/ˈøɹsum/|名词|烛光。|原生词根。
-øsmilsu|/øˈsmilsu/|名词|树根。|原生词根。
 pabluét|/paˈblueːtʰ/|名词|草地。|原生词根。
 paçienta|/paˈsi.əntʰa/|形容词|耐心的。|拉丁语 "patiens"。
 paçienten|/pasiˈentʰən/|动词|变成耐心。|「paçienta」+ 后缀 -en（变成）。
@@ -2720,14 +2982,27 @@ padma|/ˈpadma/|名词|莲花。|源自梵语「पद्म」(padma)。
 padmasana|/padmaˈsana/|名词|莲花座。|源自梵语「पद्मासन」(padmasana)。
 pag|/paɡ/|动词|支付。|借世界语 pagi。
 paganus|/paˈɡanus/|名词|异教徒。|源自拉丁语「paganus」。
+página|/ˈpaː.ɡi.na/|名词|页，书页。|源自拉丁语「pagina」（书页）
+pagina|/ˈpa.ɡi.na/|名词|页，书页。|源自拉丁语「pagina」
 pagus|/ˈpaɡus/|名词|乡村。|源自拉丁语「pagus」。
 pais|/ˈpais/|名词|国家。|源自法语「pays」。
+pakada|/paˈka.da/|名词|打包，收拾行李。|源自德语「packen」
+pakar|/ˈpa.kʰaɹ/|动词|打包，收拾行李。|源自英语「pack」
+pakir|/ˈpa.kʰiɹ/|动词|打包，收拾。|源自德语「packen」
 pakso|/ˈpakʰso/|名词|和平。|源自拉丁语「pax」。
 pakzek|/ˈpakʰzəkʰ/|名词|甜甜圈。|源自波兰语「paczek」。
+pála|/ˈpaː.la/|动词|准备。|拉丁语 "parare"。
 palaistora|/palaiˈstʰoʁa/|名词|角力场。|源自希腊语「παλαίστρα」(palaistra)。
+palar|/ˈpa.laɹ/|动词|漫游，游荡。|源自拉丁语「palari」
 palatium|/palaˈtʰium/|名词|宫殿。|源自拉丁语「palatium」。
+pálbepuf|/paːˈlbepuf/|名词|半岛。|原生词根。
+pallida|/ˈpal.li.da/|形容词|淡的，浅的。|源自拉丁语「pallidus」
+pæniter|/pæˈnitʰəɹ/|动词|后悔。|源自拉丁语「paenitere」。
 panón|/paˈnoːn/|动词|写，书写。|原生词根。
+pǽnta|/ˈpæːntʰa/|名词|冻土。|原生词根。
 pantalono|/pan.tʰaˈlo.no/|名词|裤子。|借意大利 pantaloni。
+panvalida|/panˈva.li.da/|形容词|万能的，普遍适用的。|源自拉丁语「pan- + validus」
+påolo|/pɔːˈolo/|副词|常常地。|原生词根。
 papa|/ˈpapa/|名词|教皇。|源自拉丁语「papa」。
 papero|/paˈpe.ʁo/|名词|纸。|借拉丁 papyrus。
 paprika|/paˈprikʰa/|名词|红椒粉。|借词「paprika」。
@@ -2742,10 +3017,12 @@ parlamentum|/paɹlaˈmentʰum/|名词|议会。|源自拉丁语「parlamentum」
 parlar|/paɹˈlaɹ/|动词|说话（中性）。|西班牙语 "hablar" 变体。
 paroesia|/paʁoəˈsia/|名词|教区。|源自拉丁语「paroecia」。
 parolo|/paˈʁo.lo/|名词|话语，演讲。|借拉丁 parabola。
+parolodoman|/pa.ʁoˈlo.do.man/|名词|演说稿，演讲手稿。|「parolo」（演讲）+「doman」（手稿）
 parolrajto|/pa.ʁolˈʁa.d͡ʒ.tʰo/|名词|发言权。|parolo + rajto。
 parom|/ˈpaʁom/|名词|渡船。|源自俄语「паром」(parom)。
 parovoz|/paˈʁovoz/|名词|蒸汽机。|源自俄语「паровоз」(parovoz)。
 parso|/ˈpaɹso/|名词|部分。|源自拉丁语「pars」。
+parta|/ˈpaɹ.tʰa/|名词|份，份额。|源自拉丁语「pars, partis」
 parti|/ˈpaɹtʰi/|名词|政党。|源自英语「party」。
 partim|/ˈpaɹtʰim/|副词|部分地。|源自拉丁语「partim」。
 partitura|/paɹtʰiˈtʰuʁa/|名词|乐谱。|源自意大利语「partitura」。
@@ -2753,56 +3030,62 @@ pas|/pas/|名词|过去。|法语 "passé"。
 pasa|/ˈpasa/|名词|总督。|借词「pasa」。
 pasarmalam|/pasaˈɹmalam/|名词|夜市。|源自马来语「pasar malam」。
 paser|/ˈpasəɹ/|动词|放牧。|源自拉丁语「pascere」。
+pash|/paʃ/|动词|走，迈步。|借世界语 paŝi。
 pasienko|/pasiˈeŋkʰo/|名词|耐心。|源自世界语「pacienco」。
 pasigo|/paˈsiɡo/|名词|和解。|源自世界语「paciĝo」。
 paskoha|/paˈskʰoha/|名词|复活节。|源自俄语「пасха」(paskha)。
 pasta|/ˈpastʰa/|名词|意面。|源自意大利语「pasta」。
 pasteku|/paˈstʰekʰu/|名词|西瓜。|源自法语「pastèque」。
 pastor|/ˈpastʰoɹ/|名词|牧师。|源自拉丁语「pastor」。
-pash|/paʃ/|动词|走，迈步。|借世界语 paŝi。
 patlican|/paˈtʰlikan/|名词|茄子。|借词「patlican」。
 patos|/ˈpatʰos/|名词|情感。|源自希腊语「πάθος」(pathos)。
 patosres|/paˈtʰosrəs/|名词|触景生情那一刻，往事忽然涌上心头。|patos（情感）+ res（回涌）。
 patrino|/paˈtʰrino/|名词|母亲。|源自世界语「patrino」。
 patro|/ˈpatʰro/|名词|父亲。|源自拉丁语「pater」。
-pála|/ˈpaː.la/|动词|准备。|拉丁语 "parare"。
-pálbepuf|/paːˈlbepuf/|名词|半岛。|原生词根。
-pæniter|/pæˈnitʰəɹ/|动词|后悔。|源自拉丁语「paenitere」。
-påolo|/pɔːˈolo/|副词|常常地。|原生词根。
-péma|/ˈpeː.ma/|名词|人民，人群。|原生词根。
-péra|/ˈpeː.ʁa/|名词|危险。|拉丁语 "periculum" 简化。
+pausa|/ˈpau.sa/|形容词|暂停的，停止的。|源自拉丁语「pausa」
+pausar|/ˈpau.saɹ/|动词|停顿，暂停。|源自拉丁语「pausare」
 pedites|/pəˈditʰəs/|名词|步兵。|源自拉丁语「pedites」。
+pedo|/ˈpe.do/|名词|脚。|源自拉丁语「pes, pedis」
 pefvu|/ˈpefvu/|名词|征兆。|原生词根。
 peigno|/pəˈiɡno/|名词|梳子。|源自法语「peigne」。
 peintoro|/pəiˈntʰoʁo/|名词|画家。|源自法语「peintre」。
 pek|/ˈpekʰ/|名词|火炉。|源自斯拉夫语「pech」。
 pekatum|/pəˈkʰatʰum/|名词|罪恶。|源自拉丁语「peccatum」。
+pekela|/ˈpekʰela/|名词|蜜蜂。|源自斯拉夫语「pchela」。
 pekoflav|/pə.kʰoˈflav/|名词|热锅里食物微微焦黄、香气最盛的一刻。|peko（锅）+ flav（焦香）。
+pekto|/ˈpek.tʰo/|名词|胸膛。|源自拉丁语「pectus, pectoris」
 pelmeni|/pəˈlmeni/|名词|饺子。|源自俄语「пельмени」(pelmeni)。
+péma|/ˈpeː.ma/|名词|人民，人群。|原生词根。
 pen|/pən/|动词|努力。|借世界语 peni。
 penalti|/pəˈnaltʰi/|名词|点球。|源自英语「penalty」。
+penda|/ˈpen.da/|动词|取决于，系于。|源自拉丁语「pendere」
+peneuma|/ˈpenuma/|名词|精神。|源自希腊语「πνεῦμα」(pneuma)。
 pengulu|/pəˈŋɡulu/|名词|村长。|源自马来语「penghulu」。
 peno|/ˈpeno/|名词|努力。|源自世界语「peno」。
 pens|/pəns/|动词|想。|"pensar" 词根。
+pensante|/pənˈsan.tʰe/|分词|认为着，想着。|「pens」(想) + 现在分词 -ante
 pensar|/pənˈsaɹ/|动词|思考。|西班牙语 "pensar"。
 pension|/pəˈnsion/|名词|退休金。|源自英语「pension」。
 penso|/ˈpenso/|名词|思想。|源自拉丁语「pensum」。
-pento|/ˈpentʰo/|名词|山坡。|源自法语「pente」。
 penter|/ˈpen.tʰəɹ/|动词|绘画。|借世界语 pentri。
+pento|/ˈpentʰo/|名词|山坡。|源自法语「pente」。
 penzi|/ˈpenzi/|名词|丛林。|原生词根。
 peperasmeni|/pəpəʁaˈsmeni/|形容词|有限的。|源自希腊语「πεπερασμένος」(peperasmenos)。
 pepu|/ˈpepu/|名词|陷阱。|原生词根。
 per|/pəɹ/|动词|消亡，湮灭。|源自拉丁语「perire」(perire) 简化。
+péra|/ˈpeː.ʁa/|名词|危险。|拉丁语 "periculum" 简化。
 perder|/ˈpeɹdəɹ/|动词|丢失。|源自拉丁语「perdere」。
 perdi|/ˈpeɹdi/|动词|输，失去。|源自世界语「perdi」。
 perfektio|/pəɹfəˈkʰtʰio/|名词|完美。|源自拉丁语「perfectio」。
 perfidi|/pəˈɹfidi/|形容词|背叛的。|源自拉丁语「perfidus」。
 permés|/pəɹˈmeːs/|动词|请允许。|法语 "permettez"。
+perseverar|/per.seˈve.raɹ/|动词|坚持，持之以恒。|源自拉丁语「perseverare」
 persil|/ˈpeɹsil/|名词|香菜。|源自法语「persil」。
 persona|/pəˈɹsona/|名词|面具。|源自拉丁语「persona」。
 pesho|/ˈpeʃo/|名词|桃子。|源自法语「pêche」。
 pesziú|/pəˈsziuː/|名词|脉轮。|源自梵语「चक्र」(chakra)。
 peteĝ|/ˈpe.tʰəd͡ʒ/|动词|恳请。|自创（"pet" + 强调变体）。
+petitio|/peˈtʰi.tʰio/|名词|请求，请愿。|源自拉丁语「petitio」
 petitpois|/pətʰiˈtʰpois/|名词|豌豆。|源自法语「petit pois」。
 petroleum|/pətʰroˈleum/|名词|石油。|源自英语「petroleum」。
 petzur|/ˈpetʰzuɹ/|名词|海峡。|原生词根。
@@ -2817,6 +3100,7 @@ pietas|/piˈetʰas/|名词|虔诚。|源自拉丁语「pietas」。
 piĝeri|/piˈd͡ʒeʁi/|形容词|懒惰的。|源自拉丁语「piger」。
 pik|/ˈpikʰ/|名词|猪。|源自日耳曼语「pig」。
 pika|/ˈpi.kʰa/|动词|刺，扎。|原生词根。
+pikar|/ˈpʰi.kʰaɹ/|动词|啄。|源自德语「picken」
 pikri|/ˈpikʰri/|形容词|苦涩的。|源自希腊语「πικρός」(pikros)。
 piktura|/piˈkʰtʰuʁa/|名词|绘画。|源自拉丁语「pictura」。
 pila|/ˈpila/|名词|锯。|源自斯拉夫语「pila」。
@@ -2833,7 +3117,7 @@ pistol|/ˈpistʰol/|名词|手枪。|源自英语「pistol」。
 pita|/ˈpitʰa/|名词|烤饼。|借词「pita」。
 pitón|/ˈpitʰoːn/|名词|月桂花。|借词「defne」。
 piza|/ˈpiza/|名词|披萨。|源自意大利语「pizza」。
-pekela|/ˈpekʰela/|名词|蜜蜂。|源自斯拉夫语「pchela」。
+plæfge|/ˈplæfɡə/|名词|斜坡。|原生词根。
 plafonto|/plaˈfontʰo/|名词|天花板。|源自法语「plafond」。
 plaĝ|/ˈplad͡ʒ/|名词|沙滩。|源自法语「plage」。
 plaia|/plaˈia/|名词|海滩。|源自西班牙语「playa」。
@@ -2846,11 +3130,11 @@ plastik|/ˈplastʰikʰ/|名词|塑料。|源自英语「plastic」。
 platea|/plaˈtʰea/|名词|广场。|源自拉丁语「platea」。
 platformo|/pla.tʰˈfoɹ.mo/|名词|平台。|借英语 platform。
 platok|/ˈplatʰokʰ/|名词|披巾。|源自俄语「платок」(platok)。
-plæfge|/ˈplæfɡə/|名词|斜坡。|原生词根。
-pléga|/ˈpleː.ɡa/|动词|冒险，闯入。|原生词根。
 plebso|/ˈplebso/|名词|平民。|源自拉丁语「plebs」。
 plefti|/ˈpleftʰi/|名词|枫树。|原生词根。
+pléga|/ˈpleː.ɡa/|动词|冒险，闯入。|原生词根。
 plej|/ˈpled͡ʒ/|副词|最。|源自世界语「plej」。
+plekto|/ˈplek.tʰo/|名词|发辫，发绺。|源自拉丁语「plectere」（编织）
 plen|/plən/|动词|充满。|借世界语 pleni。
 plena|/ˈple.na/|形容词|满的。|拉丁语 "plenus"。
 plenen|/ˈplenən/|动词|变成满。|「plena」+ 后缀 -en（变成）。
@@ -2861,17 +3145,16 @@ pleymulten|/pləjˈmultʰən/|动词|变成最多。|「pleymulta」+ 后缀 -en
 pleymultli|/pləjˈmultʰli/|副词|最多地。|「pleymulta」+ 后缀 -li（副词化）。
 pli|/pli/|副词|更。|第二版新增，源自世界语 "pli"。
 plikar|/ˈplikʰaɹ/|动词|折叠。|源自拉丁语「plicare」。
+pløfka|/ˈpløfkʰa/|形容词|崭新的。|原生词根。
 plor|/ploɹ/|动词|哭泣。|第二版新增，源自拉丁语 "plorare"。
 plosãti|/ploˈsɐ̃tʰi/|名词|仆人。|原生词根。
 plot|/ˈplotʰ/|名词|木筏。|源自俄语「плот」(plot)。
-pløfka|/ˈpløfkʰa/|形容词|崭新的。|原生词根。
 plu|/plu/|副词|再，更。|第二版新增，源自世界语 "plu"。
 plule|/ˈplulə/|名词|狼群。|原生词根。
 plumo|/ˈplu.mo/|名词|羽毛。|拉丁语 "pluma"。
 plurne|/ˈpluɹnə/|名词|烟尘。|原生词根。
 pluva|/ˈplu.va/|名词|雨。|与 "pluvarko" 同根。
 pluvarko|/pluˈvaɹ.kʰo/|名词|彩虹。|"pluv"（雨）+ "arko"（弓）。
-peneuma|/ˈpenuma/|名词|精神。|源自希腊语「πνεῦμα」(pneuma)。
 poel|/ˈpoəl/|名词|平底锅。|源自法语「poêle」。
 poema|/poˈe.ma/|名词|诗。|拉丁语 "poema"。
 poena|/poˈena/|名词|惩罚。|源自拉丁语「poena」。
@@ -2881,22 +3164,27 @@ poietik|/poiˈetʰikʰ/|名词|诗学。|源自希腊语「ποιητική」(p
 poir|/ˈpoiɹ/|名词|梨。|源自法语「poire」。
 poisoneri|/poisoˈneʁi/|名词|鱼市。|源自法语「poissonnerie」。
 poivro|/poˈivro/|名词|胡椒。|源自法语「poivre」。
+pókbet|/ˈpoːkʰbətʰ/|名词|尽头。|原生词根。
 polis|/ˈpolis/|名词|警察。|源自法语「police」。
 polisi|/poˈlisi/|名词|政策。|源自英语「policy」。
 politik|/poˈlitʰikʰ/|名词|政治。|源自希腊语「πολιτική」(politike)。
+poluso|/poˈlu.so/|名词|极，极点。|源自拉丁语「polus」
 polvo|/ˈpol.vo/|名词|灰尘。|拉丁语 "pulvis"。
 pomarium|/pomaˈʁium/|名词|果园。|源自拉丁语「pomarium」。
 pomedetero|/pomədəˈtʰeɹro/|名词|土豆。|源自法语「pomme de terre」。
 pomeshokik|/poməˈʃokʰikʰ/|名词|地主。|源自俄语「помещик」(pomeshchik)。
 pomgozupa|/pomɡoˈzupa/|形容词|冒失的。|原生词根。
 pomo|/ˈpomo/|名词|苹果。|源自法语「pomme」。
+ponda|/ˈpon.da/|名词|重量，分量。|源自拉丁语「pondus」
 ponso|/ˈponso/|名词|桥梁。|源自拉丁语「pons」。
 pontifekso|/pontʰiˈfekʰso/|名词|祭司长。|源自希腊语「pontifex」。
 ponto|/ˈpon.tʰo/|名词|桥。|借拉丁 pons。
+póra|/ˈpoː.ʁa/|动词|承受，忍受。|原生词根。
 porçelana|/poɹsəˈlana/|形容词|瓷的。|「porçelano」派生。
 porçelano|/poɹsəˈlano/|名词|瓷。|源自意大利语「porcellana」。
 pordo|/ˈpoɹ.do/|名词|门。|借拉丁 porta。
 port|/poɹtʰ/|动词|携带。|源自拉丁语「portare」。
+port-for|/poɹtʰˈfoɹ/|动词|带走。|"port" + "for"。
 porta|/ˈpoɹtʰa/|名词|城门。|源自拉丁语「porta」。
 portakal|/poˈɹtʰakʰal/|名词|柑橘。|借词「portakal」。
 portanto|/poɹˈtʰan.tʰo/|名词|持有者，携带者。|"port" + 施动者后缀 "-anto"。
@@ -2906,31 +3194,37 @@ portikus|/poˈɹtʰikʰus/|名词|柱廊。|源自拉丁语「porticus」。
 porto|/ˈpoɹtʰo/|名词|门。|源自法语「porte」。
 portoraitum|/poɹtʰoʁaˈitʰum/|名词|肖像。|源自拉丁语「portraitum」。
 portus|/ˈpoɹtʰus/|名词|港口。|源自拉丁语「portus」。
-port-for|/poɹtʰˈfoɹ/|动词|带走。|"port" + "for"。
 porzekzoka|/poɹzəˈkʰzokʰa/|名词|黑醋栗。|源自波兰语「porzeczka」。
 posarpe|/poˈsaɹpə/|名词|祭司。|原生词根。
+posho|/ˈpo.ʃo/|名词|口袋。|借世界语 poŝo。
 posibili|/posiˈbili/|形容词|可能的。|源自拉丁语「possibilis」。
 post|/postʰ/|介词|在...之后。|拉丁语 "post"。
 poste|/ˈpostʰə/|副词|后来。|源自世界语「poste」。
+postera|/ˈposteʁa/|形容词|后面的，后方的。|源自拉丁语「posterus」
 posto|/ˈpostʰo/|名词|邮局。|源自法语「poste」。
-posho|/ˈpo.ʃo/|名词|口袋。|借世界语 poŝo。
+posttagmeza|/postˈtaɡ.me.za/|形容词|下午的。|post（在…之后）+ tagmezo（中午，词典词）
+postular|/ˈpos.tʰu.laɹ/|动词|要求，索求。|源自拉丁语「postulare」
 pov|/pov/|动词|能。|源自拉丁语「posse」。
-pókbet|/ˈpoːkʰbətʰ/|名词|尽头。|原生词根。
-póra|/ˈpoː.ʁa/|动词|承受，忍受。|原生词根。
+pozo|/ˈpo.zo/|名词|姿势，姿态。|源自法语「pose」
 prai|/ˈprai/|形容词|谦和的。|源自希腊语「πρᾶος」(praos)。
 praksis|/ˈprakʰsis/|名词|实践。|源自拉丁语「praxis」。
-pramhe|/ˈpramhə/|名词|鼓。|原生词根。
-prana|/ˈprana/|名词|生命力。|源自梵语「प्राण」(prana)。
-prant|/prantʰ/|名词|棉花。|原生词根。
-praph|/ˈpra.f/|名词|句子。|第二版新增，原创词。
-prások|/ˈpraːsokʰ/|名词|雪崩。|原生词根。
 præludium|/præluˈdium/|名词|序曲。|源自拉丁语「praeludium」。
+pramhe|/ˈpramhə/|名词|鼓。|原生词根。
 præmisa|/præˈmisa/|名词|前提。|源自拉丁语「praemissa」。
 præmium|/præˈmium/|名词|奖品。|源自拉丁语「praemium」。
+pran|/pran/|动词|跳跃。|原创词。
+prana|/ˈprana/|名词|生命力。|源自梵语「प्राण」(prana)。
+prandio|/ˈpran.di.o/|名词|午饭，正餐。|源自拉丁语「prandium」
+prant|/prantʰ/|名词|棉花。|原生词根。
+praph|/ˈpra.f/|名词|句子。|第二版新增，原创词。
 præsertim|/præˈseɹtʰim/|副词|尤其。|源自拉丁语「praesertim」。
+prások|/ˈpraːsokʰ/|名词|雪崩。|原生词根。
 præterea|/prætʰəˈʁea/|副词|此外。|源自拉丁语「praeterea」。
-préla|/ˈpreː.la/|动词|迸发，喷涌。|原生词根。
+precisa|/ˈpre.si.sa/|形容词|精确的，准确的。|源自拉丁语「praecisus」
+preĝudiko|/preˈd͡ʒu.di.ko/|名词|偏见，成见。|源自拉丁语「praejudicium」
+prejudiko|/preˈd͡ʒu.di.kʰo/|名词|偏见，成见。|源自拉丁语「praeiudicium」
 prekel|/ˈprekʰəl/|名词|椒盐卷饼。|源自波兰语「precel」。
+préla|/ˈpreː.la/|动词|迸发，喷涌。|原生词根。
 prema|/ˈpre.ma/|动词|挤压。|拉丁语 "premere"。
 premierministoro|/prəmiəɹminiˈstʰoʁo/|名词|总理。|源自法语「premier ministre」。
 premiersosekourso|/prəmiəɹsosəkʰoˈuɹso/|名词|急救。|源自法语「premiers secours」。
@@ -2941,8 +3235,11 @@ preskau|/ˈpreskʰau/|副词|差点，几乎。|源自世界语「preskaʌ」。
 preter|/ˈpre.tʰəɹ/|介词/前缀|过去的。|拉丁语 "praeter"。
 preteraĝo|/prətʰəˈʁad͡ʒo/|名词|往事。|「preter」+「-aĝo」。
 preterfluĝ|/ˈpre.tʰəɹ.ˌflud͡ʒ/|动词|飞过。|第二版新增，"preter" + "fluĝ"。
+preterlasar|/pre.tʰeɹˈla.saɹ/|动词|放过，略过。|源自拉丁语「praeterire」+「laxare」
 pretervint|/prə.tʰəɹˈvintʰ/|名词|多年未见后重聚时那份熟悉的生疏。|preter（过往）+ vint（重逢）。
 preterviv|/prə.tʰəɹˈviv/|名词|前世。|"preter" + "viv"。
+preventio|/preˈven.tʰio/|名词|预防，防止。|源自拉丁语「praeventio」
+prezenti|/preˈzen.tʰi/|形容词|在场的，出席的。|源自拉丁语「praesens」
 prezidanto|/prə.ziˈdan.tʰo/|名词|主席，会长。|源自拉丁语「praesidens」+ 施动者后缀 -anto。
 pri|/pri/|介词|关于。|世界语 "pri"。
 prialka|/priˈalkʰa/|名词|纺车。|源自斯拉夫语「pryalka」。
@@ -2951,6 +3248,7 @@ primeronta|/priˈme.ʁon.tʰa/|形容词|第一的。|西班牙语 "primero"。
 primeronten|/priməˈʁontʰən/|动词|变成第一。|「primeronta」+ 后缀 -en（变成）。
 primerontli|/priməˈʁontʰli/|副词|第一地。|「primeronta」+ 后缀 -li（副词化）。
 primna|/ˈprimna/|名词|船尾。|源自希腊语「πρύμνα」(prymna)。
+prímritses|/priːˈmritʰsəs/|名词|潮汐。|原生词根。
 prinseso|/priˈnseso/|名词|公主。|源自日耳曼语「princess」。
 prinso|/ˈprinso/|名词|王子。|源自日耳曼语「prince」。
 printem|/ˈprin.tʰəm/|名词|春季。|法语 "printemps"。
@@ -2959,7 +3257,7 @@ printer|/ˈprintʰəɹ/|名词|打印机。|源自英语「printer」。
 prisonier|/prisoˈniəɹ/|名词|囚犯。|源自法语「prisonnier」。
 privata|/priˈvatʰa/|形容词|私立的，私人的。|源自拉丁语「privatus」。
 privati|/priˈvatʰi/|形容词|个人的。|源自拉丁语「privatus」。
-prímritses|/priːˈmritʰsəs/|名词|潮汐。|原生词根。
+probar|/ˈpro.baɹ/|动词|证明，证实。|源自拉丁语「probare」
 probatio|/probaˈtʰio/|名词|证明。|源自拉丁语「probatio」。
 proditio|/prodiˈtʰio/|名词|背叛。|源自拉丁语「proditio」。
 profeseur|/profəˈseuɹ/|名词|教授。|源自法语「professeur」。
@@ -2980,9 +3278,11 @@ proksimi|/prokʰˈsi.mi/|动词|靠近，接近。|世界语 "proksimi"。
 proksimiji|/prokʰ.siˈmi.d͡ʒi/|动词|使靠近。|"proksimi" + 使动后缀 "-ji"。
 prologus|/proˈloɡus/|名词|序言。|源自拉丁语「prologus」。
 propaganda|/propaˈɡanda/|名词|宣传。|源自英语「propaganda」。
+propagatio|/pro.paˈɡa.tʰio/|名词|扩张，蔓延。|源自拉丁语「propagatio」
 propi|/ˈpropi/|形容词|自己的。|源自拉丁语「proprius」(proprius)。
 proportio|/propoˈɹtʰio/|名词|比例。|源自拉丁语「proportio」。
 propositio|/proposiˈtʰio/|名词|命题。|源自拉丁语「propositio」。
+proprat|/ˈprop.ratʰ/|形容词|自己的。|源自拉丁语「proprius」。
 prora|/ˈproʁa/|名词|船首。|源自希腊语「πρῷρα」(prora)。
 prore|/ˈproʁə/|名词|少女。|原生词根。
 prosa|/ˈprosa/|名词|散文。|源自拉丁语「prosa」。
@@ -2997,20 +3297,28 @@ protumi|/proˈtʰumi/|形容词|热忱的。|源自希腊语「πρόθυμος�
 provi|/ˈpro.vi/|动词|尝试。|借世界语 provi。
 provinsia|/proviˈnsia/|名词|行省。|源自拉丁语「provincia」。
 provinso|/proˈvinso/|名词|省份。|源自法语「province」。
+provizar|/pro.viˈzaɹ/|动词|提供，供应。|源自英语「provide」加动词化 -ar
+provizora|/pʁoˈvi.zo.ʁa/|形容词|暂时的，临时的。|源自拉丁语「provisorius」
+provizoria|/pro.viˈzo.ʁia/|形容词|临时的，暂定的。|源自拉丁语「provisorius」
+provocar|/pro.voˈkaɹ/|动词|挑衅，挑动。|源自拉丁语「provocare」
+prozedo|/ˈpro.ze.do/|名词|过程，流程。|源自拉丁语「procedere」
 pru|/ˈpru/|动词|涂抹。|原生词根。
 prudentia|/prudəˈntʰia/|名词|审慎。|源自拉丁语「prudentia」。
 prun|/ˈprun/|名词|李子。|源自法语「prune」。
-prunt-|/pruntʰ/|动词词根|借。|英语 "borrow" 语义借用。
 prúna|/ˈpruː.na/|名词|果实，结果。|原生词根。
+prunt-|/pruntʰ/|动词词根|借。|英语 "borrow" 语义借用。
 psalmos|/ˈpsalmos/|名词|圣歌。|源自希腊语「ψαλμός」(psalmos)。
 pseudesi|/psəuˈdesi/|形容词|虚假的。|源自希腊语「ψευδής」(pseudes)。
+pseudonimo|/pseuˈdo.ni.mo/|名词|笔名。|源自希腊语「ψευδώνυμος」(pseudonymos)
 psik|/ˈpsikʰ/|名词|心理。|源自希腊语「ψυχή」(psyche)。
 psukhori|/psuˈkʰhoʁi/|形容词|冷漠的。|源自希腊语「ψυχρός」(psukhros)。
 publikatio|/publikʰaˈtʰio/|名词|出版。|源自拉丁语「publicatio」。
 publiki|/puˈblikʰi/|形容词|公开的。|源自拉丁语「publicus」。
 pudråt|/ˈpudrɔːtʰ/|名词|鱼鳍。|原生词根。
 puel|/puˈel/|名词|女孩。|拉丁语 "puella"。
+pueritia|/pueˈʁi.tʰia/|名词|童年。|源自拉丁语「pueritia」
 pugna|/ˈpuɡna/|名词|战役。|源自拉丁语「pugna」。
+pulmo|/ˈpul.mo/|名词|肺。|源自拉丁语「pulmo」
 pumpo|/ˈpumpo/|名词|泵。|源自英语「pump」。
 punt|/puntʰ/|名词|点。|拉丁语 "punctum"。
 punzúfkesa|/punzuːˈfkʰesa/|形容词|刺耳的。|原生词根。
@@ -3018,20 +3326,22 @@ pura|/ˈpu.ʁa/|形容词|干净的。|原生词根。
 purana|/puˈʁana/|名词|往世书。|源自梵语「पुराण」(purana)。
 puren|/ˈpuʁən/|动词|变成干净。|「pura」+ 后缀 -en（变成）。
 purli|/ˈpuɹli/|副词|干净地。|「pura」+ 后缀 -li（副词化）。
-pusha|/ˈpu.ʃa/|动词|推。|原生词根。
 push|/puʃ/|动词|推。|借世界语 puŝi。
+pusha|/ˈpu.ʃa/|动词|推。|原生词根。
 putra|/ˈputʰ.ra/|形容词|腐烂的。|拉丁语 "putris"。
 putrali|/puˈtʰrali/|副词|腐烂地。|「putra」+ 后缀 -li（副词化）。
 putren|/ˈputʰrən/|动词|变成腐烂。|「putra」+ 后缀 -en（变成）。
 putreser|/puˈtʰresəɹ/|动词|腐烂。|源自拉丁语「putrescere」。
-pǽnta|/ˈpæːntʰa/|名词|冻土。|原生词根。
 qualma|/ˈkual.ma/|名词|质量，品质。|拉丁语 "qualitas"。
 quanta|/ˈkuan.tʰa/|名词|数量，量。|拉丁语 "quantitas"。
 quasa|/ˈkua.sa/|形容词|快速的，敏捷的。|原生词根。
 quasen|/kuˈasən/|动词|变成快速。|「quasa」+ 后缀 -en（变成）。
 quasli|/kuˈasli/|副词|快速地。|「quasa」+ 后缀 -li（副词化）。
+querar|/kueˈraɹ/|动词|抱怨，诉苦。|源自拉丁语「queri」
 question|/kuəsˈtʰi.on/|名词|问题。|英语 "question"。
 raæ|/ˈʁaæ/|名词|咖啡。|源自西班牙语「café」。
+ræã|/ˈʁæɐ̃/|名词|鬼怪。|原生词根。
+ráda|/ˈʁaː.da/|动词|上升，升起。|原生词根。
 radar|/ˈʁadaɹ/|名词|雷达。|源自英语「radar」。
 radiko|/ʁaˈdi.kʰo/|名词|根。|拉丁语 "radix"。
 radio|/ʁaˈdio/|名词|收音机。|源自英语「radio」。
@@ -3054,13 +3364,12 @@ ratio|/ʁaˈtʰio/|名词|账目。|源自拉丁语「ratio」。
 rauhunko|/ʁauˈhuŋkʰo/|名词|薄荷。|源自越南语「rau hung」。
 raven|/ˈʁavən/|名词|渡鸦。|源自日耳曼语「raven」。
 ravioli|/ʁaviˈoli/|名词|意大利饺。|源自意大利语「ravioli」。
-ráda|/ˈʁaː.da/|动词|上升，升起。|原生词根。
-ræã|/ˈʁæɐ̃/|名词|鬼怪。|原生词根。
-réna|/ˈʁeː.na/|形容词|真实的，正确的。|拉丁语 "verus" 变体。
-rénen|/ˈʁeːnən/|动词|变成真实。|「réna」+ 后缀 -en（变成）。
-rénli|/ˈʁeːnli/|副词|真实地。|「réna」+ 后缀 -li（副词化）。
+re-|/ʁə/|前缀|再次，回。|世界语/拉丁语前缀 "re-"。
+reagir|/ˈʁe.a.d͡ʒiɹ/|动词|反应。|源自拉丁语「re- + agere」
 realiĝ|/ʁe.aˈli.d͡ʒ/|动词|实现。|real + 中动态 -iĝ-。
 rebelio|/ʁəbəˈlio/|名词|反抗。|源自拉丁语「rebellio」。
+receptio|/reˈkep.tʰi.o/|名词|招待会，接见，接待。|源自拉丁语「receptio」
+recuperar|/re.kuˈpe.raɹ/|动词|找回，重新获得。|源自拉丁语「recuperare」
 redempotio|/ʁədəmpoˈtʰio/|名词|救赎。|源自拉丁语「redemptio」。
 redir|/ˈʁediɹ/|动词|返回。|源自拉丁语「redire」。
 redonar|/ʁəˈdonaɹ/|动词|回赠。|「re-」+「donar」。
@@ -3072,20 +3381,24 @@ reformo|/ʁəˈfoɹmo/|名词|改革。|源自英语「reform」。
 refortiji|/ʁə.foɹˈtʰi.d͡ʒi/|动词|再变坚强。|"re-" + "fortiji"。
 refriĝerar|/ʁəfriˈd͡ʒeʁaɹ/|动词|冷却。|源自拉丁语「refrigerare」。
 refuĝi|/ʁəˈfud͡ʒi/|名词|难民。|源自法语「réfugié」。
+refugio|/reˈfu.ɡi.o/|名词|避难所，庇护处。|源自拉丁语「refugium」
 refuz|/ʁəˈfuz/|动词|拒绝。|法语 "refuser"。
-regulo|/ʁəˈɡulo/|名词|规则。|源自世界语「regulo」。
+regar|/ˈʁe.gaɹ/|动词|统治，笼罩。|源自拉丁语「regere」
 reĝestum|/ʁəˈd͡ʒestʰum/|名词|清单。|源自拉丁语「regestum」。
 reĝimen|/ʁəˈd͡ʒimən/|名词|统治。|源自拉丁语「regimen」。
 reĝimo|/ʁəˈd͡ʒi.mo/|名词|政体，政权。|借法语 régime。
 reĝina|/ʁəˈd͡ʒina/|名词|女王。|源自拉丁语「regina」。
 reĝio|/ʁəˈd͡ʒio/|名词|区。|源自拉丁语「regio」。
 reĝion|/ʁəˈd͡ʒion/|名词|地区。|源自法语「région」。
+regulo|/ʁəˈɡulo/|名词|规则。|源自世界语「regulo」。
 rehavi|/ˈʁe.ha.vi/|动词|夺回。|re-（回）+ havi（有，握）。
 reiversohluso|/ʁəivəɹsoˈhluso/|名词|拉链。|源自德语「Reißverschluss」。
+rekensa|/reˈkensa/|形容词|新鲜的，清新的，清爽的。|源自拉丁语「recens」
 rekon|/ʁə.ˈkʰon/|动词|认出。|借世界语 rekoni。
 rekorto|/ʁəˈkʰoɹtʰo/|名词|纪录。|源自英语「record」。
 rekso|/ˈʁekʰso/|名词|国王。|源自拉丁语「rex」。
 rekta|/ˈʁekʰ.tʰa/|形容词|直的。|拉丁语 "rectus"。
+rektali|/ˈʁekʰ.tʰa.li/|副词|直地，径直。|「rekta」（直的）＋副词化后缀 -li
 rekten|/ˈʁekʰtʰən/|动词|变成直。|「rekta」+ 后缀 -en（变成）。
 rektli|/ˈʁekʰtʰli/|副词|直地。|「rekta」+ 后缀 -li（副词化）。
 relatio|/ʁəˈla.tʰi.o/|名词|关系。|拉丁语 "relatio"。
@@ -3093,11 +3406,16 @@ relikuia|/ʁəlikʰuˈia/|名词|圣物。|源自拉丁语「reliquia」。
 relum|/ˈʁe.lum/|名词|曙光；困境中突如其来的希望之光。|"re-" + "lum"（光）。
 remark|/ʁəˈmaɹ.kʰa/|动词|注意到。|法语 "remarquer"。
 rememor|/ʁə.mə.ˈmoɹ/|动词|回忆。|借世界语 rememori。
+removar|/ʁeˈmo.vaɹ/|动词|移开，除去。|源自拉丁语「removere」
 remti|/ˈʁemtʰi/|名词|皮鞭。|原生词根。
+réna|/ˈʁeː.na/|形容词|真实的，正确的。|拉丁语 "verus" 变体。
 renaski|/ʁəˈnas.kʰi/|动词|重生，再次诞生。|拉丁语 "renasci"。
+rénen|/ˈʁeːnən/|动词|变成真实。|「réna」+ 后缀 -en（变成）。
 renkont|/ʁən.ˈkʰontʰ/|动词|遇见。|借世界语 renkonti。
 renkontar|/ʁən.kʰonˈtʰaɹ/|动词|遇见。|世界语 "renkonti" + "-ar"。
 renkontigo|/ʁəŋkʰoˈntʰiɡo/|名词|会面。|源自世界语「renkontiĝo」。
+rénli|/ˈʁeːnli/|副词|真实地。|「réna」+ 后缀 -li（副词化）。
+renuntia|/reˈnun.tia/|动词|放弃，弃权。|源自拉丁语「renuntiare」
 repa|/ˈʁepa/|名词|芜菁。|源自俄语「репа」(repa)。
 reparatio|/ʁəpaʁaˈtʰio/|名词|修理。|源自拉丁语「reparatio」。
 repeter|/ʁəˈpetʰəɹ/|动词|重复。|源自拉丁语「repetere」。
@@ -3107,6 +3425,7 @@ representació|/ʁe.pre.sen.tʰaˈki.oː/|名词|代表权。|"represent" + 后�
 reprezento|/ʁəprəˈzentʰo/|名词|代表。|源自拉丁语「repraesentare」。
 resanigo|/ʁəsaˈniɡo/|名词|康复。|源自世界语「resaniĝo」。
 reservoirium|/ʁəsəɹvoiˈʁium/|名词|水库。|源自拉丁语「reservoirium」。
+resonar|/re.soˈnaɹ/|动词|回响，回荡。|源自拉丁语「resonare」
 respond|/ʁəs.ˈpond/|动词|回答。|源自拉丁语「respondere」。
 respondeko|/ʁəspoˈndekʰo/|名词|责任。|源自拉丁语「responsum」+ 抽象后缀 -es。
 respondo|/ʁəˈspondo/|名词|答案。|源自拉丁语「responsum」。
@@ -3121,10 +3440,11 @@ resultat|/ʁə.zulˈtʰatʰ/|名词|结果。|拉丁语 "resultatum"。
 retir|/ʁə.ˈtʰiɹ/|动词|缩回。|借世界语 retiri。
 retor|/ˈʁetʰoɹ/|名词|修辞家。|源自希腊语「ῥήτωρ」(rhetor)。
 retorika|/ʁətʰoˈʁikʰa/|名词|修辞。|源自拉丁语「rhetorica」。
+retro-|/ˈʁe.tʰro/|前缀|向后，回。|拉丁语 "retro"。
+retromiroir|/ʁeˈtʰro.mi.ʁoiɹ/|名词|后视镜。|前缀「retro-」（向后）+「miroir」（镜子）
 retrovenonta|/ʁə.tʰro.vəˈnon.tʰa/|形容词|将回的。|"retro-" + "ven" + 将来分词 "-ont-" + "-a"。
 retrovenonten|/ʁətʰrovəˈnontʰən/|动词|变成将回。|「retrovenonta」+ 后缀 -en（变成）。
 retrovenontli|/ʁətʰrovəˈnontʰli/|副词|将回地。|「retrovenonta」+ 后缀 -li（副词化）。
-retro-|/ˈʁe.tʰro/|前缀|向后，回。|拉丁语 "retro"。
 returne|/ʁəˈtʰuɹ.nə/|副词|回，转回。|"re-" + "turne"（转）。
 reuma|/ʁəˈuma/|名词|流体。|源自希腊语「ῥεῦμα」(rheuma)。
 reunuigo|/ʁəunuˈiɡo/|名词|重逢。|源自世界语「reunuiĝo」。
@@ -3134,7 +3454,6 @@ revisio|/ʁəviˈsio/|名词|修订。|源自拉丁语「revisio」。
 revo|/ˈʁevo/|名词|梦想。|源自世界语「revo」。
 revohting|/ʁe.voˈtʰiŋ/|名词|醒后犹存的那缕梦境余温。|revo（梦）+ hting（余温）。
 rezulto|/ʁəˈzultʰo/|名词|成绩。|源自拉丁语「resultare」。
-re-|/ʁə/|前缀|再次，回。|世界语/拉丁语前缀 "re-"。
 riabina|/ʁiaˈbina/|名词|花楸。|源自俄语「рябина」(ryabina)。
 riapas|/ʁiˈapas/|副词|难得地。|原生词根。
 ricev|/ʁi.ˈkev/|动词|收到。|借世界语 ricevi。
@@ -3144,6 +3463,9 @@ rideau|/ʁidəˈau/|名词|窗帘。|源自法语「rideau」。
 riflo|/ˈʁiflo/|名词|步枪。|源自英语「rifle」。
 rifúros|/ʁiˈfuːʁos/|名词|冰山。|原生词根。
 rigiti|/ʁiˈɡitʰi/|形容词|僵硬的。|源自希腊语「rigid」。
+ríka|/ˈʁiː.kʰa/|形容词|富有的。|日耳曼语源。
+ríken|/ˈʁiːkʰən/|动词|变成富有。|「ríka」+ 后缀 -en（变成）。
+ríkli|/ˈʁiːkʰli/|副词|富有地。|「ríka」+ 后缀 -li（副词化）。
 rikolturne|/ʁi.kʰolˈtʰuɹ.nə/|名词|丰收之后土地渐渐沉寂的过渡。|rikol（收获）+ turne（转）。
 rinek|/ˈʁinəkʰ/|名词|市场广场。|源自波兰语「rynek」。
 rini|/ˈʁini/|名词|灯盏。|原生词根。
@@ -3157,15 +3479,15 @@ riu|/ˈʁiu/|名词|皮革。|原生词根。
 rivep|/ˈʁivəp/|名词|梦兆。|原生词根。
 river|/ˈʁi.vəɹ/|名词|河流。|英语 "river"。
 rivermakont|/ʁi.vəɹˈma.kʰontʰ/|名词|山水。|"river" + "makont"。
-ríka|/ˈʁiː.kʰa/|形容词|富有的。|日耳曼语源。
-ríken|/ˈʁiːkʰən/|动词|变成富有。|「ríka」+ 后缀 -en（变成）。
-ríkli|/ˈʁiːkʰli/|副词|富有地。|「ríka」+ 后缀 -li（副词化）。
+ró|/ˈʁoː/|名词|仙灵。|原生词根。
 robot|/ˈʁobotʰ/|名词|机器人。|源自英语「robot」。
-rogam|/ˈʁo.ɡam/|名词|床。|原生词根。
 roĝ|/ˈʁod͡ʒ/|名词|黑麦。|源自俄语「рожь」(rozh)。
+rogam|/ˈʁo.ɡam/|名词|床。|原生词根。
 roĝdestovo|/ʁod͡ʒdəˈstʰovo/|名词|圣诞节。|源自俄语「рождество」(rozhdestvo)。
 roinuok|/ʁoiˈnuokʰ/|名词|皮影。|源自越南语「roi nuoc」。
 rol|/ʁol/|名词|角色。|法语 "rôle"。
+røløtli|/ʁøˈløtʰli/|名词|盾牌。|原生词根。
+romano|/ˈʁo.ma.no/|名词|小说。|源自意大利语「romanzo」
 rombus|/ˈʁombus/|名词|菱形。|源自拉丁语「rhombus」。
 romp|/ʁomp/|动词|打破。|借世界语 rompi。
 rompi|/ˈʁompi/|动词|断裂。|源自拉丁语「rumpere」。
@@ -3178,8 +3500,6 @@ rosmarino|/ʁosmaˈʁino/|名词|迷迭香。|源自意大利语「rosmarino」�
 rotan|/ˈʁotʰan/|名词|藤。|源自马来语「rotan」。
 rotar|/ˈʁotʰaɹ/|动词|旋转。|源自拉丁语「rotare」。
 rouĝ|/ˈʁoud͡ʒ/|名词|口红。|源自法语「rouge」。
-ró|/ˈʁoː/|名词|仙灵。|原生词根。
-røløtli|/ʁøˈløtʰli/|名词|盾牌。|原生词根。
 rua|/ˈʁua/|名词|龟。|源自越南语「rua」。
 rubakha|/ʁuˈbakʰha/|名词|大褂。|源自俄语「рубаха」(rubakha)。
 ruber|/ˈʁubəɹ/|名词|橡胶。|源自英语「rubber」。
@@ -3190,20 +3510,27 @@ ruĝen|/ˈʁud͡ʒən/|动词|变成红色。|「ruĝa」+ 后缀 -en（变成�
 ruĝli|/ˈʁud͡ʒli/|副词|红色地。|「ruĝa」+ 后缀 -li（副词化）。
 ruin|/ˈʁu.in/|动词|毁灭，摧毁。|源自拉丁语「ruina」(ruina) 词干。
 rukei|/ʁuˈkʰei/|名词|小溪。|源自斯拉夫语「ruchey」。
+rúklu|/ˈʁuːkʰlu/|名词|冰雹。|原生词根。
 rumah|/ˈʁumah/|名词|高脚屋。|源自马来语「rumah」。
 rumahpanjanko|/ʁumahpaˈnd͡ʒaŋkʰo/|名词|长屋。|源自马来语「rumah panjang」。
 rumoro|/ʁuˈmoʁo/|名词|谣言。|源自拉丁语「rumor」。
-runinko|/ʁuˈniŋkʰo/|名词|跑步。|源自英语「running」。
-rúklu|/ˈʁuːkʰlu/|名词|冰雹。|原生词根。
 rúna|/ˈʁuː.na/|名词|秘密，神秘。|原生词根。
+runinko|/ʁuˈniŋkʰo/|名词|跑步。|源自英语「running」。
+Rusia|/ˈʁu.si.a/|名词|俄罗斯。|源自拉丁语「Russia」。
+Rusialingovo|/ʁu.si.aˈliŋ.ɡo.vo/|名词|俄语。|「Rusia」+「lingovo」。
 sa|/ˈsa/|名词|柠檬草。|源自越南语「sa」。
 sabl|/sabl/|名词|沙。|拉丁语 "sabulum"。
 sadhu|/ˈsadhu/|名词|隐士。|源自梵语「साधु」(sadhu)。
 sado|/ˈsado/|名词|茶道。|源自日语「茶道」(sado)。
 safran|/ˈsafran/|名词|藏红花。|借词「safran」。
+sága|/ˈsaː.ɡa/|名词|故事，传说。|日耳曼语源。
+sæi|/ˈsæi/|名词|号角。|原生词根。
+-sai|/sai/|后缀|想要。|第二版新增情态词缀。
 sak|/ˈsakʰ/|名词|清酒。|源自日语「酒」(sake)。
+sãkengi|/sɐ̃ˈkʰeŋɡi/|名词|橡树。|原生词根。
 sakposím|/saˈkʰposiːm/|名词|爪子。|原生词根。
 sakramentum|/sakʰraˈmentʰum/|名词|圣礼。|源自拉丁语「sacramentum」。
+sækulum|/sæˈkʰulum/|名词|世纪。|源自拉丁语「saeculum」。
 sakúra|/saˈkʰuː.ʁa/|名词|樱花。|日语借词 "桜"。
 salari|/saˈlaʁi/|名词|工资。|源自英语「salary」。
 saleamanĝer|/saləaˈmand͡ʒəɹ/|名词|餐厅。|源自法语「salle à manger」。
@@ -3217,6 +3544,8 @@ salút|/saˈluːtʰ/|助词|你好。|法语 "salut"。
 salvia|/saˈlvia/|名词|鼠尾草。|源自意大利语「salvia」。
 sama|/ˈsama/|形容词|相同的。|源自世界语「sama」。
 samadhi|/saˈmadhi/|名词|禅定。|源自梵语「समाधि」(samadhi)。
+samali|/ˈsa.ma.li/|副词|相同地，同样。|「sama」（相同的）＋副词化后缀 -li
+samæter|/ˈsam.æ.tʰeɹ/|名词|同龄人，同辈。|「sama」（相同的）+「ætas」（年龄）+ 后缀 -er（人）
 sambal|/ˈsambal/|名词|辣酱。|源自马来语「sambal」。
 sameko|/saˈmekʰo/|名词|相同。|源自世界语「sameco」。
 samovar|/saˈmovaɹ/|名词|茶炊。|源自俄语「самовар」(samovar)。
@@ -3229,9 +3558,11 @@ sani|/ˈsani/|名词|雪橇。|源自俄语「сани」(sani)。
 saniasin|/saniˈasin/|名词|苦行者。|源自梵语「संन्यासिन्」(sannyasin)。
 sano|/ˈsano/|名词|健康。|源自拉丁语「sanus」。
 santo|/ˈsantʰo/|名词|沙子。|源自德语「Sand」。
+sǽø|/ˈsæːø/|名词|史诗英雄。|源自希腊语「ἥρως」(heros)。
 sapientia|/sapiəˈntʰia/|名词|智慧。|源自拉丁语「sapientia」。
 sapogi|/saˈpoɡi/|名词|长靴。|源自俄语「сапоги」(sapogi)。
 sarha|/ˈsaɹha/|名词|寓言。|原生词根。
+sarkin|/ˈsaʁ.kʰin/|动词|打包，收拾行装。|源自拉丁语「sarcina」(行囊)
 sarunko|/saˈʁuŋkʰo/|名词|纱笼。|源自马来语「sarung」。
 sashimi|/saˈʃimi/|名词|生鱼片。|源自日语「刺身」(sashimi)。
 sat|/ˈsatʰ/|名词|沙爹。|源自马来语「sate」。
@@ -3244,24 +3575,14 @@ savon|/ˈsavon/|名词|肥皂。|源自法语「savon」。
 sawah|/ˈsawah/|名词|稻田。|源自马来语「sawah」。
 sawit|/ˈsawitʰ/|名词|棕榈。|源自马来语「sawit」。
 saz|/ˈsaz/|名词|灯芯草。|借词「saz」。
-sága|/ˈsaː.ɡa/|名词|故事，传说。|日耳曼语源。
-sæi|/ˈsæi/|名词|号角。|原生词根。
-sækulum|/sæˈkʰulum/|名词|世纪。|源自拉丁语「saeculum」。
-sãkengi|/sɐ̃ˈkʰeŋɡi/|名词|橡树。|原生词根。
-séna|/ˈseː.na/|形容词|甜的，甜美的。|原生词根。
-sénen|/ˈseːnən/|动词|变成甜。|「séna」+ 后缀 -en（变成）。
-sénli|/ˈseːnli/|副词|甜地。|「séna」+ 后缀 -li（副词化）。
-sétmar|/ˈseːtʰmaɹ/|名词|农夫。|原生词根。
-séva|/ˈseː.va/|数词|七。|英语 "seven"。
-séx|/seːks/|数词|六。|日耳曼词源。
 scen|/skən/|名词|景。|英语 "scene"。
 sci|/ski/|动词|知道。|拉丁语 "scire"。
 se|/sə/|连词|如果。|条件语气词缀独立形式。
 sed|/səd/|连词|但是（书面语，区分于 "abo"）。|第二版新增，源自拉丁语 "sed"。
 seder|/ˈsedəɹ/|动词|坐下。|源自拉丁语「sedere」。
 seditio|/sədiˈtʰio/|名词|起义。|源自拉丁语「seditio」。
-seil|/ˈseil/|名词|绳子。|源自德语「Seil」。
 seík|/ˈseiːkʰ/|名词|首饰。|原生词根。
+seil|/ˈseil/|名词|绳子。|源自德语「Seil」。
 seka|/ˈse.kʰa/|形容词|干燥的。|拉丁语 "siccus"。
 seken|/ˈsekʰən/|动词|变成干燥。|「seka」+ 后缀 -en（变成）。
 seker|/ˈsekʰəɹ/|名词|糖。|借词「seker」。
@@ -3271,6 +3592,7 @@ sekretali|/səkʰrəˈtʰali/|副词|秘密地。|「sekretus」+「-li」。
 sekreti|/səˈkʰretʰi/|形容词|秘密的。|源自拉丁语「secretus」。
 sekta|/ˈsekʰtʰa/|名词|教派。|源自拉丁语「secta」。
 sekunda|/səˈkʰunda/|名词|秒钟。|源自拉丁语「secunda」。
+sekura|/səˈkʰu.ʁa/|形容词|安全的，平安的。|源自拉丁语「securus」
 sekurit|/səˈkʰuʁitʰ/|名词|安全。|源自法语「sécurité」。
 sekv|/səkʰv/|动词|跟随。|源自拉丁语「sequi」。
 selfklára|/selfˈkʰlaː.ʁa/|形容词|自明的。|"self" + "klára"。
@@ -3283,34 +3605,44 @@ semarso|/səˈmaɹso/|名词|饥荒。|原生词根。
 semento|/səˈmentʰo/|名词|水泥。|源自英语「cement」。
 semestro|/səˈmestʰro/|名词|学期。|源自拉丁语「semestris」。
 semifinal|/səmiˈfinal/|名词|半决赛。|源自英语「semifinal」。
+semilekva|/se.miˈlekʰ.va/|形容词|半弯的，半弧的。|拉丁语前缀「semi-」（一半）+「lekva」（弯曲的）
 seminar|/səˈminaɹ/|名词|研讨。|源自英语「seminar」。
 semni|/ˈsemni/|形容词|庄严的。|源自希腊语「σεμνός」(semnos)。
 semo|/ˈse.mo/|名词|种子。|拉丁语 "semen"。
 semper|/ˈsempəɹ/|副词|始终。|源自拉丁语「semper」。
 sempre|/ˈsem.prə/|副词|总是。|意大利语 "sempre"。
 sen|/ˈsen/|名词|莲。|源自越南语「sen」。
+sen-|/sən/|前缀|无，否定。|从 "senhalte" 中提取。
+séna|/ˈseː.na/|形容词|甜的，甜美的。|原生词根。
 senateur|/sənaˈtʰeuɹ/|名词|参议员。|源自法语「sénateur」。
 senatus|/səˈnatʰus/|名词|元老院。|源自拉丁语「senatus」。
+senbezona|/sen.beˈzo.na/|形容词|多余的，不必要的。|sen-（无）+ bezon（需要，词典词）+ -a
 senĉa|/ˈsentʃa/|名词|煎茶。|源自日语「煎茶」(sencha)。
 send|/sənd/|动词|发送。|源自英语「send」。
 sendar|/sənˈdaɹ/|动词|发送。|英语 "send" + "-ar"。
+sénen|/ˈseːnən/|动词|变成甜。|「séna」+ 后缀 -en（变成）。
 senfina|/səˈnfina/|形容词|无尽的。|「sen-」+「fino」。
+senforte|/senˈfoɹ.te/|副词|无力地，无可奈何地。|「sen-」（无）+「forto」（力量）+ -e（副词词尾）
 senhalte|/sənˈhal.tʰə/|副词|不停歇地。|"sen"（无）+ "halte"（停止）。
+senhæsite|/senˈhæ.si.te/|副词|毫不犹豫地，干脆地。|「sen-」（无）+「hæsitar」（犹豫）+ -e（副词词尾）
+senintentli|/sen.inˈtent.li/|副词|无意地，不经意地。|sen-（无）+ intenta（意图）+ -li
 senkonsider|/sən.kʰonˈsi.dəɹ/|连词/副词|不管。|"sen-" + "konsider"。
+senkonsiosli|/sen.kon.siˈos.li/|副词|无意识地，下意识地。|sen-（无）+ konsosio（意识，词典词）+ -li
+sénli|/ˈseːnli/|副词|甜地。|「séna」+ 后缀 -li（副词化）。
 senplen|/sənˈplen/|副词|毫不，一点也不。|sen（无）+ plena（满）。
+senpoves|/ˈsen.po.ves/|副词|无奈地，无能为力地。|sen- + 「pov」(能) + 副词后缀 -es
 sensitiva|/sən.siˈtʰiva/|形容词|敏感的。|拉丁语 "sensitivus"，词尾清化。
 sensitiven|/sənsiˈtʰivən/|动词|变成敏感。|「sensitiva」+ 后缀 -en（变成）。
 sensitivli|/sənsiˈtʰivli/|副词|敏感地。|「sensitiva」+ 后缀 -li（副词化）。
 sensu|/ˈsensu/|名词|扇子。|源自日语「扇子」(sensu)。
 sententia|/səntʰəˈntʰia/|名词|判决。|源自拉丁语「sententia」。
 senti|/ˈsen.tʰi/|动词|感觉。|借世界语 senti。
-sentikor|/sən.tʰiˈkʰoɹ/|名词|因共情而生的、替别人心疼的感觉。|senti-（情感）+ kor（心）。
 senti-|/ˈsen.tʰi/|前缀|情感相关的。|第二版新增。
+sentikor|/sən.tʰiˈkʰoɹ/|名词|因共情而生的、替别人心疼的感觉。|senti-（情感）+ kor（心）。
 sentópbi|/səˈntʰoːpbi/|名词|悬崖。|原生词根。
 senutíla|/sən.uˈtʰiːla/|形容词|没用的。|"sen-" + "utíl"。
 senutílen|/sənuˈtʰiːlən/|动词|变成没用。|「senutíla」+ 后缀 -en（变成）。
 senutíli|/sənuˈtʰiːli/|副词|没用地。|「senutíla」+ 后缀 -li（副词化）。
-sen-|/sən/|前缀|无，否定。|从 "senhalte" 中提取。
 separar|/səˈpaʁaɹ/|动词|分离。|源自拉丁语「separare」。
 serar|/ˈseɹraɹ/|动词|锁上。|源自拉丁语「serrare」。
 serĉ|/səɹtʃ/|动词|寻找。|源自法语「chercher」。
@@ -3325,15 +3657,23 @@ serti|/ˈseɹtʰi/|形容词|确定的。|源自拉丁语「certus」。
 sertitudo|/səɹtʰiˈtʰudo/|名词|确信。|源自拉丁语「certitudo」。
 serto|/ˈseɹtʰo/|副词|确实地。|源自拉丁语「certe」。
 servieto|/səɹviˈetʰo/|名词|毛巾。|源自法语「serviette」。
+servitio|/seɹˈvi.tʰio/|名词|服务。|源自拉丁语「servitium」
 servitus|/səˈɹvitʰus/|名词|奴役。|源自拉丁语「servitus」。
 sesar|/ˈsesaɹ/|动词|停止。|源自拉丁语「cessare」。
 seshereso|/səʃəˈʁeso/|名词|旱灾。|源自法语「sécheresse」。
+sétmar|/ˈseːtʰmaɹ/|名词|农夫。|原生词根。
 setulfo|/səˈtʰulfo/|名词|竹简。|原生词根。
+séva|/ˈseː.va/|数词|七。|英语 "seven"。
+séx|/seːks/|数词|六。|日耳曼词源。
 sezon|/səˈzon/|名词|季节。|法语 "saison"。
 sezonturne|/sə.zonˈtʰuɹ.nə/|名词|季节交替时那股说不清的微茫怅然。|sezon（季节）+ turne（转）。
 sfæra|/ˈsfæʁa/|名词|球体。|源自拉丁语「sphaera」。
 shais|/ˈʃais/|名词|椅子。|源自法语「chaise」。
+shaiseto|/ˈʃai.se.tʰo/|名词|小椅子。|「shais」（椅子）+ 中缀 -et-（小）+ -o
+shajn|/ʃajn/|动词|似乎。|借世界语 ŝajni。
+shajne|/ˈʃaj.nə/|副词|好像，似乎。|源自「shajn」（似乎）+ 副词化 -e。
 shamboro|/ʃaˈmboʁo/|名词|卧室。|源自法语「chambre」。
+shampuo|/ˈʃam.pu.o/|名词|洗发水。|源自英语「shampoo」。
 shanta|/ˈʃantʰa/|形容词|安宁的。|源自梵语「शान्त」(shanta)。
 shanteur|/ʃaˈntʰeuɹ/|名词|歌手。|源自法语「chanteur」。
 shanti|/ˈʃantʰi/|名词|寂静。|源自梵语「शान्ति」(shanti)。
@@ -3341,11 +3681,12 @@ shapeau|/ʃapəˈau/|名词|帽子。|源自法语「chapeau」。
 shar|/ʃaɹ/|动词|共享。|英语 "share"。
 sharĝo|/ˈʃaɹd͡ʒo/|名词|负担。|源自法语「charge」。
 shastora|/ʃaˈstʰoʁa/|名词|经典。|源自梵语「शास्त्र」(shastra)。
+shati|/ˈʃa.tʰi/|动词|喜欢。|借世界语 ŝati。
 shaufeur|/ʃauˈfeuɹ/|名词|司机。|源自法语「chauffeur」。
-shép|/ˈʃeːp/|名词|羊。|源自日耳曼语「sheep」。
 shchŭ|/ʃːʲʌ/|动词|行动，活动。|原生词根。
 shef|/ˈʃef/|名词|厨师。|源自法语「chef」。
 shemis|/ˈʃemis/|名词|衬衫。|源自法语「chemise」。
+shép|/ˈʃeːp/|名词|羊。|源自日耳曼语「sheep」。
 sher|/ˈʃeɹ/|名词|剪刀。|源自德语「Schere」。
 shibi|/ˈʃibi/|形容词|素雅的。|源自日语「渋い」(shibui)。
 shielto|/ʃiˈeltʰo/|名词|盾。|源自日耳曼语「shield」。
@@ -3376,6 +3717,7 @@ shudoha|/ʃuˈdoha/|形容词|圣洁的。|源自梵语「शुद्ध」(shu
 shudra|/ˈʃudra/|名词|首陀罗。|源自梵语「शूद्र」(shudra)。
 shunia|/ʃuˈnia/|形容词|空灵的。|源自梵语「शून्य」(shunya)。
 shuniata|/ʃuniˈatʰa/|名词|空。|源自梵语「शून्यता」(shunyata)。
+shuo|/ˈʃu.o/|名词|鞋。|借世界语 ŝuo。
 shusel|/ˈʃusəl/|名词|汤碗。|源自德语「Schüssel」。
 shutinko|/ʃuˈtʰiŋkʰo/|名词|射击。|源自英语「shooting」。
 sid|/sid/|动词|坐。|借世界语 sidi。
@@ -3383,10 +3725,17 @@ sida|/ˈsi.da/|动词|坐。|拉丁语 "sedere"。
 sideo|/siˈdeo/|名词|座位。|源自拉丁语「sedeo」。
 sidú|/ˈsiduː/|名词|稻谷。|原生词根。
 sientia|/siəˈntʰia/|名词|学问。|源自拉丁语「scientia」。
+sientiafenta|/si.en.ti.aˈfen.tʰa/|形容词|科幻的。|「sientia」（学问）+「fenta」（幻想）
 siep|/ˈsiəp/|名词|筛子。|源自德语「Sieb」。
 sife|/ˈsifə/|名词|栅栏。|原生词根。
+sífe|/ˈsiːfə/|副词|猛然地。|原生词根。
 signal|/ˈsiɡnal/|名词|信号。|源自英语「signal」。
+signar|/ˈsig.naɹ/|动词|示意，打手势。|源自拉丁语「signare」
+signifar|/ˈsig.ni.faɹ/|动词|意味着，表示。|源自拉丁语「significare」
+signifik|/siɡ.niˈfikʰ/|动词|示意，表示。|源自拉丁语「significare」
+signifikar|/sigˈni.fi.kʰaɹ/|动词|意味着，表示。|源自拉丁语「significare」
 sií|/ˈsiiː/|名词|愚人。|原生词根。
+síkloǽ|/siːˈkʰloæː/|名词|灯。|源自德语「Lampe」。
 silaba|/siˈlaba/|名词|音节。|源自拉丁语「syllaba」。
 silfep|/ˈsilfəp/|名词|盟约。|原生词根。
 silindorus|/siliˈndoʁus/|名词|圆柱。|源自拉丁语「cylindrus」。
@@ -3397,9 +3746,12 @@ simila|/ˈsi.mi.la/|动词|相似。|拉丁语 "similis" 动词化。
 similakor|/si.mi.laˈkʰoɹ/|名词|初次见面却似曾相识的奇异熟悉感。|simila（相似）+ kor（心）。
 simílen|/siˈmiːlən/|动词|变成一样。|「simíli」+ 后缀 -en（变成）。
 simíli|/siˈmiːli/|形容词|一样的。|拉丁语 "similis"。
+simpli|/ˈsim.pli/|形容词|简单的。|源自拉丁语「simplex」
+simpliça|/simˈpli.sa/|形容词|简单的。|源自拉丁语「simplex, simplicis」
 simpliçití|/sim.pliˈsi.tʰiː/|名词|简单性。|拉丁语 "simplicitās"。
 simul|/ˈsimul/|副词|一起。|源自拉丁语「simul」。
 sin|/sin/|代词|自己（宾格）。|第二版新增。
+Sinamorol|/siˈna.mo.ʁol/|名词|玉桂狗（三丽鸥角色）。|英语「Cinnamoroll」的拉丁化转写。
 sinçera|/siˈnseʁa/|形容词|真诚的。|「sinçeriti」词根。
 sinçeriti|/sinˈse.ʁi.tʰi/|名词|真诚，诚意。|英语 "sincerity"。
 sinema|/siˈnema/|名词|电影院。|源自法语「cinéma」。
@@ -3411,6 +3763,7 @@ sinmortif|/siˈnmoɹtʰif/|动词|自杀。|「sin」+「mort」+「-if」。
 siparium|/sipaˈʁium/|名词|幕。|源自拉丁语「siparium」。
 siplotgen|/siˈplotʰɡən/|名词|颜料。|原生词根。
 sipsarap|/siˈpsaʁap/|动词|嗅闻。|原生词根。
+síra|/ˈsiː.ʁa/|动词|站立，停下。|原生词根。
 sirena|/siˈʁena/|名词|女妖。|源自希腊语「sirena」。
 sirka|/ˈsiɹkʰa/|副词|大约。|源自拉丁语「circa」。
 sirkuit|/siˈɹkʰuitʰ/|名词|电路。|源自英语「circuit」。
@@ -3423,12 +3776,10 @@ situaçia|/sitʰuaˈsia/|名词|情况，局面。|源自法语「situation」�
 siu|/ˈsiu/|名词|篮子。|原生词根。
 sivilizo|/siviˈlizo/|名词|文明。|源自世界语「civilizo」。
 sivis|/ˈsivis/|名词|公民。|源自拉丁语「civis」。
-sífe|/ˈsiːfə/|副词|猛然地。|原生词根。
-síkloǽ|/siːˈkʰloæː/|名词|灯。|源自德语「Lampe」。
-síra|/ˈsiː.ʁa/|动词|站立，停下。|原生词根。
+skæna|/ˈskʰæna/|名词|舞台。|源自拉丁语「scaena」。
 skander|/ˈskʰandəɹ/|动词|攀爬。|源自拉丁语「scandere」。
 skaner|/ˈskʰanəɹ/|名词|扫描仪。|源自英语「scanner」。
-skæna|/ˈskʰæna/|名词|舞台。|源自拉丁语「scaena」。
+skedo|/ˈskʰe.do/|名词|草稿，稿子，速写。|源自拉丁语「schedium」
 skínko|/ˈskʰiːŋkʰo/|名词|滑雪。|源自英语「skiing」。
 skola|/ˈskʰola/|名词|学校。|源自拉丁语「schola」。
 skoleri|/skʰoˈleʁi/|形容词|坚硬的。|源自希腊语「σκληρός」(skleros)。
@@ -3437,12 +3788,11 @@ skoresti|/skʰoˈʁestʰi/|动词|刮擦。|源自俄语「скрести」(skr
 skorev|/ˈskʰoʁəv/|名词|螺丝。|源自英语「screw」。
 skorin|/ˈskʰoʁin/|名词|屏幕。|源自英语「screen」。
 skoteini|/skʰotʰəˈini/|形容词|昏暗的。|源自希腊语「σκοτεινός」(skoteinos)。
-kribar|/kʰriˈbaɹ/|动词|书写（正式）。|世界语 "skribi" + "-ar"。
-kribo|/ˈkʰri.bo/|名词|书写，笔迹。|借拉丁 scriptum。
 skui|/ˈskʰu.i/|动词|摇。|借世界语 skui。
 skulpoteur|/skʰulpoˈtʰeuɹ/|名词|雕塑家。|源自法语「sculpteur」。
 skulpotura|/skʰulpoˈtʰuʁa/|名词|雕刻。|源自拉丁语「sculptura」。
 slæ|/ˈslæ/|名词|祈祷。|源自拉丁语「oratio」。
+slogana|/sloˈɡa.na/|名词|口号。|源自英语「slogan」
 slukak|/ˈslukʰakʰ/|动词|倾听。|源自波兰语「sluchac」。
 smetana|/sməˈtʰana/|名词|酸奶油。|源自俄语「сметана」(smetana)。
 soba|/ˈsoba/|名词|荞麦面。|源自日语「蕎麦」(soba)。
@@ -3457,17 +3807,25 @@ soket|/ˈsokʰətʰ/|名词|插座。|源自英语「socket」。
 solarium|/solaˈʁium/|名词|日晷。|源自拉丁语「solarium」。
 soldat|/ˈsoldatʰ/|名词|士兵。|源自法语「soldat」。
 soldien|/solˈdi.ən/|名词|星期日（日曜日）。|solo（太阳）+ dien。
+sóli|/ˈsoː.li/|副词|仅仅，只。|拉丁语 "solus" 副词化。
+soli|/ˈso.li/|形容词|独自的，单独的。|源自拉丁语「solus」（单独的）
 solilokuium|/solilokʰuˈium/|名词|独白。|源自拉丁语「soliloquium」。
 solit|/ˈsolitʰ/|动词|腌制。|源自俄语「солить」(solit)。
+solitara|/soˈli.ta.ʁa/|形容词|孤独的，寂寥的。|源自拉丁语「solitarius」
+solituda|/so.liˈtu.da/|名词|孤独。|源自拉丁语「solitudo」
+solitudo|/soˈli.tʰu.do/|名词|孤独，寂寞。|源自拉丁语「solitudo」
 sololme|/soˈlolmə/|名词|面糊。|原生词根。
 soloniegribi|/soloniəˈɡribi/|名词|腌蘑菇。|源自俄语「солёные грибы」(solonye griby)。
 solonieogurci|/soloniəoˈɡuɹki/|名词|腌黄瓜。|源自俄语「солёные огурцы」(solonye ogurtsy)。
 solovei|/soloˈvei/|名词|夜莺。|源自俄语「соловей」(solovey)。
 solus|/ˈsolus/|副词|单独。|源自拉丁语「solus」。
+solvar|/ˈsol.vaɹ/|动词|解决，化解。|源自拉丁语「solvere」
+solver|/ˈsol.vəɹ/|动词|解决，消除。|源自拉丁语「solvere」
 somer|/ˈso.məɹ/|名词|夏季。|德语 "Sommer"。
 somerhresto|/soməˈɹhrestʰo/|名词|暑假。|「somer」+「hresto」。
 somet|/ˈsomətʰ/|名词|山峰。|源自法语「sommet」。
 son|/son/|名词|声。|拉丁语 "sonus"。
+søn|/søn/|动词|歌颂（较正式）。|原生词根。
 sonata|/soˈnatʰa/|名词|奏鸣曲。|源自意大利语「sonata」。
 sonmai|/soˈnmai/|名词|漆器。|源自越南语「son mai」。
 sono|/ˈso.no/|名词|声响。|借拉丁 sonus。
@@ -3477,6 +3835,7 @@ soprano|/soˈprano/|名词|高音。|源自意大利语「soprano」。
 sorela|/soˈʁela/|名词|姐姐。|源自拉丁语「soror」变体。
 sosietas|/sosiˈetʰas/|名词|社团。|源自拉丁语「societas」。
 sosio|/soˈsio/|名词|社会。|源自世界语「socio」。
+sóta|/ˈsoː.tʰa/|名词|甜（名词）。|原生词根。
 sotif|/ˈsotʰif/|名词|刀刃。|原生词根。
 sotonko|/soˈtʰoŋkʰo/|名词|鱿鱼。|源自马来语「sotong」。
 soup|/ˈsoup/|名词|汤。|源自日耳曼语「soup」。
@@ -3484,10 +3843,8 @@ sov|/ˈsov/|名词|房子（≤三层）。|原创词。
 sova|/ˈsova/|名词|猫头鹰。|源自俄语「сова」(sova)。
 sove|/ˈsovə/|名词|幻象。|原生词根。
 soven|/ˈso.vən/|动词|建造房屋。|"sov" + 动词化后缀 "-en"。
-sóli|/ˈsoː.li/|副词|仅仅，只。|拉丁语 "solus" 副词化。
-sóta|/ˈsoː.tʰa/|名词|甜（名词）。|原生词根。
-søn|/søn/|动词|歌颂（较正式）。|原生词根。
 spaĝeti|/spaˈd͡ʒetʰi/|名词|意大利面。|源自意大利语「spaghetti」。
+sparar|/ˈspa.ʁaɹ/|动词|节省，省下。|源自英语「spare」加动词化 -ar
 spatium|/spaˈtʰium/|名词|空间。|源自拉丁语「spatium」。
 spear|/ˈspeaɹ/|名词|长矛。|源自日耳曼语「spear」。
 spektator|/spəˈkʰtʰatʰoɹ/|名词|观众。|源自拉丁语「spectator」。
@@ -3500,12 +3857,13 @@ spira|/ˈspi.ʁa/|动词|呼吸。|拉丁语 "spirare"。
 spolia|/spoˈlia/|名词|战利品。|源自拉丁语「spolia」。
 sporinko|/spoˈʁiŋkʰo/|名词|弹簧。|源自英语「spring」。
 sporto|/ˈspoɹtʰo/|名词|体育。|源自英语「sport」。
-pran|/pran/|动词|跳跃。|原创词。
 sráv|/sraːv/|动词|受苦。|英语 "starv"。
 stabila|/stʰaˈbila/|形容词|稳定的。|源自拉丁语「stabilis」。
+stabiles|/ˈstʰa.bi.les/|名词|安稳，稳定。|「stabila」（稳定的）+ 后缀 -es（抽象名词）
 stacio|/stʰaˈki.o/|名词|车站。|借拉丁 statio。
 stadium|/stʰaˈdium/|名词|球场。|源自英语「stadium」。
 stako|/ˈstʰa.kʰo/|名词|堆，沓。|源自德语「Stapel」。
+stǽlúvrut|/stʰæːˈluːvrutʰ/|动词|融化。|原生词根。
 stancía|/stʰaˈnkiːa/|名词|驿站。|源自俄语「станция」(stantsiya)。
 standingarmeó|/stʰan.diŋ.ar.meˈoː/|名词|常备军。|"standing" + "armeó"。
 star|/stʰaɹ/|动词|站。|借世界语 stari。
@@ -3535,28 +3893,32 @@ stibresa|/stʰiˈbresa/|形容词|倔强的。|原生词根。
 stiefel|/stʰiˈefəl/|名词|靴子。|源自德语「Stiefel」。
 stil|/ˈstʰil/|名词|钢铁。|源自英语「steel」。
 stimda|/ˈstʰimda/|形容词|蓬松的。|原生词根。
+stipe|/ˈstʰi.pʰə/|名词|树干。|源自拉丁语「stipes」
 stok|/ˈstʰokʰ/|名词|股票。|源自英语「stock」。
 stokã|/ˈstʰokʰɐ̃/|名词|深处。|原生词根。
 stokbuo|/stʰoˈkʰbuo/|名词|餐巾。|源自德语「Serviette」。
+stól|/ˈstʰoːl/|名词|凳。|源自日耳曼语「stool」。
 stoma|/ˈstʰoma/|名词|暮色。|原生词根。
 storata|/stʰoˈʁatʰa/|名词|道路。|源自拉丁语「strata」。
-storategos|/stʰoʁaˈtʰeɡos/|名词|战略家。|源自希腊语「στρατηγός」(strategos)。
 storateĝi|/stʰoʁaˈtʰed͡ʒi/|名词|策略。|源自英语「strategy」。
+storategos|/stʰoʁaˈtʰeɡos/|名词|战略家。|源自希腊语「στρατηγός」(strategos)。
 storuktura|/stʰoʁuˈkʰtʰuʁa/|名词|结构。|源自拉丁语「structura」。
 storumpofo|/stʰoʁuˈmpofo/|名词|袜子。|源自德语「Strumpf」。
-stól|/ˈstʰoːl/|名词|凳。|源自日耳曼语「stool」。
-tranga|/ˈtʰraŋ.ɡa/|形容词|奇怪的。|源自英语「strange」。
-treta|/ˈtʰre.tʰa/|形容词|狭窄的。|原生词根。
 stukat|/ˈstʰukʰatʰ/|动词|敲击。|源自俄语「стучать」(stukat)。
+stúlgå|/ˈstʰuːlɡɔː/|名词|仇敌。|原生词根。
 stupa|/ˈstʰupa/|名词|佛塔。|源自梵语「स्तूप」(stupa)。
 sturmo|/ˈstʰuɹmo/|名词|暴风。|源自德语「Sturm」。
-stúlgå|/ˈstʰuːlɡɔː/|名词|仇敌。|原生词根。
-stǽlúvrut|/stʰæːˈluːvrutʰ/|动词|融化。|原生词根。
+sub|/sub/|介词|在……下面。|源自拉丁语「sub」。
 sube|/ˈsu.bə/|介词|在……下。|造词（与方位格 -æt 相对）。
+subite|/suˈbi.tʰe/|副词|突然地。|源自拉丁语「subito」。
+subjektivi|/subˈd͡ʒek.tʰi.vi/|形容词|主观的。|源自拉丁语「subiectivus」
 submarin|/suˈbmaʁin/|名词|潜水艇。|源自英语「submarine」。
 submerĝer|/suˈbmeɹd͡ʒəɹ/|动词|沉没。|源自拉丁语「submergere」。
+subsista|/subˈsis.tʰa/|动词|存在，存续。|源自拉丁语「subsistere」
 subteno|/suˈbtʰeno/|名词|支持。|源自拉丁语「subtenere」。
+subtila|/subˈti.la/|形容词|细腻的，清秀的，精致的。|源自拉丁语「subtilis」
 suĉa|/ˈsu.tʃa/|动词|吸吮。|拉丁语 "sugere"。
+sudoro|/suˈdo.ʁo/|名词|汗。|源自拉丁语「sudor」
 sufero|/suˈfeʁo/|名词|痛苦。|源自世界语「sufero」。
 sufiĉ|/su.ˈfitʃ/|动词|足够。|借世界语 sufiĉi。
 sufiĉe|/suˈfitʃə/|副词|足够地。|源自世界语「sufiĉe」。
@@ -3565,11 +3927,17 @@ sukseso|/suˈkʰseso/|名词|成功。|源自世界语「sukceso」。
 sukumara|/sukʰuˈmaʁa/|形容词|柔和的。|源自梵语「सुकुमार」(sukumara)。
 sultan|/ˈsultʰan/|名词|苏丹。|借词「sultan」。
 sumar|/ˈsumaɹ/|动词|总结。|源自拉丁语「summare」。
+sumatim|/ˈsu.ma.tʰim/|副词|总之，概括地。|源自拉丁语「summatim」
 sumo|/ˈsumo/|名词|相扑。|源自日语「相撲」(sumo)。
 sunluntva|/sun.lunˈtʰva/|名词|冬日午后慵懒的阳光，照在身上暖而无力。|sun+lun（日光）+ tva（慵懒）。
+super|/ˈsu.pəɹ/|介词|在……上面。|源自拉丁语「super」。
+superar|/suˈpe.ʁaɹ/|动词|超越，胜过。|源自拉丁语「superare」
+superba|/suˈpeɹba/|形容词|骄傲的，自豪的。|源自拉丁语「superbus」
 superbi|/suˈpeɹbi/|形容词|傲慢的。|源自拉丁语「superbus」。
+superior|/suˈpe.ʁioɹ/|名词|上级，上司。|源自拉丁语「superior」
 superiori|/supəʁiˈoʁi/|形容词|优越的。|源自拉丁语「superior」。
 supre|/ˈsu.prə/|介词|在……上。|造词。
+suprekurer|/suˈpre.kʰu.ʁeɹ/|动词|向上跑，跑上台。|「supre」（在……上）+「kurer」（奔跑）
 supremajuĝistó|/su.pre.ma.d͡ʒu.ˈd͡ʒis.tʰoː/|名词|最高裁判者。|"suprema" + "juĝistó"。
 sursel|/suɹˈsel/|动词|骑上。|第二版新增。
 susam|/ˈsusam/|名词|芝麻。|借词「susam」。
@@ -3577,6 +3945,7 @@ susen|/ˈsusən/|名词|鸢尾。|借词「susen」。
 sushi|/ˈsuʃi/|名词|寿司。|源自日语「寿司」(sushi)。
 suspekto|/suˈspekʰtʰo/|名词|嫌疑犯。|源自法语「suspect」。
 suspender|/suˈspendəɹ/|动词|悬挂。|源自拉丁语「suspendere」。
+suspenderil|/susˈpen.də.ʁil/|名词|挂件（悬挂之物）。|「suspender」+「-il」。
 suspir|/su.ˈspiɹ/|动词|叹气。|借世界语 suspiri。
 sutra|/ˈsutʰra/|名词|经。|源自梵语「सूत्र」(sutra)。
 svan|/ˈsvan/|名词|天鹅。|源自日耳曼语「swan」。
@@ -3588,20 +3957,15 @@ swadrospam|/swaˈdrospam/|名词|鸟群。|原生词根。
 swaksek|/ˈswa.kʰsəkʰ/|名词|深夜。|原生词根。
 swar|/swaɹ/|动词|承诺，发誓。|原创词。
 swaswokmum|/swasˈwokʰ.mum/|名词|绞架。|原生词根。
-swétu|/ˈsweː.tʰu/|名词|数算。|原生词根。
 swelet|/swˈelətʰ/|动词|咀嚼。|原生词根。
 swesva|/swˈesva/|名词|光泽。|原生词根。
+swétu|/ˈsweː.tʰu/|名词|数算。|原生词根。
 swisuphas|/swiˈsuphas/|副词|悄然地。|原生词根。
 swohifi|/swoˈhifi/|名词|讽刺剧。|源自希腊语「satira」。
 swua|/ˈswu.a/|动词|潮湿。|原生词根。
 swupini|/swuˈpini/|名词|信使。|原生词根。
 swusdil|/ˈswus.dil/|名词|歌者。|原生词根。
 szokzupak|/szoˈkʰzupakʰ/|名词|梭鱼。|源自波兰语「szczupak」。
-sǽø|/ˈsæːø/|名词|史诗英雄。|源自希腊语「ἥρως」(heros)。
-shajn|/ʃajn/|动词|似乎。|借世界语 ŝajni。
-shajne|/ˈʃaj.nə/|副词|好像，似乎。|源自「shajn」（似乎）+ 副词化 -e。
-shati|/ˈʃa.tʰi/|动词|喜欢。|借世界语 ŝati。
-shuo|/ˈʃu.o/|名词|鞋。|借世界语 ŝuo。
 ta|/tʰa/|指示代词|那（远指）。|"toka" 简化变体。
 tabako|/tʰaˈbakʰo/|名词|烟草。|源自西班牙语「tabaco」。
 tablo|/ˈtʰa.blo/|名词|桌子。|拉丁语 "tabula"。
@@ -3609,6 +3973,7 @@ tabloshar|/ˈtʰa.blo.ʃaɹ/|名词|同桌。|"tablo" + "shar"。
 tablosharven|/tʰab.lo.ʃaɹˈven/|名词|多年同坐一张桌后才有的那种熟悉与信任。|tabloshar（同桌）+ ven（情谊）。
 tabulo|/tʰaˈbu.lo/|名词|板，白板。|借拉丁 tabula。
 taĉi|/ˈtʰatʃi/|名词|太刀。|源自日语「太刀」(tachi)。
+tága|/ˈtʰaː.ɡa/|动词|挖掘。|原生词根。
 tagmezo|/tʰaɡˈme.zo/|名词|中午。|tago（日）+ mezo（中）复合。
 tago|/ˈtʰa.ɡo/|名词|日，白天。|原生词根。
 tak|/ˈtʰakʰ/|名词|竹子。|源自日语「竹」(take)。
@@ -3621,14 +3986,20 @@ tamen|/ˈtʰamən/|副词|然而。|源自拉丁语「tamen」。
 tanholonko|/tʰanhoˈloŋkʰo/|名词|火龙果。|源自越南语「thanh long」。
 tanko|/ˈtʰaŋkʰo/|名词|坦克。|源自英语「tank」。
 tanmef|/ˈtʰanməf/|名词|织工。|原生词根。
+tantli|/ˈtant.li/|副词|如此，这么，那么地。|源自拉丁语「tantum」+ -li（副词化）
 tanto|/ˈtʰantʰo/|名词|短刀。|源自日语「短刀」(tanto)。
 tap|/ˈtʰap/|名词|宝塔。|源自越南语「thap」。
 tapas|/ˈtʰapas/|名词|苦行。|源自梵语「तपस्」(tapas)。
 tapeini|/tʰapəˈini/|形容词|卑微的。|源自希腊语「ταπεινός」(tapeinos)。
 tapis|/ˈtʰapis/|名词|地毯。|源自法语「tapis」。
 tapkoham|/tʰaˈpkʰoham/|名词|占婆塔。|源自越南语「thap cham」。
+tára|/ˈtʰaː.ʁa/|名词|塔。|拉丁语 "turris" 变体。
 tarbe|/ˈtʰaɹbə/|名词|集市。|原生词根。
 tarifo|/tʰaˈʁifo/|名词|关税。|源自英语「tariff」。
+tærna|/ˈtʰæɹ.na/|形容词|永恒的。|瑞典语 "evig" + 拉丁语 "aeterna"。
+tærnali|/tʰæˈɹnali/|副词|永恒地。|「tærna」+ 后缀 -li（副词化）。
+tærnen|/ˈtʰæɹnən/|动词|变成永恒。|「tærna」+ 后缀 -en（变成）。
+tærnokt|/ˈtʰæɹ.nokʰtʰ/|名词|永夜。|tærna（永恒）+ nokt 复合。
 taruni|/tʰaˈʁuni/|名词|玫瑰。|源自梵语「तरुणी」(taruni)。
 tas|/tʰas/|名词|杯。|法语 "tasse"。
 tasho|/ˈtʰaʃo/|名词|口袋。|源自德语「Tasche」。
@@ -3636,32 +4007,32 @@ tashokit|/tʰaˈʃokʰitʰ/|动词|拖曳。|源自俄语「тащить」(tash
 tasko|/ˈtʰaskʰo/|名词|任务。|源自英语「task」。
 taso|/ˈtʰaso/|名词|杯子。|源自法语「tasse」。
 tatami|/tʰaˈtʰami/|名词|榻榻米。|源自日语「畳」(tatami)。
+tauga|/ˈtau.ga/|形容词|合适的。|源自德语「taugen」
 taugainstrumén|/tʰau.ɡa.in.stʰə.ruˈmeːn/|名词|合适工具。|"taʌga" + "instrumén"。
 tauge|/ˈtʰau.ɡə/|副词|适合地。|造词。
 taverno|/tʰaˈveɹno/|名词|酒馆。|源自法语「taverne」。
-tága|/ˈtʰaː.ɡa/|动词|挖掘。|原生词根。
-tára|/ˈtʰaː.ʁa/|名词|塔。|拉丁语 "turris" 变体。
-tærna|/ˈtʰæɹ.na/|形容词|永恒的。|瑞典语 "evig" + 拉丁语 "aeterna"。
-tærnali|/tʰæˈɹnali/|副词|永恒地。|「tærna」+ 后缀 -li（副词化）。
-tærnen|/ˈtʰæɹnən/|动词|变成永恒。|「tærna」+ 后缀 -en（变成）。
-tærnokt|/ˈtʰæɹ.nokʰtʰ/|名词|永夜。|tærna（永恒）+ nokt 复合。
-tékutdo|/tʰeːˈkʰutʰdo/|名词|镰刀。|原生词根。
-téma|/ˈtʰeː.ma/|名词|主题，话题。|拉丁语 "thema"。
 te|/tʰə/|代词|你（宾格，仅诗歌用）。|拉丁语 "tē"。
 teatro|/tʰəˈatʰro/|名词|剧院。|源自法语「théâtre」。
 teatrum|/tʰəˈatʰrum/|名词|剧场。|源自拉丁语「theatrum」。
+tediosa|/te.diˈo.sa/|形容词|无聊的，乏味的。|源自拉丁语「taediosus」
 tefti|/ˈtʰeftʰi/|名词|陡坡。|原生词根。
 teĝer|/ˈtʰed͡ʒəɹ/|动词|覆盖。|源自拉丁语「tegere」。
 teier|/tʰəˈiəɹ/|名词|茶壶。|源自法语「théière」。
+teknika|/ˈtek.ni.ka/|名词|技术，技艺。|源自拉丁语「technica」
 tekser|/ˈtʰekʰsəɹ/|动词|编织。|源自拉丁语「texere」。
+teksto|/ˈtʰekʰ.stʰo/|名词|文章，文本。|源自拉丁语「textus」
+tekstus|/ˈtʰek.stʰus/|名词|文本。|源自拉丁语「textus」
+tékutdo|/tʰeːˈkʰutʰdo/|名词|镰刀。|原生词根。
 telefon|/tʰəˈlefon/|名词|电话。|源自英语「telephone」。
 telefono|/tʰə.ləˈfo.no/|名词|电话。|借英语 telephone。
 teleskop|/tʰəˈleskʰop/|名词|望远镜。|源自英语「telescope」。
 television|/tʰələviˈsion/|名词|电视。|源自英语「television」。
+téma|/ˈtʰeː.ma/|名词|主题，话题。|拉丁语 "thema"。
 temelioun|/tʰəməliˈoun/|动词|奠基。|源自希腊语「θεμελιοῦν」(themelioun)。
 temerari|/tʰəməˈʁaʁi/|形容词|鲁莽的。|源自拉丁语「temerarius」。
 temperamento|/tʰəmpəʁaˈmentʰo/|名词|气质。|源自希腊语「temperament」。
 temperantia|/tʰəmpəʁaˈntʰia/|名词|节制。|源自拉丁语「temperantia」。
+tempesta|/temˈpes.tʰa/|名词|天气，气候。|源自拉丁语「tempestas」
 tempet|/ˈtʰempətʰ/|名词|风暴。|源自法语「tempête」。
 tempo|/ˈtʰempo/|名词|速度。|源自意大利语「tempo」。
 tempor|/ˈtʰem.poɹ/|名词|时段。|拉丁语 "tempus"。
@@ -3671,6 +4042,7 @@ tener|/ˈtʰe.nəɹ/|副词|温柔地。|第二版新增。
 tenera|/tʰəˈneʁa/|形容词|温柔的。|「tener」词根。
 teni|/ˈtʰe.ni/|动词|握着，持。|拉丁语 "tenere"。
 tenor|/ˈtʰenoɹ/|名词|男高音。|源自意大利语「tenore」。
+tenua|/ˈte.nu.a/|形容词|细的，纤细的。|源自拉丁语「tenuis」
 teoloĝia|/tʰəoloˈd͡ʒia/|名词|神学。|源自拉丁语「theologia」。
 teorem|/tʰəˈoʁəm/|名词|定理。|源自英语「theorem」。
 teoria|/tʰəoˈʁia/|名词|理论。|源自拉丁语「theoria」。
@@ -3683,8 +4055,10 @@ terura|/tʰəˈʁuʁa/|形容词|可怕的。|源自拉丁语「terror」。
 testimonium|/tʰəstʰimoˈnium/|名词|证词。|源自拉丁语「testimonium」。
 testis|/ˈtʰestʰis/|名词|证人。|源自拉丁语「testis」。
 teva|/ˈtʰe.va/|形容词|满腔的，沸腾于心的。|原生词根。
+tía|/ˈtʰiː.a/|数词|十。|日耳曼词源。
 tial|/tʰiˈal/|连词|所以。|世界语 "tial"。
 tiam|/tʰi.ˈam/|副词|当时。|世界语 "tiam"。
+tíamens|/tʰiːˈaməns/|名词|十月。|「tía」+「mensis」。
 tiebreak|/tʰiəˈbreakʰ/|名词|决胜局。|源自英语「tiebreak」。
 tik|/ˈtʰikʰ/|名词|机缘。|源自希腊语「τύχη」(tyche)。
 tim|/ˈtʰim/|名词|荣誉。|源自希腊语「τιμή」(time)。
@@ -3693,6 +4067,7 @@ timi|/ˈtʰi.mi/|动词|害怕。|拉丁语 "timere"。
 timida|/tʰiˈmida/|形容词|害羞的。|源自拉丁语「timidus」。
 timji|/ˈtʰim.d͡ʒi/|动词|使恐惧，恐吓。|「timo」+ 使动后缀 -ji。
 timo|/ˈtʰimo/|名词|恐惧。|源自拉丁语「timor」。
+tinger|/ˈtʰin.d͡ʒəɹ/|动词|染色，浸染。|源自拉丁语「tingere」
 tintil|/ˈtʰin.tʰil/|名词|小铃铛。|第二版新增。
 tintinabulum|/tʰintʰinaˈbulum/|名词|铃。|源自拉丁语「tintinnabulum」。
 tinyénla|/tʰiˈnjeːn.la/|形容词|理所当然的。|第二版新增，越南语 "tự nhiên" + 形容词化后缀 "-la"。
@@ -3711,14 +4086,13 @@ tisia|/tʰiˈsia/|名词|祭品。|源自希腊语「θυσία」(thysia)。
 titan|/ˈtʰitʰan/|名词|泰坦。|源自希腊语「Τιτάν」(titan)。
 titbinem|/tʰiˈtʰbinəm/|名词|决赛。|源自英语「final」。
 titulus|/tʰiˈtʰulus/|名词|标题。|源自拉丁语「titulus」。
-tía|/ˈtʰiː.a/|数词|十。|日耳曼词源。
-tíamens|/tʰiːˈaməns/|名词|十月。|「tía」+「mensis」。
 togioda|/tʰo.ɡiˈo.da/|名词|器物被长久使用后磨出的温润光泽。|togio（打磨）+ da（久）。
 togiodasu|/tʰoɡioˈdasu/|动词|抛光。|源自日语「研ぎを出す」(togi o dasu)。
 tohu|/ˈtʰohu/|名词|豆腐。|源自日语「豆腐」(tofu)。
 toi|/ˈtʰoi/|名词|玩具。|源自英语「toy」。
 toit|/ˈtʰoitʰ/|名词|屋顶。|源自法语「toit」。
 toka|/ˈtʰo.kʰa/|代词|那/那里/那个。|原生指示代词。
+tokali|/ˈtʰo.kʰa.li/|副词|那样，如此。|「toka」（那）＋副词化后缀 -li
 token|/ˈtʰokʰən/|名词|护腿。|原生词根。
 toki|/ˈtʰo.kʰi/|代词|这/这里/这个。|原生指示代词。
 tokin|/ˈtʰo.kʰin/|名词|人，人类。|原生词根。
@@ -3738,8 +4112,11 @@ topi|/ˈtʰo.pi/|动词|起立。|原生词根。
 topografia|/tʰopoɡraˈfia/|名词|风景画。|源自拉丁语「topographia」。
 topol|/ˈtʰopol/|名词|白杨。|源自俄语「тополь」(topol)。
 tor|/ˈtʰoɹ/|名词|大门。|源自德语「Tor」。
+tóra|/ˈtʰoː.ʁa/|名词|桥。|原生词根。
+toraks|/ˈtʰo.ʁaks/|名词|胸膛，胸腔。|源自希腊语「θώραξ」
 torero|/tʰoˈʁeʁo/|名词|斗牛士。|源自西班牙语「torero」。
 torí|/ˈtʰoʁiː/|名词|鸟居。|源自日语「鳥居」(torii)。
+tormentar|/torˈmen.taɹ/|动词|折磨，使痛苦。|源自拉丁语「tormentum」
 tornat|/ˈtʰoɹnatʰ/|名词|龙卷风。|源自法语「tornade」。
 toro|/ˈtʰoʁo/|名词|灯笼。|源自日语「とろ」(toro)。
 toshal|/ˈtʰoʃal/|名词|缝隙。|原生词根。
@@ -3748,16 +4125,20 @@ totum|/ˈtʰotʰum/|名词|整体。|源自拉丁语「totum」。
 tourismo|/tʰouˈʁismo/|名词|旅游。|源自英语「tourism」。
 touristo|/tʰouˈʁistʰo/|名词|游客。|源自法语「touriste」。
 tournamento|/tʰouɹnaˈmentʰo/|名词|淘汰赛。|源自英语「tournament」。
-tóra|/ˈtʰoː.ʁa/|名词|桥。|原生词根。
 tr|/tʰr/|名词|竹制品。|源自越南语「tre」。
 tradukteur|/tʰraduˈkʰtʰeuɹ/|名词|翻译家。|源自法语「traducteur」。
+trãfde|/ˈtʰrɐ̃fdə/|名词|锤子。|原生词根。
 tragodos|/tʰraˈɡodos/|名词|悲剧诗人。|源自希腊语「τραγῳδός」(tragodos)。
 tragoedia|/tʰraɡoəˈdia/|名词|悲剧。|源自拉丁语「tragoedia」。
 train|/ˈtʰrain/|名词|火车。|源自英语「train」。
 trajno|/ˈtʰra.d͡ʒ.no/|名词|火车。|借英语 train。
+trakta|/ˈtrak.ta/|动词|处理，办理。|源自拉丁语「tractare」
+traktar|/ˈtʰrak.tʰaɹ/|动词|处理，对待。|源自拉丁语「tractare」
 traktir|/ˈtʰrakʰtʰiɹ/|名词|客栈。|源自俄语「трактир」(traktir)。
 trala|/ˈtʰrala/|形容词|笔直的。|原生词根。
 tranĉa|/ˈtʰran.tʃa/|动词|切割。|拉丁语 "truncare"。
+tranga|/ˈtʰraŋ.ɡa/|形容词|奇怪的。|源自英语「strange」。
+trankuilen|/traŋ.kʰuiˈlen/|动词|平静下来，安静下来。|「trankuili」（平静的，词典词）+ -en（变成）
 trankuili|/tʰraŋkʰuˈili/|形容词|平静的。|源自拉丁语「tranquillus」。
 trans|/ˈtʰrans/|介词|穿过，通过。|「transir」（穿越）简化。
 transdon|/tʰrans.ˈdon/|动词|递交。|借世界语 transdoni。
@@ -3766,10 +4147,9 @@ transir|/ˈtʰransiɹ/|动词|穿越。|源自拉丁语「transire」。
 transoformer|/tʰransoˈfoɹməɹ/|名词|变压器。|源自英语「transformer」。
 transokriptio|/tʰransokʰriˈptʰio/|名词|抄写。|源自拉丁语「transcriptio」。
 transolatio|/tʰransolaˈtʰio/|名词|翻译。|源自拉丁语「translatio」。
+trása|/ˈtʰraː.sa/|动词|拖拽，拉。|原生词根。
 traski|/ˈtʰraskʰi/|副词|由衷地。|原生词根。
 trat|/ˈtʰratʰ/|名词|贸易。|源自英语「trade」。
-trása|/ˈtʰraː.sa/|动词|拖拽，拉。|原生词根。
-trãfde|/ˈtʰrɐ̃fdə/|名词|锤子。|原生词根。
 tré|/tʰreː/|数词|三。|日耳曼词源。
 tre|/tʰrə/|副词/形容词|很，非常。|法语 "très"。
 trebela|/tʰrəˈbela/|形容词|真美，极美。|"tre" + "belli"。
@@ -3782,6 +4162,7 @@ trem|/tʰrəm/|动词|颤抖。|原创词。
 trembolemento|/tʰrəmboləˈmentʰo/|名词|地震。|源自法语「tremblement」。
 trenein|/tʰrəˈnein/|动词|哀悼。|源自希腊语「θρηνεῖν」(threnein)。
 trergo|/ˈtʰreɹɡo/|动词|呜咽。|原生词根。
+treta|/ˈtʰre.tʰa/|形容词|狭窄的。|原生词根。
 tribepǽ|/tʰriˈbepæː/|名词|铁链。|原生词根。
 tribunal|/tʰriˈbunal/|名词|法庭。|源自拉丁语「tribunal」。
 tribunus|/tʰriˈbunus/|名词|保民官。|源自拉丁语「tribunus」。
@@ -3800,30 +4181,34 @@ trofi|/ˈtʰrofi/|名词|奖杯。|源自英语「trophy」。
 troika|/tʰroˈikʰa/|名词|三套车。|源自俄语「тройка」(troika)。
 trolavo|/tʰroˈlavo/|动词|摇晃。|原生词根。
 tropa|/ˈtʰropa/|名词|小路。|源自斯拉夫语「tropa」。
+trovar|/tʰroˈvaɹ/|动词|找到，发现。|源自法语「trouver」
 trudu|/ˈtʰrudu/|名词|奶酪。|原生词根。
 truk|/ˈtʰrukʰ/|名词|卡车。|源自英语「truck」。
 trustin|/ˈtʰrustʰin/|名词|巫师。|原生词根。
+tŭ|/tʰʌ/|动词|说，讲（较正式）。|区别于 "zai"。
 tuba|/ˈtʰuba/|名词|小号。|源自拉丁语「tuba」。
 tufvagro|/tʰuˈfvaɡro/|名词|铁器。|原生词根。
 tukso|/ˈtʰukʰso/|名词|咖啡杯。|源自德语「Tasse」。
+túla|/ˈtʰuː.la/|动词|建造，筑造。|原生词根。
 tumbuk|/ˈtʰumbukʰ/|动词|舂米。|源自马来语「tumbuk」。
+tumulta|/tʰuˈmul.tʰa/|形容词|喧闹的，嘈杂的。|源自拉丁语「tumultus」
 tunel|/ˈtʰunəl/|名词|隧道。|源自德语「Tunnel」。
+túpkes|/ˈtʰuːpkʰəs/|名词|水桶。|原生词根。
 turbidi|/tʰuˈɹbidi/|形容词|汹涌的。|源自拉丁语「turbidus」。
 turbin|/ˈtʰuɹbin/|名词|涡轮。|源自英语「turbine」。
 turis|/ˈtʰuɹris/|名词|塔楼。|源自拉丁语「turris」。
 turne|/ˈtʰuɹ.nə/|动词|转。|法语 "tourner"。
 turno|/ˈtʰuɹno/|名词|转折，转弯。|「turne」词根。
 turpo|/ˈtʰuɹpo/|名词|萝卜。|借词「turp」。
+tús|/ˈtʰuːs/|名词|蘑菇。|原生词根。
 tush|/tʰuʃ/|动词|触摸。|借世界语 tuŝi。
 tute|/ˈtʰu.tʰə/|副词|都，完全地。|世界语 "tute"。
-túla|/ˈtʰuː.la/|动词|建造，筑造。|原生词根。
-túpkes|/ˈtʰuːpkʰəs/|名词|水桶。|原生词根。
-tús|/ˈtʰuːs/|名词|蘑菇。|原生词根。
 tútkelke|/ˈtʰuːtʰ.kʰəl.kʰə/|副词|一点点。|"tút" + "kelke"。
-tŭ|/tʰʌ/|动词|说，讲（较正式）。|区别于 "zai"。
-tvak|/ˈtʰvakʰ/|名词|肉桂。|源自梵语「त्वच्」(tvak)。
 tvá|/tʰvaː/|数词|二。|日耳曼词源。
+tváfoye|/ˈtʰvaː.fo.je/|副词|两次。|「tvá」（二）+「foy」（次）+ 副词词尾 -e
+tvak|/ˈtʰvakʰ/|名词|肉桂。|源自梵语「त्वच्」(tvak)。
 tvorok|/ˈtʰvoʁokʰ/|名词|乳酪。|源自俄语「творог」(tvorog)。
+uǽmek|/uˈæːməkʰ/|名词|史诗。|原生词根。
 ublora|/uˈbloʁa/|形容词|稀薄的。|原生词根。
 ubogi|/uˈboɡi/|形容词|简陋的。|源自俄语「убогий」(ubogiy)。
 ubru|/ˈubru/|名词|冰川。|原生词根。
@@ -3842,17 +4227,24 @@ ukha|/ˈukʰha/|名词|鱼汤。|源自俄语「уха」(ukha)。
 ukío|/uˈkʰiːo/|名词|浮世绘。|源自日语「浮世絵」(ukiyoe)。
 Ukraín|/u.kʰraˈiːn/|名词|乌克兰。|第二版新增。
 ukvak|/ˈukʰvakʰ/|名词|老妪。|原生词根。
+úla|/ˈuː.la/|介词|除了，除......之外。|原生功能词。
 ulam|/ˈulam/|名词|预言。|原生词根。
 ulei|/uˈlei/|名词|蜂房。|源自斯拉夫语「uley」。
 ulfuk|/ˈulfukʰ/|动词|舔舐。|原生词根。
 ulka|/ˈulkʰa/|形容词|平坦的。|原生词根。
+ultimatum|/ulˈtʰi.ma.tʰum/|名词|最后通牒。|源自拉丁语「ultimatum」
 ulúran|/uˈluːʁan/|名词|小径。|原生词根。
 um|/ˈum/|名词|梅花。|源自日语「梅」(ume)。
 umdí|/ˈumdiː/|名词|绳索。|原生词根。
+ŭmpre|/ˈʌm.prə/|名词|火箭。|原生词根。
+úmro|/ˈuːmro/|名词|格言。|源自拉丁语「sententia」。
+úna|/ˈuː.na/|连词|除非，如果不。|原生功能词。
+ŭna|/ˈʌ.na/|副词|突然，忽然。|原生词根。
 unán|/ˈunaːn/|名词|赛马场。|源自希腊语「ἱππόδρομος」(hippodromos)。
 ungo|/ˈun.ɡo/|名词|指甲。|拉丁语 "unguis"。
 ungom|/ˈuŋɡom/|名词|柳树。|原生词根。
 unidæstateté|/u.ni.dæ.stʰa.tʰəˈtʰeː/|名词|联合州。|"unidæ" + "stateté"。
+únifha|/uːˈnifha/|形容词|憨厚的。|原生词根。
 unika|/ˈu.ni.kʰa/|形容词|唯一的。|拉丁语 "unicus"。
 unikeco|/u.niˈkʰe.ko/|名词|独特性。|unika（独特）+ -eco。
 uniken|/uˈnikʰən/|动词|变成唯一。|「unika」+ 后缀 -en（变成）。
@@ -3866,56 +4258,60 @@ unueko|/unuˈekʰo/|名词|团结。|源自世界语「unueco」。
 uonmil|/uˈonmil/|名词|浆果。|原生词根。
 upanishat|/upaˈniʃatʰ/|名词|奥义书。|源自梵语「उपनिषद्」(upanishad)。
 uporno|/uˈpoɹno/|副词|顽强地。|源自俄语「упорно」(uporno)。
+úra|/ˈuː.ʁa/|形容词|有用的（与 utíl 同源）。|拉丁语 "utilis"。
+ŭra|/ˈʌ.ʁa/|形容词|突如其来的。|原生词根。
 urbeto|/uɹˈbe.tʰo/|名词|小镇。|urbo + -et-（小）。
 urboso|/uˈɹboso/|名词|城市。|源自拉丁语「urbs」。
+úren|/ˈuːʁən/|动词|变成有用的（与 utíl 同源）。|「úra」+ 后缀 -en（变成）。
+ŭren|/ˈʌʁən/|动词|变成突如其来。|「ŭra」+ 后缀 -en（变成）。
+urgenta|/uɹˈd͡ʒen.tʰa/|形容词|紧急的，急迫的。|源自拉丁语「urgens, urgentis」
+urgo|/ˈuɹ.go/|名词|急切，紧迫感。|源自拉丁语「urgere」
+úrli|/ˈuːɹli/|副词|有用的（与 utíl 同源）地。|「úra」+ 后缀 -li（副词化）。
+ŭrli|/ˈʌɹli/|副词|突如其来地。|「ʌra」+ 后缀 -li（副词化）。
 urme|/ˈuɹmə/|名词|岩石。|原生词根。
+úsa|/ˈuː.sa/|动词|使用（与 utíl 同根）。|拉丁语 "uti"。
 usap|/ˈusap/|名词|马镫。|原生词根。
 ushanka|/uˈʃaŋkʰa/|名词|皮帽。|源自俄语「ушанка」(ushanka)。
 ushotra|/uˈʃotʰra/|名词|骆驼。|源自梵语「उष्ट्र」(ushtra)。
+úsi|/ˈuːsi/|名词|桌。|源自日耳曼语「table」。
 usnef|/ˈusnəf/|名词|花粉。|原生词根。
+úta|/ˈuː.tʰa/|动词|走出，离开。|原生词根。
 utíl|/uˈtʰiːl/|名词|用处。|世界语 "utila"，名词化。
 utpasben|/uˈtʰpasbən/|名词|短衣。|原生词根。
 utru|/ˈutʰru/|名词|瞬间。|原生词根。
 uvazak|/uˈvazakʰ/|动词|留意。|源自波兰语「uwazac」。
 uvros|/ˈuvros/|名词|涟漪。|原生词根。
+uzar|/uˈzaɹ/|动词|使用。|源自拉丁语「uti」
 uzu|/ˈuzu/|名词|山脚。|原生词根。
 uzum|/ˈuzum/|名词|葡萄干。|借词「uzum」。
-uǽmek|/uˈæːməkʰ/|名词|史诗。|原生词根。
-úla|/ˈuː.la/|介词|除了，除......之外。|原生功能词。
-úmro|/ˈuːmro/|名词|格言。|源自拉丁语「sententia」。
-úna|/ˈuː.na/|连词|除非，如果不。|原生功能词。
-únifha|/uːˈnifha/|形容词|憨厚的。|原生词根。
-úra|/ˈuː.ʁa/|形容词|有用的（与 utíl 同源）。|拉丁语 "utilis"。
-úren|/ˈuːʁən/|动词|变成有用的（与 utíl 同源）。|「úra」+ 后缀 -en（变成）。
-úrli|/ˈuːɹli/|副词|有用的（与 utíl 同源）地。|「úra」+ 后缀 -li（副词化）。
-úsa|/ˈuː.sa/|动词|使用（与 utíl 同根）。|拉丁语 "uti"。
-úsi|/ˈuːsi/|名词|桌。|源自日耳曼语「table」。
-úta|/ˈuː.tʰa/|动词|走出，离开。|原生词根。
-ŭmpre|/ˈʌm.prə/|名词|火箭。|原生词根。
-ŭna|/ˈʌ.na/|副词|突然，忽然。|原生词根。
-ŭra|/ˈʌ.ʁa/|形容词|突如其来的。|原生词根。
-ŭren|/ˈʌʁən/|动词|变成突如其来。|「ŭra」+ 后缀 -en（变成）。
-ŭrli|/ˈʌɹli/|副词|突如其来地。|「ʌra」+ 后缀 -li（副词化）。
 vada|/ˈvada/|名词|火把。|原生词根。
+vága|/ˈvaː.ɡa/|动词|游泳。|原生词根。
 vahap|/ˈvahap/|动词|窃窃私语。|原生词根。
 vahuko|/vaˈhukʰo/|名词|墨汁。|原生词根。
 vai|/ˈvai/|名词|荔枝。|源自越南语「vai」。
+-vai|/vai/|后缀|应该。|第二版新增情态词缀。
 vainaçil|/vai.naˈsel/|名词|空杯散落的香气，留香淡淡不散。|vain（杯）+ açil（余香）。
 vainila|/vaiˈnila/|名词|香草。|源自西班牙语「vainilla」。
 vaishia|/vaiˈʃia/|名词|吠舍。|源自梵语「वैश्य」(vaishya)。
 vakation|/vakʰaˈtʰion/|名词|假期。|源自英语「vacation」。
 vako|/ˈvakʰo/|名词|蚊帐。|源自越南语「man」。
 vaksin|/ˈvakʰsin/|名词|疫苗。|源自英语「vaccine」。
+vakua|/ˈva.kua/|名词|真空，空虚。|源自拉丁语「vacuum」
 vakuero|/vakʰuˈeʁo/|名词|牛仔。|源自西班牙语「vaquero」。
+vakuo|/ˈva.ku.o/|名词|真空。|源自拉丁语「vacuum」
 vakzupap|/vaˈkʰzupap/|名词|彼岸。|原生词根。
 val|/val/|名词|山谷。|第二版新增。
+vála|/ˈvaː.la/|形容词|值得的。|原生词根。
+válen|/ˈvaːlən/|动词|变成值得。|「vála」+ 后缀 -en（变成）。
 valenki|/vaˈleŋkʰi/|名词|毡靴。|源自俄语「валенки」(valenki)。
+váli|/ˈvaːli/|副词|值得地。|「vála」+ 后缀 -li（副词化）。
 valizo|/vaˈli.zo/|名词|手提箱，行李箱。|借法语 valise。
 valsán|/ˈvalsaːn/|名词|瀑布。|原生词根。
 valvo|/ˈvalvo/|名词|阀门。|源自英语「valve」。
 vanara|/vaˈnaʁa/|名词|猴子。|源自梵语「वानर」(vanara)。
 vandati|/vaˈndatʰi/|动词|礼拜。|源自梵语「वन्दति」(vandati)。
 vanmieu|/vanmiˈeu/|名词|文庙。|源自越南语「van mieu」。
+væó|/ˈvæoː/|名词|拐杖。|原生词根。
 varior|/vaˈɹrioɹ/|名词|战士。|源自日耳曼语「warrior」。
 varit|/ˈvaʁitʰ/|动词|酿造。|源自俄语「варить」(varit)。
 varmen|/ˈvaɹmən/|动词|变成温暖。|「varmi」+ 后缀 -en（变成）。
@@ -3925,19 +4321,16 @@ vas|/ˈvas/|名词|花瓶。|源自法语「vase」。
 vasglo|/ˈvas.ɡlo/|名词|陶器在光下泛出的柔和淡淡的光晕。|vas（瓶罐）+ glo（光）。
 vaswúp|/ˈvaswuːp/|名词|信物。|原生词根。
 vay|/vaj/|代词|它（中性单数）。|原生代词。
-vága|/ˈvaː.ɡa/|动词|游泳。|原生词根。
-vála|/ˈvaː.la/|形容词|值得的。|原生词根。
-válen|/ˈvaːlən/|动词|变成值得。|「vála」+ 后缀 -en（变成）。
-váli|/ˈvaːli/|副词|值得地。|「vála」+ 后缀 -li（副词化）。
+váyn|/ˈvaːjn/|动词|染，染色。|原生词根；见词典「çélaváyn」词源（çéla 天空 + váyn 染）
 vaynto|/ˈvajn.tʰo/|名词|风。|自创词根 + 后缀 "-to"。
-væó|/ˈvæoː/|名词|拐杖。|原生词根。
-vék|/ˈveːkʰ/|名词|周。|源自日耳曼语「week」。
-véla|/ˈveː.la/|名词|面纱，幕布。|拉丁语 "velum"。
 vebsit|/ˈvebsitʰ/|名词|网站。|源自英语「website」。
 veda|/ˈveda/|名词|吠陀。|源自梵语「वेद」(veda)。
+vehar|/ˈve.haɹ/|动词|驾驶，行驶。|源自拉丁语「vehere」
 veigtoliftinko|/vəiɡtʰoliˈftʰiŋkʰo/|名词|举重。|源自英语「weightlifting」。
+vék|/ˈveːkʰ/|名词|周。|源自日耳曼语「week」。
 vekiĝ|/və.ˈkʰid͡ʒ/|动词|醒来。|借世界语 vekiĝi。
 veksilum|/vəˈkʰsilum/|名词|军旗。|源自拉丁语「vexillum」。
+véla|/ˈveː.la/|名词|面纱，幕布。|拉丁语 "velum"。
 ven|/vən/|动词词根|来。|"venir" 词根。
 vendeur|/vəˈndeuɹ/|名词|店员。|源自法语「vendeur」。
 venia|/vəˈnia/|名词|宽恕。|源自拉丁语「venia」。
@@ -3951,6 +4344,7 @@ verden|/ˈveɹdən/|动词|变成绿色。|「verdi」+ 后缀 -en（变成）�
 verdi|/ˈveɹ.di/|形容词|绿色的。|第二版新增。
 verdire|/vəɹˈdi.ʁə/|动词|真诚表达。|"vērus" + "dire"。
 verdli|/ˈveɹdli/|副词|绿色地。|「verdi」+ 后缀 -li（副词化）。
+verifiker|/veˈʁifikeɹ/|动词|证实，确认，核实。|源自拉丁语「verificare」
 veritas|/vəˈʁitʰas/|名词|真理。|源自拉丁语「veritas」。
 verkenest|/vəɹˈkʰe.nəstʰ/|名词|春天那些适合发呆与思念的午后。|verk（春日）+ enest（窝）。
 verki|/ˈveɹ.kʰi/|动词|创作。|源自德语「Werk」。
@@ -3960,7 +4354,12 @@ versh|/vəɹʃ/|动词|倾倒。|借世界语 verŝi。
 verter|/ˈveɹtʰəɹ/|动词|转弯。|源自拉丁语「vertere」。
 vesper|/ˈves.pəɹ/|名词|傍晚。|拉丁语 "vesper"。
 vesperglo|/vəs.pəɹˈɡlo/|名词|黄昏最后一抹光，天边将熄未熄的暖红。|vesper（傍晚）+ glo（光）。
+vesperli|/ˈves.pəɹ.li/|副词|在傍晚。|「vesper」（傍晚，拉丁语 vesper）+ 副词后缀 -li
 vespero|/vesˈpe.ʁo/|名词|傍晚，晚上。|源自拉丁语「vesper」。
+vesta|/ˈves.ta/|名词|衣物，衣服。|源自拉丁语「vestis」
+vestiment|/ˈves.tʰi.ment/|名词|衣物，衣服。|源自拉丁语「vestimentum」
+vestimento|/ves.tʰiˈmen.tʰo/|名词|衣物，服装。|源自拉丁语「vestimentum」
+vestis|/ˈves.tʰis/|名词|衣服，服装。|源自拉丁语「vestis」
 vetkuko|/vəˈtʰkʰukʰo/|名词|武士。|原生词根。
 vezir|/ˈveziɹ/|名词|维齐尔。|借词「vezir」。
 vheat|/ˈvheatʰ/|名词|麦。|源自日耳曼语「wheat」。
@@ -3969,8 +4368,15 @@ viagra|/viˈaɡra/|名词|老虎。|源自梵语「व्याघ्र」(vyag
 vianda|/viˈan.da/|名词|肉。|原生词根。
 vibrolga|/viˈbrolɡa/|名词|短弓。|原生词根。
 vid|/vid/|动词|看（静态）。|拉丁语 "videre"。
+vidanta|/viˈdan.tʰa/|分词|正在看着的。|「vid」(看) + 现在分词 -anta
 video|/viˈde.o/|名词|视频。|借英语 video。
+vido|/ˈvi.do/|名词|目光，视线，注视。|「vid」（看，词典词）+ 名词化 -o
+vigor|/ˈvi.ɡoɹ/|名词|活力，精力。|源自拉丁语「vigor」
+vigora|/ˈvi.ɡo.ʁa/|形容词|有活力的，生气勃勃的。|源自拉丁语「vigor」
+vigorar|/viˈɡo.raɹ/|动词|振作，有活力。|源自拉丁语「vigor」
+vigori|/viˈgo.ʁi/|形容词|有活力的。|源自拉丁语「vigor」
 vihara|/viˈhaʁa/|名词|寺院。|源自梵语「विहार」(vihara)。
+víi|/ˈviːi/|名词|协奏曲。|源自意大利语「concerto」。
 vijar|/viˈd͡ʒaɹ/|动词|旅行。|俄语 "путешествовать" 变体。
 viktim|/ˈvikʰtʰim/|名词|受害者。|源自法语「victime」。
 viktor|/ˈvikʰtʰoɹ/|名词|冠军。|源自拉丁语「victor」。
@@ -3984,8 +4390,10 @@ vinea|/viˈnea/|名词|葡萄园。|源自拉丁语「vinea」。
 vinum|/ˈvinum/|名词|葡萄酒。|源自拉丁语「vinum」。
 violina|/vioˈlina/|名词|小提琴。|源自拉丁语「violina」。
 violonselo|/violoˈnselo/|名词|大提琴。|源自拉丁语「violoncello」。
+vipera|/ˈvi.pe.ʁa/|名词/形容词|毒蛇；毒蛇的。|源自拉丁语「vipera」
 vipula|/viˈpula/|形容词|辽阔的。|源自梵语「विपुल」(vipula)。
 vir|/ˈviɹ/|名词|电线。|源自英语「wire」。
+víra|/ˈviː.ʁa/|名词|男人（与 vir 同源）。|拉丁语 "vir"。
 virápris|/viˈʁaːpris/|动词|结冰。|原生词根。
 virfírmeso|/viɹˈfiːɹ.me.so/|名词|男子汉般的坚定。|"vir" + "fírmeso"。
 virtus|/ˈviɹtʰus/|名词|美德。|源自拉丁语「virtus」。
@@ -3997,14 +4405,16 @@ vishoma|/viˈʃoma/|形容词|整齐的。|原生词根。
 vishonu|/viˈʃonu/|名词|毗湿奴。|源自梵语「विष्णु」(vishnu)。
 visi|/ˈvisi/|名词|船舵。|原生词根。
 visisim|/viˈsisim/|副词|依次。|源自拉丁语「vicissim」。
+visitar|/ˈvi.si.tʰaɹ/|动词|拜访，访问。|源自拉丁语「visitare」
 visno|/ˈvisno/|名词|酸樱桃。|借词「visne」。
 vitamin|/viˈtʰamin/|名词|维生素。|源自英语「vitamin」。
+vitar|/ˈvi.tʰaɹ/|动词|避免，回避。|源自拉丁语「vitare」
 viv|/viv/|动词|活着。|借世界语 vivi。
+vivaci|/ˈvi.va.si/|形容词|活跃的，兴致勃勃的。|源自拉丁语「vivax」
 vivio|/viˈvi.o/|名词|生命。|拉丁语 "vita" + "-io"。
 vivion|/viˈvi.on/|名词|人生。|"vivio" + 后缀 "-on"。
 vizaĝo|/viˈza.d͡ʒo/|名词|脸。|源自法语「visage」。
-víi|/ˈviːi/|名词|协奏曲。|源自意大利语「concerto」。
-víra|/ˈviː.ʁa/|名词|男人（与 vir 同源）。|拉丁语 "vir"。
+vizitar|/viˈzi.tʰaɹ/|动词|拜访，探望。|源自拉丁语「visitare」
 vlir|/vliɹ/|动词|看，看见。|原创词。
 voĉo|/ˈvo.tʃo/|名词|嗓音，声音。|借世界语 voĉo。
 vodka|/ˈvodkʰa/|名词|伏特加。|源自俄语「водка」(vodka)。
@@ -4013,24 +4423,25 @@ voiaĝeur|/voiaˈd͡ʒeuɹ/|名词|旅行者。|源自法语「voyageur」。
 voisin|/voˈisin/|名词|邻居。|源自法语「voisin」。
 vojaĝo|/voˈja.d͡ʒo/|名词|旅行，出差。|借法语 voyage。
 vojo|/ˈvo.jo/|名词|路，道路。|拉丁语 "via"。
+vojodufur|/ˈvo.jo.ˌdu.fuɹ/|名词|路边，路缘。|vojo（路）+ dufur（边缘）
 vok|/vokʰ/|动词|呼唤。|源自拉丁语「vocare」。
 vokabulum|/vokʰaˈbulum/|名词|词汇。|源自拉丁语「vocabulum」。
 voko|/ˈvo.kʰo/|名词|通话，呼唤。|借拉丁 vocare。
 vol|/vol/|动词|想要。|拉丁语 "velle"。
+vól|/ˈvoːl/|名词|羊毛。|源自日耳曼语「wool」。
 volar|/ˈvolaɹ/|动词|飞翔。|源自拉丁语「volare」。
 volen|/ˈvo.lən/|动词|使有意愿。|"vol" + 动词化后缀 "-en"。
 volfo|/ˈvolfo/|名词|狼。|源自日耳曼语「wolf」。
 volver|/ˈvolvəɹ/|动词|滚动。|源自拉丁语「volvere」。
 voma|/ˈvo.ma/|动词|呕吐。|拉丁语 "vomere"。
 vonko|/ˈvoŋkʰo/|名词|吊床。|源自越南语「vong」。
+vøns|/vøns/|动词|沸腾。|原生词根。
 voøas|/voˈøas/|名词|麦酒。|原生词根。
 vopkor|/ˈvopkʰoɹ/|名词|晨光。|原生词根。
 vopu|/ˈvopu/|名词|图腾。|原生词根。
 vorkoshop|/voˈɹkʰoʃop/|名词|车间。|源自英语「workshop」。
 vosto|/ˈvos.tʰo/|名词|尾巴。|原生词根。
 vot|/ˈvotʰ/|名词|投票。|源自英语「vote」。
-vól|/ˈvoːl/|名词|羊毛。|源自日耳曼语「wool」。
-vøns|/vøns/|动词|沸腾。|原生词根。
 vræ|/ˈvræ/|名词|开端。|原生词根。
 vredél|/ˈvredeːl/|名词|懦夫。|原生词根。
 vrestolinko|/vrəstʰoˈliŋkʰo/|名词|摔跤。|源自英语「wrestling」。
@@ -4039,6 +4450,7 @@ vrokbon|/ˈvrokʰbon/|名词|皮囊。|原生词根。
 vrúe|/ˈvruːə/|名词|陶工。|原生词根。
 vue|/ˈvuə/|名词|牧场。|原生词根。
 vulgari|/vuˈlɡaʁi/|形容词|粗俗的。|源自拉丁语「vulgaris」。
+vulto|/ˈvul.tʰo/|名词|面容，外貌，样子。|源自拉丁语「vultus」（面容）
 vumi|/ˈvumi/|名词|峡谷。|原生词根。
 vumtugra|/vuˈmtʰuɡra/|副词|再三地。|原生词根。
 vund|/vund/|动词|伤害。|借世界语 vundi。
@@ -4057,439 +4469,44 @@ xarli|/ˈksaɹli/|副词|外部地。|「xara」+ 后缀 -li（副词化）。
 ya|/ja/|代词|我。|原生代词。
 yaph|/jaf/|代词|我们。|"ya" 的复数。
 yester|/ˈjes.tʰəɹ/|名词|昨天。|英语 "yesterday" 简化。
+zæa|/ˈzæa/|名词|麦子。|原生词根。
 zai|/zai/|动词|说，聊天。|原生词根。
 zaiac|/zaˈiak/|名词|兔子。|源自俄语「заяц」(zayats)。
 zaik|/ˈzaikʰ/|名词|犁。|原生词根。
+zålhansé|/zɔːˈlhanseː/|名词|兽穴。|原生词根。
 zambak|/ˈzambakʰ/|名词|百合。|借词「zambak」。
+zána|/ˈzaː.na/|数词|零。|拉丁语 "zephyrus" 变体（零概念）。
+zanĝil|/ˈzan.d͡ʒil/|名词|夹子，发夹。|「zanĝo」（钳子）+ 后缀 -il（工具）
 zanĝo|/ˈzand͡ʒo/|名词|钳子。|源自德语「Zange」。
 zape|/ˈzapə/|名词|玉米。|原生词根。
-zasá|/ˈzasaː/|名词|船帆。|原生词根。
-zána|/ˈzaː.na/|数词|零。|拉丁语 "zephyrus" 变体（零概念）。
 zára|/ˈzaː.ʁa/|动词|抓住，握住。|原生词根。
+zasá|/ˈzasaː/|名词|船帆。|原生词根。
 zátfep|/ˈzaːtʰfəp/|名词|渔夫。|原生词根。
-zæa|/ˈzæa/|名词|麦子。|原生词根。
-zålhansé|/zɔːˈlhanseː/|名词|兽穴。|原生词根。
-zésé|/ˈzeːseː/|动词|褪色。|原生词根。
 zefot|/ˈzefotʰ/|名词|说书人。|原生词根。
 zeitin|/zəˈitʰin/|名词|橄榄。|借词「zeytin」。
 zencefil|/zəˈnkefil/|名词|姜。|借词「zencefil」。
 zeni|/ˈze.ni/|名词|枕头。|原生词根。
 zenu|/ˈzenu/|名词|护腕。|原生词根。
+zésé|/ˈzeːseː/|动词|褪色。|原生词根。
 zieĝel|/ziˈed͡ʒəl/|名词|砖。|源自德语「Ziegel」。
 zimer|/ˈziməɹ/|名词|房间。|源自德语「Zimmer」。
+zinko|/ˈziŋ.kʰo/|名词|锌。|源自德语「Zink」。
 zíre|/ˈziːʁə/|名词|倒影。|原生词根。
 zírelun|/ˈziː.ʁə.lun/|名词|月光落在水面上的倒影，随波而碎。|zíre（倒影）+ lun（月）。
 zíta|/ˈziːtʰa/|名词|午夜。|原生词根。
 zlmp|/ˈzl̩mp/|名词|耳机。|原创词。
 zoket|/ˈzokʰətʰ/|名词|荒原。|原生词根。
-zorg|/zoɹɡ/|动词|关心。|借世界语 zorgi。
-zotiki|/zoˈtʰikʰi/|形容词|生动的。|源自希腊语「ζωτικός」(zotikos)。
 zólogia|/zoːloˈɡia/|名词|动物学。|源自希腊语「ζωολογία」(zoologia)。
+zølrikon|/zøˈlrikʰon/|名词|片刻。|原生词根。
+zorg|/zoɹɡ/|动词|关心。|借世界语 zorgi。
 zóta|/ˈzoː.tʰa/|形容词|安静的。|原生词根。
 zótbi|/ˈzoːtʰbi/|名词|木牍。|原生词根。
 zóten|/ˈzoːtʰən/|动词|变成安静。|「zóta」+ 后缀 -en（变成）。
-zølrikon|/zøˈlrikʰon/|名词|片刻。|原生词根。
+zotiki|/zoˈtʰikʰi/|形容词|生动的。|源自希腊语「ζωτικός」(zotikos)。
 zubro|/ˈzubro/|名词|野牛。|源自斯拉夫语「zubr」。
 zuf|/ˈzuf/|名词|坟冢。|原生词根。
 zurek|/ˈzuʁəkʰ/|名词|酸汤。|源自波兰语「zurek」。
-zvon|/ˈzvon/|名词|教堂钟。|源自俄语「звон」(zvon)。
--ga|/ɡa/|助词|也（接续）。|源自日语助词 "も"。
--ina|/ˈi.na/|后缀|亲昵小称（名）：爱称，小名。|与 -ino 成对，亲昵语域。
--ino|/ˈi.no/|后缀|亲昵小称（男/中性）：昵称。|与 -ina 成对，亲昵语域。
--la|/la/|后缀|形容词化（外来词专用）。|第二版新增。示例：tinyénla（理所当然的）。
--lai|/lai/|后缀|能够。|第二版新增情态词缀。
--ma|/ma/|后缀|主格单数。|第二版新增语法词缀。
--mé|/meː/|后缀|主格复数。|第二版新增语法词缀。
--on|/on/|后缀|与格单数。|第二版新增语法词缀。
--ont-|/ontʰ/|中缀|将来分词。|世界语 "-ont-"。
--sai|/sai/|后缀|想要。|第二版新增情态词缀。
--vai|/vai/|后缀|应该。|第二版新增情态词缀。
-ǽral|/ˈæːʁal/|动词|凝视。|原生词根。
--il|/il/|后缀|工具名词（表器械）。|foto（照片）→ fotil（相机）。
--ant-|/antʰ/|中缀|现在分词（正在……的）。|penter（画）→ pentanta。
--int-|/intʰ/|中缀|过去分词（已经……的）。|penter（画）→ pentinta。
-tokali|/ˈtʰo.kʰa.li/|副词|那样，如此。|「toka」（那）＋副词化后缀 -li
-rektali|/ˈʁekʰ.tʰa.li/|副词|直地，径直。|「rekta」（直的）＋副词化后缀 -li
-lato|/ˈla.tʰo/|名词|侧面，一方，方面。|源自拉丁语「latus」（侧面）
-nekonatli|/ne.kʰoˈnatʰ.li/|副词|未知地，不知何时。|「ne-」（不）＋「konata」（熟悉的）＋副词化后缀 -li
-fortuitli|/foɹ.tʰuˈitʰ.li/|副词|偶然地。|「fortuiti」（偶然的）＋副词化后缀 -li
-naturali|/naˈtʰu.ʁa.li/|副词|自然地。|「natura」（自然）＋副词化后缀 -li
-soli|/ˈso.li/|形容词|独自的，单独的。|源自拉丁语「solus」（单独的）
-luft|/ˈluftʰ/|名词|空气，大气。|源自德语「Luft」
-samali|/ˈsa.ma.li/|副词|相同地，同样。|「sama」（相同的）＋副词化后缀 -li
-vulto|/ˈvul.tʰo/|名词|面容，外貌，样子。|源自拉丁语「vultus」（面容）
-føhna|/ˈføː.na/|形容词|疯狂的，疯癫的。|「føhn」（疯子）＋形容词化后缀 -a
-komoda|/ˈkʰo.mo.da/|形容词|舒适的，安适的。|源自拉丁语「commodus」（舒适的）
-página|/ˈpaː.ɡi.na/|名词|页，书页。|源自拉丁语「pagina」（书页）
-blava|/ˈbla.va/|形容词|蓝色的。|源自拉丁语「blavus」（蓝）／日耳曼语「blau」
-skedo|/ˈskʰe.do/|名词|草稿，稿子，速写。|源自拉丁语「schedium」
-okuper|/oˈkʰu.pəɹ/|动词|占据，占用。|源自拉丁语「occupare」
-signifik|/siɡ.niˈfikʰ/|动词|示意，表示。|源自拉丁语「significare」
-admirer|/ad.miˈʁəɹ/|动词|钦佩，赞叹。|源自拉丁语「admirari」
-akto|/ˈak.tʰo/|名词|行动，活动。|源自拉丁语「actus」
-akseler|/akˈse.ləɹ/|动词|加速，加快。|源自拉丁语「accelerare」
-aktiva|/akˈtʰi.va/|形容词|积极的，活跃的。|源自拉丁语「activus」
-analis|/aˈna.lis/|动词|分析。|源自拉丁语「analysis」（希腊语「ἀνάλυσις」）
-preĝudiko|/preˈd͡ʒu.di.ko/|名词|偏见，成见。|源自拉丁语「praejudicium」
-teksto|/ˈtʰekʰ.stʰo/|名词|文章，文本。|源自拉丁语「textus」
-auris|/ˈau.ʁis/|名词|耳朵（诗体/古体用）。|源自拉丁语「auris」
-kerulea|/keˈʁu.le.a/|形容词|蓝色的。|源自拉丁语「caeruleus」
-buko|/ˈbu.kʰo/|名词|嘴，口。|源自拉丁语「bucca」
-semilekva|/se.miˈlekʰ.va/|形容词|半弯的，半弧的。|拉丁语前缀「semi-」（一半）+「lekva」（弯曲的）
-eksita|/ekˈsi.tʰa/|形容词|激动的，兴奋的。|源自拉丁语「excitare」
-eksister|/ekˈsis.tʰəɹ/|动词|存在。|源自拉丁语「exsistere」
-lingova|/liŋˈɡo.va/|形容词|语言的。|「lingovo」（语言，借世界语 lingvo）+ 形容词词尾 -a
-vesperli|/ˈves.pəɹ.li/|副词|在傍晚。|「vesper」（傍晚，拉丁语 vesper）+ 副词后缀 -li
-goaltokino|/ɡo.al.tʰoˈkʰi.no/|名词|目标人物。|「goal」（目标，英语 goal）+「tokin」（人）+ -o
-komakaes|/kʰoˈma.kʰa.əs/|名词|精致，精巧。|「komaka」（精巧的，日语 こまか）+ 抽象名词后缀 -es
-tváfoye|/ˈtʰvaː.fo.je/|副词|两次。|「tvá」（二）+「foy」（次）+ 副词词尾 -e
-energeiali|/ə.nəɹ.ɡeˈia.li/|副词|充满活力地，有力地。|「energeia」（能量，希腊语 ἐνέργεια）+ 副词后缀 -li
-esprimer|/esˈpʁimeɹ/|动词|表达，表述。|源自拉丁语「exprimere」
-superba|/suˈpeɹba/|形容词|骄傲的，自豪的。|源自拉丁语「superbus」
-ordiner|/ˈoɹdineɹ/|动词|整理，归置，排列。|源自拉丁语「ordinare」
-rekensa|/reˈkensa/|形容词|新鲜的，清新的，清爽的。|源自拉丁语「recens」
-fugo|/ˈfuɡo/|名词|逃离，逃跑。|源自拉丁语「fuga」
-grano|/ˈɡrano/|名词|谷物，谷粒。|源自拉丁语「granum」
-humanita|/huˈmanita/|形容词|人道的，博爱的。|源自拉丁语「humanitas」
-kontagier|/konˈtaɡieɹ/|动词|传染，感染。|源自拉丁语「contagiare」
-judiker|/ˈjudikeɹ/|动词|审判，裁决。|源自拉丁语「judicare」
-kanonika|/kaˈnonika/|形容词|经典的，正统的，典范的。|源自希腊语「κανονικός」(kanonikos)
-kóro|/ˈkʰoː.ʁo/|名词|命令，指挥，号令。|源自词典「kóra」（拉丁语「curare」变体），加 -o 名词化
-komisio|/koˈmisio/|名词|佣金，提成，抽成。|源自拉丁语「commissio」
-verifiker|/veˈʁifikeɹ/|动词|证实，确认，核实。|源自拉丁语「verificare」
-nosker|/ˈnoskeɹ/|动词|认识，熟悉（某人）。|源自拉丁语「noscere」
-kontributio|/kontriˈbutio/|名词|贡献，功绩。|源自拉丁语「contributio」
-kulpo|/ˈkulpo/|名词|过错，罪责；肇事者。|源自拉丁语「culpa」
-literata|/liˈteʁata/|形容词|有书卷气的，有学养的。|源自拉丁语「litteratus」
-fornako|/ˈfoɹnako/|名词|熔炉，大熔炉。|源自拉丁语「fornax」
-postera|/ˈposteʁa/|形容词|后面的，后方的。|源自拉丁语「posterus」
-adversa|/adˈveɹsa/|形容词|不利的，逆的。|源自拉丁语「adversus」
-indigo|/ˈindigo/|名词|靛蓝，深蓝。|源自拉丁语「indicum」
-limglaro|/limˈɡlaʁo/|名词|筷子。|「lim」（吃）+「glara」（木棍）复合
-duseranto|/duseˈʁanto/|名词|领导者，领路人。|「duser」（领导）+ 后缀 -anto（施动者）
-malmolili|/malˈmolili/|副词|坚硬地，生硬地。|「moli」（柔软的）加反义前缀 mal- 与后缀 -li
-nervoza|/ˈner.vo.za/|形容词|紧张的，忐忑不安的。|源自拉丁语「nervosus」
-nod|/ˈnod/|名词|结，绳结（诗歌体用语）。|源自拉丁语「nodus」
-oblika|/oˈblikʰa/|形容词|斜的，歪斜的。|源自拉丁语「obliquus」
-oficolok|/oˈfi.kʰo.lokʰ/|名词|办公室。|「ofico」（职务）+「lok」（地方）
-omniorli|/ˈom.ni.or.li/|副词|四面八方地，全方向地。|「omni」（所有的）+「or」（方向）+ 后缀 -li（副词化）
-disponar|/ˈdis.po.naɹ/|动词|整理，布置，归置。|源自拉丁语「disponere」
-parolodoman|/pa.ʁoˈlo.do.man/|名词|演说稿，演讲手稿。|「parolo」（演讲）+「doman」（手稿）
-postular|/ˈpos.tʰu.laɹ/|动词|要求，索求。|源自拉丁语「postulare」
-provizora|/pʁoˈvi.zo.ʁa/|形容词|暂时的，临时的。|源自拉丁语「provisorius」
-sekura|/səˈkʰu.ʁa/|形容词|安全的，平安的。|源自拉丁语「securus」
-hæsitar|/ˈhæ.si.taɹ/|动词|犹豫，迟疑。|源自拉丁语「haesitare」
-senhæsite|/senˈhæ.si.te/|副词|毫不犹豫地，干脆地。|「sen-」（无）+「hæsitar」（犹豫）+ -e（副词词尾）
-joka|/ˈjo.kʰa/|形容词|戏谑的，爱开玩笑的。|源自拉丁语「iocosus」
-solitara|/soˈli.ta.ʁa/|形容词|孤独的，寂寥的。|源自拉丁语「solitarius」
-solvar|/ˈsol.vaɹ/|动词|解决，化解。|源自拉丁语「solvere」
-signifar|/ˈsig.ni.faɹ/|动词|意味着，表示。|源自拉丁语「significare」
-samæter|/ˈsam.æ.tʰeɹ/|名词|同龄人，同辈。|「sama」（相同的）+「ætas」（年龄）+ 后缀 -er（人）
-senforte|/senˈfoɹ.te/|副词|无力地，无可奈何地。|「sen-」（无）+「forto」（力量）+ -e（副词词尾）
-stabiles|/ˈstʰa.bi.les/|名词|安稳，稳定。|「stabila」（稳定的）+ 后缀 -es（抽象名词）
-zanĝil|/ˈzan.d͡ʒil/|名词|夹子，发夹。|「zanĝo」（钳子）+ 后缀 -il（工具）
-shaiseto|/ˈʃai.se.tʰo/|名词|小椅子。|「shais」（椅子）+ 中缀 -et-（小）+ -o
-lógai|/ˈloː.gai/|形容词|理性的，合理的。|「lóga」（逻辑，理性）+ 后缀 -i（形容词化）
-retromiroir|/ʁeˈtʰro.mi.ʁoiɹ/|名词|后视镜。|前缀「retro-」（向后）+「miroir」（镜子）
-çolaflóra|/so.laˈfloː.ʁa/|名词|向日葵。|「çola」（太阳）+「flóra」（花卉）
-çolagarda|/so.laˈgaɹ.da/|形容词|防晒的，遮阳的。|「çola」（太阳）+「garda」（守护，保卫）
-suprekurer|/suˈpre.kʰu.ʁeɹ/|动词|向上跑，跑上台。|「supre」（在……上）+「kurer」（奔跑）
-vestiment|/ˈves.tʰi.ment/|名词|衣物，衣服。|源自拉丁语「vestimentum」
-tempesta|/temˈpes.tʰa/|名词|天气，气候。|源自拉丁语「tempestas」
-vipera|/ˈvi.pe.ʁa/|名词/形容词|毒蛇；毒蛇的。|源自拉丁语「vipera」
-pagina|/ˈpa.ɡi.na/|名词|页，书页。|源自拉丁语「pagina」
-antepagina|/an.tʰeˈpa.ɡi.na/|名词|扉页，前页。|ante（前）+ pagina（页）
-vojodufur|/ˈvo.jo.ˌdu.fuɹ/|名词|路边，路缘。|vojo（路）+ dufur（边缘）
-omnifoy|/ˈom.ni.foj/|副词|每次，每回。|omni（所有的）+ foy（次）
-kautili|/ˈkʰau.tʰi.li/|副词|谨慎地，小心地。|「kauti」（谨慎的，拉丁语 cautus）+ 副词化后缀 -li
-dilatarion|/di.laˈtʰa.ri.on/|名词|扩张，膨胀。|「dilatar」（膨胀，拉丁语 dilatare）+ 名词化后缀 -ion
-devai|/deˈvai/|助动|必须，应该。|源自拉丁语「debere」+ 情态后缀「-vai」（应该）
-eskludar|/esˈkʰlu.daɹ/|动词|排除，除外。|源自拉丁语「excludere」
-subsista|/subˈsis.tʰa/|动词|存在，存续。|源自拉丁语「subsistere」
-deklina|/deˈkʰli.na/|动词|避开，避免。|源自拉丁语「declinare」
-hesita|/ˈhe.si.tʰa/|动词|犹豫，迟疑。|源自拉丁语「haesitare」
-mírajite|/ˈmiː.ʁa.d͡ʒi.tʰe/|副词|惊讶地，被惊到地。|「míraji」（使惊异）+ 过去分词中缀 -it- + 副词尾 -e
-konvi|/ˈkʰon.vi/|动词|邀请，邀约。|源自法语「convier」
-sarkin|/ˈsaʁ.kʰin/|动词|打包，收拾行装。|源自拉丁语「sarcina」(行囊)
-melioriji|/me.liˈo.ʁi.d͡ʒi/|动词|改进，改善。|源自拉丁语「meliorare」(使变好) + 使动后缀 -iji
-váyn|/ˈvaːjn/|动词|染，染色。|原生词根；见词典「çélaváyn」词源（çéla 天空 + váyn 染）
-mírante|/miːˈʁan.tʰe/|分词|惊讶着，感到惊奇的（míra 的现在分词）。|「míra」(奇妙的，惊人的) + 现在分词 -ante
-vidanta|/viˈdan.tʰa/|分词|正在看着的。|「vid」(看) + 现在分词 -anta
-pensante|/pənˈsan.tʰe/|分词|认为着，想着。|「pens」(想) + 现在分词 -ante
-hrestinte|/hresˈtʰin.tʰe/|分词|休息过后（hresta 的过去分词）。|「hresta」(休息) + 过去分词 -inte
-ĉirkaurvidante|/tʃir.kʰauʁ.viˈdan.tʰe/|分词|环顾着，四下张望。|「ĉirkau」(周围) + 「vid」(看) + 现在分词 -ante
-maltrankuiles|/mal.tʰraŋ.kʰuˈi.les/|副词|不安地，焦虑地。|「trankuili」(平静的) 加否定前缀 mal- 与副词后缀 -es
-senpoves|/ˈsen.po.ves/|副词|无奈地，无能为力地。|sen- + 「pov」(能) + 副词后缀 -es
-exakte|/ekˈsak.tʰe/|副词|恰好，正是，正好。|源自拉丁语「exactus」（精确的）
-vido|/ˈvi.do/|名词|目光，视线，注视。|「vid」（看，词典词）+ 名词化 -o
-atentli|/aˈtʰentʰli/|副词|注意地，仔细地。|「atenta」（细心的，词典词）+ -li（副词化）
-figura|/ˈfi.ɡu.ra/|名词|身影，身形，轮廓。|源自拉丁语「figura」
-intuitio|/in.tuˈi.ti.o/|名词|直觉。|源自拉丁语「intuitio」
-neke|/ˈne.kʰe/|连词|既不…也不…，也不。|源自拉丁语「neque」
-posttagmeza|/postˈtaɡ.me.za/|形容词|下午的。|post（在…之后）+ tagmezo（中午，词典词）
-tantli|/ˈtant.li/|副词|如此，这么，那么地。|源自拉丁语「tantum」+ -li（副词化）
-receptio|/reˈkep.tʰi.o/|名词|招待会，接见，接待。|源自拉丁语「receptio」
-senkonsiosli|/sen.kon.siˈos.li/|副词|无意识地，下意识地。|sen-（无）+ konsosio（意识，词典词）+ -li
-trankuilen|/traŋ.kʰuiˈlen/|动词|平静下来，安静下来。|「trankuili」（平静的，词典词）+ -en（变成）
-konsulta|/konˈsul.tʰa/|动词|咨询，商议；任顾问。|源自拉丁语「consultare」
-akcenta|/akˈkʰen.tʰa/|名词|口音，重音，腔调。|源自拉丁语「accentus」
-fulcir|/ˈful.kiɹ/|动词|支撑，撑住，扶。|源自拉丁语「fulcire」
-fulcila|/ˈful.ki.la/|名词|支撑物，扶手。|fulcir（支撑）+ -ilo（工具名词）
-komprenli|/komˈpren.li/|副词|理解地，体谅地，会意地。|「kompren」（理解，词典词）+ -li（副词化）
-magra|/ˈma.ɡra/|形容词|瘦的，消瘦的。|源自拉丁语「macer」（瘦的）
-maltrankuili|/mal.traŋ.kʰuˈi.li/|形容词|不安的，心神不宁的。|mal-（相反）+ trankuili（平静的，词典词）
-kuriositas|/ku.riˈo.si.tas/|名词|好奇心。|源自拉丁语「curiositas」
-teknika|/ˈtek.ni.ka/|名词|技术，技艺。|源自拉丁语「technica」
-hezitar|/heˈzi.taɹ/|动词|犹豫，踌躇。|源自拉丁语「haesitare」
-malante|/ˈma.lan.tʰe/|副词|在后面；之后。|mal-（相反）+ ante（之前，词典词）
-opinar|/oˈpi.naɹ/|动词|认为，以为。|源自拉丁语「opinari」
-agitar|/aˈɡi.taɹ/|动词|骚动，激动，鼓动。|源自拉丁语「agitare」
-aktivali|/ak.tiˈva.li/|副词|主动地，积极地。|源自拉丁语「activus」+ -li（副词化）
-anuntio|/aˈnun.tʰi.o/|名词|公告，通告。|源自拉丁语「annuntiatio」
-brusta|/ˈbrus.ta/|名词|胸膛，胸口。|源自德语「Brust」
-citar|/ˈki.taɹ/|动词|引用，征引。|源自拉丁语「citare」
-subtila|/subˈti.la/|形容词|细腻的，清秀的，精致的。|源自拉丁语「subtilis」
-penda|/ˈpen.da/|动词|取决于，系于。|源自拉丁语「pendere」
-dupla|/ˈdu.pla/|形容词|双的，成双的，双倍的。|源自拉丁语「duplus」
-medieta|/me.diˈe.ta/|名词|一半。|源自拉丁语「medietas」
-intereso|/in.tʰeˈʁe.so/|名词|兴趣。|源自拉丁语「interesse」
-interesen|/in.tʰeˈʁe.sen/|动词|感兴趣，起兴趣。|intereso（兴趣）+ -en（变成）
-excitar|/ek.siˈtaɹ/|动词|使激动，激起。|源自拉丁语「excitare」
-existar|/ekˈsis.taɹ/|动词|存在。|源自拉丁语「existere」
-exaurir|/ekˈsau.riɹ/|动词|耗尽，使精疲力竭。|源自拉丁语「exhaurire」
-tediosa|/te.diˈo.sa/|形容词|无聊的，乏味的。|源自拉丁语「taediosus」
-etaga|/eˈta.ɡa/|名词|楼层。|源自法语「étage」
-filosofii|/fi.lo.soˈfi.i/|形容词|哲学的。|filosofia（哲学，词典词）+ -i（形容词化）
-latera|/laˈte.ra/|名词|侧，边，侧面。|源自拉丁语「latus, lateris」
-expelar|/ek.speˈlaɹ/|动词|驱散，驱逐。|源自拉丁语「expellere」
-grada|/ˈɡra.da/|名词|程度，等级。|源自拉丁语「gradus」
-grisa|/ˈɡri.sa/|形容词|灰色的。|源自法语「gris」
-duca|/ˈdu.ka/|动词|引导，带领。|源自拉丁语「ducere」
-invalida|/in.vaˈli.da/|形容词|残疾的，行动不便的。|源自拉丁语「invalidus」
-domna|/ˈdom.na/|名词|店主，老板，主人。|源自拉丁语「dominus」
-kombinatio|/kom.biˈna.tʰi.o/|名词|组合，搭配。|源自拉丁语「combinatio」
-konformar|/konˈfor.maɹ/|动词|符合，与…相配。|源自拉丁语「conformare」
-konsosien|/kon.soˈsi.en/|动词|意识到，觉察到。|konsosio（意识，词典词）+ -en（进入某状态）
-gubernar|/ɡuˈbeɹ.naɹ/|动词|控制，掌管。|源自拉丁语「gubernare」
-kovrila|/kovˈri.la/|名词|覆盖物，罩；被子。|「kovr-」（覆盖）+ -ilo（工具名词）
-lensa|/ˈlen.sa/|名词|镜片，透镜。|源自拉丁语「lens」
-obskura|/obˈsku.ra/|形容词|昏暗的，暗的。|源自拉丁语「obscurus」
-obskuren|/obˈsku.ren/|动词|变暗，暗下来。|obskura（昏暗的）+ -en（变成）
-defikar|/deˈfi.kaɹ/|动词|缺少，缺失。|源自拉丁语「deficere」
-aranjar|/aˈran.dʒaɹ/|动词|安排，料理。|源自法语「arranger」
-nervosa|/neɹˈvo.sa/|形容词|紧张的，发怵的。|源自拉丁语「nervosus」
-natio|/ˈna.tʰi.o/|名词|民族，国族。|源自拉丁语「natio」
-novelo|/noˈve.lo/|名词|小说。|源自意大利语「novella」
-oboedientli|/o.bo.e.diˈent.li/|副词|顺从地，乖巧地。|「oboedientia」（服从，词典词）+ -li（副词化）
-ordinar|/or.diˈnaɹ/|动词|整理，排列。|源自拉丁语「ordinare」
-ponda|/ˈpon.da/|名词|重量，分量。|源自拉丁语「pondus」
-querar|/kueˈraɹ/|动词|抱怨，诉苦。|源自拉丁语「queri」
-pseudonimo|/pseuˈdo.ni.mo/|名词|笔名。|源自希腊语「ψευδώνυμος」(pseudonymos)
-renuntia|/reˈnun.tia/|动词|放弃，弃权。|源自拉丁语「renuntiare」
-refugio|/reˈfu.ɡi.o/|名词|避难所，庇护处。|源自拉丁语「refugium」
-humera|/huˈme.ra/|名词|肩膀。|源自拉丁语「humerus」
-slogana|/sloˈɡa.na/|名词|口号。|源自英语「slogan」
-solituda|/so.liˈtu.da/|名词|孤独。|源自拉丁语「solitudo」
-krema|/ˈkre.ma/|名词|霜，乳膏。|源自法语「crème」
-senbezona|/sen.beˈzo.na/|形容词|多余的，不必要的。|sen-（无）+ bezon（需要，词典词）+ -a
-intenta|/inˈten.tʰa/|名词|意图，用意。|源自拉丁语「intentio」
-senintentli|/sen.inˈtent.li/|副词|无意地，不经意地。|sen-（无）+ intenta（意图）+ -li
-provocar|/pro.voˈkaɹ/|动词|挑衅，挑动。|源自拉丁语「provocare」
-trakta|/ˈtrak.ta/|动词|处理，办理。|源自拉丁语「tractare」
-tormentar|/torˈmen.taɹ/|动词|折磨，使痛苦。|源自拉丁语「tormentum」
-vakua|/ˈva.kua/|名词|真空，空虚。|源自拉丁语「vacuum」
-vesta|/ˈves.ta/|名词|衣物，衣服。|源自拉丁语「vestis」
-vehar|/ˈve.haɹ/|动词|驾驶，行驶。|源自拉丁语「vehere」
-babilada|/ba.biˈla.da/|名词|闲聊，闲谈。|源自法语「babiller」
-resonar|/re.soˈnaɹ/|动词|回响，回荡。|源自拉丁语「resonare」
-excludar|/ek.skuˈdaɹ/|动词|排除，排除在外。|源自拉丁语「excludere」
-abolar|/aˈbo.laɹ/|动词|消除，除掉。|源自拉丁语「abolere」
-degustada|/de.ɡusˈta.da/|名词|品尝，品味。|源自拉丁语「degustare」
-capsa|/ˈkap.sa/|名词|轿厢，舱室。|源自拉丁语「capsa」
-kunabla|/ˈku.na.bla/|名词|摇篮。|源自拉丁语「cunabula」
-pakada|/paˈka.da/|名词|打包，收拾行李。|源自德语「packen」
-pausa|/ˈpau.sa/|形容词|暂停的，停止的。|源自拉丁语「pausa」
-perseverar|/per.seˈve.raɹ/|动词|坚持，持之以恒。|源自拉丁语「perseverare」
-recuperar|/re.kuˈpe.raɹ/|动词|找回，重新获得。|源自拉丁语「recuperare」
-exfoliar|/eks.foˈliaɹ/|动词|剥落，脱落。|源自拉丁语「exfoliare」
-vigorar|/viˈɡo.raɹ/|动词|振作，有活力。|源自拉丁语「vigor」
-tenua|/ˈte.nu.a/|形容词|细的，纤细的。|源自拉丁语「tenuis」
-freska|/ˈfres.ka/|形容词|清新的，清爽的。|源自意大利语「fresco」
-ece|/ˈe.ke/|叹词|瞧，看哪。|源自拉丁语「ecce」
-mírali|/ˈmiː.ʁa.li/|副词|惊讶地，惊奇地。|「míra」（奇妙的，惊人的，词典词）+ -li
-nuper|/ˈnu.pəɹ/|副词|刚刚，方才。|源自拉丁语「nuper」
-ǽralo|/ˈæː.ʁal.o/|名词|目光，注视。|原生词根「ǽral」（凝视）加名词化 -o
-latere|/ˈla.tʰe.ʁe/|副词|侧旁地，在一旁。|源自拉丁语「latus, lateris」（侧）
-latero|/ˈla.tʰe.ʁo/|名词|侧面，侧边。|源自拉丁语「latus, lateris」（侧）
-aero|/ˈa.e.ʁo/|名词|空气。|源自拉丁语「aer」
-firma|/ˈfiɹ.ma/|形容词|坚定的，牢固的。|源自拉丁语「firmus」
-romano|/ˈʁo.ma.no/|名词|小说。|源自意大利语「romanzo」
-akceptar|/akˈkep.tʰaɹ/|动词|接受，接待。|源自拉丁语「acceptare」
-blua|/ˈblu.a/|形容词|蓝色的。|源自法语「bleu」
-pallida|/ˈpal.li.da/|形容词|淡的，浅的。|源自拉丁语「pallidus」
-prozedo|/ˈpro.ze.do/|名词|过程，流程。|源自拉丁语「procedere」
-plekto|/ˈplek.tʰo/|名词|发辫，发绺。|源自拉丁语「plectere」（编织）
-fortuno|/ˈfoɹ.tʰu.no/|名词|运气，命运。|源自拉丁语「fortuna」
-dimidio|/diˈmi.di.o/|名词|一半。|源自拉丁语「dimidium」
-obiter|/ˈo.bi.tʰeɹ/|副词|顺便，另外。|源自拉丁语「obiter」
-sparar|/ˈspa.ʁaɹ/|动词|节省，省下。|源自英语「spare」加动词化 -ar
-solitudo|/soˈli.tʰu.do/|名词|孤独，寂寞。|源自拉丁语「solitudo」
-oboediar|/oˈbo.e.djaɹ/|动词|服从，听从。|源自拉丁语「oboedire」
-subjektivi|/subˈd͡ʒek.tʰi.vi/|形容词|主观的。|源自拉丁语「subiectivus」
-iluzio|/iˈlu.zi.o/|名词|错觉，幻觉。|源自拉丁语「illusio」
-ultimatum|/ulˈtʰi.ma.tʰum/|名词|最后通牒。|源自拉丁语「ultimatum」
-pozo|/ˈpo.zo/|名词|姿势，姿态。|源自法语「pose」
-poluso|/poˈlu.so/|名词|极，极点。|源自拉丁语「polus」
-vakuo|/ˈva.ku.o/|名词|真空。|源自拉丁语「vacuum」
-opinio|/oˈpi.ni.o/|名词|舆论，意见。|源自拉丁语「opinio」
-opiniar|/oˈpi.njaɹ/|动词|认为。|源自拉丁语「opinari」
-invitar|/inˈvi.tʰaɹ/|动词|邀请。|源自拉丁语「invitare」
-gesto|/ˈges.tʰo/|名词|动作，手势。|源自拉丁语「gestus」
-akuzatio|/a.kuˈza.ti.o/|名词|指控，控告。|源自拉丁语「accusatio」
-apogar|/ˈa.po.gaɹ/|动词|支撑，倚靠。|源自法语「appuyer」
-argumentar|/aɹ.guˈmen.tʰaɹ/|动词|论证，引证。|源自拉丁语「argumentari」
-etato|/ˈe.ta.to/|名词|年龄。|源自拉丁语「aetas, aetatis」
-balbutar|/balˈbu.tʰaɹ/|动词|结巴，支吾。|源自拉丁语「balbutire」
-bloko|/ˈblo.kʰo/|名词|块，区块。|源自法语「bloc」
-pekto|/ˈpek.tʰo/|名词|胸膛。|源自拉丁语「pectus, pectoris」
-celar|/ˈke.laɹ/|动词|瞄准，指着。|源自法语「cibler」
-delikati|/deˈli.ka.tʰi/|形容词|精致的，清秀的。|源自拉丁语「delicatus」
-dependar|/deˈpen.daɹ/|动词|依赖，取决于。|源自拉丁语「dependere」
-dezerti|/deˈzeɹ.tʰi/|形容词|荒凉的，荒芜的。|源自拉丁语「desertus」
-diplomatia|/diˈplo.ma.ti.a/|名词|外交。|源自拉丁语「diplomatia」
-eksplodar|/ekˈsplo.daɹ/|动词|爆发，爆炸。|源自拉丁语「explodere」
-ekzistar|/ekˈzi.stʰaɹ/|动词|存在。|源自拉丁语「existere」
-emocio|/eˈmo.ti.o/|名词|情感。|源自拉丁语「emotio」
-funkciar|/funkˈsi.aɹ/|动词|运作，起作用。|源自拉丁语「functio」
-gramo|/ˈgʁa.mo/|名词|克，公克。|源自法语「gramme」
-konfluar|/konˈflu.aɹ/|动词|汇合，汇聚。|源自拉丁语「confluere」
-habili|/haˈbi.li/|形容词|熟练的，灵巧的。|源自拉丁语「habilis」
-mandar|/ˈman.daɹ/|动词|点（餐），订购。|源自拉丁语「mandare」
-amerikano|/a.meˈʁi.ka.no/|名词|美国人。|源自「Amerika」（美洲/美国）+ 人称 -ano
-novzelandi|/nov.zeˈlan.di/|形容词|新西兰的。|源自地名「Novzelando」（新西兰）
-odoro|/oˈdo.ʁo/|名词|气味。|源自拉丁语「odor」
-okupar|/o.kuˈpaɹ/|动词|忙于，占用。|源自拉丁语「occupare」
-kapablo|/kaˈpa.blo/|名词|能力。|源自拉丁语「capabilis」
-pedo|/ˈpe.do/|名词|脚。|源自拉丁语「pes, pedis」
-preterlasar|/pre.tʰeɹˈla.saɹ/|动词|放过，略过。|源自拉丁语「praeterire」+「laxare」
-provizar|/pro.viˈzaɹ/|动词|提供，供应。|源自英语「provide」加动词化 -ar
-pulmo|/ˈpul.mo/|名词|肺。|源自拉丁语「pulmo」
-pausar|/ˈpau.saɹ/|动词|停顿，暂停。|源自拉丁语「pausare」
-regar|/ˈʁe.gaɹ/|动词|统治，笼罩。|源自拉丁语「regere」
-removar|/ʁeˈmo.vaɹ/|动词|移开，除去。|源自拉丁语「removere」
-signar|/ˈsig.naɹ/|动词|示意，打手势。|源自拉丁语「signare」
-simpli|/ˈsim.pli/|形容词|简单的。|源自拉丁语「simplex」
-feri|/ˈfe.ʁi/|形容词|野生的。|源自拉丁语「ferus」
-superar|/suˈpe.ʁaɹ/|动词|超越，胜过。|源自拉丁语「superare」
-prandio|/ˈpran.di.o/|名词|午饭，正餐。|源自拉丁语「prandium」
-trovar|/tʰroˈvaɹ/|动词|找到，发现。|源自法语「trouver」
-uzar|/uˈzaɹ/|动词|使用。|源自拉丁语「uti」
-vestimento|/ves.tʰiˈmen.tʰo/|名词|衣物，服装。|源自拉丁语「vestimentum」
-vivaci|/ˈvi.va.si/|形容词|活跃的，兴致勃勃的。|源自拉丁语「vivax」
-vizitar|/viˈzi.tʰaɹ/|动词|拜访，探望。|源自拉丁语「visitare」
-defendar|/deˈfen.daɹ/|动词|防御，防守。|源自拉丁语「defendere」
-expandar|/ekˈspan.daɹ/|动词|张开，展开。|源自拉丁语「expandere」
-eksciti|/ekˈsi.tʰi/|形容词|激动的。|源自拉丁语「excitatus」
-gustar|/ˈgus.tʰaɹ/|动词|品尝。|源自拉丁语「gustare」
-harpino|/ˈhaɹ.pi.no/|名词|发卡，发夹。|「hara」（毛发）+ 拉丁语「spina」（针）
-intente|/inˈten.tʰe/|副词|故意地，有意地。|源自拉丁语「intente」
-izolar|/iˈzo.laɹ/|动词|隔离。|源自意大利语「isolare」
-konfuzi|/konˈfu.zi/|形容词|慌乱的，杂乱的。|源自拉丁语「confusus」
-kontaktar|/konˈtak.tʰaɹ/|动词|联系，联络。|源自拉丁语「contactus」
-konversacio|/kon.veɹˈsa.ti.o/|名词|交谈，谈话。|源自拉丁语「conversatio」
-mankar|/ˈman.kaɹ/|动词|缺少。|源自拉丁语「mancare」
-pakir|/ˈpa.kʰiɹ/|动词|打包，收拾。|源自德语「packen」
-tauga|/ˈtau.ga/|形容词|合适的。|源自德语「taugen」
-urgo|/ˈuɹ.go/|名词|急切，紧迫感。|源自拉丁语「urgere」
-vigori|/viˈgo.ʁi/|形容词|有活力的。|源自拉丁语「vigor」
-prezenti|/preˈzen.tʰi/|形容词|在场的，出席的。|源自拉丁语「praesens」
-ĉini|/ˈsi.ni/|形容词|中国的，中文的。|源自拉丁语「Sinae」（中国）
-sudoro|/suˈdo.ʁo/|名词|汗。|源自拉丁语「sudor」
-guto|/ˈgu.tʰo/|名词|滴。|源自拉丁语「gutta」
-órdaji|/ˈoːɹ.da.d͡ʒi/|动词|整理，使有序。|「órda」（秩序）+ 后缀 -ji（使动）
-simpliça|/simˈpli.sa/|形容词|简单的。|源自拉丁语「simplex, simplicis」
-tumulta|/tʰuˈmul.tʰa/|形容词|喧闹的，嘈杂的。|源自拉丁语「tumultus」
-korpus|/ˈkʰoɹ.pus/|名词|身体，躯体。|源自拉丁语「corpus」
-arĝenta|/aɹˈd͡ʒen.tʰa/|形容词|银色的。|源自拉丁语「argentum」
-detala|/ˈde.tʰa.la/|形容词|详细的，详尽的。|源自法语「détail」
-eksito|/ˈəkʰ.si.tʰo/|名词|兴奋，激动。|源自拉丁语「excitus」
-guta|/ˈɡu.tʰa/|名词|滴，液滴。|源自拉丁语「gutta」
-nuntio|/ˈnun.tʰio/|名词|消息，讯息。|源自拉丁语「nuntium」
-pakar|/ˈpa.kʰaɹ/|动词|打包，收拾行李。|源自英语「pack」
-traktar|/ˈtʰrak.tʰaɹ/|动词|处理，对待。|源自拉丁语「tractare」
-urgenta|/uɹˈd͡ʒen.tʰa/|形容词|紧急的，急迫的。|源自拉丁语「urgens, urgentis」
-konfusa|/ˈkʰon.fu.sa/|形容词|困惑的，混乱的。|源自拉丁语「confusus」
-konfuso|/ˈkʰon.fu.so/|名词|困惑，混乱。|源自拉丁语「confusio」
-aktus|/ˈakʰ.tʰus/|名词|行为，举动。|源自拉丁语「actus」
-fibula|/ˈfi.bu.la/|名词|别针，胸针。|源自拉丁语「fibula」
-jokosa|/ˈjo.kʰo.sa/|形容词|有趣的，诙谐的。|源自拉丁语「jocosus」
-prejudiko|/preˈd͡ʒu.di.kʰo/|名词|偏见，成见。|源自拉丁语「praeiudicium」
-dispositio|/dis.poˈsi.tʰio/|名词|安排，部署。|源自拉丁语「dispositio」
-certatim|/ˈkʰeɹ.tʰa.tʰim/|副词|争先地，竞争地。|源自拉丁语「certatim」
-aemula|/ˈae.mu.la/|形容词|竞争的，争先的。|源自拉丁语「aemulari」
-ilegala|/iˈle.ɡa.la/|形容词|违法的，非法的。|源自英语「illegal」
-komponer|/ˈkʰom.po.nəɹ/|动词|组合，拼合。|源自拉丁语「componere」
-mentir|/ˈmen.tʰiɹ/|动词|说谎。|源自拉丁语「mentiri」
-nervus|/ˈneɹ.vus/|名词|神经。|源自拉丁语「nervus」
-nivel|/ˈni.vel/|名词|水平，水准。|源自法语「niveau」
-objektum|/obˈd͡ʒek.tʰum/|名词|物品，物件。|源自拉丁语「obiectum」
-parta|/ˈpaɹ.tʰa/|名词|份，份额。|源自拉丁语「pars, partis」
-precisa|/ˈpre.si.sa/|形容词|精确的，准确的。|源自拉丁语「praecisus」
-preventio|/preˈven.tʰio/|名词|预防，防止。|源自拉丁语「praeventio」
-provizoria|/pro.viˈzo.ʁia/|形容词|临时的，暂定的。|源自拉丁语「provisorius」
-probar|/ˈpro.baɹ/|动词|证明，证实。|源自拉丁语「probare」
-reagir|/ˈʁe.a.d͡ʒiɹ/|动词|反应。|源自拉丁语「re- + agere」
-sumatim|/ˈsu.ma.tʰim/|副词|总之，概括地。|源自拉丁语「summatim」
-aspektus|/aˈspek.tʰus/|名词|目光，神情。|源自拉丁语「aspectus」
-solver|/ˈsol.vəɹ/|动词|解决，消除。|源自拉丁语「solvere」
-superior|/suˈpe.ʁioɹ/|名词|上级，上司。|源自拉丁语「superior」
-fremer|/ˈfre.məɹ/|动词|沙沙作响，飒飒。|源自拉丁语「fremere」
-stipe|/ˈstʰi.pʰə/|名词|树干。|源自拉丁语「stipes」
-panvalida|/panˈva.li.da/|形容词|万能的，普遍适用的。|源自拉丁语「pan- + validus」
-vestis|/ˈves.tʰis/|名词|衣服，服装。|源自拉丁语「vestis」
-vigor|/ˈvi.ɡoɹ/|名词|活力，精力。|源自拉丁语「vigor」
-vigora|/ˈvi.ɡo.ʁa/|形容词|有活力的，生气勃勃的。|源自拉丁语「vigor」
-visitar|/ˈvi.si.tʰaɹ/|动词|拜访，访问。|源自拉丁语「visitare」
-pikar|/ˈpʰi.kʰaɹ/|动词|啄。|源自德语「picken」
-propagatio|/pro.paˈɡa.tʰio/|名词|扩张，蔓延。|源自拉丁语「propagatio」
-vitar|/ˈvi.tʰaɹ/|动词|避免，回避。|源自拉丁语「vitare」
-firmitas|/ˈfiɹ.mi.tʰas/|名词|稳固，坚实。|源自拉丁语「firmitas」
-goatpeda|/ˈɡoat.pʰe.da/|形容词|羊足的。|「goat」（山羊）+ 拉丁语「pes, pedis」（足）
-toraks|/ˈtʰo.ʁaks/|名词|胸膛，胸腔。|源自希腊语「θώραξ」
-tekstus|/ˈtʰek.stʰus/|名词|文本。|源自拉丁语「textus」
-tinger|/ˈtʰin.d͡ʒəɹ/|动词|染色，浸染。|源自拉丁语「tingere」
-kasta|/ˈkʰas.tʰa/|形容词|贞洁的，纯洁的。|源自拉丁语「castus」
-ociosa|/oˈsi.o.sa/|形容词|空闲的，无所事事的。|源自拉丁语「otiosus」
-negociosa|/ne.ɡoˈsi.o.sa/|形容词|忙碌的，事务繁多的。|源自拉丁语「negotiosus」
-blaua|/ˈblau.a/|形容词|蓝色的。|源自德语「blau」
-baston|/ˈbas.tʰon/|名词|棍，棒。|源自法语「bâton」
-limbastono|/limˈbas.tʰo.no/|名词|筷子。|「lim」（吃）+「baston」（棍）
-frontispicio|/fron.tʰiˈspi.tʰio/|名词|扉页，卷首。|源自拉丁语「frontispicium」
-servitio|/seɹˈvi.tʰio/|名词|服务。|源自拉丁语「servitium」
-inaugurar|/inˈau.ɡu.ʁaɹ/|动词|就职，就任。|源自拉丁语「inaugurare」
-oprimer|/oˈpri.məɹ/|动词|压迫，剥削。|源自拉丁语「opprimere」
-judiçiar|/d͡ʒuˈdi.si.aɹ/|动词|审判，裁断。|「judiçia」（法律）+ 动词化 -ar
-konfirma|/kʰonˈfiɹ.ma/|形容词|肯定的，确认的。|源自拉丁语「confirmare」
-signifikar|/sigˈni.fi.kʰaɹ/|动词|意味着，表示。|源自拉丁语「significare」
-japonika|/d͡ʒaˈpo.ni.kʰa/|形容词|日本的。|源自拉丁语「Iaponia」
-beja|/ˈbe.d͡ʒa/|形容词|米色的。|源自法语「beige」
-palar|/ˈpa.laɹ/|动词|漫游，游荡。|源自拉丁语「palari」
-sientiafenta|/si.en.ti.aˈfen.tʰa/|形容词|科幻的。|「sientia」（学问）+「fenta」（幻想）
-inkongrua|/inˈkʰoŋ.ɡru.a/|形容词|不协调的，格格不入的。|源自拉丁语「incongruens」
-maltrankuilo|/malˈtʰraŋ.kʰui.lo/|名词|不安，心神不宁。|「mal-」+「trankuili」（平静的）
-nudelmagasin|/nu.del.maˈɡa.sin/|名词|面馆。|「nudelo」（面条）+「magasin」（商店）
-kriflonko|/kʰrifˈlon.kʰo/|名词|信纸。|「krif」（信）+「lonk」（纸）
-febris|/ˈfeb.ris/|名词|发烧，热病。|源自拉丁语「febris」
-dolus|/ˈdo.lus/|名词|欺诈，诡计。|源自拉丁语「dolus」
-fuga|/ˈfu.ɡa/|名词|逃跑。|源自拉丁语「fuga」
-pueritia|/pueˈʁi.tʰia/|名词|童年。|源自拉丁语「pueritia」
-petitio|/peˈtʰi.tʰio/|名词|请求，请愿。|源自拉丁语「petitio」
-korpo|/ˈkoɹ.po/|名词|身体。|源自拉丁语「corpus」。
-gardo|/ˈɡaɹ.do/|名词|守卫，护卫。|源自日耳曼语「wardon」。
-super|/ˈsu.pəɹ/|介词|在……上面。|源自拉丁语「super」。
-sub|/sub/|介词|在……下面。|源自拉丁语「sub」。
-dum|/dum/|连词|当……期间。|源自拉丁语「dum」。
-subite|/suˈbi.tʰe/|副词|突然地。|源自拉丁语「subito」。`;
+zvon|/ˈzvon/|名词|教堂钟。|源自俄语「звон」(zvon)。`;
 const KEYS = ['í','á','é','ó','ú','ǽ','æ','ø','å','ŭ','ã','ç','ĉ','ĝ','à','ò','ë','ö','ü'];
 const STORE = 'ueguden_dictation_wrong_v1';
 

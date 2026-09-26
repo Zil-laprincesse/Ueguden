@@ -7,9 +7,80 @@
 
 ## [未发布] — 下一轮
 
-- [ ] 清理语料中的世界语残留（`tools/validate.py --corpus` 报 73 处，集中在小说篇）
+- [ ] 清理语料中的世界语残留（`tools/validate.py --corpus` 报 68 处，集中在小说篇）
 - [ ] 语料层的前置介词改写：规范与教程已统一为后置词（`sovæt en`），小说与书信正文尚未逐句过
-- [ ] `tools/validate.py --corpus` 报 1378 个未收录词形（多为专名音译与待收新词），逐个判定是否入典
+- [ ] `tools/validate.py --corpus` 报 1251 个未收录词形（多为屈折形、专名音译与待收新词），逐个判定是否入典
+
+---
+
+## [语言 · 第七版补录] 2026-09-26 — 《告别信》译文 + 17 条新造词
+
+> **版次不变**：仍为**词典第七版**（`dict_rev = 7`）。
+> `tools/dictionary.html` 与 `tools/dictation.html` 里的 `DICT_REV` 是**缓存重建号**（与版次无关），26 → 27。
+
+**语料**
+
+- 新增 [`corpus/letters/farewell-letter.md`](corpus/letters/farewell-letter.md)：中文原信《告别信》的
+  维古登语（常规体）译文，正文按「维古登语行 → 中文原文行」交替排列，与 `novel/` 体例一致
+- 源文档 `告别信.docx` 归档至 `archive/docx/`，`tools/manifest.json` 已登记（第 26 条）
+- 译文依《词法规范》《句法规范》《高级语法》《体态表》《中文转译方案》写成：SOV 语序与动词居末、
+  六格后缀（宾语必标 `-gàlo`/`-gòle`）、形容词与名词同格一致、动词词缀链
+  （词根+体态+时态+语态+极性+人称+语气+情态，如 `donacderkŭlai`、`lernjiçeder`）、
+  复数「词干 + **-té** + 格后缀」（`afertégòle`）、后置词（`gradaçia post`）、
+  条件用独立连词 `se` ＋动词 `-se`（`Se ya tūnaise`）、复合体助词紧贴谓语（`dæ lernmisçeom`）、
+  祈愿 `ke`（`Ke lot yaon glemnai!`）；**无世界语残留**（无 `la`/`kaj`/`ĉu`/`ĉar`/独立助动词）
+
+**词典（第七版补录，DICT_REV 不变）**
+
+- 新增 17 条词目，**4350 → 4367** 条（按词形局部字母序插入，插入点之后全表重新编号）：
+
+  | # | 词形 | 音标 | 词类 | 释义 | 词源 |
+  | ---: | --- | --- | --- | --- | --- |
+  | 621 | demet | /dəˈmetʰ/ | 动词 | 摘下，取下 | 拉丁语「demittere」 |
+  | 1311 | gorgo | /ˈɡoɹ.ɡo/ | 名词 | 喉咙 | 法语「gorge」 |
+  | 1407 | haro | /ˈha.ʁo/ | 名词 | 头发 | 德语「Haar」 |
+  | 1408 | harofalo | /ha.ˈʁo.fa.lo/ | 名词 | 脱发 | 「haro」+「falo」 |
+  | 1552 | imbis | /imˈbis/ | 名词 | 零食，小吃 | 德语「Imbiss」 |
+  | 1683 | kalcio | /ˈkal.ki.o/ | 名词 | 钙 | 拉丁语「calcium」 |
+  | 2090 | kvalifiko | /kʰvaˈli.fi.kʰo/ | 名词 | 资格 | 拉丁语「qualificatio」 |
+  | 2184 | ligno | /ˈliɡ.no/ | 名词 | 木头 | 拉丁语「lignum」 |
+  | 2764 | omnidien | /omˈni.di.ən/ | 副词 | 每天 | 「omni」+「dien」 |
+  | 2821 | osto | /ˈos.tʰo/ | 名词 | 骨头 | 希腊语「ὀστέον」 |
+  | 3143 | proprat | /ˈprop.ratʰ/ | 形容词 | 自己的 | 拉丁语「proprius」 |
+  | 3377 | Rusia | /ˈʁu.si.a/ | 名词 | 俄罗斯 | 拉丁语「Russia」 |
+  | 3378 | Rusialingovo | /ʁu.si.aˈliŋ.ɡo.vo/ | 名词 | 俄语 | 「Rusia」+「lingovo」 |
+  | 3534 | shampuo | /ˈʃam.pu.o/ | 名词 | 洗发水 | 英语「shampoo」 |
+  | 3612 | Sinamorol | /siˈna.mo.ʁol/ | 名词 | 玉桂狗（三丽鸥角色） | 「Cinnamoroll」拉丁化转写 |
+  | 3806 | suspenderil | /susˈpen.də.ʁil/ | 名词 | 挂件（悬挂之物） | 「suspender」+「-il」 |
+  | 4351 | zinko | /ˈziŋ.kʰo/ | 名词 | 锌 | 德语「Zink」 |
+
+- 音标按《音节结构与重音规则》2.1.1/2.1.2 重算：重音落倒数第二音节，该音节为轻音节则前移至倒数第三；
+  非重读 `e` 写 /ə/，重读 `e` 写 /e/；词尾浊塞音清化属口语实现层，音位转写不标注
+- 词类分布随之变动：名词 2709 → 2723、动词 765 → 766、形容词 516 → 517、副词 226 → 227
+
+**仓库声明同步**
+
+- `README.md`（徽章 / 词汇量 / 词汇标准 / 统计口径 / English）、`index.html`、`CITATION.cff`、
+  `CONTRIBUTING.md`、`dictionary/README.md`（含词类分布表）、`study/README.md` 全部改为 4367
+- `dictionary/ueguden_dict.{md,csv,json}` 由 `tools/build_dict.py` 自 `archive/docx/词典第七版.docx` 重新生成
+- `archive/docx/词典第七版.docx` 刷新为当前源文档（词形按 normKey 排序、`æ` 归入 A 段、26 个字母分段行
+  的「N 词 · XXXX – YYYY」已同步重算）
+- `tools/dictionary.html` 内嵌词库 4350 → 4367，`DICT_REV` 26 → 27；
+  `tools/dictation.html` 与 `study/维古登语默写卷（第七版）.docx` 由 `tools/build_dictation.py --all` 重新生成
+  （卷面 4367 题 + 答案 4367 条）
+
+**工具**
+
+- `tools/validate.py` 的语料分词字符集与《正字法规范》字母表（`WORD_CHARS`）对齐，补入钝音符 `à ò`——
+  此前 `lotgàlo` 被切成 `lotg`+`lo`，凭空多报约 200 个假阳性「未收录词形」
+- `tools/validate.py --corpus` 的结果：世界语残留 73 → 68 处；未收录词形 1378 → 1251 个
+
+**终验**
+
+- `python tools/validate.py`：错误 **0** ｜ 提示 **0**
+- `python tools/validate.py --corpus`：错误 **0** ｜ 提示 **2**（世界语残留 68 处 · 未收录词形 1251 个）
+- `node --check` 内嵌 JS：`tools/dictionary.html` 通过 ｜ 两份 HTML 结构校验（`<html>`/`<script>` 各 1 份、
+  RAW 4367 行、无坏行）通过
 
 ---
 
