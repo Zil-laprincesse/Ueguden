@@ -9,26 +9,22 @@
 
 - [ ] 清理语料中的世界语残留（`tools/validate.py --corpus` 报 68 处，集中在小说篇）
 - [ ] 语料层的前置介词改写：规范与教程已统一为后置词（`sovæt en`），小说与书信正文尚未逐句过
-- [ ] `tools/validate.py --corpus` 报 1251 个未收录词形（多为屈折形、专名音译与待收新词），逐个判定是否入典
+- [ ] `tools/validate.py --corpus` 报 1199 个未收录词形（多为屈折形、专名音译与待收新词），逐个判定是否入典
 
 ---
 
-## [语言 · 第七版补录] 2026-09-26 — 《告别信》译文 + 17 条新造词
+## [语言 · 第七版补录] 2026-09-26 — 新造词补录 17 条
 
 > **版次不变**：仍为**词典第七版**（`dict_rev = 7`）。
 > `tools/dictionary.html` 与 `tools/dictation.html` 里的 `DICT_REV` 是**缓存重建号**（与版次无关），26 → 27。
 
-**语料**
-
-- 新增 [`corpus/letters/farewell-letter.md`](corpus/letters/farewell-letter.md)：中文原信《告别信》的
-  维古登语（常规体）译文，正文按「维古登语行 → 中文原文行」交替排列，与 `novel/` 体例一致
-- 源文档 `告别信.docx` 归档至 `archive/docx/`，`tools/manifest.json` 已登记（第 26 条）
-- 译文依《词法规范》《句法规范》《高级语法》《体态表》《中文转译方案》写成：SOV 语序与动词居末、
-  六格后缀（宾语必标 `-gàlo`/`-gòle`）、形容词与名词同格一致、动词词缀链
-  （词根+体态+时态+语态+极性+人称+语气+情态，如 `donacderkŭlai`、`lernjiçeder`）、
-  复数「词干 + **-té** + 格后缀」（`afertégòle`）、后置词（`gradaçia post`）、
-  条件用独立连词 `se` ＋动词 `-se`（`Se ya tūnaise`）、复合体助词紧贴谓语（`dæ lernmisçeom`）、
-  祈愿 `ke`（`Ke lot yaon glemnai!`）；**无世界语残留**（无 `la`/`kaj`/`ĉu`/`ĉar`/独立助动词）
+> **2026-09-30 补记：应用实例《告别信》已撤下。**
+> 本轮原本连同应用实例《告别信》（`corpus/letters/farewell-letter.md` + 源文档 `archive/docx/告别信.docx`）
+> 一起提交；应作者要求，该实例已从仓库移除——两处文件 `git rm`，`tools/manifest.json` 登记与
+> `corpus/README.md` 目录表同步删行，`dictionary/README.md` 的来源表述改为「通用新造词」。
+> 当时为它补录的 17 条词属通用词汇（头发、骨头、俄语、玉桂狗…），予以保留，词典仍为 **4367** 条。
+> 语料扫描随之变化：未收录词形 1251 → **1199** 个（撤下的译文贡献了其中 52 个）。
+> ⚠️ 本次只删最新版本，**提交历史里仍留有该实例的完整内容**。
 
 **词典（第七版补录，DICT_REV 不变）**
 
@@ -73,12 +69,13 @@
 
 - `tools/validate.py` 的语料分词字符集与《正字法规范》字母表（`WORD_CHARS`）对齐，补入钝音符 `à ò`——
   此前 `lotgàlo` 被切成 `lotg`+`lo`，凭空多报约 200 个假阳性「未收录词形」
-- `tools/validate.py --corpus` 的结果：世界语残留 73 → 68 处；未收录词形 1378 → 1251 个
+- `tools/validate.py --corpus` 的结果：世界语残留 73 → 68 处；未收录词形 1378 → 1199 个
+  （分词口径修正后为 1251，2026-09-30 撤下《告别信》译文再减 52）
 
 **终验**
 
 - `python tools/validate.py`：错误 **0** ｜ 提示 **0**
-- `python tools/validate.py --corpus`：错误 **0** ｜ 提示 **2**（世界语残留 68 处 · 未收录词形 1251 个）
+- `python tools/validate.py --corpus`：错误 **0** ｜ 提示 **2**（世界语残留 68 处 · 未收录词形 1199 个）
 - `node --check` 内嵌 JS：`tools/dictionary.html` 通过 ｜ 两份 HTML 结构校验（`<html>`/`<script>` 各 1 份、
   RAW 4367 行、无坏行）通过
 

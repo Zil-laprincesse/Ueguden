@@ -11,7 +11,6 @@
 | 诗歌 `poems/` | [`dithyramb.md`](poems/dithyramb.md) | 酒神颂（**诗歌体**创作） |
 | 书信 `letters/` | [`letter-to-the-beloved.md`](letters/letter-to-the-beloved.md) | 《致爱的信》（**常规体**） |
 | 书信 `letters/` | [`written-in-a-letter.md`](letters/written-in-a-letter.md) | 《在信里写给你》（**常规体**） |
-| 书信 `letters/` | [`farewell-letter.md`](letters/farewell-letter.md) | 《告别信》（**常规体** · 中文原文对照） |
 | 小说 `novel/` | [`threshold-endless-night-vol2.md`](novel/threshold-endless-night-vol2.md) | 《阈界·永夜之狂澜》第二卷（**双语对照**） |
 
 ## 体裁与规范
