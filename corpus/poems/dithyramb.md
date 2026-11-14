@@ -1,7 +1,7 @@
 ---
 title: 酒神颂 — 诗歌体应用实例
 source: 酒神颂 - 诗歌体应用实例.docx
-converted: 2026-09-12
+converted: 2026-11-08
 ---
 
 # 第 1 行

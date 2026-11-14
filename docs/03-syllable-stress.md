@@ -1,7 +1,7 @@
 ---
 title: 音节结构与重音规则
 source: 音节结构与重音规则.docx
-converted: 2026-09-12
+converted: 2026-11-08
 ---
 
 # Ueguden语言：音节结构与重音规则

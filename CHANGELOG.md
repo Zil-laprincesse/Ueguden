@@ -13,6 +13,56 @@
 
 ---
 
+## [语言 · 第九轮] 2026-11-08 — A/B/C/D 四项落地
+
+> **版次不变**：词典第七版（`dict_rev = 7`），词条 **4366** 条；共改 21 个词形、11 条音标，并全表重排重编号。
+
+- **A（j/ĝ 读 /j/）**：14 词改词形 `j→y`（yaro、yoka、yokosa、yudiker、kayo、kray、loĝeyo、shayn、shayne、sinyoro、voyaĝo、voyo、voyodufur、gayn）；
+  gojli、malgojen 保留词形，音标按 /d͡ʒ/ 修正。
+- **B（c 读 /s/）**：6 词改用 `ç`：funçiar、mockproçesó、negoçiosa、oçiosa、preçisa、vivaçi。
+- **C（笔误）**：nklmdo→nkimdo；shlor、daphabela、daphitá、disendo、ariva、besoinom、dziekiol、filosofii、projekciilo 的音标修正。
+- **D（送气口径）**：确认「与位置无关」；02 号 §7 补一句成文说明，第八轮 138 条送气修订维持。
+- 词库按 normKey 重排并重编号；A–Z 分部计数/区间重算；docs 与 corpus 引用同步（旧词形 0 残留）。
+- 影响：词典三格式、dictionary.html（`DICT_REV` 29→30）、dictation.html、docs/02/08/12/13/14/15、corpus、汉维词典。
+- `tools/validate.py` → 错误 0 ｜ 提示 0。
+
+---
+
+## [语言 · 第八轮] 2026-11-01 — 拼写与音标勘误（138 条）
+
+> **版次不变**：仍为**词典第七版**（`dict_rev = 7`），词条 **4366** 条不变；只改音标，不改词形与义项。
+
+- 按《正字法规范》§1 与音系规则修正 138 条音标：
+  `k/t` 漏标送气 103 条、`c/p` 误标送气 5 条、ASCII `g`→`ɡ` 15 条、`n`+软腭未同化 9 条、重读音节 `ə`→`e` 2 条。
+- 影响：`archive/docx/词典第七版.docx`、`dictionary/ueguden_dict.{json,csv,md}`、
+  `tools/dictionary.html`（`DICT_REV` 28 → 29）、`tools/dictation.html`、
+  `汉维词典（按中文检索）.docx`（重建）。
+- 另有 23 个词的「拼写 ↔ 音标」冲突（17 个 `j/ĝ` 读 /j/、6 个 `c` 读 /s/）与 10 处独立笔误，
+  已在 errata 第八轮 §28 列明，等作者确认后单独一轮处理。
+- `tools/validate.py` → **错误 0 ｜ 提示 0**。
+
+---
+
+## [语言 · 第七轮] 2026-10-25 — 标准修订（删 1 词 + 统一 3 条规则）
+
+> **版次不变**：仍为**词典第七版**（`dict_rev = 7`）；词条数 **4367 → 4366**。
+> `tools/dictionary.html` / `tools/dictation.html` 的缓存重建号 `DICT_REV` 27 → 28。
+
+- **删除词条 `tamen`（副词·然而）**：与 [`docs/15-rewrite-spec-v2.md`](docs/15-rewrite-spec-v2.md) 的禁用清单冲突，
+  按作者裁定删词。`sertamen`（比赛）不受影响；全表按词形位置重新编号 1–4366。
+  影响：`archive/docx/词典第七版.docx`、`dictionary/ueguden_dict.{json,csv,md}`、
+  `README.md`、`dictionary/README.md`、`CONTRIBUTING.md`、`index.html`、`CITATION.cff`、
+  `study/README.md`、`tools/dictionary.html`、`tools/dictation.html`、`study/维古登语默写卷（第七版）.docx`。
+- **比较基准统一为 `ol`**：`pli + 形容词 + ol`（原 `pli … ke` 作废）。
+  依据：词典 `ol` =「比（比较）」+ 语料 13 处 `pli … ol`。影响 `docs/08`、`docs/13`。
+- **借词动词变位保留不定式尾 `-ar/-ir/-er`**：`kantar + -çe → kantarçe`、`dormir + -ge → dormirge`；
+  派生造词才用去尾词干（`kant- + -er`）。原「变位时脱落」作废。影响 `docs/04`、`docs/13`。
+- **`-dai` 定为强调助词**：位于**体态之后、时态之前**，不占极性槽（极性只留零形式 / `-nai`）。
+  影响 `docs/00/04/06/11/12/13`。
+  `tools/docx2md.py` 全域重新生成，`tools/validate.py` → **错误 0 ｜ 提示 0**。
+
+---
+
 ## [语言 · 第七版补录] 2026-09-26 — 新造词补录 17 条
 
 > **版次不变**：仍为**词典第七版**（`dict_rev = 7`）。
@@ -218,7 +268,7 @@
 
 ## [语言 · 第五轮] 2026-09-05 — 全量勘误
 
-见 [`docs/14-errata.md`](docs/14-errata.md)。要点：
+要点如下：
 
 - 清除旧拼写：`khav → hav/havi`、`skribar → kribar`、`stranga → tranga`、`fenestr → fenester`、`ŝuo → shuo`
 - `ʌ` 字母废弃，统一写作 `ŭ`（音值仍为 `/ʌ/`）

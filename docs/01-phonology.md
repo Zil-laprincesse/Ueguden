@@ -1,7 +1,7 @@
 ---
 title: 核心音素与字母系统
 source: 核心音素与字母系统.docx
-converted: 2026-09-12
+converted: 2026-11-08
 ---
 
 # Ueguden语言核心音素与字母系统详解

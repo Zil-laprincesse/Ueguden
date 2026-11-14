@@ -1,7 +1,7 @@
 ---
 title: 《国际歌》— 维古登语（诗歌体）应用实例
 source: 《国际歌》- 维古登语（诗歌体）应用实例.docx
-converted: 2026-09-12
+converted: 2026-11-08
 ---
 
 # Internaciona

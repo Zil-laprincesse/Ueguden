@@ -1,8 +1,7 @@
 ---
 title: 《在信里写给你》— 维古登语（常规体）应用实例
 source: 《在信里写给你》- 维古登语（常规体）应用实例.docx
-converted: 2026-09-12
-author: Zil_laprincesse
+converted: 2026-11-08
 ---
 
 # Loton ya mlnk

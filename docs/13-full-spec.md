@@ -1,7 +1,7 @@
 ---
 title: 维古登语语言规范总纲
 source: 维古登语规范总纲.docx
-converted: 2026-09-19
+converted: 2026-11-08
 ---
 
 # 维古登语语言规范总纲
@@ -185,7 +185,7 @@ sh /ʃ/ shch /ʃːʲ/ oe /oə/
 
 语态词缀：主动语态-ona(一般为零形式) 被动语态-rw 中动语态-de 反身语态-mŭ
 
-极性词缀：-dai 肯定 -nai 否定
+极性词缀：-nai 否定（肯定为零形式）；-dai 为强调助词，位在体态后、时态前，不属极性槽
 
 ### ·人称词缀（常体）：
 
@@ -1060,7 +1060,7 @@ grandanimó（宽宏大量，granda + animó）→ /ɡran.ˈda.ni.moː/（倒数
 
 ## 第三章 动词
 
-3.0 动词词形 词典以两种形式收录动词：原生动词收词根形（daph 读、lim 吃、est 是）；借词收不定式形（kantar 唱歌、dormir 睡觉、lerner 学习），不定式尾 -ar / -ir / -er 在变位时脱落（kantar → kant- + 词缀）。不定式是动词的非限定形式之一，可作补足语（如 Ya fíexgàlo kantar. 我唱歌）。
+3.0 动词词形 词典以两种形式收录动词：原生动词收词根形（daph 读、lim 吃、est 是）；借词收不定式形（kantar 唱歌、dormir 睡觉、lerner 学习）。变位时不定式尾 -ar / -ir / -er **保留**，词缀直接黏着其后（kantar + -çe → kantarçe；dormir + -ge → dormirge）；派生造词时用去尾词干（kantar → kant- + -er → kantarer）。不定式是动词的非限定形式之一，可作补足语（如 Ya fíexgàlo kantar. 我唱歌）。
 
 ### 3.1 动词词缀公式
 
@@ -1133,7 +1133,7 @@ grandanimó（宽宏大量，granda + animó）→ /ɡran.ˈda.ni.moː/（倒数
 | 极性 | 词缀 | 发音 | 用法 |
 | --- | --- | --- | --- |
 | 肯定 | （零形式） | — | 日常陈述，不加标记 |
-| 肯定强调 | -dai | /daɪ/ | 仅在需要强调“确实、的确”时使用 |
+| 强调（非极性） | -dai | /daɪ/ | 仅在强调“确实、的确”时使用；位置固定在体态之后、时态之前（如 daphdaige） |
 | 否定 | -nai | /naɪ/ | 表否定（“不”“没”“未”） |
 
 ### 3.6 人称（常体）
@@ -1534,7 +1534,7 @@ NOM ACC 动作助词 V 例：Ya poemagàlo dæs daphtutçeom.（我读完了那�
 
 | 极性 | 词缀 | 发音 | 汉语对应 | 用法 |
 | --- | --- | --- | --- | --- |
-| 肯定（强调） | -dai | /daɪ/ | “确实”“的确” | 仅在强调时使用 |
+| 强调（非极性） | -dai | /daɪ/ | “确实”“的确” | 仅在强调时使用；位于体态后、时态前 |
 | 否定 | -nai | /naɪ/ | “不” / “没” / “未” | 日常否定 |
 
 注意：肯定陈述时，极性词缀使用零形式，不加-dai。
@@ -1818,7 +1818,7 @@ Tokinma belat sovæt estge.（那个美丽的人在房子里。）——belat与
 
 Ya poemagàlo daphge.（我读诗。）
 
-例外：如需强调“确实、的确”，可在极性位置加-dai。
+例外：如需强调“确实、的确”，在体态之后、时态之前插入强调助词 -dai（不属于极性槽，极性仍为零形式/-nai）：daphdaige（确实在读）。
 
 Ya poemagàlo daphdaige.（我的确读诗。）
 
@@ -2343,11 +2343,11 @@ est 表"是/存在"（零时态常见）；kra 表判断强调（"正是"）：T
 
 #### 5.3 比较与程度【规范建议】
 
-比较级：pli（更）＋ 形容词 ＋ ke（比）：Lot pli hára ke ya.（你比我高。）。
+比较级：pli（更）＋ 形容词 ＋ ol（比）：Lot pli hára ol ya.（你比我高。）；劣级用 malpli（较少/更不）。ol 是比较基准连词（词典义「比」），不得用 ke。
 
 最高级：pleymulta（最）＋ 形容词，或 tre ＋ 形容词（很）：Toki makont pleymulta hára est.（这座山最高。）。
 
-◆ 程度副词 tre（很）与比较连词 ke 不同：tre 修饰形容词本身，ke 引出比较基准。
+◆ 程度副词 tre（很）修饰形容词本身；比较基准一律由 ol 引出，ke 只引导从句、不作比较标记。
 
 #### 5.4 反事实与虚拟【规范建议】
 
@@ -2598,7 +2598,7 @@ r 颤音强调：重读动词词根音节 r 可延长为双颤音 rr，增强气
 | 施动者名词带宾语 | 用属格或宾格表达动作对象 | kantarer fíexló |
 | 间接引语 | tŭ/zai ＋ ke 引导 | Ya tŭ ke lot venge. |
 | 间接疑问 | ke ＋ 动词条件语气 -se | Ya demand ke lot venirse. |
-| 比较级 | pli ＋ 形容词 ＋ ke | Lot pli hára ke ya. |
+| 比较级 | pli ＋ 形容词 ＋ ol | Lot pli hára ol ya. |
 | 最高级 | pleymulta ＋ 形容词 | Toki makont pleymulta hára est. |
 | 反事实 | 条件 -se ＋ 虚拟 -re | Lot venirse, ya féla estomre. |
 | 从句主语省略 | 承前可省略，人称词缀保留 | Kiam venge, lot vidgeom. |

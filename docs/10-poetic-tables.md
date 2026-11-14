@@ -1,7 +1,7 @@
 ---
 title: 诗歌体（古 Ueguden）变格变位表
 source: 诗歌体（古Ueguden）变格变位表.docx
-converted: 2026-09-12
+converted: 2026-11-08
 ---
 
 # 诗歌体（古 Ueguden）变格变位表

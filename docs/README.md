@@ -1,6 +1,6 @@
 # 文档总览 · docs/
 
-本目录收录维古登语的全部规范、教程与勘误，共 **16 份 Markdown**。
+本目录收录维古登语的全部规范与教程，共 **15 份 Markdown**。
 所有文件由 `tools/docx2md.py` 自 `archive/docx/` 中的原始 Word 文档自动转换，
 每份文件的 YAML front matter 里记录了它来自哪一份源文档。
 
@@ -47,7 +47,6 @@
 | 文档 | 内容 |
 | --- | --- |
 | [13-full-spec.md](13-full-spec.md) | **规范总纲**：把上述规范合成一份完整手册（含 109 张表） |
-| [14-errata.md](14-errata.md) | 勘误记录（最近一轮：2026-09-05，第五轮全量回改） |
 | [15-rewrite-spec-v2.md](15-rewrite-spec-v2.md) | 小说重写规范 v2.0：清除世界语残留、恢复严格 SOV |
 
 ---
@@ -70,7 +69,6 @@
 | `11-translation-scheme.md` | 中文转译方案.docx | 24 表 |
 | `12-tutorial.md` | 维古登语自学教程.docx | 37 表 |
 | `13-full-spec.md` | 维古登语规范总纲.docx | 109 表 |
-| `14-errata.md` | 勘误记录 20260905.md | — |
 | `15-rewrite-spec-v2.md` | 重写规范 v2.md | — |
 
 ## 文档间的优先级

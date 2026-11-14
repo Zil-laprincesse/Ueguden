@@ -86,8 +86,8 @@ note: 第五轮勘误：拼写、音标、词形一致性回改记录
 | 音标越界符号 | 11 | à/ò/ë/q/K/ɾ/θ → 标准符号：làngen /ˈlæŋ.ɡən/、açoënabela /asoənaˈbəla/、quasen /kuˈasən/、Kristnaskarbo /kʰʁistʰna…/、tristen /ˈtʰris…/、amdisíng /am.diˈsiːŋ/ |
 | 缺重音符 | 6 | departemento、lumiéremen、shuo（原 ŝuo）、sekv（并去掉多余音节点） |
 | 尖音符≠长音 | 14 | haúto→hauto、laúso→lauso、váynto→vaynto；merkurdién→merkurdien 等四个曜日名（高级语法同步） |
-| 字母表外拼写 ŝ | 13 | 词首 ŝ→sh：kash、kush、pash、posho、push、shajn、shajne、shati、shuo、tush、versh（**世界语词源里的 ŝ 保留未动**，如「借世界语 kaŝi」「"ŝanĝi"」） |
-| 原生词重音例外 | 6 | liræn /ˈli.ʁæn/、nklmdo /nəkʰˈim.do/、noheøn /ˈno.høːn/（两部各 3 条） |
+| 字母表外拼写 ŝ | 13 | 词首 ŝ→sh：kash、kush、pash、posho、push、shayn、shayne、shati、shuo、tush、versh（**世界语词源里的 ŝ 保留未动**，如「借世界语 kaŝi」「"ŝanĝi"」） |
+| 原生词重音例外 | 6 | liræn /ˈli.ʁæn/、nkimdo /nəkʰˈim.do/、noheøn /ˈno.høːn/（两部各 3 条） |
 
 ## 七、规范补条（4 条）
 
@@ -181,7 +181,7 @@ note: 第五轮勘误：拼写、音标、词形一致性回改记录
 
 ## 十六、仍留待下一批
 
-1. **nklmdo**（敌人）：词尾合规、重音已修正，但词首 `nk`（鼻音+塞音）不在《音节结构与重音规则》1.2.1 允许的辅音丛表内。
+1. **nkimdo**（敌人）：词尾合规、重音已修正，但词首 `nk`（鼻音+塞音）不在《音节结构与重音规则》1.2.1 允许的辅音丛表内。
 2. **应用文本的词汇层**：小说与示例稿的世界语残留（pseŭdonimo、filozofia、subjektiva konscio 等）尚未逐句过。
 3. **旧词典归档**：词典.docx / 第二版 / 第三版 / 第四版 仍是历史快照，故意未动。
 
@@ -278,7 +278,7 @@ note: 第五轮勘误：拼写、音标、词形一致性回改记录
 | -oj / -ojn | -témé / -tégòle | homoj → tokinmé |
 | -aj / -ajn | -t / -m（形容词不标数） | Kelkaj → kelkat |
 | -eco | -es（抽象名词，词法 7.1 已有） | rapideco → rapidli |
-| -ejo | **-lok**（新增场所后缀） | loĝejo → loĝlok |
+| -ejo | **-lok**（新增场所后缀） | loĝeyo → loĝlok |
 | -aro | -té（集合） | ŝafaro → shafaté |
 | -ilo | **-il**（新增工具后缀） | fotilo → fotil |
 | -ado | -ion（动作名词，词法 7.1 已有） | lernado → lernion |
@@ -311,3 +311,153 @@ note: 第五轮勘误：拼写、音标、词形一致性回改记录
 2. **实词层长尾**：约 90 个世界语来源实词仍在正文（prezidanto 主席、respondeko 责任、lingovo 语言、konsosio 意识……），其中多数本轮已改标为拉丁/法语来源，词形本身是罗曼式的；若要连词形一起换，可再排一轮。
 3. **小说与书信的句法层**：前置介词（`en nokt`）等第四轮遗留项仍未逐句过。
 4. **旧词典归档**：词典.docx / 第二～四版仍是历史快照，故意未动。
+
+---
+
+> 第六轮（2026-09-19）的逐条记录见 [`../CHANGELOG.md`](../CHANGELOG.md)，本节起接续。
+
+# 第七轮（2026-10-25 · 标准修订）
+
+> 基准：先生 2026-10-25 裁定「比较基准用 ol、借词动词变位保留不定式尾、-dai 为强调助词」。
+> 范围：只改规范源 .docx 中列明的句子与表格单元（00/04/06/08/11/12/13），docs 重建由 lead 统一执行；corpus/ 未动，dictionary/ 只按第 ① 条删 tamen。
+
+1. **删除 tamen 词条（4367 → 4366）**
+   - 旧：《词典第七版》收「tamen 然而」条，词库 **4367** 条。
+   - 新：删去该条，词库 **4366** 条。理由与 15 号《重写规范 v2.0》一致：tamen 属世界语残留功能词，§八「连词与功能词」规定 **tamen → sed / abo**，§十四 禁止清单亦明列，规范体系不再收此词。
+   - 影响文件：`词典第七版.docx`；`dictionary/ueguden_dict.csv`、`.json`、`.md`；`tools/dictionary.html`、`tools/dictation.html`（内嵌词库与题量）；`README.md`、`CONTRIBUTING.md`、`dictionary/README.md` 的词条数声明。
+2. **比较基准统一为 ol（08 / 13 原「pli … ke」作废）**
+   - 旧（08/13）：「比较级：pli（更）＋ 形容词 ＋ ke（比）：Lot pli hára ke ya.（你比我高。）。」；「◆ 程度副词 tre（很）与比较连词 ke 不同：tre 修饰形容词本身，ke 引出比较基准。」；附录 B 表行「| 比较级 | pli ＋ 形容词 ＋ ke | Lot pli hára ke ya. |」。
+   - 新：「比较级：pli（更）＋ 形容词 ＋ ol（比）：Lot pli hára ol ya.（你比我高。）；劣级用 malpli（较少/更不）。ol 是比较基准连词（词典义「比」），不得用 ke。」；tre 条改为「◆ 程度副词 tre（很）修饰形容词本身；比较基准一律由 ol 引出，ke 只引导从句、不作比较标记。」；表行构成格与例句格的 ke 一并改为 ol。
+   - 影响文件：`维古登语高级语法.docx`（→ 08）、`维古登语规范总纲.docx`（→ 13：正文两段 + 附录 B 表行）。
+3. **借词动词变位保留不定式尾 -ar / -ir / -er（04 / 13 §3.0 原「脱落」作废）**
+   - 旧（04/13 §3.0）：「……借词收不定式形（kantar 唱歌、dormir 睡觉、lerner 学习），不定式尾 -ar / -ir / -er 在变位时脱落（kantar → kant- + 词缀）。……」
+   - 新：「……借词收不定式形（kantar 唱歌、dormir 睡觉、lerner 学习）。变位时不定式尾 -ar / -ir / -er **保留**，词缀直接黏着其后（kantar + -çe → kantarçe；dormir + -ge → dormirge）；派生造词时用去尾词干（kantar → kant- + -er → kantarer）。……」
+   - 影响文件：`词法规范.docx`（→ 04）、`维古登语规范总纲.docx`（→ 13）。
+4. **-dai 定为强调助词，位在「体态之后、时态之前」，不属极性槽（04/06/11/12/13 措辞统一）**
+   - 旧：04 §3.5、11 §4、12 §3.6 表行作「肯定强调 / 肯定（强调）」、用法仅「仅在强调时使用」；06 §3.1「**例外**：如需强调“确实、的确”，可在极性位置加-dai。」；框架「极性词缀：-dai 肯定 -nai 否定」。
+   - 新：表行统一为「强调（非极性）｜-dai」，用法补「位于体态之后、时态之前（如 daph-daige）」；06 例外句改为「**例外**：如需强调“确实、的确”，在**体态之后、时态之前**插入强调助词 -dai（不属于极性槽，极性仍为零形式/-nai）：daph-daige（确实在读）。」；框架改为「极性词缀：-nai 否定（肯定为零形式）；-dai 为强调助词，位在体态后、时态前，不属极性槽」。
+   - 影响文件：`词法规范.docx`（→ 04）、`句法规范.docx`（→ 06）、`中文转译方案.docx`（→ 11）、`维古登语自学教程.docx`（→ 12）、`框架.docx`（→ 00）、`维古登语规范总纲.docx`（→ 13 对应副本）。
+
+（本轮共改 7 份 docx、24 处段落 / 表格单元；每份均以 `tools/docx2md.py` 单文件转出临时 md 自证，与现有 `docs/` 比对仅目标行变化、旧句全部消失。全局重生成由 lead 统一执行。）
+
+---
+
+# 第八轮（2026-11-01 · 拼写与音标勘误）
+
+> 依据：《正字法规范》§1（送气由字母决定、与位置无关；ç /s/、c /k/、p /p/）、
+> 《核心音素与字母系统》与《音节结构与重音规则》（n + 软腭音 → /ŋ/）、
+> 《正字法规范》§1（IPA 用 `ɡ` U+0261）、《音节结构与重音规则》§2.3（重读音节不出现 /ə/）。
+> 范围：只改 `词典第七版.docx` 的音标单元，**不改词形、不改义项**；共 138 条。
+> 同步：`dictionary/*` 重新生成、`tools/dictionary.html` 内嵌词库逐行更新（`DICT_REV` 28 → 29）、
+> `tools/dictation.html` 由 `build_dictation.py --html` 重出、`汉维词典（按中文检索）.docx` 重建。
+
+## 二十七、已修项目（138 条）
+
+| 类 | 说明 | 条数 | 例 |
+|---|---|---:|---|
+| A1 | `k` 漏标送气 → `kʰ` | 56 | `akto` /ˈak.tʰo/ → /ˈakʰ.tʰo/ |
+| A2 | `t` 漏标送气 → `tʰ` | 39 | `agitar` /aˈɡi.taɹ/ → /aˈɡi.tʰaɹ/ |
+| A3 | 同一词内两者兼有 | 8 | `aktivali` → /akʰ.tʰiˈva.li/ |
+| B1 | `c` 误标成 `kʰ` → `k` | 3 | `oficolok` /oˈfi.kʰo.lokʰ/ → /oˈfi.ko.lokʰ/ |
+| B2 | `p` 误标成 `pʰ` → `p` | 2 | `pikar` /ˈpʰi.kʰaɹ/ → /ˈpi.kʰaɹ/ |
+| C | ASCII `g` → IPA `ɡ`（U+0261） | 15 | `apogar` /ˈa.po.gaɹ/ → /ˈa.po.ɡaɹ/ |
+| D | `n` 在 k/ɡ 前未同化 → `ŋ` | 9 | `danc` /dank/ → /daŋk/ |
+| E | 重读音节里的 `ə` → `e` | 2 | `eksito` /ˈəkʰ.si.tʰo/ → /ˈekʰ.si.tʰo/ |
+
+（H/I 类与上列重叠：含 g→ɡ 又含 t→tʰ 的 1 条、k 与 n 同时错的 1 条等，均已在 138 条内合并计数。）
+
+## 二十八、列举但未自动改动的项目（待裁定）
+
+### 28.1 词形与音标冲突：字母 j / ĝ 读作 /j/（17 个词）
+
+`gayn` `gojli` `yaro` `yoka` `yokosa` `yudiker` `kayo` `kray` `loĝeyo` `longestablíyji`
+`malgojen` `shayn` `shayne` `sinyoro` `voyaĝo` `voyo` `voyodufur`
+
+- 现状：正字法规定 `j` = /d͡ʒ/、`ĝ` = /d͡ʒ/，但这些词的音标按 /j/ 记录。
+- 两条修法二选一：① 改词形（`j`→`y`：yaro→yaro、voyo→voyo…），音标不变；② 改音标（/j/→/d͡ʒ/），词形不变。
+- 推荐 ①：音标所记读音（Esperanto 借词 /j/）应是本意，且这些词的重音/派生都按该读音构建。
+  但会牵动词形与 9 处文档/语料引用（`docs/08`、`docs/12`、`docs/13`、`docs/15`、`corpus/`），需单独一轮做。
+
+### 28.2 词形与音标冲突：字母 c 读作 /s/（6 个词）
+
+`funçiar` `mockproçesó` `negoçiosa` `oçiosa` `preçisa` `vivaçi`
+
+- 正字法：/s/ 应写 `ç`（如 `façila`）。建议词形改为 `funçiar` `mockproçesó` `negoçiosa` `oçiosa` `preçisa` `vivaçi`，音标不变。
+
+### 28.3 词形/音标的独立笔误（建议逐个确认）
+
+| 词 | 现状 | 问题 |
+|---|---|---|
+| `nkimdo` | /nəkʰˈim.do/ | 词首 `nkl` 不在允许首辅音丛表内（errata 第七轮已记） |
+| `shlor` | /ʃloɹ/ | 词首 `shl` 不在允许表（只允许 `ʃr`，且限借词） |
+| `daphabela` | /daphaˈbela/ | 词根 `daph` 读 /daf/，派生后却按 `p`+`h` 记；应为 /dafaˈbela/ |
+| `daphitá` | /daˈphitʰaː/ | 同上；应为 /dafaˈtʰaː/ 类 |
+| `disendo` | /disˈsen.do/ | 音标多一个 s（词形只有一个 s） |
+| `ariva` | /aɹˈʁi.va/ | 多一个 ɹ（词形只有一个 r） |
+| `besoinom` | /bəˈswa.nom/ | 多一个 w（词形无 w） |
+| `dziekiol` | /ziəˈkʰiol/ | 词形有 d，音标缺 d |
+| `filosofii` | /fi.lo.soˈfi.i/ | 词尾 `ii` 按双写元音应合并为 /iː/ |
+| `projekciilo` | /pro.d͡ʒək.kiˈi.lo/ | 同上，`ii` 应合并 |
+
+### 28.4 口径说明
+
+- 本轮把音节尾的 k/t 也统一标成送气（`kʰ`/`tʰ`），依据 02 §1「送气与否由字母决定，与位置无关」。
+  若作者本意是「音节尾不送气/不除阻」，则这 100 余条应改回，并在 02 号补一条成文规则。
+
+---
+
+# 第九轮（2026-11-08 · A/B/C/D 四项裁定落地）
+
+> 依据作者 2026-11-08 决定：上一轮列出的 A（17 词 j/ĝ 读 /j/）、B（6 词 c 读 /s/）、
+> C（10 处笔误）、D（音节尾送气口径）全部通过。本轮把四项决定落到词库、规范与语料引用。
+
+## 二十九、A 类：j / ĝ 读作 /j/
+
+处理分两种（按词源判定，不搞一刀切）：
+
+| 情形 | 处理 | 词 |
+|---|---|---|
+| 借词本读 /j/，拼写违反正字法（j = /d͡ʒ/） | **改词形 j→y**（14 词） | gajn→gayn、jaro→yaro、joka→yoka、jokosa→yokosa、judiker→yudiker、kajo→kayo、kraj→kray、loĝejo→loĝeyo、shajn→shayn、shajne→shayne、sinjoro→sinyoro、vojaĝo→voyaĝo、vojo→voyo、vojodufur→voyodufur |
+| 派生自 /d͡ʒ/ 词根，音标误写 /j/ | **改音标 /j/→/d͡ʒ/**（2 词） | gojli /ˈɡoj.li/→/ˈɡod͡ʒ.li/（← gojo）、malgojen /mal.ɡoˈjen/→/mal.ɡoˈd͡ʒen/（← malgojo） |
+
+## 三十、B 类：c 读作 /s/
+
+6 词按正字法改用 ç（音值不变）：
+
+funkciar→funçiar、mockprocesó→mockproçesó、negociosa→negoçiosa、ociosa→oçiosa、
+precisa→preçisa、vivaci→vivaçi。
+
+## 三十一、C 类：10 处笔误
+
+| 词 | 修订 | 说明 |
+|---|---|---|
+| nklmdo | → **nkimdo** | 原词首 `nkl` 为三辅音丛；改后 `nk` 按插入 /ə/ 规则读 /nəkʰˈim.do/，与音标一致 |
+| shlor | 音标 → /ʃəloɹ/ | `shl` 不在允许首丛表，按插入 /ə/ 规则补出 |
+| daphabela | 音标 → /dafaˈbela/ | `ph` = /f/（原按 p+h 记） |
+| daphitá | 音标 → /ˈdafitʰaː/ | 同上 |
+| disendo | 音标 → /diˈsen.do/ | 原 IPA 多一个 s |
+| ariva | 音标 → /aˈʁi.va/ | 原 IPA 多一个 ɹ |
+| besoinom | 音标 → /bə.so.iˈnom/ | 原 IPA 多一个 w |
+| dziekiol | 音标 → /dzjəˈkʰiol/ | 原 IPA 缺 d |
+| filosofii | 音标 → /fi.lo.soˈfiː/ | 词尾 `ii` 为双写长音 |
+| projekciilo | 音标 → /pro.d͡ʒəkˈkiː.lo/ | 同上 |
+
+## 三十二、D 类：送气口径确认
+
+作者确认「送气由字母决定、与位置无关」，第八轮对 138 条音标的送气修订**维持不变**，
+并在 [`02-orthography.md`](02-orthography.md) §7 补成文一句：
+「音节尾的 t、k 同样按字母标送气（/tʰ/、/kʰ/），不因位置改变。」
+
+## 三十三、连带改动
+
+1. **词库重排**：改名后按 normKey 重排全表并重编号 1–4366；A–Z 分部行的词数与区间全部重算
+   （如 J 22→18、Y 3→7、T 242→241）。
+2. **引用同步**：`docs/13/12/08`、`docs/14/15`、`corpus/` 中出现的旧词形一并更新（0 处残留）。
+3. **工具**：`dictionary.html` 内嵌词库逐行更新（`DICT_REV` 29 → 30）、`dictation.html` 重出、
+   `汉维词典（按中文检索）.docx` 重建。
+4. **历史快照**：`dictionary/archive/dict-v1…v6.md` 与归档 docx 保持原样，不追改。
+
+## 三十四、终验
+
+`tools/validate.py` → 词典 4366 条、`DICT_REV = 7`、**错误 0 ｜ 提示 0**；
+`--corpus` 世界语残留计数不变（属语料层，另轮处理）。

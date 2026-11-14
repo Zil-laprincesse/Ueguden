@@ -1,7 +1,7 @@
 ---
 title: 维古登语高级语法
 source: 维古登语高级语法.docx
-converted: 2026-09-19
+converted: 2026-11-08
 ---
 
 # 维古登语高级语法
@@ -196,11 +196,11 @@ converted: 2026-09-19
 
 #### 5.3 比较与程度【规范建议】
 
-比较级：**pli（更）＋ 形容词 ＋ ke（比）**：Lot pli hára ke ya.（你比我高。）。
+比较级：**pli（更）＋ 形容词 ＋ ol（比）**：Lot pli hára ol ya.（你比我高。）；劣级用 malpli（较少/更不）。ol 是比较基准连词（词典义「比」），不得用 ke。
 
 最高级：**pleymulta（最）＋ 形容词**，或 tre ＋ 形容词（很）：Toki makont pleymulta hára est.（这座山最高。）。
 
-◆ 程度副词 tre（很）与比较连词 ke 不同：tre 修饰形容词本身，ke 引出比较基准。
+◆ 程度副词 tre（很）修饰形容词本身；比较基准一律由 ol 引出，ke 只引导从句、不作比较标记。
 
 #### 5.4 反事实与虚拟【规范建议】
 
@@ -451,7 +451,7 @@ r 颤音强调：重读动词词根音节 r 可延长为双颤音 rr，增强气
 | 施动者名词带宾语 | 用属格或宾格表达动作对象 | kantarer fíexló |
 | 间接引语 | tŭ/zai ＋ ke 引导 | Ya tŭ ke lot venge. |
 | 间接疑问 | ke ＋ 动词条件语气 -se | Ya demand ke lot venirse. |
-| 比较级 | pli ＋ 形容词 ＋ ke | Lot pli hára ke ya. |
+| 比较级 | pli ＋ 形容词 ＋ ol | Lot pli hára ol ya. |
 | 最高级 | pleymulta ＋ 形容词 | Toki makont pleymulta hára est. |
 | 反事实 | 条件 -se ＋ 虚拟 -re | Lot venirse, ya féla estomre. |
 | 从句主语省略 | 承前可省略，人称词缀保留 | Kiam venge, lot vidgeom. |

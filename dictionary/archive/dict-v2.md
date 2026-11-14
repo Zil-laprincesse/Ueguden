@@ -1,7 +1,7 @@
 ---
 title: 维古登语词典（第二版）
 source: 词典第二版.docx
-converted: 2026-09-12
+converted: 2026-11-08
 ---
 
 # 第一组（A–B 开头及部分词缀）

@@ -1,8 +1,7 @@
 ---
 title: 《阈界·永夜之狂澜》第二卷 — 维古登语双语对照
 source: 《阈界·永夜之狂澜》第二卷 - 维古登语双语对照（文章式）.docx
-converted: 2026-09-12
-author: Zil_laprincesse
+converted: 2026-11-08
 ---
 
 # Limenmondo · Tærnokt-Furiozo
@@ -41,7 +40,7 @@ Guanfeng éno pli anteam lokogàlo trovçe æ sidçe — ibie mon homogàlo skæ
 
 “如果单纯地从政治方面的话，我想这个已经足够了，重点是时间，要从时间的角度分析的话，我恐怕我也拿不准。”美国人回答。
 
-«Tempus? Ya komprenpovnai, sinjoro. Yaph ne sempre senfinam futurogàlo havgekŭ?» — Novzelandano demandçe.
+«Tempus? Ya komprenpovnai, sinyoro. Yaph ne sempre senfinam futurogàlo havgekŭ?» — Novzelandano demandçe.
 
 “时间？我不能理解，先生，我们不是一直有取之不尽的未来吗？”新西兰人问。
 
@@ -201,7 +200,7 @@ Chenwei iter toki vian vençe.
 
 陈维又一次来到了这条街上。
 
-Toki via tre larĝa est; ofte ne multat autotémé pasge. Itpafæt duplage flavge linioæt, autotémé plenli starçe — tokinmé vaygàlo parklok nomirelai. Kár nuper stadionoæt konserto okazçe, toki vojo fermrwçe, do des pli næra tokin estçe.
+Toki via tre larĝa est; ofte ne multat autotémé pasge. Itpafæt duplage flavge linioæt, autotémé plenli starçe — tokinmé vaygàlo parklok nomirelai. Kár nuper stadionoæt konserto okazçe, toki voyo fermrwçe, do des pli næra tokin estçe.
 
 这条街很宽，平时没有多少车经过。中间的双黄线上停满了车，说是一条停车场也不为过。因为最近体育场开演唱会，这条道路被封控了，就更没有什么人了。
 
@@ -371,7 +370,7 @@ Zhouyiling de barnatempus iom aferogòle panón shatçe, poste elvagàlo monter.
 
 周逸灵她从小就喜欢写一些东西，然后拿给别人看。她认为她的思想经过笔与纸被编码成文字，是个有趣的过程。然后文字再由别人解码成情感，这个过程也很有趣。小灵她也比同龄人更稳重些，能耐下性子去写这些东西。在上学的时候，她的这些想法总是被人们视为年轻的“三分钟热度”，总是被别的同学以偏见偏颇地认为“写个两三页就不会再写了”，但她从未这样过。——也永远不会这样。
 
-gis toki dien, kiam elló primerontat sága publikrwçe, toki preĝudiko tute solvrwçe. «Ya lotló tiam vultogàlo ankorau memor.» Éno dien, Donghao dér toki afero demandçe; Zhouyiling tŭçe: «Tiam lot primerontli tŭçe ke romanogàlo panónçesai — poste lot panónçenai. Lotló mírat vultogàlo vidçe, shajne vay tŭçe: “Ne — lot serto tokali fargekŭ?”» Tokali tŭçe poste, el ridçe; Donghao timidli elgàlo kelkafoy frapçe: «Toka iam preter estçe — mençionnaita!»
+gis toki dien, kiam elló primerontat sága publikrwçe, toki preĝudiko tute solvrwçe. «Ya lotló tiam vultogàlo ankorau memor.» Éno dien, Donghao dér toki afero demandçe; Zhouyiling tŭçe: «Tiam lot primerontli tŭçe ke romanogàlo panónçesai — poste lot panónçenai. Lotló mírat vultogàlo vidçe, shayne vay tŭçe: “Ne — lot serto tokali fargekŭ?”» Tokali tŭçe poste, el ridçe; Donghao timidli elgàlo kelkafoy frapçe: «Toka iam preter estçe — mençionnaita!»
 
 直到她的第一部小说被出版的那天，这种偏见才被完全消解。“我还记得你当时的表情。”一天，冬灏问起这事儿，周逸灵说，“那时是你先说要写小说的，然后后来你不写了，看到你那惊讶的表情好像在说：不是，你来真的啊？”说了后她笑了笑，冬灏不好意思地捶了她几下：“呀呀，那都过去了，别提了啊。”
 
@@ -379,7 +378,7 @@ Xiaoling elló sinkló lokogàlo havçe; el toki lokogàlo «Édēn» númeriçe
 
 小灵她有一个自己心灵上的归所，她把那里叫作“伊甸园”。
 
-Donghao iam ankau elgàlo dér «Édēn» dæ demandtutçe. Zhouyilingló prikriboøt, ibie sempre matin estçe — ovaæit matin. Çéla tre hárat estçe, eĉ éno nubo estçenai. Luft iom nahatat estçe: grano, lŭå, verdat herbo, hárat birĉo. Oép mikrat æ kurvat herbokraunaæt tremçe æ brilçe, stelflamoló brilgàlo donçe. Apud herbtropa, lastajmé kelkajmé ferimé kikumé fyǽliló jupogàlo pendiphaçe, atendtaçe ke çola monphgàlo varmijiçe. Toki iomnahatat, çintat, shajne ovaæit rompibelat aeroæt — gála kolorplenat foliomé, gála oép æ spiderretoøt arĝentat váynrwçe herbo, gála someræt neniam estçe tre blavat rukei — omni tokali bela, grata, ornama æ gojiga estçe. Toki tre belge natura scenæt, éno malgrandat izba síraçe; izba tute slava nasioló litat stilogàlo havçe, sed komakaesgàlo perdiçenai, æ gradatim iom elegansesgàlo monterarçe.
+Donghao iam ankau elgàlo dér «Édēn» dæ demandtutçe. Zhouyilingló prikriboøt, ibie sempre matin estçe — ovaæit matin. Çéla tre hárat estçe, eĉ éno nubo estçenai. Luft iom nahatat estçe: grano, lŭå, verdat herbo, hárat birĉo. Oép mikrat æ kurvat herbokraunaæt tremçe æ brilçe, stelflamoló brilgàlo donçe. Apud herbtropa, lastajmé kelkajmé ferimé kikumé fyǽliló jupogàlo pendiphaçe, atendtaçe ke çola monphgàlo varmijiçe. Toki iomnahatat, çintat, shayne ovaæit rompibelat aeroæt — gála kolorplenat foliomé, gála oép æ spiderretoøt arĝentat váynrwçe herbo, gála someræt neniam estçe tre blavat rukei — omni tokali bela, grata, ornama æ gojiga estçe. Toki tre belge natura scenæt, éno malgrandat izba síraçe; izba tute slava nasioló litat stilogàlo havçe, sed komakaesgàlo perdiçenai, æ gradatim iom elegansesgàlo monterarçe.
 
 冬灏曾经也问过她有关“伊甸园”的事。据周逸灵描述，那里永远是个早晨，玻璃般的早晨。天空高高的，没有一丝云彩。空气有些许凉，禾木、灌木、青草、高大的白桦树。露珠在纤细的低着头的草梢上抖动着，闪烁着，发出星火般的光辉。草径旁最后几朵小野菊，耷拉着它们花瓣做的裙儿，等着阳光把它们晒暖。在这微冷的、纯净的、仿佛是玻璃般易碎一样的空气中，不论是五色缤纷的树叶，亦或是被露水和蜘蛛网染成了银色的草，或是夏天从来没有过的极蓝的小河，都是那样的美丽、漂亮，华丽，令人快活。在这些极美的自然景致中，坐落着一间小木屋，木屋上下都透着斯拉夫民族粗犷的风格，但又不失精致，一定程度上还透露着些许的文雅。
 
@@ -425,7 +424,7 @@ Per éno vido finogàlo vidçenailai — fortaso fino sóli tía pashon for, sed
 
 —25.12.12于雪夜
 
-Omni forjetta, tokin æ animalo diferenc havçenai. Shafotémé sóli blinde dusershépon sekvge, blinde dusershépon fidge, æ zorgçenai ĉefshépló vojo korekta estkŭ; monph sóli okultégòle fermge æ sekvge.
+Omni forjetta, tokin æ animalo diferenc havçenai. Shafotémé sóli blinde dusershépon sekvge, blinde dusershépon fidge, æ zorgçenai ĉefshépló voyo korekta estkŭ; monph sóli okultégòle fermge æ sekvge.
 
 抛去一切不谈，人和动物没有区别。羊群只是盲目地跟着头羊，盲目地相信头羊，而不管头羊领的路是否正确，它们只是闭上眼跟着.
 
@@ -437,7 +436,7 @@ Tokinténó kordomé de çola, ke vay brulçe, gis maltrankuiles kokuerçe; æ t
 
 人们的心被烈日烤得焦躁，而这些急躁的心全都汇聚在了这栋大楼前。他们其中有的是记者，是媒体，也有政客，和一些无所事事的居民。
 
-Toki grandge banieæt, origine konatat abzeiken — monda egli, de norda poluso vidrwçe, muroæt, ke vay falte æ danĝere suspendçe — iam longe forprenrwçe; anstatu vay abzeiken, ke tokinmé vaygàlo noskçenai, vençe. Æ nun tokinmé ibie kunvenge, plejparte kun toki loko relatiogàlo havçe. Sub çola, ke vay brulçe, omninó vizaĝoæt iom kolero estçe. Éno reprezentanto inter monph, kiel journalisto divestrwçe — ne hárat, kun nigrat mallarĝat pantalonomé, ke monph monló tvá krurogòle exakte kiel tvá limglarotémé shajniĝçe, kun piedomé, ke monph dismetçe, starçe. Super supra korpo, skoteinbluat mallonga maniko; omni korpoæt ne multa karno estçe. Toki reprezentanto tre memfida shajnçe, shajne mon omni homaroló kátjigàlo portse, vençe «pri krimen demand»; monló brustaló titulus, kiam mon tokon æ rén quasençe, trolavoçede.
+Toki grandge banieæt, origine konatat abzeiken — monda egli, de norda poluso vidrwçe, muroæt, ke vay falte æ danĝere suspendçe — iam longe forprenrwçe; anstatu vay abzeiken, ke tokinmé vaygàlo noskçenai, vençe. Æ nun tokinmé ibie kunvenge, plejparte kun toki loko relatiogàlo havçe. Sub çola, ke vay brulçe, omninó vizaĝoæt iom kolero estçe. Éno reprezentanto inter monph, kiel journalisto divestrwçe — ne hárat, kun nigrat mallarĝat pantalonomé, ke monph monló tvá krurogòle exakte kiel tvá limglarotémé shajniĝçe, kun piedomé, ke monph dismetçe, starçe. Super supra korpo, skoteinbluat mallonga maniko; omni korpoæt ne multa karno estçe. Toki reprezentanto tre memfida shajnçe, shayne mon omni homaroló kátjigàlo portse, vençe «pri krimen demand»; monló brustaló titulus, kiam mon tokon æ rén quasençe, trolavoçede.
 
 这栋大楼中，原本人们熟悉的、危悬于一面将倾之墙上，那个从北极俯视的地球平面图徽标，早已被拆除，取而代之的是一个人们不认识的徽标。而如今人们聚集于此，也多半是与这个地方有关。在骄阳的助长下，每个人的脸上似乎都带有几分怒意。他们其中的一个代表，穿着打扮像一个记者，他不高，黑色束脚裤，把两腿修得活像两根筷子，叉开支着身体。上身一件深蓝色短袖，浑身上下没有多少肉。这个代表神气十足，仿佛肩负着整个人类的使命，前来“兴师问罪”，他胸前挂着的名牌随着他的东奔西走晃动着。
 
@@ -457,11 +456,11 @@ Post momento shanti, ankorau éno gala en tokinmaso aperçe. Estçe antea galal�
 
 在片刻的寂静后，又有一个声音出现在了人群中。是先前那个声音的追随者：“反对回避！作出解释！”可以说，这一声呼喊彻底打消了人们心底的顾虑与不安，让他们彻底变成一个彻头彻尾的小孩子，让他们终于放心地跟随这一个“潮流”，一个刚出生的、不知方向的、没站稳的，稚嫩的“潮流”。于是便在人群中出现了第三声，和之前的声音一样。第四声第五声。人声鼎沸。他们很有默契地在同一时刻一起喊这几个字，没有领导者，在这一点他们倒称得上团结。
 
-Sono, ke homtémé ekstere fariçe, tre sukcesli Guanfengló orelotémé vençe. Post mitinko, mon grandam amasogàlo afertémé traktar havçe; kiam mon tokali okuperçe, ke sin dividi povçenai, subite monló oreloæt protestat kriomé, éno post elva, vençe; toka sonotémé, kiel grupotémé akrat alarmotémé, mongàlo de laboroæt statim eltirçe. «Kio toki sono ekstere?» Guanfeng singarde helpantogàlo demandçe. Monló helpanto, latere starçe, iom maltrankuile tŭçe: «Er… sinjoro… ekstere… tokinmé protestge.» Tokali tŭçe poste, helpanto lateren Guanfenggàlo vidçe, el monló vulto judiçiar provçe monló paroltémé æ aktustémé korekta estçekŭ.
+Sono, ke homtémé ekstere fariçe, tre sukcesli Guanfengló orelotémé vençe. Post mitinko, mon grandam amasogàlo afertémé traktar havçe; kiam mon tokali okuperçe, ke sin dividi povçenai, subite monló oreloæt protestat kriomé, éno post elva, vençe; toka sonotémé, kiel grupotémé akrat alarmotémé, mongàlo de laboroæt statim eltirçe. «Kio toki sono ekstere?» Guanfeng singarde helpantogàlo demandçe. Monló helpanto, latere starçe, iom maltrankuile tŭçe: «Er… sinyoro… ekstere… tokinmé protestge.» Tokali tŭçe poste, helpanto lateren Guanfenggàlo vidçe, el monló vulto judiçiar provçe monló paroltémé æ aktustémé korekta estçekŭ.
 
 人们在外面制造的动静很成功地传到关沨的耳朵里。会后，他有一大堆事务要去处理，正忙得分身乏术时，耳边突然传来了一声声此起彼伏的抗议声，那些声音像一阵阵刺耳的警笛声，一下子把他从工作中拖了出来。“外面是什么声音？”关沨警惕地问助手。他的助手站在一旁，有些许忐忑地说：“呃……先生，外面……有人在抗议。”说完后助手瞟了一眼关沨，试图从他的表情中判断他的言行是否正确。
 
-Guanfeng klarigogàlo audçe; en monló okultémé iom nekompreno brilçe. Mon starçede, tvá mantégòle labortabloæt apogçe, æ iter demandçe: «Monph — protestge? Kiogàlo protestge?» «Lotgàlo, sinjoro.» — helpanto respondçe.
+Guanfeng klarigogàlo audçe; en monló okultémé iom nekompreno brilçe. Mon starçede, tvá mantégòle labortabloæt apogçe, æ iter demandçe: «Monph — protestge? Kiogàlo protestge?» «Lotgàlo, sinyoro.» — helpanto respondçe.
 
 关沨听了解释，眼神中闪过了一丝不解。他站了起来，双手撑着办公桌，又问道：“他们，在抗议？抗议什么？”“抗议您，先生。”助手回答道。
 
@@ -481,11 +480,11 @@ Iter momento shanti. Guanfeng sempre tokali yaphnó diliĝensim helpantogàlo em
 
 又是一阵沉默。关沤这样总是让我们敬业的助手难堪。
 
-«Ya… ya scige. Dankon kár lotló respondo.» Post nekonata tempus, Guanfeng fine monon éno frazoøt respondçe. Mon senforte kapogàlo skuçe — shajne éno ætasló fino bedaurçe, shajne iom pri toki konsosiatioló futuro, ankorau infano en vindotémé, zorgçe, gála — pri SPICló sorto suspirçe æ senpovçe. Sed plej multli senpoves, sen metodus estçe. Mon monló ĉefam kovrilogàlo fermçe, æ tabloæt dokumentomé, granda æ malgranda, órdajçe.
+«Ya… ya scige. Dankon kár lotló respondo.» Post nekonata tempus, Guanfeng fine monon éno frazoøt respondçe. Mon senforte kapogàlo skuçe — shayne éno ætasló fino bedaurçe, shayne iom pri toki konsosiatioló futuro, ankorau infano en vindotémé, zorgçe, gála — pri SPICló sorto suspirçe æ senpovçe. Sed plej multli senpoves, sen metodus estçe. Mon monló ĉefam kovrilogàlo fermçe, æ tabloæt dokumentomé, granda æ malgranda, órdajçe.
 
 “我……我知道了，谢谢你的回复。”不知过了多久，关沨终于回了他一句话。他无可奈何地摇了摇头，像是在对一个时代结束而感到惋惜，又像是对这个仍在襁褓中的婴儿似的学会的未来感到些许担忧，亦或，是对SPIC命运的叹惜与无奈。但更多的是无可奈何，束手无策，他把手中的钢笔盖上，又整了整桌子上大大小小的文件。
 
-«Kiogàlo fari, prezidanto? Yaph elir æ defendevaikŭ?» — helpanto, plena de atendo, tŭçe; monló gala iom pli alta ol ofte estçe, shajne soldato, omni momentogàlo opon malamiko batal preta: «Ya loton materialotégòle provizgelai.» Super monló vizaĝo plena eksito estçe.
+«Kiogàlo fari, prezidanto? Yaph elir æ defendevaikŭ?» — helpanto, plena de atendo, tŭçe; monló gala iom pli alta ol ofte estçe, shayne soldato, omni momentogàlo opon malamiko batal preta: «Ya loton materialotégòle provizgelai.» Super monló vizaĝo plena eksito estçe.
 
 “怎么办，会长？需要出去辩解吗？”助手满怀期待地说，他的声音比以往高昂了些，仿佛随时准备与敌拼杀的士兵，“我可以为您提供资料。”他的脸上写满了兴奋。
 
@@ -529,7 +528,7 @@ Tvá fira okultéŭt éno aliam vidçe, iom ne kredçe kio elva komunikadoló fi
 
 “那您的身份与行动不就暴露了吗？”助手有点诧异，不过在两三秒后，他认同了这个眼下不是办法的办法。“对，坐出租车，我去叫一辆”。
 
-Post nelonge, toka tvá, tute kashçe æ en éno taks enandarçe. Statim post enandarion, shoforo toka tvá trangac rigardoøt grebefçe, shajne mon iam ífagàlo rekonçe. «Salút, pardonta… er… ya nenium aliam goalgàlo havge, sóli ya scivolge kial tvá tokali divestrwçe?» — shoforo Guanfenggàlo demandçe.
+Post nelonge, toka tvá, tute kashçe æ en éno taks enandarçe. Statim post enandarion, shoforo toka tvá trangac rigardoøt grebefçe, shayne mon iam ífagàlo rekonçe. «Salút, pardonta… er… ya nenium aliam goalgàlo havge, sóli ya scivolge kial tvá tokali divestrwçe?» — shoforo Guanfenggàlo demandçe.
 
 不久后，两人被捂得严严实实的，上了一辆出租车。刚上车，司机便用一种奇怪的眼神打量着二人，似乎是已经认出来了什么。“你好，请问你们……呃……没有别的意思，只是好奇您二位为什么这个打扮？”司机问关沨。
 
@@ -629,7 +628,7 @@ Página post página, Guanfeng sentçe ke toki sága serto spirita festeno, ke v
 
 “你认识的一个画家？”关沨起了兴趣，“你们在哪儿相见的啊？兴许我认识他。”
 
-Zhouyiling romanam kajerogàlo gantaçe; elló vido singarde malsupren vidçe, æ el malgrandam plektogàlo eló tempioæt múlaetçe. Tra elló okultémé, Guanfeng shajnçe iom emocio, ke el vaygàlo neniam ante havçe, vidi. «Mon…» el ĉesçe, ambau mantémé elló romanam kajerogàlo tençe, shajne en vay ífagàlo respond monon trov pençe: «…yaph tvá sóli fortuitli éno fojogàlo renkontçede; yaph revidelaikŭ, tokinmé scigenai.»
+Zhouyiling romanam kajerogàlo gantaçe; elló vido singarde malsupren vidçe, æ el malgrandam plektogàlo eló tempioæt múlaetçe. Tra elló okultémé, Guanfeng shajnçe iom emocio, ke el vaygàlo neniam ante havçe, vidi. «Mon…» el ĉesçe, ambau mantémé elló romanam kajerogàlo tençe, shayne en vay ífagàlo respond monon trov pençe: «…yaph tvá sóli fortuitli éno fojogàlo renkontçede; yaph revidelaikŭ, tokinmé scigenai.»
 
 周逸灵拿过小说本，眼神小心地向下瞟去，摆弄起鬓角的那根小辫，关沨透过她的眼睛，似乎看到了一丝她先前从未有过的情感。“他……”她顿了一下，两只手捧着她的小说本，似乎在努力从这里面找到些什么去回复他，“……我们俩只是碰巧见了一面，能不能再见还不一定呢。”
 
@@ -689,7 +688,7 @@ Vesperli, çola nuper sube horizonto subirçe; vayló origina lokoæt, çélaran
 
 傍晚，夕阳刚刚沉入地平线下，在它原本的位置，那天际，仍然发着太阳留下的橙黄色的光，像一团在寒冷中燃烧的火。人们喜欢把这团火叫作“余晖”，后面的天是深蓝的，远处的云像是块燃着的棉花，上头被那余晖浸染成黄色，下头的颜色是由那深蓝的天空掌控——亦为深蓝。于是漫天的云也都如这样的颜色拼凑起来了。站在桥头远眺，桥对面的高楼大厦，在深蓝的剪影中零零星星地亮了几盏灯，世界正在这深蓝中走向宁静。
 
-Toki grandat ponto trans rivero estçe, sed pontoæt ne multat automé estçe. Post kiam mon omni necesam afertégòle traktaçe, Guanfeng, ke Zhouyiling mongàlo konviçe, kun el toka ponton vençe. Vento pontoæt tre moderati estçe — shajne someram varmogàlo glatiji, shajne junaf knabinoló demandogàlo boatn volçe.
+Toki grandat ponto trans rivero estçe, sed pontoæt ne multat automé estçe. Post kiam mon omni necesam afertégòle traktaçe, Guanfeng, ke Zhouyiling mongàlo konviçe, kun el toka ponton vençe. Vento pontoæt tre moderati estçe — shayne someram varmogàlo glatiji, shayne junaf knabinoló demandogàlo boatn volçe.
 
 这是一座跨江大桥，但桥上的车不多。处理完所有必要的事务之后，关沨受到周逸灵的邀请，二人来到了这座桥上。桥上的风很轻和，似是要把夏天的炎热拂平，又像是要聆听一个青年女孩提出的问题。
 
@@ -755,11 +754,11 @@ El ankorau toka grandam kofergàlo — valizogàlo kun grandat pezo — elektçe
 
 她仍然选择了那个大箱子，很有分量的手提箱。把一切都收拾好后，她的手提箱变得格外沉重，比上次还沉。周逸灵挑选了一身比较凉快的穿搭。白色短袖，浅淡蓝色防晒衣，下身白色长裙，整身打扮十分干净利落，让人觉得清爽。
 
-Nuper tagmezo; Zhouyilingló trajno posttagmeza estçe, æ elló loĝejo sufiĉe proksima garon estçe, do el ankorau iom tempus havçe. El elir toka urbosogàlo eksoplorar plançe — el tokion ne longe ante vençe, æ exakte iom çairatémé pri vay bezonçe. De WSSló fondo, el kun SPIC tokion vençe; fremda lando númeriçenailai, sed tute fremda loko estçe.
+Nuper tagmezo; Zhouyilingló trajno posttagmeza estçe, æ elló loĝeyo sufiĉe proksima garon estçe, do el ankorau iom tempus havçe. El elir toka urbosogàlo eksoplorar plançe — el tokion ne longe ante vençe, æ exakte iom çairatémé pri vay bezonçe. De WSSló fondo, el kun SPIC tokion vençe; fremda lando númeriçenailai, sed tute fremda loko estçe.
 
 刚刚晌午，周逸灵的火车是下午的，她的住处也离火车站比较近，所以她还有一些时间。她打算出去探索一番这座城市——她来到这里不久，也正需要对这里有些许的了解才对。自从WSS成立以来，她就随着SPIC来到了这里，算不上异国，但也是十足的他乡了。
 
-Zhouyiling miroiræt vençe, iom eló frunthararogàlo órdajçe æ de loĝejoæt elirçe. Kiam de viaæt vençe, tagmeza çola someram vigoragàlo disvastigçe. Sub elló loĝejo komerca via estçe; diversitasit malgrandat magasinmé ambauen vialó lateratégòle premçe. Magasinmé malgranda estçe, sed klientotémé ankorau ne malmulta; ankau grandat magasinmé, pli kiel kelkat malgrandatéló kunfandiĝo, estçe. Kelkat riĉulomé tokion entrepreni vençe; kár monph pli riĉa ol malgrandaf magasinténó hératémé estçe, monph pli grandatégòle loktégòle luigçe, æ klientotémé pli multa ol malgrandat magasinméæt estçe, sed profitotémé, kontraue, ne multli diferencçe. Nun tagmezo estçe; homomé hejmoæt gála laborejoæt estçe; viaæt ne multat homomé estçe; multat malgrandat magasinmé provizore fermçede. Zhouyiling viaæt marshçe, ĉirkaurigardante; malplenes ĉirkau el inkongruam solitudagàlo elon donarçe. Kio goal tokion ven? Kiun viziti? Kiam reven? Kie andar? El nun nenium ideogàlo havçe; el sóli lau intuitio andarçe. El toka nudelmagasingàlo, ke el vaygàlo ofte visitçe, preterpasçe; momentogàlo vidçe æ fine enandar decidçe — kár matene el limçenai, æ kiam pakarion, tokali el prandiogàlo ankau sparçe.
+Zhouyiling miroiræt vençe, iom eló frunthararogàlo órdajçe æ de loĝejoæt elirçe. Kiam de viaæt vençe, tagmeza çola someram vigoragàlo disvastigçe. Sub elló loĝeyo komerca via estçe; diversitasit malgrandat magasinmé ambauen vialó lateratégòle premçe. Magasinmé malgranda estçe, sed klientotémé ankorau ne malmulta; ankau grandat magasinmé, pli kiel kelkat malgrandatéló kunfandiĝo, estçe. Kelkat riĉulomé tokion entrepreni vençe; kár monph pli riĉa ol malgrandaf magasinténó hératémé estçe, monph pli grandatégòle loktégòle luigçe, æ klientotémé pli multa ol malgrandat magasinméæt estçe, sed profitotémé, kontraue, ne multli diferencçe. Nun tagmezo estçe; homomé hejmoæt gála laborejoæt estçe; viaæt ne multat homomé estçe; multat malgrandat magasinmé provizore fermçede. Zhouyiling viaæt marshçe, ĉirkaurigardante; malplenes ĉirkau el inkongruam solitudagàlo elon donarçe. Kio goal tokion ven? Kiun viziti? Kiam reven? Kie andar? El nun nenium ideogàlo havçe; el sóli lau intuitio andarçe. El toka nudelmagasingàlo, ke el vaygàlo ofte visitçe, preterpasçe; momentogàlo vidçe æ fine enandar decidçe — kár matene el limçenai, æ kiam pakarion, tokali el prandiogàlo ankau sparçe.
 
 周逸灵来到镜前，稍稍整了一下自己的刘海，走出了住处。来到大街上，晌午的太阳正散发着夏天的活力。她的住处下就是一条商业街，各种小店挤占着街道的两侧，店很小，但去的人依旧不少；也有大商店，更像是几个小店的融合。一些有钱人来到这里创业，因为他们比那些小店老板有钱，所以他们租了更大的门面，去的人也比小店多，但收益反倒都差不到哪去。现在是晌午，人们或在家，或在工位，街上的人也不是很多，很多小店也暂时关了门。周逸灵走在街上，四处看着，周围的空旷给了她一种违和的孤独感。来到这里有什么目的？去见谁？何时回去？该向哪走？她现在完全没有主意，只是凭着直觉在走。她路过了那家她经常去的面馆，注视了片刻，还是决定走了进去，毕竟早上没吃饭，在收拾东西，这样正好把午饭也省了。
 
@@ -767,7 +766,7 @@ El iam regula toki magasinló kliento estçe — kvankam el sóli ante kelkat di
 
 她已经是这家店的常客——虽然还没来几天；老板认识她，因为她每回都点同一个套餐，所以这次，老板很默契地照旧做了一碗肉丝面，上面打了个鸡蛋，端到她面前。
 
-«Toki kelkat dientéméæt ya komercvojaĝogàlo andarte.» — kiam héra nudelotégòle alportçe, Zhouyiling, trankulic tonoøt, shajne fortuiti parolon, tŭçe.
+«Toki kelkat dientéméæt ya komercvojaĝogàlo andarte.» — kiam héra nudelotégòle alportçe, Zhouyiling, trankulic tonoøt, shayne fortuiti parolon, tŭçe.
 
 “我这几天将要出差了。” 周逸灵在老板把面端上来时，用平静的语气说，就像是随口的闲谈。
 
@@ -863,11 +862,11 @@ Fine, post kiam de trajnoæt elirçe, el iter toka teron pashçe; firmes sube pi
 
 终于下了火车，她又一次踏上了这片土地，脚下的坚实让她安心，眼前熟悉的景象：老旧的火车站台，白绿配色的墙壁，掉漆处露出下面灰色的水泥。斑驳的月台侧面，仔细看可以看出淡淡的几个红字：请勿翻越站台。几个小贩席地而坐，面前摊了块布，摆上几个小物件叫卖。火车站有几个乘务员在催促来不及透气的乘客上车。
 
-Zhouyiling iluziogàlo havçe, shajne el hejmvilaĝon revençe. Malproksimli, vento blovçe, kelkam harfadenotégòle okultégòleæt blovçe. El harotégòle forshovçe, profundli enspirçe, ridetçe: «Ho… serto bone.» — el mallaute tŭçe.
+Zhouyiling iluziogàlo havçe, shayne el hejmvilaĝon revençe. Malproksimli, vento blovçe, kelkam harfadenotégòle okultégòleæt blovçe. El harotégòle forshovçe, profundli enspirçe, ridetçe: «Ho… serto bone.» — el mallaute tŭçe.
 
 周逸灵有种回到自己老家的错觉。远处一阵风吹来，把几缕头发吹到眼前。她撩开头发，深吸了一口气，笑了一笑，“嘿……真好。” 她轻声说。
 
-Post kiam el gar elirçe, el busogàlo gantaçe; post omni vojo skuion, el fine vilaĝa enandarejoæt alvençe. Enandarejoæt gardçe, teramasoæt globetotégòle ludçe, infanomé statim kiam monph elgàlo ven vidçe, en vilaĝogàlo «novangàlo reporto» kurçe. Zhouyiling infantégòle, ke monph forirçe, vidçe æ ridetçenailai: «Ya atendçenai ke ibie ya ankau famer blirçe!»
+Post kiam el gar elirçe, el busogàlo gantaçe; post omni voyo skuion, el fine vilaĝa enandarejoæt alvençe. Enandarejoæt gardçe, teramasoæt globetotégòle ludçe, infanomé statim kiam monph elgàlo ven vidçe, en vilaĝogàlo «novangàlo reporto» kurçe. Zhouyiling infantégòle, ke monph forirçe, vidçe æ ridetçenailai: «Ya atendçenai ke ibie ya ankau famer blirçe!»
 
 出了火车站后，再坐公交，在颠簸了一路之后，她终于来到了村口。守在村口，趴土堆上玩弹珠的小孩，一见到她来，撒蹄子跑进村里 “报信儿” 去了。周逸灵看着小孩远去的身影，不禁笑了，“没想到我在这儿，也成名人了哇！”
 
@@ -875,7 +874,7 @@ El iter tokion vençe — Linglan Urbeto.
 
 她又来到了这里，铃兰小镇。
 
-Chennainai iam longe en korto atendçe; statim kiam el toka malgrandam figuragàlo, ke vay amasogàlo mlnktémé portçe, vidçe, el statim antenirçe æ pri Zhouyilingló sano zorgli demandçe, shajne pri eló propra infano: «Magrençe, magrençe; lotgàlo vidçe — maldikat brakotémé æ krurotémé. Kiam lot ekstere laborçe, ankau sanogàlo atentta; bone limta, bone trinkta; óta kiel lot laborogàlo eltenjelai? Venta, venta, enandarta, enandarta…»
+Chennainai iam longe en korto atendçe; statim kiam el toka malgrandam figuragàlo, ke vay amasogàlo mlnktémé portçe, vidçe, el statim antenirçe æ pri Zhouyilingló sano zorgli demandçe, shayne pri eló propra infano: «Magrençe, magrençe; lotgàlo vidçe — maldikat brakotémé æ krurotémé. Kiam lot ekstere laborçe, ankau sanogàlo atentta; bone limta, bone trinkta; óta kiel lot laborogàlo eltenjelai? Venta, venta, enandarta, enandarta…»
 
 陈奶奶早就在院子里迎接，一见到那托着一堆书的小身影，陈奶奶马上迎了上去，对周逸灵嘘寒问暖的，仿佛像自己的子女般。“瘦了瘦了，看着你，细胳膊细腿的，在外面工作也要注意身体啊，吃好喝好，不然怎么抗得起工作呀？来来，进屋进屋……”
 
@@ -883,7 +882,7 @@ El en eló zimergàlo enandarçe; meublomé interne ankorau tute sama kiel ante 
 
 她走进自己的那间屋子，里面的摆设还和之前一模一样。被子整齐地叠放在床脚上，窗子开着，风吹窗纱随着微风轻轻摇曳，书桌上还有她留下来的小说的废稿。“这间屋子我一直给你留着，就盼你哪天回来了，能够继续往下写。” 陈奶奶说。
 
-«Dankon, Chennainai!» Zhouyiling oboedientli dankçe. Elló mano mallaute supre skedotémé tabloæt glitçe; elló okultémé mallevçede, busholó angulus iom levçede, shajne el ífagàlo rememorçe. El toka autumnusn rememorçe — ofte sempre solitara, sed toki autumnus, kontraue kutimon, varma æ libera estçe.
+«Dankon, Chennainai!» Zhouyiling oboedientli dankçe. Elló mano mallaute supre skedotémé tabloæt glitçe; elló okultémé mallevçede, busholó angulus iom levçede, shayne el ífagàlo rememorçe. El toka autumnusn rememorçe — ofte sempre solitara, sed toki autumnus, kontraue kutimon, varma æ libera estçe.
 
 “谢谢陈奶奶！” 周逸灵乖巧地道了谢。她的手轻轻拂过桌上的废稿，眼眸垂了下去，嘴角微微翘起，像是回忆什么似的。她想起了那个秋天，往常素来凄凉的，那个秋天倒也不同于往常，热烈而奔放。
 
@@ -895,7 +894,7 @@ Post kiam el omnim afertégòle sarkinçe, iam preskau noktomezo; Chennainai, ek
 
 “好的，知道啦陈奶奶！” 周逸灵回应道。说着，她拉灭了灯，躺在床上，身是在这儿，心思早已飘向远方。
 
-«Serto iter tokion vençe — serto subite. yester ya ankorau kun maljuna Guan pontoæt parlarçe, hodie ya iam alvençe. Yalógàloó paroltémé ífagàlo falsim, ke vay mongàlo kolerjçe, havçekŭ, do mon yagàlo komercvojaĝi lasçe? Pseudogopusló afero shajnge plej grandam relatiogàlo kun ya havi, ne-kŭ? Wa, kár ya el est, el ya est. Finfine, ya mem vençesai. Pri kio maljuna Guan æ Guanfeng toka posttagmezogàlo parlarçe? Shajne ífa pri respondeko? Ífa pri persisto? Ne, ne exakte; ne pri mon pensta; toki afero kun mon nenium relatiogàlo havge; ya mem vençesai, Wa. Kiyalon tokion venjesai? Kio ibie est? Ya yaló intuicioøt tokion vençe; toki fidindakŭ? Se ya elgàlo renkonttenai, kio fari? Kie ya andarta? gála reven æ reporto? Pli bone ne reven; toki publika financa vojaĝo-kŭ? Ŭna iom malica sentgede… Se ya elgàlo renkontte, kio fari? Elgàlo subijkŭ? gála sekrete observar? Subji — ne vershajne; observar — toki eblge… El serto tokion vente, kár el elva ya; yaló énot intuitio æ elló sama estevai, estevai, Wa. Kiyalon senkonsiosli tokion vençe? çi ibie sempre ífa hejma odoro; sed ne gis grada, ke kiam el pensçe, yaló kapo plenge de toki loko-kŭ? Lito ibie bona; kvankam vay malmola lito, sed exakte tokali ya mola litoæt dorm kutimgenai. De pueritia ya toka malmola litoæt dormge; kár toki-kŭ? Ankau klikvúp ibie bona; ya serto klikvúpgàlo lim shatge; ya klikvúpamanto; morga matene ya klikvúpgàlo ibie aĉet andarte. Ho, ya ankau iom rén portjesai; plej bone ankau teknikagàlo rén port; sed teknikagàlo lerni ibie labori bezonge, ne-kŭ? Ya scigenai héra someram laboroservitiogàlo ricevgekŭ…»
+«Serto iter tokion vençe — serto subite. yester ya ankorau kun maljuna Guan pontoæt parlarçe, hodie ya iam alvençe. Yalógàloó paroltémé ífagàlo falsim, ke vay mongàlo kolerjçe, havçekŭ, do mon yagàlo komercvojaĝi lasçe? Pseudogopusló afero shajnge plej grandam relatiogàlo kun ya havi, ne-kŭ? Wa, kár ya el est, el ya est. Finfine, ya mem vençesai. Pri kio maljuna Guan æ Guanfeng toka posttagmezogàlo parlarçe? Shajne ífa pri respondeko? Ífa pri persisto? Ne, ne exakte; ne pri mon pensta; toki afero kun mon nenium relatiogàlo havge; ya mem vençesai, Wa. Kiyalon tokion venjesai? Kio ibie est? Ya yaló intuicioøt tokion vençe; toki fidindakŭ? Se ya elgàlo renkonttenai, kio fari? Kie ya andarta? gála reven æ reporto? Pli bone ne reven; toki publika financa voyaĝo-kŭ? Ŭna iom malica sentgede… Se ya elgàlo renkontte, kio fari? Elgàlo subijkŭ? gála sekrete observar? Subji — ne vershajne; observar — toki eblge… El serto tokion vente, kár el elva ya; yaló énot intuitio æ elló sama estevai, estevai, Wa. Kiyalon senkonsiosli tokion vençe? çi ibie sempre ífa hejma odoro; sed ne gis grada, ke kiam el pensçe, yaló kapo plenge de toki loko-kŭ? Lito ibie bona; kvankam vay malmola lito, sed exakte tokali ya mola litoæt dorm kutimgenai. De pueritia ya toka malmola litoæt dormge; kár toki-kŭ? Ankau klikvúp ibie bona; ya serto klikvúpgàlo lim shatge; ya klikvúpamanto; morga matene ya klikvúpgàlo ibie aĉet andarte. Ho, ya ankau iom rén portjesai; plej bone ankau teknikagàlo rén port; sed teknikagàlo lerni ibie labori bezonge, ne-kŭ? Ya scigenai héra someram laboroservitiogàlo ricevgekŭ…»
 
 “真的又来到这了啊，可真突然，昨天还与老关在桥上说事，今天就到地方了。是我的措辞有什么不对让他生气了所以让我出差？普赛多格普斯的事好像与我的关系最大吧，嗯，毕竟我就是她，她就是我。说到底还是我自己想来。那天下午老关和关沨聊了些什么？好像是什么责任？什么坚持？不，不对，不要想他了，这事与他就没关系，是我自己想来的，嗯。我为什么想来这里？这里有什么？我是凭自己的直觉来到了这里，这靠谱吗？如果没遇见她怎么办？我该去哪里？还是回去交差？还是不回去好，这算公费旅游吗？突然感觉有点邪恶……如果遇到她了怎么办？要把她制服？还是暗中观察？制服的话不太可能，观察倒是可以……她一定会来这儿的吧，毕竟是另一个我，我和她的第一直觉应该是一样的，理应一样，嗯。我为什么会下意识来到这里？这里总有一种老家的气息，但不至于一想脑子里全是这个地方吧？这里的床不错，虽然是硬板床，但也正好睡不习惯软床。从小就是睡这种硬板床，难道是因为这个？这儿的面包也不错，我就爱吃面包了，我是个面包爱好者，明天早上去买这的面包。哦，我还要带回去些，最好把技术也带回去，可学技术要在那儿工作吧，不知道老板收不收暑假工……”
 
@@ -903,7 +902,7 @@ Sekvam matenogàlo, Zhouyiling, kun tvá grandat nigrat subokulat rondotémé æ
 
 第二天清晨，周逸灵顶着两个大黑眼圈和一头乱蓬蓬的头发，从一个乱七八糟但又很快忘了的梦中醒了过来。
 
-El lau originala plano klikvúpgàlo aĉetçe æ obiter éno botelogàlo milko alportçe. Kár el kelkat monatotémé ne vençe, vojo ankau multli fremda blirçe; el gis boulanĝeri vojogàlo demandçe. urbetoló homomé, kontraue, tre bonam memorogàlo havçe; omni ankorau toka knabinogàlo rememorçe.
+El lau originala plano klikvúpgàlo aĉetçe æ obiter éno botelogàlo milko alportçe. Kár el kelkat monatotémé ne vençe, voyo ankau multli fremda blirçe; el gis boulanĝeri vojogàlo demandçe. urbetoló homomé, kontraue, tre bonam memorogàlo havçe; omni ankorau toka knabinogàlo rememorçe.
 
 她按原计划买了面包，顺道带回来了一瓶牛奶。几个月没来，路也陌生了许多，她一路问到面包店的。小镇的人记忆反而很好，都还记得这个姑娘。
 
@@ -987,15 +986,15 @@ Post lotló foriro, serto multat trangat afertémé okazçe; lot serto scigenai 
 
 你走后真是又发生了很多稀奇古怪的事情，你真的不知道有多少件事情，说是说不完的，信上也说不完，要是硬要说，得花上三天三夜哩！我把重要的事讲一讲吧，剩下的话到我们见面再讲不迟。
 
-Post lotló foriro, ĉirkau tria tago, ya tiam soli en toka pomarium, ke vay forlasrwçe, estçe; ho, lot memorge, ne-kŭ? Toka «sekreta bazo», ke lot vaygàlo tŭçe — ya ibie lau naturo penterçe; tiam nokt estçe, ĉirkau oka vesperli; ya nuper stratam scenogàlo penterçe, kiam subite homa figura elkurerçe; toka persono tre proksima yalon estçe, tokali ke ya elló korpusgàlo æ vizaĝogàlo ekifli vidçe — dirigenailai samli, sed toka persono serto elva mondoló toka lot estçe! Sed el brilotégòle portçenai; fortunli ya lotló vultogàlo sen brilotémé kune, do ya toka personogàlo rekonçe. Starte ya pensçe ke ya erarçe, sed el serto super similçe loton! Ya provçe elló nomogàlo vok; el subite rigitençe — de balda pozo, subite surlokli kuiesli fiksçede. Exakte kiam ya antenirçesai, el iter, shajne el flugçe, kun míra tempo forkurçe. Ya sentçe ke ya sovegàlo havçe, kár toka kelkam dientégòle ya visisim bone dormçenai.
+Post lotló foriro, ĉirkau tria tago, ya tiam soli en toka pomarium, ke vay forlasrwçe, estçe; ho, lot memorge, ne-kŭ? Toka «sekreta bazo», ke lot vaygàlo tŭçe — ya ibie lau naturo penterçe; tiam nokt estçe, ĉirkau oka vesperli; ya nuper stratam scenogàlo penterçe, kiam subite homa figura elkurerçe; toka persono tre proksima yalon estçe, tokali ke ya elló korpusgàlo æ vizaĝogàlo ekifli vidçe — dirigenailai samli, sed toka persono serto elva mondoló toka lot estçe! Sed el brilotégòle portçenai; fortunli ya lotló vultogàlo sen brilotémé kune, do ya toka personogàlo rekonçe. Starte ya pensçe ke ya erarçe, sed el serto super similçe loton! Ya provçe elló nomogàlo vok; el subite rigitençe — de balda pozo, subite surlokli kuiesli fiksçede. Exakte kiam ya antenirçesai, el iter, shayne el flugçe, kun míra tempo forkurçe. Ya sentçe ke ya sovegàlo havçe, kár toka kelkam dientégòle ya visisim bone dormçenai.
 
 你走后，大概是第三天，我当时一个人在那废弃的果园，哦，你还记得吧，那个你说的 “隐秘基地”，我在那儿写生，当时是夜晚，晚上八点左右，我正画着街景，突然跑出来一个人影，那人离我特别近，以至于我看清了她的身形和脸 —— 不能说一样吧，那人简直是另一个世界的你！不过她没戴眼镜，好在我对你没戴眼镜的样子熟悉，才认得出那人。我一开始以为我看错了，可她实在太像你了！我试着叫了她一声你的名字，她一下子僵住了，从跑步的姿态一下子定在原地不动了。我刚想上前，她又飞也似地跑了，速度快的惊人。我感觉，那是我出现什么幻觉了，因为那几天我连着几天没睡好。
 
-Ankau, post lotló foriro, kelkat el yalógàloó penikotémé sempre strange perdgede; ante toki absolute nufradipa afero estçe — ya sempre tre kautili yaló penikotégòle konservçe. Toki afero eĉ iom pli fruli ol anteat trangat afero okazçe; exakte en momento post lotló foriro, kiam senkonsider ya iom atentçenai, penikotémé strange malmultençe; gis nun vay ankorau tokali; ya iam grandam sumogàlo novatam penikotégòle aĉet elspezçe. Kvankam tokinmé excludarnailai ke ya mem fortuitli monphgòle perdiçe, tantli longe pasçe, æ éno peniko, ke vay perdçe, retrovrwçenailai; monph, shajne monph neniam existçe, tute el malplena luft malaperçe.
+Ankau, post lotló foriro, kelkat el yalógàloó penikotémé sempre strange perdgede; ante toki absolute nufradipa afero estçe — ya sempre tre kautili yaló penikotégòle konservçe. Toki afero eĉ iom pli fruli ol anteat trangat afero okazçe; exakte en momento post lotló foriro, kiam senkonsider ya iom atentçenai, penikotémé strange malmultençe; gis nun vay ankorau tokali; ya iam grandam sumogàlo novatam penikotégòle aĉet elspezçe. Kvankam tokinmé excludarnailai ke ya mem fortuitli monphgòle perdiçe, tantli longe pasçe, æ éno peniko, ke vay perdçe, retrovrwçenailai; monph, shayne monph neniam existçe, tute el malplena luft malaperçe.
 
 还有，你走后，我的画笔总是会莫名丢掉几支，以前这是绝无可能的事情，我对自己的画笔保管向来十分到位。这事儿比起前面那件怪事还要更早发生几分，就在你离开后的一瞬间，只要我稍不留神，画笔就会莫名变少，到如今依旧是这样，我已经在购置新画笔上花了大笔开销。虽然不排除是我自己随手弄丢的可能，可过去了这么久，一支遗失的画笔都没能找回来，它们就好像从未存在过一般，凭空彻底消失了。
 
-Ankorata éno, eĉ pli jokosa: onklino Wangló familio kelkam ĉikenotégòle alerçe; éno tagogàlo elló ĉikenoténó éno mankçe; sekvam tagogàlo tokinmé vaygàlo plej altaf fontanaló kraunaæt en urbetoló centro starçe, malkovrçe! Serto sufiĉe føhna.
+Ankorata éno, eĉ pli yokosa: onklino Wangló familio kelkam ĉikenotégòle alerçe; éno tagogàlo elló ĉikenoténó éno mankçe; sekvam tagogàlo tokinmé vaygàlo plej altaf fontanaló kraunaæt en urbetoló centro starçe, malkovrçe! Serto sufiĉe føhna.
 
 还有一件更是搞笑，王大娘家养了几只鸡，有一天她的鸡少了一只，第二天发现它出现在小镇中心喷泉的最顶端！真是有够离谱的。
 
@@ -1011,7 +1010,7 @@ Linsta.»
 
 林傃。”
 
-Post kiam Zhouyiling leterogàlo daphçe, eksito æ gojo tekserençe. Linsuló penso éno lato estçe; kio pli elgàlo excitarçe, leteroló enhavo estçe. «Éno persono, tre simila yalon,» — el kriflonkogàlo demetçe, trans fenestero eksteren vidçe, pensçe — «toki ne exakte Pseudogopus-kŭ! Toki signifikge ke ya falsi lokon vençenai; tre bone!» El decidogàlo fari shajnçe; miroiræt iom eló vultogàlo órdajçe æ elirçe; kun goal, shajne, rektali ífa lokon andarçe. «Toki yaló laboron sendube tre importa; ya toka okazogàlo kaptjevai, kaptjevai!» — el pensçe, æ Linsuló loĝejon andarçe.
+Post kiam Zhouyiling leterogàlo daphçe, eksito æ gojo tekserençe. Linsuló penso éno lato estçe; kio pli elgàlo excitarçe, leteroló enhavo estçe. «Éno persono, tre simila yalon,» — el kriflonkogàlo demetçe, trans fenestero eksteren vidçe, pensçe — «toki ne exakte Pseudogopus-kŭ! Toki signifikge ke ya falsi lokon vençenai; tre bone!» El decidogàlo fari shajnçe; miroiræt iom eló vultogàlo órdajçe æ elirçe; kun goal, shayne, rektali ífa lokon andarçe. «Toki yaló laboron sendube tre importa; ya toka okazogàlo kaptjevai, kaptjevai!» — el pensçe, æ Linsuló loĝejon andarçe.
 
 周逸灵读完信后，激动与兴奋交织在一起。林傃的想法是一方面，更使其激动的是信的内容。“一个和我很像的人，” 她放下信纸，望着窗外，想着，“那可不就是普赛多格普斯吗！也就是说我没有来错地方，太好了！” 她好像下定决心一样，对着镜子稍微整理了一下仪容就出了门，有目的地似地，径直向某处走去。“这对我的工作无疑至关重要，我必须抓住这个机会，必须！” 她想着，朝林傃的住处走去。
 

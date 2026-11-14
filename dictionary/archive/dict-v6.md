@@ -1,7 +1,7 @@
 ---
 title: 维古登语词典（第六版）
 source: 词典第六版.docx
-converted: 2026-09-19
+converted: 2026-11-08
 ---
 
 # Ueguden 词典

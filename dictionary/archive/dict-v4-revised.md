@@ -1,7 +1,7 @@
 ---
 title: 维古登语词典（第四版 · 修订版）
 source: 词典第四版 - 修订版.docx
-converted: 2026-09-12
+converted: 2026-11-08
 ---
 
 # Ueguden 词典（综合修订版）

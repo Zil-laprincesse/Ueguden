@@ -1,7 +1,7 @@
 ---
 title: 维古登语句法规范
 source: 句法规范.docx
-converted: 2026-09-19
+converted: 2026-11-08
 ---
 
 # 维古登语句法规范（常规体）
@@ -80,7 +80,7 @@ Tokinma belat sovæt estge.（那个美丽的人在房子里。）——belat与
 
 Ya poemagàlo daphge.（我读诗。）
 
-**例外**：如需强调“确实、的确”，可在极性位置加-dai。
+**例外**：如需强调“确实、的确”，在**体态之后、时态之前**插入强调助词 -dai（不属于极性槽，极性仍为零形式/-nai）：daphdaige（确实在读）。
 
 Ya poemagàlo daphdaige.（我的确读诗。）
 

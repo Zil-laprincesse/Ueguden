@@ -1,8 +1,7 @@
 ---
 title: 《致爱的信》— 维古登语（常规体）应用实例
 source: 《致爱的信》- 维古登语（常规体）应用实例.docx
-converted: 2026-09-12
-author: Zil_laprincesse
+converted: 2026-11-08
 ---
 
 # 《致爱的信》— 维古登语（常规体）应用实例
@@ -43,12 +42,12 @@ Ha, wara, se yaph kausa fortøt vind — kausa estnai tre ekifa. En juna tempor,
 
 >Ya sekretali amçe loton tre longe. Lot sci, kial ya tŭnaiçe ante? Kausa: tiam situaçia estçe iom malbona. Lot povnai sci, sed rumoro æ klaĉo de yaph tvá estçe iam en áta klaso. Se lot sci — glem-ta toki. Kiu starteçe primeronta — ya ekifa glemnai.
 
->Æ en éno semestro de nía klaso, ya fortøt vindçe kausa, enta yaló patos kresernai en toki vojo. Sed en hivér de nía klaso, ya perdiçeom. Post skola starte, ya sidaçe kune lot en sama sideo. Æ ya remarkçe, ke en tvá semestro de nía klaso, lot presiágàlo tre póra. Ya timiçe, ke se ya tŭ loton — sharĝo pli granda est. Tial ya povçenaiom tŭ. Æ yaph sida kune tre longe. En fino mensis, ya tŭnaiçe. Kár lot subite sesarçe tŭ kune ya. Toki — glem-ta. Sóli kiam ya deçidge, ke omni stabila est — ya tŭçeom. Sed wara iom poste.
+>Æ en éno semestro de nía klaso, ya fortøt vindçe kausa, enta yaló patos kresernai en toki voyo. Sed en hivér de nía klaso, ya perdiçeom. Post skola starte, ya sidaçe kune lot en sama sideo. Æ ya remarkçe, ke en tvá semestro de nía klaso, lot presiágàlo tre póra. Ya timiçe, ke se ya tŭ loton — sharĝo pli granda est. Tial ya povçenaiom tŭ. Æ yaph sida kune tre longe. En fino mensis, ya tŭnaiçe. Kár lot subite sesarçe tŭ kune ya. Toki — glem-ta. Sóli kiam ya deçidge, ke omni stabila est — ya tŭçeom. Sed wara iom poste.
 
 >Lot laca, daph en toki? Ya æ laca, panón. Yaph tŭ-ta pri alva afer. Yaló altaskola vivio tre bon est. Nova skola 2-ló kampuso tre granda — ilta 13 hektaro. Profesor æ etudianto atmosfera æ bon. Sed çaira malfaçila. En altaskola, kiel ya pens, omni malfaçila. Ya boatnçe, ke altaskola çaira tía oble pli granda, ke bazaskola! Toki iom terura. Wara? Æ kiel lotló altaskola? Toki est privata skola — komplet, kondiĉo pov est bon. Kelkafoy ya tre malkontenta kun skola mensa. Æ lotló mensa? Ya esper, ke gusto bon est.
 
 >Sen sci, ya multa tŭçeom. Kiam ya lonk ganta — ya povnai sesar, kiel kolpako de ix. Ya vol sci: kiam lot remark, ke ya amge loton? Æ kiam lot demandçe yaon, ke ya amgese loton? En éno semestro o en tvá semestro de nía klaso? Ah, kiam lernar malfaçila est — presiá farar, ke ya glem preteraĝogàlo, ke ya volnai glem. Lotló altaskola lernar malfaçila? Ke lot povi question — glemnai demand yaon! Æ kio fako lot vol emna? Ya vol emna fisika. Ĝepatroj subteno æ. Sed ya pens, ke fisika tre malfaçila. Sed komparar kun historia, ke ya omni komprennai — nenia alva eblo est. Lot est klaschefo nun? Se wa — bon. Laca, sed trejni etos, æ est sperto. Se nai — glem-ta toki.
 
->En toki ya sesar. Povnai sempre en memori vivio. Ya devai topi æ vid ĉirkau. Kár memori povnai retroven. Græses, ke lot daph en toki. Græses, ke lot boatn yaló senfina penso. Græses, ke lot tempor æ atento donçe en toki krif. Multa vol tŭ. Sed toka lonk povnai teni omni. En fino — ya sinçerli vol kune lot irar. Kvankam yaphnó vojo estnai sama, ya vol kune lot irar. Povom?
+>En toki ya sesar. Povnai sempre en memori vivio. Ya devai topi æ vid ĉirkau. Kár memori povnai retroven. Græses, ke lot daph en toki. Græses, ke lot boatn yaló senfina penso. Græses, ke lot tempor æ atento donçe en toki krif. Multa vol tŭ. Sed toka lonk povnai teni omni. En fino — ya sinçerli vol kune lot irar. Kvankam yaphnó voyo estnai sama, ya vol kune lot irar. Povom?
 
 Zil_la princesse
